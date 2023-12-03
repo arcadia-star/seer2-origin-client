@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- initSort:初始化显示第几页 -->
+<!-- intro:每页产品介绍 -->
+<!-- miID:商品购买id -->
+<!-- petID:购买精灵头像Id -->
+<root initSort="0">
+	<BuyItem intro="想快速的获得满级、满学习力精灵可以购买道具实现！这里是经济实惠的强化道具礼包，比单买更划算，最多可以为你省下500多星钻呢">
+		<item miID="201028"/>
+        <item miID="201046"/>
+       	<item miID="201030"/>
+		<item miID="201029"/>
+		<item miID="201045"/>
+		<item miID="400417"/>
+		<item miID="400391"/>
+		<item miID="400390"/>
+		<item miID="604019"/>
+		<item miID="604020"/>
+
+	</BuyItem>
+
+
+
+	<BuyItem intro="这是截止到9月11日最畅销的10个精元蛋！大家都在买，你不动心吗? 精元蛋购买后在小屋的孵化器里通过精元晶石鉴定及孵化">
+        <item miID="801045"/>
+        <item miID="801046"/>
+       	<item miID="801044"/>
+		<item miID="801087"/>
+		<item miID="801059"/>
+		<item miID="801056"/>
+		<item miID="801061"/>
+		<item miID="801136"/>
+		<item miID="801140"/>
+		<item miID="801081"/>
+	</BuyItem>
+
+
+
+
+	<BuyItem intro="参加各类活动可以免费得到精灵，不过有些活动时间很长，获得难度也很大，你可以花星钻直接购买哦，这些精灵正在半价热卖中">
+		<item miID="603266" petID="494"/>
+		<item miID="603500" petID="641"/>
+        <item miID="604164" petID="663"/>
+       	<item miID="604167" petID="696"/>
+		<item miID="604166" petID="697"/>
+		<item miID="603634" petID="674"/>
+		<item miID="603405" petID="606"/>
+		<item miID="603520" petID="529"/>
+		<item miID="603191" petID="433"/>
+		<item miID="603192" petID="435"/>
+	</BuyItem>
+
+
+
+
+
+	
+
+
+
+	
+	<BuyItem intro="10星钻能买什么些什么呢？赛小二为大家挑选了这些1元钱就能买到的商品，顺便给商城的摇钱树做个广告，每天消费1星钻就能抽奖呢！">
+		<item miID="400314"/>
+        <item miID="201037"/>
+       	<item miID="400352"/>
+		<item miID="201014"/>
+		<item miID="201012"/>
+		<item miID="201018"/>
+		<item miID="400151"/>
+		<item miID="801049"/>
+		<item miID="801050"/>
+		<item miID="801003"/>
+	</BuyItem>
+</root>
+
+
+
+

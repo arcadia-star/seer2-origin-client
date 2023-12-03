@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 描述： -->
+<!-- 	后台月排行数据无法每月更新。（？？？？？？？大大问号！！！！！！） -->
+<!-- 	导致有玩家当月没有参加战斗还累计了上周排行（没有战斗，但是继续占坑，领奖励） -->
+<!-- 	问题如下修复: -->
+<!-- 	每个月换一次RankID -->
+<!-- 	    月份		天空竞技场(list0)  太空--勇者(list1)   太空--王者(list2)    太空--巅峰(list3)	无擒战(list4) -->
+<!-- 	201604		77		78		79		80		81 -->
+<!-- 	201605		82		83		84		85		86 -->
+<!-- 	201606		87		88		89		90		91 -->
+<!-- 	201607		92		93		94		95		96 -->
+<!-- 	201608		97		98		99		100		101 -->
+<!-- 	201609		102		103		104		105		106 -->
+<!-- 	201610		107		108		109		110		111 -->
+<!-- 	201611		112		113		114		115		116 -->
+<!-- 	201612		117		118		119		120		121 -->
+<!-- 后续添加直接填表 -->
+
+<root>
+    <rank date="201603" list0="47" list1="37" list2="38" list3="39" list4="75"/>
+	<rank date="201604" list0="77" list1="78" list2="79" list3="80" list4="81"/>
+	<rank date="201605" list0="82" list1="83" list2="84" list3="85" list4="86"/>
+	<rank date="201606" list0="87" list1="88" list2="89" list3="90" list4="91"/>
+	<rank date="201607" list0="92" list1="93" list2="94" list3="95" list4="96"/>
+	<rank date="201608" list0="97" list1="98" list2="99" list3="100" list4="101"/>
+	<rank date="201609" list0="102" list1="103" list2="104" list3="105" list4="106"/>
+	<rank date="201610" list0="107" list1="108" list2="109" list3="110" list4="111"/>
+	<rank date="201611" list0="112" list1="113" list2="114" list3="115" list4="116"/>
+	<rank date="201612" list0="117" list1="118" list2="119" list3="120" list4="121"/>
+	<rank date="201701" list0="132" list1="133" list2="134" list3="135" list4="136" list5="137"/>
+	<rank date="201702" list0="138" list1="139" list2="140" list3="141" list4="142" list5="143"/>
+	<rank date="201703" list0="144" list1="145" list2="146" list3="147" list4="148" list5="149"/>
+	<rank date="201704" list0="150" list1="151" list2="152" list3="153" list4="154" list5="155"/>
+	<rank date="201705" list0="156" list1="157" list2="158" list3="159" list4="160" list5="161"/>
+	<rank date="201706" list0="162" list1="163" list2="164" list3="165" list4="166" list5="167"/>
+	<rank date="201707" list0="168" list1="169" list2="170" list3="171" list4="172" list5="173"/>
+	<rank date="201708" list0="174" list1="175" list2="176" list3="177" list4="178" list5="179"/>
+	<rank date="201709" list0="180" list1="181" list2="182" list3="183" list4="184" list5="185"/>
+	<rank date="201710" list0="186" list1="187" list2="188" list3="189" list4="190" list5="191"/>
+	<rank date="201711" list0="192" list1="193" list2="194" list3="195" list4="196" list5="197"/>
+	<rank date="201712" list0="198" list1="199" list2="200" list3="201" list4="202" list5="203"/>
+</root>

@@ -1,0 +1,3048 @@
+ 
+<!--
+<act resId="资源id" difficulty="难度系数(1-3)"  trainer="最小训练师等级"  strategyId="BBS"
+go="跳转到哪儿(单地图直接地图id,多地图用','间隔,面板直接配置面板名)" isMapID="1" >
+<detail time="活动时间:全天候" des="活动描述" >
+	<time isAll="是否全天(0否,1是)" start="上架时间,0 代表一月，1 代表二月，依此类推_00_00" end="下架时间">
+			<limit start="开始时间段14:00" end="结束时间段20:00" day="星期几(0-6周日-周六)"/>
+	</time>			
+<reward>奖励相关配置
+	<pet id="385" />精灵
+	<item id="102031" count="1" />	物品和数量
+</reward> 
+
+strategyId：填写BBS攻略的Id(WebJumpConfig.xml)，如没有则不填或者="0" 
+  -->
+<root>
+<!--	<act resId="1" difficulty="1" isMapID="0" go="RewakeGodPathPanel" des="神迹复苏" >
+		<detail time="4月3日~4月16日" des="全服砸彩蛋！领取复活节稀有精灵——堕落之翼！"/>
+		<time isAll="1"   start="2015_04_03_00_06" end="2030_4_11_23_00">
+		</time>
+		<types>
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="943" />
+			<item id="601049" />
+			<item id="400490" />			
+		</reward>
+	</act>
+
+
+
+	<act resId="2" difficulty="3"   isMapID="0" go="MiKaAwakenPanel" des="米咔神迹觉醒" strategyId="150" >
+		<detail time="全天候" des="米咔最终完成神迹觉醒，变身！神迹米咔"/>
+		<time isAll="1"   start="2015_04_03_00_05" end="2030_4_11_23_00">
+		</time>
+		<types>
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="939" />
+		</reward>
+	</act>
+
+
+	<act resId="3" difficulty="1"   isMapID="0" go="MiKaAwakenActFourPanel" des="神迹塔的召唤"  strategyId="162" >
+		<detail time="全天候" des="神迹塔里有什么？它会给米咔觉醒带来什么呢？"/>
+		<time isAll="1"   start="2015_04_03_00_04" end="2030_4_11_23_00">
+		</time>
+		<types>
+			<type name="pet"/>
+		</types>
+		<reward>
+			<Item ID="401203" />
+			<Item ID="200204" />
+			<Item ID="401210" />
+		</reward>
+	</act>
+
+
+
+ 	<act resId="4" difficulty="2" isMapID="0" go="YingHuaBearPanel" des="春的樱花果！樱树熊" strategyId="152" >
+		<detail time="4月16日绝版" des="通过喂食 樱花熊花果来获得进化芯片"/>
+		<time isAll="1"   start="2015_04_03_00_03" end="2015_4_16_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="673" />
+		</reward>
+	</act>
+
+
+
+	<act resId="5" difficulty="1"   isMapID="0" go="ProtectBearsPanel" des="保护精灵樱花熊" >
+		<detail time="4月16日绝版" des="保护樱花熊，获得稀有精灵"/>
+		<time isAll="1"   start="2015_04_03_00_02" end="2015_4_16_24_00">
+		</time>
+		<types>
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="672" />
+		</reward>
+	</act>
+
+
+
+ 	<act resId="7" difficulty="1"   isMapID="0" go="EscapeRabbitPanel" des="逃家小兔" strategyId="155" >
+		<detail time="4月10日-4月23日" des="不是每个精灵都希望进行神迹变身，比如佛晓兔就只想安安静静当一只兔纸。抓住它！"/>
+		<time isAll="1"   start="2015_04_09_00_00" end="2030_4_11_23_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="61" />
+		</reward>
+	</act>
+  	<act resId="9" difficulty="1"   isMapID="0" go="RunningRabbitPanel" des="追逐星魂的兔子"  >
+		<detail time="4月17日~4月23日" des="只要你能保持不被拂晓兔追上，就奖励你紫色星魂！"/>
+		<time isAll="1"   start="2015_04_16_00_01" end="2015_04_23_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<Item id="605479" />
+			<Item id="605478" />
+		</reward>
+	</act>
+ 	<act resId="11" difficulty="2"   isMapID="0" go="RabbitAwakenActPanel" des="拂晓兔!神迹觉醒!"  >
+		<detail time="4月17日-4月30日" des="拂晓兔第二只得到神迹觉醒能力的精灵，帮助他完成变身吧！"/>
+		<time isAll="1"   start="2015_04_16_00_03" end="2015_04_30_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="946" />
+		</reward>
+	</act>
+	  
+ 	<act resId="12" difficulty="1"   isMapID="0" go="GodFireActPanel" des="备战火神节"  >
+		<detail time="4月24日-5月7日" des="火神节即将在5.1正式开启！现在，加入命运注定的阵营，为即将开始的战斗做好准备！"/>
+		<time isAll="1"   start="2015_04_20_00_03" end="2015_05_14_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="292" />
+		</reward>
+	</act>
+
+ 	<act resId="13" difficulty="1"   isMapID="0" go="KingTaoReturnPanel" des="全民神宠 陶神回归"  >
+		<detail time="4月24日-5月7日" des="错过了曾经的神宠陶勒斯？现在你绝不能再次错过了！"/>
+		<time isAll="1"   start="2015_04_20_00_02" end="2015_05_07_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="447" />
+		</reward>
+	</act>	  
+ 	<act resId="8" difficulty="1"   isMapID="0" go="DreamExplorePanel" des="梦境探索者——神宠扭蛋鸡" strategyId="155" >
+		<detail time="4月10日~5月7日" des="扭蛋鸡可是发财萌的好伙伴，勇敢的梦境探索者，向他证明你也一样勇敢吧！"/>
+		<time isAll="1"   start="2015_04_09_00_01" end="2015_05_07_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="944" />
+		</reward>
+	</act>	  
+		<act resId="15" difficulty="1"   isMapID="0" go="FengHuangEvolutionMainPanel" des="浴火涅槃 凤凰超进化"  >
+		<detail time="4月24日-5月7日" des="凤凰芬尼斯蒂浴火重生，涅槃化生超进化形态——不灭炎凰！"/>
+		<time isAll="1"   start="2015_04_20_00_04" end="2015_05_7_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="948" />
+		</reward>
+	</act>  
+	<act resId="19" difficulty="1"   isMapID="0" go="GrabYueSePanel" des="劳动节米咔"  >
+		<detail time="4月30日~5月7日" des="绝版劳动节米咔再度开启！限时1周！"/>
+		<time isAll="1"   start="2015_04_29_00_04" end="2015_05_07_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="724" />
+		</reward>
+	</act>	  
+	<act resId="20" difficulty="1"   isMapID="0" go="GrabYueSePanel" des="凯萨大欢抢"  >
+		<detail time="5月1日~5月3日" des="凯萨限时免费抢！全民得凯萨！"/>
+		<time isAll="1"   start="2015_04_29_00_03" end="2015_05_03_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="802037" />
+		</reward>
+	</act>
+
+	<act resId="21" difficulty="1"   isMapID="0" go="XiaodangjiaPanel" des="小当家去哪？"  >
+		<detail time="4月30日~5月7日" des="劳动节期间参加劳动获得厨神小当家！"/>
+		<time isAll="1"   start="2015_04_29_00_02" end="2015_05_7_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="579" />
+		</reward>
+	</act>
+	  
+ 	<act resId="10" difficulty="1"   isMapID="0" go="FireGodCommandPanel" des="火神节的诏令"  >
+		<detail time="4月17日~5月14日" des="火神节已正式开启，在此之前需要先点燃圣火，告知全世界这个消息！"/>
+		<time isAll="1"   start="2015_04_16_00_02" end="2015_05_07_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="920" />
+		</reward>
+	</act>
+
+
+	<act resId="16" difficulty="1"   isMapID="0" go="GodFirePkActPanel" des="火神之战"  >
+		<detail time="4月30日~5月14日" des="火神之矛与火神之盾的战斗一触即发，为了你的阵营去争取胜利与荣耀吧！"/>
+		<time isAll="1"   start="2015_04_29_00_05" end="2015_05_14_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="101675" />
+			<item id="101681" />
+			<item id="500287" />
+		</reward>
+	</act>
+	<act resId="18" difficulty="1"   isMapID="0" go="KingTaoSuperProcessPanel" des="超凡陶神——陶勒斯超进化"  >
+		<detail time="4月30日~5月14日" des="最强肉盾免伤神宠，陶勒斯超进化——陶神降临！"/>
+		<time isAll="1"   start="2015_04_29_00_06" end="2015_05_14_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="949" />
+		</reward>
+	</act>
+	<act resId="23" difficulty="1"   isMapID="0" go="SLianYuActPanel" des="S的炼狱告急"  >
+		<detail time="5月8日-5月21日" des="S的思念体被神秘的力量分身，快帮S控制住这紧急情况"/>
+		<time isAll="1"   start="2015_05_07_00_05" end="2015_06_30_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="802090" />
+		</reward>
+	</act>
+
+
+	<act resId="24" difficulty="1"   isMapID="0" go="MotherVoilaPanel" des="晚安！妈妈维奥拉"  >
+		<detail time="5月8日-5月21日" des="5月10日可是一年一度的母亲节哦！去跟妈妈说一声节日快乐吧！"/>
+		<time isAll="1"   start="2015_05_07_00_04" end="2015_06_30_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="731" />
+		</reward>
+	</act>
+
+	<act resId="17" difficulty="1"   isMapID="0" go="KaiSaAwakenMainPanel" des="凯萨！神迹觉醒"  >
+		<detail time="4月30日~5月20日" des="炎帝凯萨完成神迹觉醒，变身神迹凯萨！"/>
+		<time isAll="1"   start="2015_04_29_00_07" end="2015_05_21_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="950" />
+		</reward>
+	</act>
+
+
+	<act resId="26" difficulty="1"   isMapID="0" go="BlackShootingPanel" des="黑影的阻击"  >
+		<detail time="5月15日-5月28日" des="浓雾依旧环绕在炼狱里，即将把炼狱吞噬，到底是谁干的？把黑影聚集起来就也许能知道真相！"/>
+		<time isAll="1"   start="2015_05_14_00_04" end="2015_06_30_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="401089" />
+			<item id="401210" />
+		</reward>
+	</act>
+
+   <act resId="22" difficulty="1"   isMapID="0" go="GarnettRenegadeMainPanel" des="圣狼王的变节：疯狂的加内"  >
+		<detail time="5月8日-6月4日" des="圣灵系强宠再度来袭，圣狼王加内全民获得！"/>
+		<time isAll="1"   start="2015_05_07_00_06" end="2015_06_30_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="952" />
+		</reward>
+	</act>
+
+
+
+	<act resId="25" difficulty="1"   isMapID="0" go="GarnettRenegadeGodHidePanel" des="圣狼王神隐进阶"  >
+		<detail time="5月15日-6月4日" des="狼王加内神隐进阶，破除圣灵的七道封印即可进化成真正的神隐之狼——加内特！"/>
+		<time isAll="1"   start="2015_05_14_00_05" end="2015_06_30_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="953" />
+		</reward>
+	</act>
+
+
+
+	<act resId="27" difficulty="1"   isMapID="0" go="GarnettRenegadeWolfMeanPanel" des="狼神奥义"  >
+		<detail time="5月22日-6月4日" des="领悟圣狼王的加内特四大奥义将使圣狼王完成最强突破的关键一步！"/>
+		<time isAll="1"   start="2015_05_21_00_04" end="2015_06_30_24_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="1" />
+		</reward>
+	</act>
+
+
+	<act resId="28" difficulty="1"   isMapID="0" go="SaDanProtectPanel" des="撒旦保卫战"  >
+		<detail time="5月22日-6月4日" des="撒旦的神迹觉醒石技能石竟然在圣狼王的手中？！夺回技能石将是帮助撒旦完成神迹觉醒的关键！"/>
+		<time isAll="1"   start="2015_05_21_00_04" end="2015_06_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="401226" />
+			<item id="401210" />
+		</reward>
+	</act>
+	<act resId="31" difficulty="1"   isMapID="0" go="YiDiYaProcessPanel" des="伊蒂娅超进化"  >
+		<detail time="2015年6月5日-6月18日" des="伊娃博士的得力助手，伊蒂娅超进化!"/>
+		<time isAll="1"   start="2015_06_04_00_05" end="2015_06_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="958" />
+		</reward>
+	</act>
+
+	<act resId="32" difficulty="1"   isMapID="0" go="FightHolySkyPanel" des="战神的天阶"  >
+		<detail time="6月5日-6月25日" des="经历战神天阶的考验，是帮助战神联盟完成神迹觉醒的第一步。"/>
+		<time isAll="1"   start="2015_06_04_00_04" end="2015_06_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="802032" />
+			<item id="802033" />
+			<item id="200701" />
+		</reward>
+	</act>
+
+	<act resId="30" difficulty="2"   isMapID="0" go="SaDanAwakenMainPanel" des="撒旦神迹觉醒"  >
+		<detail time="5月29日-6月18日" des="撒旦获得了觉醒之力变身神迹撒旦！"/>
+		<time isAll="1"   start="2015_05_28_00_05" end="2015_06_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="955" />
+		</reward>
+	</act>
+	<act resId="36" difficulty="1"   isMapID="0" go="HanJiaQiangChongFangSongPanel" des="端午神龙大放送"  >
+		<detail time="6月19日-6月22日" des="端午小长假，每日挑战得神龙！"/>
+		<time isAll="1"   start="2015_06_18_00_03" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="410" />
+			<pet id="300" />
+			<pet id="892" />
+		</reward>
+	</act>
+
+	<act resId="37" difficulty="1"   isMapID="0" go="SheJianDragonBoatPanel" des="舌尖上的龙舟"  >
+		<detail time="6月19日-6月25日" des="吃粽子划龙舟得神粽王！"/>
+		<time isAll="1"   start="2015_06_18_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="754" />
+		</reward>
+	</act>
+	<act resId="33" difficulty="1"   isMapID="0" go="AllSkillStudyBoyPanel" des="全能学霸君"  >
+		<detail time="6月12日-7月2日" des="又到考试周，全能的学霸君可不紧张，它无所不能！"/>
+		<time isAll="1"   start="2015_06_11_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="959" />
+		</reward>
+	</act>
+
+
+	<act resId="34" difficulty="1"   isMapID="0" go="DeepRiverOfSixShaPanel" des="六煞的深渊"  >
+		<detail time="6月12日-7月2日" des="逃出六煞的深渊，完成自我救赎。"/>
+		<time isAll="1"   start="2015_06_11_00_01" end="2015_07_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="802061" />
+			<item id="400313" />
+		</reward>
+	</act>
+
+
+	<act resId="35" difficulty="1"   isMapID="0" go="DanceDragonMainPanel" des="圣舞龙王"  >
+		<detail time="6月19日-7月2日" des="玛莎拉蒂与海罗双龙合体，圣舞龙王降临！"/>
+		<time isAll="1"   start="2015_06_18_00_04" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="960" />
+		</reward>
+	</act>
+
+	<act resId="40" difficulty="1"   isMapID="0" go="MachinePetAwardPanel" des="绝版机甲任你选"  >
+		<detail time="6月26日-7月2日" des="13:00~15:00，上线即抽奖，每在线5分钟获得一次抽奖机会！"/>
+		<time isAll="1"   start="2015_06_25_00_00" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="565" />
+			<pet id="566" />
+			<pet id="567" />
+		</reward>
+	</act>
+	<act resId="38" difficulty="1"   isMapID="0" go="ZhongMainPanel" des="和粽子一起过端午"  >
+		<detail time="6月19日-7月2日" des="又到端午节，包小粽陪你过端午！"/>
+		<time isAll="1"   start="2015_06_18_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="406" />
+		</reward>
+	</act>
+	<act resId="39" difficulty="1"   isMapID="0" go="GaiYaWakeupFirstPanel" des="盖亚神迹觉醒"  >
+		<detail time="6月26日-7月9日" des="战神联盟首个神迹觉醒的精灵，神迹盖亚变身！"/>
+		<time isAll="1"   start="2015_06_25_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="961" />
+		</reward>
+	</act>
+
+
+
+
+	<act resId="41" difficulty="1"   isMapID="0" go="BestKingPkMainPanel" des="战神召集令"  >
+		<detail time="7月3日~7月9日" des="帮助雷伊、凯萨、盖亚，召集其余战神组成最强王者战队！"/>
+		<time isAll="1"   start="2015_06_29_00_00" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="401240" />
+			<item id="200239" />
+			<item id="200206" />
+		</reward>
+	</act>
+	  
+	  
+	<act resId="45" difficulty="1"   isMapID="0" go="GrabYueSePanel" des="卡小斯大欢抢"  >
+		<detail time="7月10日~7月12日" des="每天13:00，卡小斯免费抢！记得准时参加哦！"/>
+		<time isAll="1"   start="2015_07_09_00_03" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="964" />
+		</reward>
+	</act>	  
+	  
+	<act resId="43" difficulty="1"   isMapID="0" go="KingDestroyActPanel" des="无敌破坏王 圣杯插曲"  >
+		<detail time="7月10日~7月23日" des="银河战队成员再次现身，他想破坏神迹圣杯！争霸赛绝不能受到干扰！"/>
+		<time isAll="1"   start="2015_07_09_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="401241" />
+			<item id="401089" />
+			<item id="401210" />
+		</reward>
+	</act>
+
+
+	<act resId="44" difficulty="1"   isMapID="0" go="KaXiuSiWakeupMainPanel" des="卡修斯神迹觉醒"  >
+		<detail time="7月10日~7月23日" des="战神联盟神迹觉醒第二弹！诅咒之子卡修斯神迹觉醒开启！"/>
+		<time isAll="1"   start="2015_07_09_00_04" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="965" />
+		</reward>
+	</act>	  
+	  
+	<act resId="49" difficulty="1"   isMapID="0" go="PetTeamOnePanel" des="队长突击行动"  >
+		<detail time="7月17日~7月30日" des="突袭敌方队长即可扣除敌队王者积分，并增加本队积分！"/>
+		<time isAll="1"   start="2015_07_16_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="401240" />
+		</reward>
+	</act>	  
+	  
+	 
+
+
+
+	<act resId="50" difficulty="1"   isMapID="0" go="MiuSiWakeupMainPanel" des="缪斯神迹觉醒"  >
+		<detail time="7月24日~8月6日" des="女神缪斯神迹觉醒！对抗黑暗势力需要全体战神的神迹之力！"/>
+		<time isAll="1"   start="2015_07_23_00_03" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="973" />
+		</reward>
+	</act>
+
+
+	<act resId="51" difficulty="1"   isMapID="0" go="CallMeSwimmingMasterPanel" des="叫我游泳王"  >
+		<detail time="7月24日~8月6日" des="夏天到了，来清凉一下~获得第一名还有王者积分等你拿哦"/>
+		<time isAll="1"   start="2015_07_23_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="603848" />
+			<item id="401240" />
+			<item id="601049" />
+		</reward>
+	</act> 
+  <act resId="54" difficulty="1"   isMapID="0" go="ThreeYearDianHuoPanel" des="点燃最强圣火"  >
+		<detail time="7月31日——8月6日" des="在本周集合全服赛尔之力点燃最强圣火，全民有奖！！"/>
+		<time isAll="1"   start="2015_07_30_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="1" />
+			<item id="200206" />
+		</reward>
+	</act>
+
+    <act resId="55" difficulty="1"   isMapID="0" go="MiuSiWakeupMainPanel" des="缪斯神迹觉醒"  >
+		<detail time="7月31日——8月6日" des="女神缪斯的四大神技开放获得"/>
+		<time isAll="1"   start="2015_07_30_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="401250" />
+		</reward>
+	</act>	  
+	  
+	  -->
+	<act resId="6" difficulty="1"   isMapID="0" go="DragonsAllTogetherPanel" des="机械恐龙集结 钢锁暴龙" strategyId="155" >
+		<detail time="全天候" des="在海底打捞零件、组装第三尊机械恐龙-钢锁暴龙！"/>
+		<time isAll="1"   start="2015_04_03_00_00" end="2030_4_11_23_00">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="893" />
+		</reward>
+	</act>
+	
+
+	<act resId="29" difficulty="2"   isMapID="0" go="StarKingMainPanel" des="星河游侠降临"  >
+		<detail time="全天候" des="曾经的银河战队成员，孤独的星河游侠，独自信奉着自己的戒律。"/>
+		<time isAll="1"   start="2015_05_28_00_04" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="957" />
+		</reward>
+	</act>
+
+
+
+
+
+
+	<act resId="42" difficulty="1"   isMapID="0" go="BestKingPkMainPanel" des="最强王者争霸赛之勇者集结"  >
+		<detail time="全天候" des="王者争霸赛即将正式开赛！呈现在加入战神带领的队伍，共同备战！"/>
+		<time isAll="1"   start="2015_07_09_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="101693" />
+			<item id="101694" />
+			<item id="101695" />
+		</reward>
+	</act>
+
+
+
+
+
+
+<!-- 	<act resId="46" difficulty="1"   isMapID="0" go="BestKingPkMainPanel" des="最强王者争霸赛"  >
+		<detail time="7月17日~8月27日" des="一年一度最强王者争霸赛正式开赛，获得积分赢得冠军！限量圣灵、上古伊特等你拿！"/>
+		<time isAll="1"   start="2015_07_16_00_04" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="969" />
+			<item id="200251" />
+		</reward>
+	</act>
+
+	<act resId="47" difficulty="1"   isMapID="0" go="BestRipCardPanel" des="最强撕名牌大赛"  >
+		<detail time="7月17日~8月27日" des="参加撕名牌大赛，免费得战神！"/>
+		<time isAll="1"   start="2015_07_16_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="90" />
+			<pet id="234" />
+			<pet id="494" />
+		</reward>
+	</act> -->
+
+	<act resId="48" difficulty="1"   isMapID="0" go="AegisDestoryKingPanel" des="神盾破坏王"  forlimit="250311" forlimitbit="15" taskDes="获得精灵神盾破坏王">
+		<detail time="全天候" des="银河战队的毁灭型成员，它坚信摧毁邪恶势力后重建。而力量的驱使是它将毁灭当做至高追求。"/>
+		<time isAll="1"   start="2015_07_16_00_03" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="967" />
+		</reward>
+	</act>
+
+
+
+
+<!-- 	<act resId="52" difficulty="1"   isMapID="0" go="GiveAoGuSiActMainPanel" des="全员送奥古斯特"  >
+		<detail time="7月24日——8月27日" des="雷神崛起中的大反派奥古斯特博士来到了阿卡迪亚！它有什么阴谋？"/>
+		<time isAll="1"   start="2015_07_23_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="972" />
+		</reward>
+	</act>
+ -->
+
+    <act resId="53" difficulty="1"   isMapID="0" go="GoldProcessMainPanel" des="创世大帝超进化">
+		<detail time="全天候" des="世界的创造者，创世大帝踏上了超进化之路，创世神降临！"/>
+		<time isAll="1"   start="2015_07_30_00_03" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="975" />
+		</reward>
+	</act>
+  
+<!--     <act resId="56" difficulty="1"   isMapID="0" go="LeiYiWingFirstComePanel" des="雷神之翼：雷锘初现">
+		<detail time="8月7日-8月20日" des="雷伊的哥哥雷锘现身。必有大事即将发生！召唤雷神，各种稀有精灵等你拿！"/>
+		<time isAll="1"   start="2015_08_06_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pey id="771" />
+			<pey id="837" />
+			<pey id="696" />
+		</reward>
+	</act>	 --> 
+
+<!--     <act resId="57" difficulty="1"   isMapID="0" go="BuLaiKeWakeupMainPanel" des="布莱克神迹觉醒">
+		<detail time="8月7日-8月20日" des="影神布莱克踏上了神迹觉醒之路，变身！神迹布莱克！"/>
+		<time isAll="1"   start="2015_08_06_00_03" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="977" />
+		</reward>
+	</act>	 -->
+
+    <act resId="58" difficulty="1"   isMapID="0" go="HaoYueKingBossActPanel" des="世界BOSS：圣王之炼">
+		<detail time="全天候" des="圣王皓玥将迎接你的挑战，大量王者奖章等你拿！"/>
+		<time isAll="1"   start="2015_08_06_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="200591" />
+			<item id="400313" />
+			<item id="401240" />
+		</reward>
+	</act>	
+
+
+
+    <act resId="59" difficulty="1"   isMapID="0" go="BinaryStarKingActPanel" des="双子星王">
+		<detail time="全天候" des="银河战队之王，双子星王登场！"/>
+		<time isAll="1"   start="2015_08_13_00_02" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="968" />
+		</reward>
+	</act>
+
+
+
+<!--     <act resId="60" difficulty="1"   isMapID="0" go="LeiLuoHomeGloryActPanel" des="家族的荣耀！雷诺">
+		<detail time="8月14日—8月27日" des="为了家族的荣耀，带上雷伊挑战雷锘，获得雷神之翼的力量！"/>
+		<time isAll="1"   start="2015_08_13_00_03" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="979" />
+		</reward>
+	</act> -->
+
+    <!-- <act resId="61" difficulty="1"   isMapID="0" go="Mascot2Panel" des="打爆吉祥物">
+		<detail time="8月14日-8月20日" des="13:00-15:00打爆吉祥物，领取丰富奖励！"/>
+		<time isAll="1"   start="2015_08_13_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="1" />
+			<item id="200205" />
+		</reward>
+	</act> -->
+	
+<!-- 	<act resId="62" difficulty="1"   isMapID="1" go="3843" des="放烟花抢奖章">
+		<detail time="2015年8月21日-8月27日" des="放烟花庆四周年！红包捡不停"/>
+		<time isAll="1"   start="2015_08_21_00_01" end="2015_08_27_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="401240" />
+		</reward>
+	</act> -->
+	
+<!-- 	<act resId="63" difficulty="1"   isMapID="0" go="KingPetMikaActPanel" des="王者盛典·限量米咔">
+		<detail time="2015年8月21日-8月27日" des="13:00-15:00点蜡烛得丰富奖励！"/>
+		<time isAll="1"   start="2015_08_21_00_01" end="2015_08_27_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="981" />
+		</reward>
+	</act> -->
+
+    <act resId="64" difficulty="2"   isMapID="0" go="HunDunEvolutionMainPanel" des="混沌神降临">
+		<detail time="全天候" des="混沌大帝超进化——混沌神降临"/>
+		<time isAll="1"   start="2015_08_21_00_01" end="2030_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="980" />
+		</reward>
+	</act>
+	
+<!-- 	<act resId="65" difficulty="1"  isMapID="1" go="3853" des="战神联盟大巡游">
+		<detail time="2015年8月29日-8月30日" des="13：00-14：00战神联盟派发超丰厚奖励！"/>
+		<time isAll="1"   start="2015_08_28_00_01" end="2015_09_30_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="90" />
+            <pet id="234" />
+			<pet id="495" />
+			<pet id="494" />
+			<pet id="606" />
+			<pet id="641" />
+		</reward>
+	</act> -->
+	
+<!-- 	<act resId="66" difficulty="1"   go="BestKingEndAwardPanel" des="最强王者颁奖礼">
+		<detail time="2015年8月28日-9月10日" des="收获争霸赛奖励！"/>
+		<time isAll="1"   start="2015_08_28_00_01" end="2015_09_10_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="206695"/>
+		</reward>
+	</act> -->
+	
+<!-- 	<act resId="67" difficulty="2"   go="LeiYiWakeupMainPanel" des="雷伊神迹觉醒">
+		<detail time="2015年8月28日-9月10日" des="雷神之怒再临，神迹觉醒！"/>
+		<time isAll="1"   start="2015_08_28_00_01" end="2030_09_10_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="982" />
+			<item id="200645"/>
+		</reward>
+	</act> -->
+	
+	
+	<act resId="68" difficulty="2"   go="KingKaiYuanProcessPanel" des="开元大帝超进化">
+		<detail time="全天候" des="创世三神之一·开元大帝完成超进化——开元神降临"/>
+		<time isAll="1"   start="2015_09_02_00_01" end="2030_09_10_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="986" />
+		</reward>
+	</act>
+	
+	<act resId="69" difficulty="1"   go="XiuLuoWakeupMainPanel" des="神迹修罗斯">
+		<detail time="全天候" des="无尽的怒火犹如永恒不灭的烈焰——修罗斯神迹觉醒"/>
+		<time isAll="1"   start="2015_09_02_00_01" end="2030_09_10_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="985" />
+		</reward>
+	</act>
+	
+<!-- 	<act resId="70" difficulty="1"   go="SalensThoseThingPanel" des="萨伦家的那些事">
+		<detail time="2015年9月2日-9月17日" des="破解帝国家族的阴谋，找到真相"/>
+		<time isAll="1"   start="2015_09_02_00_01" end="2015_09_17_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="642" />
+		</reward>
+	</act> -->
+	
+	<act resId="71" difficulty="1"   go="SearchPlanarSphereMainPanel" des="探索！次元空间">
+		<detail time="全天候" des="探索次元空间，找到神秘的魔盗团成员"/>
+		<time isAll="1"   start="2015_09_11_00_01" end="2030_09_17_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="987" />
+		</reward>
+	</act>
+
+<!--     <act resId="72" difficulty="1"   go="TrainerHotPkActPanel" des="教官人气大比拼">
+		<detail time="2015年9月11日-9月17日" des="教师节！快去支持自己喜欢的教官~为他们拉人气吧！"/>
+		<time isAll="1"   start="2015_09_11_00_01" end="2015_09_17_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="200064"/>
+			<item id="200225"/>
+			<item id="200239"/>
+		</reward>
+	</act> -->
+
+	<act resId="73" difficulty="1"   go="DiLanTeWakeupMainPanel" des="迪兰特神迹觉醒">
+		<detail time="全天候" des="迪兰特继休罗斯之后，也完成了神迹觉醒！快去完成试炼，获得他吧！"/>
+		<time isAll="1"   start="2015_09_11_00_05" end="2015_09_17_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="990"/>
+		</reward>
+	</act>
+	
+<!-- 	<act resId="74" difficulty="1"   go="RabbitMoonLightCapsulePanel" des="兔爷的月光胶囊">
+		<detail time="2015年9月18日-9月24日" des="变身兔爷，领取胶囊，获得超值奖励！"/>
+		<time isAll="1"   start="2015_09_18_00_04" end="2015_09_24_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="200216"/>
+			<pet id="61"/>
+			<pet id="385"/>
+		</reward>
+	</act> -->
+	
+<!-- 	<act resId="75" difficulty="1"   go="StairOfMoonGodPanel" des="月神的天梯">
+		<detail time="2015年9月18日-9月24日" des="种桂花树，做桂花糕，爬天梯去看月神咯！"/>
+		<time isAll="1"   start="2015_09_18_00_03" end="2015_09_24_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="200216"/>
+			<item id="400313"/>
+			<item id="401264"/>
+		</reward>
+	</act> -->
+	
+	<act resId="76" difficulty="1"   go="MoonWakeUpActPanel" des="月神神迹觉醒">
+		<detail time="全天候" des="探索月宫，完成挑战，找到神迹月神的真身！"/>
+		<time isAll="1"   start="2015_09_23_00_01" end="2030_09_24_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="991"/>
+		</reward>
+	</act>
+	
+	<!-- <act resId="77" difficulty="1"   go="MidAutumnGiftPanel" des="玩转中秋送大礼">
+		<detail time="9月25日—10月15日 全天候" des="玩转中秋，累计礼券，兑换超值大礼！"/>
+		<time isAll="1"   start="2015_09_23_00_03" end="2015_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="530"/>
+			<pet id="531"/>
+		</reward>
+	</act -->>
+	
+	<!-- <act resId="78" difficulty="1"   go="HugeMoonCakePanel" des="中秋美食小当家">
+		<detail time="9月25日—10月15日" des="庆中秋，做巨无霸月饼，还能得到萌萌大月饼噢！"/>
+		<time isAll="1"   start="2015_09_23_00_04" end="2015_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="826"/>
+		</reward>
+	</act> -->
+	
+	<!-- <act resId="79" difficulty="1"   go="RunningRabbitPanel" des="星钻月饼大追击">
+		<detail time="9月25日—10月15日" des="保护小梦，逃离大月饼，得星钻奖励！"/>
+		<time isAll="1"   start="2015_09_23_00_05" end="2015_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="603848"/>
+		</reward>
+	</act> -->
+	
+	<act resId="80" difficulty="1"   go="EvilBodyActPanel" des="魔盗团之罪恶之躯">
+		<detail time="全天候" des="追杀罗澜下落，阻击魔盗团，粉碎他们的阴谋！"/>
+		<time isAll="1"   start="2015_09_23_00_02" end="2030_09_24_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="988"/>
+		</reward>
+	</act>
+	
+	<!-- <act resId="81" difficulty="3"   go="TheSpriteOfDragonMainPanel" des="万龙尊者降临">
+		<detail time="全天候" des="首只精灵王系至尊龙神降临！山河倒卷！天地变色！"/>
+		<time isAll="1"   start="2015_09_30_00_02" end="2015_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="992"/>
+		</reward>
+	</act> -->
+	
+	<act resId="82" difficulty="2"   go="EightKingXueRuoPanel" des="神宠限时弱化挑战">
+		<detail time="全天候" des="绝版精灵的绝佳获取机会！难度降低！让你的收藏不再有遗憾！"/>
+		<time isAll="1"   start="2015_09_30_00_02" end="2015_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="1000"/>
+			<pet id="917"/>
+			<pet id="757"/>
+			<pet id="916"/>
+			<pet id="892"/>
+			<pet id="910"/>
+			<pet id="918"/>
+		</reward>
+	</act>
+	
+	<act resId="83" difficulty="2"   go="LaAoYeWakeupMainPanel" des="神遁拉奥叶">
+		<detail time="全天候" des="首只神遁系精灵问世！拉奥叶神遁觉醒！"/>
+		<time isAll="1"   start="2015_09_30_00_02" end="2030_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="993"/>
+		</reward>
+	</act>
+	
+<!-- 	<act resId="84" difficulty="1"   go="GuoQingExpMainPanel" des="国庆经验大赛">
+		<detail time="全天候" des="巨额经验送送送！！更有超值好礼等你兑换！"/>
+		<time isAll="1"   start="2015_09_30_00_02" end="2015_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="200210"/>
+			<pet id="914"/>
+		</reward>
+	</act> -->
+	
+	<act resId="85" difficulty="2"   go="EvilHeadMainPanel" des="魔盗团之罪恶之首">
+		<detail time="全天候" des="魔盗团已经全面出击！去给他们的邪恶阴谋展开最后一击吧！"/>
+		<time isAll="1"   start="2015_09_30_00_02" end="2030_10_15_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="989"/>
+		</reward>
+	</act>
+
+    <act resId="86" difficulty="1"   go="FiveStarKingWithMePromisePanel" des="我和五王的约定">
+		<detail time="全天候" des="新的挑战迫在眉睫，五王团队联手，超进化即将到来"/>
+		<time isAll="1"   start="2015_10_16_00_02" end="2030_10_15_24_02">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="670"/>
+			<pet id="700"/>
+			<pet id="842"/>
+			<pet id="834"/>
+			<pet id="832"/>
+		</reward>
+	</act>
+	
+<!-- 	<act resId="87" difficulty="1"   go="DoubleNinthClimbPanel" des="久久重阳节登高">
+		<detail time="10月16日—10月22日" des="重阳节到啦！和家人一起登高望远吧！还有久久小精灵噢~"/>
+		<time isAll="1"   start="2015_10_16_00_03" end="2015_10_22_24_03">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="995"/>
+		</reward>
+	</act> -->
+	
+<!-- 	<act resId="88" difficulty="1"   go="LearningPowerGiftPanel" des="学习力大放送">
+		<detail time="10月16日—10月22日" des="学习力限时大放送！妈妈再也不用担心我的学习！"/>
+		<time isAll="1"   start="2015_10_16_00_01" end="2015_10_22_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+		</types>
+		<reward>
+			<item id="200234"/>
+		</reward>
+	</act> -->
+	
+	<act resId="89" difficulty="1"   go="YanHeSuperEvolutionPanel" des="炎赫超进化">
+		<detail time="全天候" des="首只团队精灵问世！集合所有羁绊的力量！烧尽一切邪恶！"/>
+		<time isAll="1"   start="2015_10_23_00_01" end="2015_10_29_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>
+            <type name="pet"/>			
+		</types>
+		<reward>
+			<pet id="996"/>
+		</reward>
+	</act>
+
+<!--     <act resId="90" difficulty="1"   go="GreatWriterHugoPanel" des="大文豪雨果">
+		<detail time="10月23日—10月29日" des="大！文！豪！来啦！快去收集他的残页，兑换雨果吧！"/>
+		<time isAll="1"   start="2015_10_23_00_01" end="2015_10_29_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="998"/>
+		</reward>
+	</act> -->	
+	
+	<act resId="91" difficulty="1"   go="ShadowKingSuperEvolutionPanel" des="影劫超进化">
+		<detail time="全天候" des="第二只团队精灵呼之欲出，同时出战将产生无人能及的强大团队效果"/>
+		<time isAll="1"   start="2015_10_23_00_05" end="2030_10_29_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2504"/>
+		</reward>
+	</act>	
+	
+<!-- 	<act resId="92" difficulty="2"   go="DevilPetOutputPanel" des="万圣鬼王祭">
+		<detail time="10月30日—11月12日" des="万魂献祭·鬼王降临……你感受到他灵魂中那遮天蔽日的哀嚎了吗？"/>
+		<time isAll="1"   start="2015_10_23_00_06" end="2015_11_12_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2505"/>
+		</reward>
+	</act>	 -->
+	
+<!-- 	<act resId="93" difficulty="1"   go="GoblinPresentGiftPanel" des="小鬼精灵欢乐送">
+		<detail time="10月30日—11月12日" des="万圣来临~小鬼齐出动！一个不留全部收入囊中！"/>
+		<time isAll="1"   start="2015_10_23_00_07" end="2015_11_12_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="238"/>
+			<pet id="281"/>
+			<pet id="283"/>
+			<pet id="170"/>
+			<pet id="366"/>
+			<pet id="378"/>
+		</reward>
+	</act>	 -->
+	
+<!-- 	<act resId="94" difficulty="1"   go="HalloweenGiftPanel" des="万圣宝库">
+		<detail time="10月30日—11月12日" des="随着万圣节的来临，灵界的万圣宝库也随之打开！快去搜刮里面丰厚的奖励吧！"/>
+		<time isAll="1"   start="2015_10_23_00_08" end="2015_11_12_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="tiem"/>
+		</types>
+		<reward>
+			<tiem id="400313"/>
+			<tiem id="200205"/>
+			<tiem id="400350"/>
+			<tiem id="200225"/>
+		</reward>
+	</act>	
+	 -->
+	<act resId="95" difficulty="2"   go="CangYaoSuperEvolutionPanel" des="仓耀超进化">
+		<detail time="全天候" des="面对即将到来的黑暗，团队力量也在持续觉醒，正义的光芒终将获得胜利！"/>
+		<time isAll="1"   start="2015_10_23_00_06" end="2030_11_12_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2506"/>
+		</reward>
+	</act>	
+	
+	<act resId="96" difficulty="2"   go="ChenCanWakeupMainPanel" des="晨璨神迹觉醒">
+		<detail time="全天候" des="不论你是开朗还是调皮~开开心心才是最重要的！快去和晨璨一起唱歌吧~"/>
+		<time isAll="1"   start="2015_10_23_00_06" end="2030_11_12_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2507"/>
+		</reward>
+	</act>	
+	
+	<!-- <act resId="97" difficulty="1"   go="TimeLimitedGiftPanel" des="充VIP限时壕礼">
+		<detail time="10月30日—11月19日" des="VIP充值礼送不停，限时超级返利绝对不容错过"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2015_11_19_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="503"/>
+		</reward>
+	</act>	 -->
+	
+	<act resId="98" difficulty="1"   go="AoChenSuperEvolutionPanel" des="傲辰超进化">
+		<detail time="全天候" des="黑暗已经降临阿卡迪亚星，星王们已经准备好决一死战，超进化吧傲辰！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_19_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2509"/>
+		</reward>
+	</act>
+	
+<!-- 	<act resId="99" difficulty="1"   go="PreheatNegativeCharacterPanel" des="恶灵兽预约超进化">
+		<detail time="11月13日—11月26日" des="黑暗降临与这个世界，而他居然拥有能让恶灵兽超进化的恐怖力量！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2015_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<item id="400313"/>
+			<item id="401089"/>
+			<item id="200205"/>
+		</reward>
+	</act> -->
+	
+	<!-- <act resId="100" difficulty="1"   go="AllPersonSayYesPanel" des="全民点赞送豪礼">
+		<detail time="11月13日—11月19日" des="无禽战斗即将开启！最初纯正的策略、最单纯的对抗一切都还是那么好！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2015_11_19_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<item id="200205"/>
+			<item id="200239"/>
+			<item id="200225"/>
+		</reward>
+	</act> -->
+	
+	<act resId="101" difficulty="1"   go="MiSunSuperEvolutionPanel" des="秘王超进化">
+		<detail time="全天候" des="千钧一发！秘瞬完成了自己的超进化！而星王团队能否完成逆袭黑暗的使命呢？"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2511"/>
+		</reward>
+	</act>
+	
+	<act resId="102" difficulty="1"   go="NoPoultryBattleFieldMainPanel" des="孤独之战开启">
+		<detail time="全天候" des="孤独之战终于开启！回到那个最纯粹的战斗中去吧！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2510"/>
+		</reward>
+	</act>
+	
+	<act resId="103" difficulty="1"   go="YueSeBigAwardMainPanel" des="约瑟感恩大回馈">
+		<detail time="全天候" des="约瑟一路走来，感谢有你……"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<item id="1"/>
+			<item id="200591"/>
+			<pet id="957"/>
+		</reward>
+	</act>
+<!--下周我不在~这波东西先注掉·暗需求填空解注~非中文标注的内容不用管-->	
+<!-- 	<act resId="ID向下续延"  difficulty="1"  go="面板名" des="活动名字">
+		<detail time="活动时间" des="随便写点什么介绍"/>
+		<time isAll="1"   start="活动开始时间参照上面的格式" end="活动结束时间">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="如果是奖励精灵就pet如果是物品就item"/>
+		</types>
+		<reward>
+			<item id="奖励的物品ID"/>
+			<pet id="奖励的精灵ID"/>
+		</reward>
+	</act> -->
+	
+	<act resId="104"  difficulty="3"  trainer="1" go="PetDevilProcessMainPanel" des="恶灵兽超进化">
+		<detail time="全天候" des="恶灵兽崛起"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2512"/>
+		</reward>
+	</act> 
+	
+<!-- 	<act resId="105"  difficulty="1"  trainer="1" go="TaomeeCarnivalPanel" des="淘乐节嘉年华">
+		<detail time="全天候" des="淘乐节嘉年华"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<pet id="620"/>
+			<item id="1"/>
+			<item id="200239"/>
+		</reward>
+	</act>  -->
+	
+	<act resId="107"  difficulty="1"  trainer="1" go="VipRechargeGiveFivePetPanel" des="VIP包月送伊特王">
+		<detail time="全天候" des="VIP包月送伊特王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="757"/>
+		</reward>
+	</act> 
+	
+<!-- 	<act resId="108"  difficulty="1"  trainer="1" go="PkTaoSaleBuyPanel" des="淘乐节大折扣">
+		<detail time="全天候" des="淘乐节大折扣，雷锘、魔神库贝萨限时7折冰点折扣"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="979"/>
+			<pet id="913"/>
+		</reward>
+	</act>  -->
+	
+<!-- 	<act resId="109"  difficulty="1"  trainer="1" go="DoubleFestivalGiftPanel" des="99星钻精灵特卖">
+		<detail time="全天候" des="淘乐节大放价  全场精灵99钻"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="918"/>
+		</reward>
+	</act>  -->
+	
+<!-- 	<act resId="106"  difficulty="1"  trainer="1" go="ShootDiceForRidesPanel" des="极品坐骑摇出来">
+		<detail time="全天候" des="极品坐骑摇出来，暴风、轰天免费拿"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<item id="100509"/>
+			<item id="100508"/>
+		</reward>
+	</act>  -->
+	
+	<act resId="110"  difficulty="1"  go="DespairTowerMainPanel" des="邪风·维奇">
+		<detail time="全天候" des="挑战绝望之塔第一层！去战胜邪风·维奇吧！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2514"/>
+		</reward>
+	</act> 
+	
+	<act resId="111"  difficulty="1"  go="SimplePetParkPanel" des="无禽动物园开放">
+		<detail time="全天候" des="免费获得更多无禽精灵，更好的享受竞技带来的乐趣吧！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="411"/>
+			<pet id="372"/>
+			<pet id="428"/>
+		</reward>
+	</act> 
+	
+	<act resId="112"  difficulty="1"  go="DespairTowerSecondSeasonMainPanel" des="极夜·艾瑞克">
+		<detail time="全天候" des="坐镇绝望之塔第二层的邪恶精灵，操控着可怕的暗影之力"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2515"/>
+		</reward>
+	</act> 
+	
+	<act resId="113"  difficulty="1"  go="FightVsBarryPanel" des="觉醒吧猎圣之心">
+		<detail time="全天候" des="拜瑞慷慨迎战绝望之塔第二层！快去殴打艾瑞克！为他加油！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="583"/>
+		</reward>
+	</act> 
+	<!--
+	<act resId="114"  difficulty="2"  go="BarryProcessPanel" des="圣猎拜瑞">
+		<detail time="全天候" des="天龙骑士团——拜瑞 超进化开启，圣猎拜瑞！ 正义即将崛起！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2517"/>
+		</reward>
+	</act>
+		-->
+	<act resId="115"  difficulty="1" go="DespairTowerThirdSeasonPanel" des="血轮·万斯">
+		<detail time="全天候" des="绝望之塔第三层——血轮万斯，镇守一方"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2516"/>
+		</reward>
+	</act>
+	
+	
+	<act resId="117"  difficulty="1" go="HelloProcessPanel" des="圣灵海罗">
+		<detail time="全天候" des="天龙骑士团-海罗，超进化开启，圣灵海罗！正义崛起！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2520"/>
+		</reward>
+	</act>
+	
+	<act resId="118"  difficulty="1" go="YearPet2017PreheatPanel" des="包月送奎尔斯之影">
+		<detail time="全天候" des="包月即送满级满属性奎尔斯之影！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="916"/>
+		</reward>
+	</act>
+	
+	<act resId="119"  difficulty="2"  go="TianLongProcessPanel" des="神将天龙">
+		<detail time="全天候" des="圣骑天龙超进化开启！神将天龙！抵御绝望团队"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2521"/>
+		</reward>
+	</act>
+	
+	<act resId="120"  difficulty="1"  go="HappyGuaAwardPanel" des="界王刮刮卡">
+		<detail time="全天候" des="迎接2016，界王团队组团送福利！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="906"/>
+		</reward>
+	</act>
+	
+	<act resId="121"  difficulty="1"  go="LightningRunActPanel" des="奔跑吧闪电">
+		<detail time="全天候" des="奔跑吧闪电！重新回归！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="912"/>
+		</reward>
+	</act>
+	
+	<act resId="122"  difficulty="1"  go="LeiNuoEvolutionMainPanel" des="雷锘超进化">
+		<detail time="全天候" des="雷魂雷锘，傲世降临！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2523"/>
+		</reward>
+	</act>
+	
+	<act resId="123"  difficulty="1"  go="BigSpeakYearPetMainPanel" des="大话年兽">
+		<detail time="全天候" des="2016年年兽大猜想"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<pet id="1"/>
+		</reward>
+	</act>
+	
+	<act resId="124"  difficulty="1" go="SaTeActPanel" des="绝望之主">
+		<detail time="全天候" des="绝望之主萨特 绝望来袭"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2522"/>
+		</reward>
+	</act>
+	
+	<act resId="125"  difficulty="1"  go="ZhaoLingShouEvolutionMainPanel" des="爪灵兽超进化">
+		<detail time="全天候" des="王之利爪 爪灵兽超进化——爪灵神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2524"/>
+		</reward>
+	</act>
+	
+	<act resId="126"  difficulty="1" go="VipRechargeGiveFivePetPanel" des="2月VIP送哈迪斯">
+		<detail time="全天候" des="2月包月VIP送极品属性冥王哈迪斯"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="910"/>
+		</reward>
+	</act>
+	
+	<act resId="127"  difficulty="1"  go="NewYearFreePetPanel" des="2016年度精灵">
+		<detail time="全天候" des="2016年度精灵——齐天大圣，战神归来！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2519"/>
+		</reward>
+	</act>
+	
+	<act resId="128"  difficulty="1"  go="SpringFestivalSignPanel" des="签到送唐小僧">
+		<detail time="全天候" des="新春累积签到送唐小僧"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2525"/>
+		</reward>
+	</act>
+	
+	<act resId="131"  difficulty="1"  go="xiaoxiaoAccompanyYouPanel" des="宵宵闹元宵">
+		<detail time="全天候" des="元宵节精灵——宵宵"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2526"/>
+		</reward>
+	</act>
+	
+	
+	<act resId="132"  difficulty="1" go="CallBoxPanel" des="远古宝箱更新啦">
+		<detail time="全天候" des="远古宝箱召唤精灵！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="967"/>
+		</reward>
+	</act>
+	
+	<act resId="133"  difficulty="1" go="SixStarPrizePanel" des="六星豪礼">
+		<detail time="全天候" des="每天都有奖品，VIP更有豪礼"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<pet id="1"/>
+		</reward>
+	</act>
+
+
+
+	<act resId="134"  difficulty="1" go="ASKActPanel" des="奥斯卡">
+		<detail time="全天候" des="圣灵神将—奥斯卡"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2527"/>
+		</reward>
+	</act>
+	
+	<act resId="135"  difficulty="1" go="YearPet2017PreheatPanel" des="三月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力盖世战神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="item"/>
+		</types>
+		<reward>
+			<pet id="751"/>
+		</reward>
+	</act>
+
+	<act resId="136"  difficulty="1" go="ShanMoDiShaNewPanel" des="圣甲雷鸣">
+		<detail time="全天候" des="震天雷电 圣甲雷鸣"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2528"/>
+		</reward>
+	</act>
+
+	<act resId="137"  difficulty="1" go="ShengJiaHuanTongPanel" des="圣甲幻瞳">
+		<detail time="全天候" des="赤色魅影 圣甲幻瞳"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2529"/>
+		</reward>
+	</act>
+
+	<act resId="138"  difficulty="1" go="ShengJiaKuangZhanPanel" des="圣甲狂战">
+		<detail time="全天候" des="圣甲狂战 强者契约"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2530"/>
+		</reward>
+	</act>
+
+	<act resId="139"  difficulty="1" go="ShengJiaDiLeiPanel" des="圣甲地裂">
+		<detail time="全天候" des="大地重装 圣甲地裂"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2531"/>
+		</reward>
+	</act>
+
+
+	<act resId="140"  difficulty="1" go="ShengJiaYongYePanel" des="圣甲永夜">
+		<detail time="全天候" des="暗夜战甲 圣甲永夜"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2532"/>
+		</reward>
+	</act>
+
+<!--	<act resId="141"  difficulty="1" go="YearPet2017PreheatPanel" des="四月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力无极影神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="760"/>
+		</reward>
+	</act>-->
+
+	<act resId="142"  difficulty="1" go="ShakeMoneyTreePanel" des="摇钱树">
+		<detail time="全天候" des="消费星钻得神宠黑龙王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2533"/>
+		</reward>
+	</act>
+
+<!--	<act resId="143"  difficulty="1" go="DiamondSendGiftPanel" des="兑钻送豪礼">
+		<detail time="全天候" des="兑换1星钻送无敌学习精元"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="1"/>
+		</reward>
+	</act>-->
+
+	<act resId="144"  difficulty="1" go="QingFengBaiDiPanel" des="昊希娜">
+		<detail time="全天候" des="清风白帝 昊希娜"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2534"/>
+		</reward>
+	</act>
+
+<!--	<act resId="145"  difficulty="1" go="MonthSignPanel" des="夜叉">
+		<detail time="全天候" des="签到送豪礼 神宠全民得"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2539"/>
+		</reward>
+	</act>-->
+
+	<act resId="146"  difficulty="1" go="HunYuanHeiDiPanel" des="达克斯特">
+		<detail time="全天候" des="混元黑帝 达克斯特"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2535"/>
+		</reward>
+	</act>
+
+	<act resId="147"  difficulty="1" go="LuoChaQingDiPanel" des="苏希斯">
+		<detail time="全天候" des="罗刹青帝 苏希斯"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2536"/>
+		</reward>
+	</act>
+
+	<act resId="148"  difficulty="1" go="LvShuangBingZhiPanel" des="履霜冰至">
+		<detail time="全天候" des="履霜冰至"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2541"/>
+		</reward>
+	</act>
+
+	<act resId="149"  difficulty="1" go="ChiHuoYanDiPanel" des="弗雷姆">
+		<detail time="全天候" des="赤火炎帝 弗雷姆"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2537"/>
+		</reward>
+	</act>
+
+	<act resId="150"  difficulty="1" go="MonthSignPanel" des="帝龙邪尊">
+		<detail time="全天候" des="签到送豪礼 神宠全民得"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2540"/>
+		</reward>
+	</act>
+
+	<act resId="151"  difficulty="1" go="YearPet2017PreheatPanel" des="五月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力火翼炎神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="726"/>
+		</reward>
+	</act>
+
+	<act resId="152"  difficulty="1" go="GuangMingHuangDiPanel" des="萨夫特">
+		<detail time="全天候" des="光明黄帝 萨夫特"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2538"/>
+		</reward>
+	</act>
+
+	<act resId="153"  difficulty="1" go="TianXuanJieWangPanel" des="天玄界王">
+		<detail time="全天候" des="天玄界王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2542"/>
+		</reward>
+	</act>
+
+	<act resId="154"  difficulty="1" go="HanHaiJieWangPanel" des="瀚海界王">
+		<detail time="全天候" des="瀚海界王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2543"/>
+		</reward>
+	</act>
+
+	<act resId="155"  difficulty="1" go="DiZangJieWangPanel" des="地葬界王">
+		<detail time="全天候" des="地葬界王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2544"/>
+		</reward>
+	</act>
+
+	<act resId="156"  difficulty="1" go="MonthSignPanel" des="莉莲娜">
+		<detail time="全天候" des="签到送豪礼 神宠全民得"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2549"/>
+		</reward>
+	</act>
+
+	<act resId="157"  difficulty="1" go="YearPet2017PreheatPanel" des="六月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力撼地山神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="733"/>
+		</reward>
+	</act>
+
+	<act resId="158"  difficulty="1" go="HunDunJieWangPanel" des="混沌界王">
+		<detail time="全天候" des="混沌界王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2545"/>
+		</reward>
+	</act>
+
+	<act resId="159"  difficulty="1" go="ShiKongJieWangPanel" des="时空界王">
+		<detail time="全天候" des="时空界王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2546"/>
+		</reward>
+	</act>
+
+	<act resId="160"  difficulty="1" go="HuanJingJieWangPanel" des="幻境界王">
+		<detail time="全天候" des="幻境界王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2547"/>
+		</reward>
+	</act>
+
+	<act resId="161"  difficulty="1" go="TianShiLingZunPanel" des="天石灵尊">
+		<detail time="全天候" des="邪恶四灵之天石灵尊"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2550"/>
+		</reward>
+	</act>
+
+	<act resId="162"  difficulty="1" go="XieNianMoZunPanel" des="邪念魔尊">
+		<detail time="全天候" des="邪恶四灵之邪念魔尊"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2551"/>
+		</reward>
+	</act>
+
+
+	<act resId="163"  difficulty="1" go="YearPet2017PreheatPanel" des="七月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力女武神缪斯"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="791"/>
+		</reward>
+	</act>
+
+	<act resId="164"  difficulty="1" go="AnYiMoShengPanel" des="暗翼魔圣">
+		<detail time="全天候" des="邪恶四灵之暗翼魔圣"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2552"/>
+		</reward>
+	</act>
+
+	<act resId="165"  difficulty="1" go="AnyiteSuperPanel" des="暗影伊特">
+		<detail time="全天候" des="唤醒影伊特-暗伊特超进化"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2554"/>
+		</reward>
+	</act>
+
+	<act resId="166"  difficulty="1" go="YueseCraft2016MainPanel" des="精灵王争霸赛">
+		<detail time="全天候" des="希望之光杯精灵王争霸赛"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id=""/>
+		</reward>
+	</act>
+
+	<act resId="167"  difficulty="1" go="AnniversaryParadePanel" des="5周年大游行">
+		<detail time="全天候" des="5周年大游行"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id=""/>
+		</reward>
+	</act>
+
+	<act resId="168"  difficulty="1" go="YueseCraft2016MainPanel" des="精灵王争霸赛">
+		<detail time="全天候" des="十字角斗场"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id=""/>
+		</reward>
+	</act>
+
+	<act resId="170"  difficulty="1" go="NoPoultryBattleFieldMainPanel" des="孤独之战神秘精灵">
+		<detail time="全天候" des="皮埃纳"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2557"/>
+		</reward>
+	</act>
+
+	<act resId="171"  difficulty="1" go="80526" des="场景Boss挑战">
+		<detail time="全天候" des="布克"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="522"/>
+		</reward>
+	</act>
+
+	<act resId="172"  difficulty="1" go="YearPet2017PreheatPanel" des="八月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力宇宙骑士"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="881"/>
+		</reward>
+	</act>
+
+	<act resId="173"  difficulty="1" go="YueseCraft2016MainPanel" des="精灵王争霸赛">
+		<detail time="全天候" des="影灵的试炼"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="500327" count="1"/>
+		</reward>
+	</act>
+
+	<act resId="174"  difficulty="1" go="YueseCraft2016MainPanel" des="精灵王争霸赛">
+		<detail time="全天候" des="传说的追溯"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="2258"/>
+			<item id="2259"/>
+			<item id="2260"/>
+		</reward>
+	</act>
+
+	<act resId="175"  difficulty="1" go="YueseCraft2016MainPanel" des="精灵王争霸赛">
+		<detail time="全天候" des="双子星争锋"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id=""/>
+		</reward>
+	</act>
+	<act resId="176"  difficulty="1" go="YueseCraft2016MainPanel" des="精灵王争霸赛">
+		<detail time="全天候" des="颁奖典礼"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="2561"/>
+		</reward>
+	</act>
+
+	<act resId="177"  difficulty="1" go="FengyiteSuperPanel" des="自由之风-风伊特超进化">
+		<detail time="全天候" des="风暴伊特"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<item id="2553"/>
+		</reward>
+	</act>
+	<act resId="178"  difficulty="1" go="YearPet2017PreheatPanel" des="九月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力星河游侠"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="957"/>
+		</reward>
+	</act>
+	<act resId="179"  difficulty="1" go="AnYouMiQianPanel" des="尤米茜">
+		<detail time="全天候" des="邪恶四灵之尤米茜"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2555"/>
+		</reward>
+	</act>
+
+	<act resId="180"  difficulty="1" go="FeiYiTeSuperPanel" des="飞羽伊特">
+		<detail time="全天候" des="蔚蓝之羽-飞伊特超进化"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2556"/>
+		</reward>
+	</act>
+
+	<act resId="181"  difficulty="1" go="StarShadowPanel" des="星之首影">
+		<detail time="全天候" des="星海陨影-星之首影出没！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2562"/>
+		</reward>
+	</act>
+
+	<act resId="182"  difficulty="1" go="StarShadowPanel" des="星之躯影">
+		<detail time="全天候" des="星海陨影-星之躯影出没"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2563"/>
+		</reward>
+	</act>
+
+	<act resId="183"  difficulty="1" go="StarShadowPanel" des="星之臂影">
+		<detail time="全天候" des="星海陨影-星之臂影出没"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2564"/>
+		</reward>
+	</act>
+
+	<act resId="184"  difficulty="1" go="LeishenleiyiSkillGetPanel" des="雷神•雷伊">
+		<detail time="全天候" des="雷神•雷伊 器灵突破！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2558"/>
+		</reward>
+	</act>
+
+	<act resId="185"  difficulty="1" go="StarShadowPanel" des="赛纳留斯">
+		<detail time="全天候" des="星海陨影-赛纳留斯圣徒！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2565"/>
+		</reward>
+	</act>
+
+	<act resId="186"  difficulty="1" go="YandikaisaSkillGetPanel" des="炎帝•凯萨">
+		<detail time="全天候" des="炎帝•凯萨 器灵突破！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2559"/>
+		</reward>
+	</act>
+
+	<act resId="187"  difficulty="1" go="YearPet2017PreheatPanel" des="十月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力神盾破坏王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="967"/>
+		</reward>
+	</act>
+
+	<act resId="188"  difficulty="1" go="AkadiyaPetExplorePanel" des="尼禄">
+		<detail time="全天候" des="阿卡迪亚深度探索计划"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="180"/>
+		</reward>
+	</act>
+
+	<act resId="189"  difficulty="1" go="StarShadowPanel" des="星之足影">
+		<detail time="全天候" des="星海陨影-星之足影出没！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2566"/>
+		</reward>
+	</act>
+
+	<act resId="190"  difficulty="1" go="TaXiYaPanel" des="塔西亚">
+		<detail time="全天候" des="龙族智囊-塔西亚"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2574"/>
+		</reward>
+	</act>
+
+	<act resId="191"  difficulty="1" go="AkadiyaPetExplorePanel" des="帕拉丁">
+		<detail time="全天候" des="阿卡迪亚深度探索计划"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="250"/>
+		</reward>
+	</act>
+
+	<act resId="192"  difficulty="1" go="StarShadowPanel" des="纳法里奥圣徒">
+		<detail time="全天候" des="星海陨影-纳法里奥圣徒！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2567"/>
+		</reward>
+	</act>
+
+	<act resId="193"  difficulty="1" go="TaKeLinPanel" des="塔克林">
+		<detail time="全天候" des="龙族战将-塔克林"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2575"/>
+		</reward>
+	</act>
+
+	<act resId="194"  difficulty="1" go="StarShadowPanel" des="星之背影">
+		<detail time="全天候" des="星海陨影-星之背影出没！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2568"/>
+		</reward>
+	</act>
+
+	<act resId="195"  difficulty="1" go="SaiWeiErPanel" des="塞维尔">
+		<detail time="全天候" des="龙族女王-塞维尔"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2576"/>
+		</reward>
+	</act>
+
+	<act resId="196"  difficulty="1" go="YearPet2017PreheatPanel" des="十一月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力银河星王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="836"/>
+		</reward>
+	</act>
+
+	<act resId="197"  difficulty="1" go="NightDayActsPanel" des="万圣节鬼屋">
+		<detail time="全天候" des="在这里你会获得珍贵的鬼怪精灵！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="282"/>
+		</reward>
+	</act>
+
+	<act resId="198"  difficulty="1" go="StarShadowPanel" des="星之心影">
+		<detail time="全天候" des="星海陨影-星之心影出没！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2569"/>
+		</reward>
+	</act>
+
+	<act resId="199"  difficulty="1" go="QiuBiTeSuperPanel" des="爱神·丘比特">
+		<detail time="全天候" des="丘比特超进化"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2577"/>
+		</reward>
+	</act>
+
+<!--	<act resId="200"  difficulty="1" go="Double11BuyPanel" des="巅峰精灵特价">
+		<detail time="全天候" des="双11特购计划"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2558"/>
+			<pet id="2559"/>
+			<pet id="2560"/>
+		</reward>
+	</act>-->
+
+	<act resId="201"  difficulty="1" go="AkadiyaPetExplorePanel" des="维克多">
+		<detail time="全天候" des="阿卡迪亚深度探索计划"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="223"/>
+		</reward>
+	</act>
+
+	<act resId="116"  difficulty="2"  go="YiTeWangEvolutionMainPanel" des="伊特神王">
+		<detail time="全天候" des="伊特家族精灵王系王者——伊特王超进化开启，伊特神王！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2518"/>
+		</reward>
+	</act>
+
+	<act resId="202"  difficulty="1" go="StarShadowPanel" des="奎尔塞拉圣徒">
+		<detail time="全天候" des="星海陨影-奎尔塞拉圣徒！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2570"/>
+		</reward>
+	</act>
+
+	<act resId="203"  difficulty="1" go="YearPet2017PreheatPanel" des="十二月VIP 专享福利">
+		<detail time="全天候" des="包月就送满级满战力双子星王"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="968"/>
+		</reward>
+	</act>
+
+	<act resId="204"  difficulty="1" go="AkadiyaPetExplorePanel" des="诗风">
+		<detail time="全天候" des="阿卡迪亚深度探索计划"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2578"/>
+		</reward>
+	</act>
+
+	<act resId="205"  difficulty="1" go="StarShadowPanel" des="诺克萨斯圣徒">
+		<detail time="全天候" des="星海陨影-诺克萨斯圣徒！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2571"/>
+		</reward>
+	</act>
+
+	<act resId="206"  difficulty="1" go="XieEMoShenPanel" des="邪恶魔神">
+		<detail time="全天候" des="魔域四神—邪恶魔神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2579"/>
+		</reward>
+	</act>
+
+	<act resId="207"  difficulty="1" go="GuangyiteSuperPanel" des="耀光伊特">
+		<detail time="全天候" des="光伊特超进化"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2583"/>
+		</reward>
+	</act>
+
+	<act resId="208"  difficulty="1" go="AkadiyaPetExplorePanel" des="源晶蛋">
+		<detail time="全天候" des="阿卡迪亚深度探索计划"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2584"/>
+		</reward>
+	</act>
+
+	<act resId="209"  difficulty="1" go="YuanjingdanPanel" des="圣诞源晶蛋">
+		<detail time="全天候" des="圣诞节特别活动"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2585"/>
+		</reward>
+	</act>
+
+	<act resId="210"  difficulty="1" go="LianyuMoShenPanel" des="炼狱魔神">
+		<detail time="全天候" des="魔域四神—炼狱魔神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2580"/>
+		</reward>
+	</act>
+
+	<act resId="211"  difficulty="1" go="YearPet2017PreheatPanel" des="一月VIP 专享福利">
+		<detail time="全天候" des="包月就送精灵罗克"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2586"/>
+		</reward>
+	</act>
+
+	<act resId="212"  difficulty="1" go="NewYearVipPetPanel" des="2017四星年费降临！">
+		<detail time="全天候" des="4星年费罗慕洛"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2587"/>
+		</reward>
+	</act>
+
+	<act resId="213"  difficulty="1" go="40"  isMapID="1"  des="“吞”！年兽出没！">
+		<detail time="全天候" des="年兽“吞”"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2589"/>
+		</reward>
+	</act>
+
+	<act resId="214"  difficulty="1" go="NewYearVipPetPanel" des="2017年费VIP罗亚啼克">
+		<detail time="全天候" des="6星年费罗亚啼克"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2588"/>
+		</reward>
+	</act>
+
+<!--	<act resId="215"  difficulty="1" go="350" isMapID="1" des="除夕炸礼花，金鸡送大礼！">
+		<detail time="全天候" des="放烟花 获大礼！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<Item ID="200486" />
+			<Item ID="802129" />
+			<Item ID="208379" />
+			<Item ID="208377" />
+		</reward>
+	</act>-->
+
+	<act resId="216"  difficulty="1" go="BingyiteSuperPanel" des="深寒冰凝—冰伊特超进化">
+		<detail time="全天候" des="寒冰伊特"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2591"/>
+		</reward>
+	</act>
+
+	<act resId="217"  difficulty="1" go="StarShadowPanel" des="奥比休斯圣徒">
+		<detail time="全天候" des="星海陨影-奥比休斯圣徒！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2572"/>
+		</reward>
+	</act>
+
+	<act resId="218"  difficulty="1" go="StarShadowPanel" des="毁灭魔神">
+		<detail time="全天候" des="魔域四神—毁灭魔神"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2581"/>
+		</reward>
+	</act>
+
+	<act resId="219"  difficulty="1" go="YearPet2017ShengJiaLeiMingPanel" des="三月VIP 专享福利">
+		<detail time="全天候" des="包月就送极品圣甲雷鸣"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2528"/>
+		</reward>
+	</act>
+
+	<act resId="220"  difficulty="1" go="StarShadowPanel" des="泰尔瑞斯圣徒">
+		<detail time="全天候" des="星海陨影-泰尔瑞斯圣徒！"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2573"/>
+		</reward>
+	</act>
+
+	<act resId="221"  difficulty="1" go="BiluoMainPanel" des="碧珞·逍遥。">
+		<detail time="全天候" des="逍遥齐物，碧珞迢迢。"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2593"/>
+		</reward>
+	</act>
+
+	<act resId="222"  difficulty="1" go="YearPet2017ShengJiaLeiMingPanel" des="四月VIP 专享福利">
+		<detail time="全天候" des="包月就送极品圣甲幻瞳"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2529"/>
+		</reward>
+	</act>
+
+	<act resId="223"  difficulty="1" go="LuniSuperPanel" des="宾尼">
+		<detail time="全天候" des="星空拳斗士"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2594"/>
+		</reward>
+	</act>
+
+	<act resId="224"  difficulty="1" go="ChilunyingSuperPanel" des="锐目齿轮鹰">
+		<detail time="全天候" des="星空追猎者"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2595"/>
+		</reward>
+	</act>
+
+	<act resId="225"  difficulty="1" go="ShengwufulingBuyPanel" des="圣武缚灵">
+		<detail time="全天候" des="圣光斗者 武神缚体"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2596"/>
+		</reward>
+	</act>
+
+	<act resId="226"  difficulty="1" go="ChangbihouSuperPanel" des="长臂猴王">
+		<detail time="全天候" des="星空角斗家"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2597"/>
+		</reward>
+	</act>
+
+	<act resId="227"  difficulty="1" go="KenisaigeGetPanel" des="柯尼塞格">
+		<detail time="全天候" des="茂叶之龙"/>
+		<time isAll="1"   start="2015_10_30_00_06" end="2030_11_26_24_01">
+		</time>
+		<types>
+	        <type name="hot"/>	
+			<type name="pet"/>
+		</types>
+		<reward>
+			<pet id="2600"/>
+		</reward>
+	</act>
+
+</root>

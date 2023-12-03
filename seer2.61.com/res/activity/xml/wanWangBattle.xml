@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	steps:万王之战 所有等级信息 
+	  sid   等级id  累加即可
+	  sresid 等级素材id
+	  sname 等级名字   
+	  slevel 该等级数
+	  unitScore 每个等级晋级的积分
+	  posArr 界面稻穗 布局坐标
+	  
+	  <items> 当前等级的奖励
+	  	<id> 奖励ID
+	  	<name> 奖励名字
+	  	<count> 奖励数量
+	  	<pos> UI上位置坐标
+	  </items>
+	  例如：
+			士官	等级	积分
+				1	5
+				2	5
+				3	5
+				4	5
+				5	5
+				6	5
+				7	5
+				8	5
+				9	5
+-->
+
+<!-- <wanwangs> -->
+	 <steps>
+	    <step sid="0" sresid="kee_0" sname="新兵" slevel="8" unitScore="3" posArr="25,9;45,9;65,9"> 
+	    	<items>
+	    	    <item id="208299" name="神化灵药" count="2" pos="60,0"/>
+	    	    <item id="208300" name="魔化灵药" count="2" pos="130,0"/>
+	    	</items>    
+	    </step>
+	    <step sid="1" sresid="kee_1" sname="士官" slevel="9" unitScore="5" posArr="5,9;25,9;45,9;65,9;85,9">
+	    	<items>
+	    	    <item id="208299" name="神化灵药" count="4" pos="60,0"/>
+	    	    <item id="208300" name="魔化灵药" count="4" pos="130,0"/>
+	    	</items>  
+	    </step>
+	    <step sid="2" sresid="kee_2" sname="勇者" slevel="10" unitScore="7" posArr="20,0;40,0;60,0;80,0;20,17;40,17;60,17">
+	    	<items>
+	    	    <item id="208299" name="神化灵药" count="6" pos="60,0"/>
+	    	    <item id="208300" name="魔化灵药" count="6" pos="130,0"/>
+	    	</items>  
+	    </step>
+	    <step sid="3" sresid="kee_3" sname="英雄" slevel="11" unitScore="10" posArr="7,0;27,0;47,0;67,0;87,0;7,18;27,18;47,18;67,18;87,18">
+	    	<items>
+	    	    <item id="208299" name="神化灵药" count="8" pos="60,0"/>
+	    	    <item id="208300" name="魔化灵药" count="8" pos="130,0"/>
+	    	</items>  
+	    </step>
+	    <step sid="4" sresid="kee_4" sname="将军" slevel="12" unitScore="11" posArr="0,0;20,0;40,0;60,0;80,0;100,0;0,20;20,20;40,20;60,20;80,20">
+	    	<items>
+	    	    <item id="208299" name="神化灵药" count="10" pos="60,0"/>
+	    	    <item id="208300" name="魔化灵药" count="10" pos="130,0"/>
+	    	</items>  
+	    </step>
+	    <step sid="5" sresid="kee_5" sname="元帅" slevel="13" unitScore="12" posArr="0,0;20,0;40,0;60,0;80,0;100,0;0,20;20,20;40,20;60,20;80,20;100,20">
+	    	<items>
+	    	    <item id="208299" name="神化灵药" count="12" pos="60,0"/>
+	    	    <item id="208300" name="魔化灵药" count="12" pos="130,0"/>
+	    	</items>  
+	    </step>
+<!-- 	    <step sid="6" sresid="kee_6" sname="王者" slevel="14" unitScore="13" posArr="0,0;20,0;40,0;60,0;80,0;100,0;120,0;0,20;20,20;40,20;60,20;80,20;100,20"> -->
+<!-- 	    	<items> -->
+<!-- 	    	    <item id="208299" name="神化灵药" count="12" pos="60,0"/> -->
+<!-- 	    	    <item id="208300" name="魔化灵药" count="12" pos="130,0"/> -->
+<!-- 	    	</items>   -->
+<!-- 	    </step> -->
+	 </steps>   
+<!-- </wanwangs> -->

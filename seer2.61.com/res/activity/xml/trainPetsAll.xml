@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- range:战斗力段位值 -->
+<!-- get:精灵获得跳转 -->
+<!-- evoType:进化类型  1.神遁  2.神迹  3.超进化   不填，代表没有-->
+<!-- evo:进化跳转 -->
+<!-- resName:资源名称 -->
+<!-- getWay:获得方式 -->
+<!-- feature:精灵特点 -->
+<root range="10000,20000,30000,35000">
+	<range1>
+		<item resId="825" get="SmallDreamGiftPanel" evoType="3" evo="SuperDreamEvolutionPanel" getWay="小梦的时空补给" feature="精灵王之一，新手入门万金油初始精灵。" resName="1"/>
+		<item resId="6" get="PetDictionary" evoType="2" evo="XiuLuoWakeupMainPanel" getWay="新手主宠之一" feature="低阶精灵速度最快，高爆发，对战增伤必备。" resName="2"/>
+		<item resId="9" get="PetDictionary" evoType="1" evo="LaAoYeWakeupMainPanel" getWay="新手主宠之一" feature="控伤利器，超高续航，防宠必备。" resName="3"/>
+		<item resId="57" get="SPTPanel" evoType="3" evo="MaiMaiDiSuperProcessPanel" getWay="SPT Boss对战胜利时可捕捉" feature="对战必备增伤减伤利器。" resName="4"/>
+		<item resId="201" get="133" getWay="前往深幽沼泽可捕捉获得" feature="弱化双防，百分比伤害，高命中控场。" resName="5"/>
+	</range1>
+	<range2>
+		<item resId="96" get="YiteSuperPetPanel" getWay="伊特族战" feature="高爆发毁灭型精灵。" resName="1"/>
+		<item resId="97" get="YiteSuperPetPanel" getWay="伊特族战" feature="游击型灭团必备。" resName="2"/>
+		<item resId="153" get="100" evoType="3" evo="QingFengXiaActPanel" getWay="每周五14:00-15:00 或者19:00-20:00前往信奉广场" feature="一回合打残对手，贴脸毒。" resName="3"/>
+		<item resId="221" get="830" getWay="前往纠结之藤战胜埃鲁达克后可获得" feature="低阶段经典型防御类强宠。" resName="4"/>
+		<item resId="62" get="QuestPanel" evoType="2" evo="RabbitAwakenActPanel" getWay="暗夜的诅咒" feature="强化输出续航消强全能型精灵。" resName="5"/>
+	</range2>
+	<range3>
+		<item resId="703" get="ShuangMianMingWangStartPanel" getWay="炼狱之炼—双面冥王" feature="四星阶段最强输出王。" resName="1"/>
+		<item resId="301" get="BagginsLogPanel" evoType="3" evo="EyeBeastEvolvePanel" getWay="巴金斯日志—目灵兽挑战" feature="最强防御类续航型精灵。" resName="2"/>
+		<item resId="726" get="KaiSaSuperProcessPanel" getWay="火翼炎神—凯萨超进化" feature="据说只要强化2级特攻就能毁灭世界" resName="3"/>
+		<item resId="447" get="KingTaoReturnPanel" evoType="3" evo="KingTaoSuperProcessPanel" getWay="陶神回归" feature="防守反击必备神宠。" resName="4"/>
+		<item resId="686" get="ZhanXingZhePanel" getWay="暗黑无界占星者" feature="超高抗性与固伤共存" resName="5"/>
+	</range3>
+	<range4>
+		<item resId="999" get="SpriteKingEvolutionScenePanel" getWay="精灵王约瑟" feature="精灵王之一，免疫所有状态效果，无懈可击。" resName="1"/>
+		<item resId="905" get="NewYearVipPetPanel" evoType="3" evo="YearPetSuperProcessPanel" getWay="2015年费精灵" feature="最强控场精灵，能让自己不受到伤害。" resName="2"/>
+		<item resId="965" get="KaXiuSiWakeupMainPanel" getWay="卡修斯神迹觉醒" feature="全能强化配合高爆击秒杀劲敌。" resName="3"/>
+		<item resId="2503" get="LaAoYeWakeupMainPanel" getWay="主宠试炼之神遁拉奥叶" feature="超高抗性反伤型精灵，能让对手无从下手。" resName="4"/>
+		<item resId="979" get="LeiLuoHomeGloryActPanel" getWay="家族的荣耀" feature="高先手级技能可以在逆境迅速击败所有强敌，翻盘王者。" resName="5"/>
+	</range4>
+</root>

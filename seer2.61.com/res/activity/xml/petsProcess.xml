@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- initSort:初始化首次选中哪个类别，值从0开始，分别对应spt篇、明星篇、氏族篇、野怪篇 -->
+<!-- get:精灵获得路径 -->
+<!-- evo:精灵进化路径 -->
+<!-- isNew:是否是本次新上架，属性可以不填，不填代表默认不是新上架 -->
+<!-- isOutDate:获得精灵活动是否过期，属性可以不填，不填代表默认没有过期 -->
+<!-- resName:加载资源名称 -->
+<!-- initSort:明星1  氏族2 野怪3 SPT0 -->
+
+
+
+<!-- 美食神猪、月神、米卡获得已下架 -->
+<root initSort="1">
+	<!--spt篇 -->
+	<spt>
+
+		
+		<item actName="卡多斯" get="SPTPanel" evo="KaDuoSiSuperProcessPanel" resName="1"/>
+
+		<item actName="菲亚斯" get="SPTPanel" evo="FYaSiSuperProcessPanel" resName="2"/>
+		<item actName="艾丽希斯" get="SPTPanel" evo="ShenGuangSuperProcessPanel" resName="3"/>
+		<item actName="沙皇鸟" get="SPTPanel" evo="SHuangNiaoSuperProcessPanel" resName="4"/>
+
+		<item actName="巨锤莫古" get="SPTPanel" evo="MoGuSuperProcessPanel" isNew="1" resName="5"/>
+
+		<item actName="卡尼娅" get="SPTPanel" evo="KaNiYaChaoJinHuaPanel" resName="6"/>
+		<item actName="阿卡纳斯" get="SPTPanel" evo="AKaNaSiSuperProcessPanel"  resName="7"/>
+		<item actName="麦麦迪" get="TwelveMaiMaiDiPanel" evo="MaiMaiDiSuperProcessPanel" resName="8"/>
+		<item actName="霍克努尔" get="SPTPanel" evo="HuoKeNuErSuperProcessPanel" resName="9"/>
+		<item actName="布鲁托" get="SPTPanel" evo="BuNuTuoSuperProcessPanel" resName="10"/>
+
+
+	</spt>
+	<!--明星篇 -->
+	<star>
+		<item actName="九尾双线进化" get="640" evo="JiuWeiSuperProcessMainPanel" isNew="1" resName="1"/>
+		<item actName="晓月兔" get="PetCardsExchangePanel" evo="FuRabitProcessPanel" isNew="1" resName="2"/>
+		<item actName="因卡斯特" get="MantisActPanel" evo="YinKaSiTeProcessPanel" isNew="1" resName="3"/>
+		<item actName="太阳之子" get="HappyGuaAwardTwoPanel" evo="SonOfSunGoldPanel" resName="4"/>
+		<item actName="雷伊" get="LeiyiKaisaGadMainPanel" evo="LeiyiGunPetPanel" resName="5"/>
+		<item actName="凯撒" get="LeiyiKaisaGadMainPanel" evo="FireClawActPanel" resName="6"/>
+		<item actName="美食神猪" get="90" evo="FoodPigSuperProcessPanel" isOutDate="1" resName="7"/>
+		<item actName="狼妖" get="1035" evo="WolfSuperPanel" resName="8"/>
+		<item actName="月神" get="MoonComePanel" evo="LunaEvolvePanel" isOutDate="1" resName="9"/>	
+	</star>
+	<!--氏族篇 -->
+	<event>
+		<item actName="青蜂" get="WinterEventActPanel"  evo="QingFengXiaActPanel" resName="1"/>
+		<item actName="凯瑟琳" get="WinterEventActPanel"  evo="KaiSeLinSuperProcessPanel" resName="2"/>
+		<item actName="小巴" get="WinterEventActPanel" evo="XiaoBaEvolutionPanel" resName="3"/>	
+		<item actName="紫电" get="WinterEventActPanel" evo="ZiDianSuperProcessPanel" resName="4"/>
+	</event>
+	<!--野怪篇 -->
+	<wild>
+	    <item actName="水墨" get="180" evo="ShuiMoChaoJinHuaPanel" isNew="1" resName="1"/>
+		<item actName="独角" get="830" evo="DuJiaoSuperProcessPanel" resName="2"/>
+		<item actName="法伊娜" get="132" evo="FaYiNaSuperProcessPanel" resName="3"/>
+	</wild>
+	<!--神兽篇-->
+	<holyPet>
+		<item actName="朱雀" get="CallBoxPanel" evo="ZhuQueProcessActPanel" isNew="1" resName="1"/>
+		<item actName="玄武" get="CallBoxPanel" evo="XuanWuSuperProcessPanel" isNew="1" resName="2"/>
+		<item actName="青龙" get="CallBoxPanel" evo="QingLongSuperProcessPanel" isNew="1" resName="3"/>
+	    <item actName="白虎" get="liMingPanel" evo="BaiHuSuperProcessPanel" isNew="1" resName="4"/>
+	</holyPet>
+	<!--巨星-->
+	<bigStar>
+		<item actName="约瑟王" get="" evo="SpriteKingEvolutionScenePanel"  resName="1"/>
+		<item actName="邪冥兽" get="" evo="PetDevilProcessMainPanel"  resName="2"/>
+		<item actName="伊特神王" get="" evo="YiTeWangEvolutionMainPanel"  resName="3"/>
+		<item actName="冥·雷煞" get="" evo="HotHeartYanLeiShaEvolutionLeiPanel"  resName="4"/>
+		<item actName="魔·炎煞" get="" evo="HotHeartYanLeiShaEvolutionYanPanel"  resName="5"/>
+		<item actName="极梦" get="" evo="SuperDreamEvolutionPanel"  resName="6"/>
+		<item actName="冥翼撒旦" get="" evo="ShuangMianMingWangStartPanel"  resName="7"/>
+	</bigStar>
+	<!--战神联盟-->
+	<fight>
+		<item actName="xxx" get="" evo="ZhanShenLianMengPanel"  resName="1"/>
+		<item actName="xxx" get="" evo="ZhanShenLianMengPanel"  resName="2"/>
+		<item actName="xxx" get="" evo="ZhanShenLianMengPanel"  resName="3"/>
+		<item actName="xxx" get="" evo="ZhanShenLianMengPanel"  resName="4"/>
+		<item actName="xxx" get="" evo="ZhanShenLianMengPanel"  resName="5"/>
+		<item actName="xxx" get="" evo="ZhanShenLianMengPanel"  resName="6"/>
+	</fight>
+	<!--五王-->
+	<fiveKing>
+		<item actName="炎王" get="" evo="80492"  resName="1"/>
+		<item actName="影王" get="" evo="80492"  resName="2"/>
+		<item actName="苍王" get="" evo="80492"  resName="3"/>
+		<item actName="傲王" get="" evo="80492"  resName="4"/>
+		<item actName="秘王" get="" evo="80492"  resName="5"/>
+	</fiveKing>
+	<!--三帝-->
+	<threeDi>
+		<item actName="开元神" get="" evo="80330"  resName="1"/>
+		<item actName="创世神" get="" evo="80330"  resName="2"/>
+		<item actName="混沌神" get="" evo="80330"  resName="3"/>
+	</threeDi>
+	<!--灵兽-->
+	<linPet>
+		<item actName="目灵神" get="" evo="EyeBeastEvolvePanel"  resName="1"/>
+		<item actName="脉灵神" get="" evo="MaiLingShenSuperProcessPanel"  resName="2"/>
+		<item actName="幻灵神" get="" evo="HuanLingShouSuperStrengthenPanel"  resName="3"/>
+		<item actName="沁灵神" get="" evo="QingHolyPetProcessPanel"  resName="4"/>
+		<item actName="月灵神" get="" evo="YueLingShouEvolutionMainPanel"  resName="5"/>
+		<item actName="翼灵神" get="" evo="YiLingShouEvolutionMainPanel"  resName="6"/>
+		<!--<item actName="爪灵神" get="" evo=""  resName="7"/>-->
+	</linPet>
+	<!--天龙骑士团-->
+	<skyTeam>
+		<item actName="圣猎拜瑞" get="" evo="BarryProcessPanel"  resName="1"/>
+		<item actName="圣灵海罗" get="" evo="HelloProcessPanel"  resName="2"/>
+		<item actName="圣枪迪克" get="" evo="DickSuperProcessPanel"  resName="3"/>
+		<item actName="神将天龙" get="" evo="TianLongProcessPanel"  resName="4"/>
+	</skyTeam>
+</root>

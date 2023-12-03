@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 王者试炼配置表 -->
+<!-- openNum:当前关卡开启层数 -->
+<root openNum="100">
+	<item id="1" fightResList="18,20,22,25,28,32" level="100"/>
+	<item id="2" fightResList="34,39,43,46,49,51" level="100"/>
+	<item id="3" fightResList="53,63,65,67,70,72" level="100"/>
+	<item id="4" fightResList="74,77,83,88,91,111" level="100"/>
+	<item id="5" fightResList="113,115,117,119,128,135" level="100"/>
+	<item id="6" fightResList="142,144,146,161,166,169" level="100"/>
+	<item id="7" fightResList="171,181,184,186,188,192" level="100"/>
+	<item id="8" fightResList="194,202,204,206,208,210" level="100"/>
+	<item id="9" fightResList="212,226,228,231,239,241" level="100"/>
+	<item id="10" fightResList="80,313,396,411,419,455" level="100" award="green,1"/>
+	<item id="11" fightResList="253,255,257,259,262,264" level="100"/>
+	<item id="12" fightResList="266,268,284,286,288,294" level="100"/>
+	<item id="13" fightResList="296,344,356,364,375,397" level="100"/>
+	<item id="14" fightResList="406,443,454,532,129,121" level="100"/>
+	<item id="15" fightResList="233,230,227,213,211,207" level="100"/>
+	<item id="16" fightResList="265,263,258,256,242,240" level="100"/>
+	<item id="17" fightResList="297,295,289,287,285,267" level="100"/>
+	<item id="18" fightResList="444,407,398,376,357,346" level="100"/>
+	<item id="19" fightResList="515,514,520,504,518,540" level="100"/>
+	<item id="20" fightResList="145,189,261,365,880,209" level="100" award="green,2"/>
+	<item id="21" fightResList="85,89,116,118,137,148" level="100"/>
+	<item id="22" fightResList="168,183,187,193,233,254" level="100"/>
+	<item id="23" fightResList="647,679,773,774,786,258" level="100"/>
+	<item id="24" fightResList="505,506,507,509,511,513" level="100"/>
+	<item id="25" fightResList="42,60,62,87,110,123" level="100"/>
+	<item id="26" fightResList="125,132,134,139,141,150" level="100"/>
+	<item id="27" fightResList="175,153,155,163,165,173" level="100"/>
+	<item id="28" fightResList="177,178,180,197,199,217" level="100"/>
+	<item id="29" fightResList="92,93,94,95,96,97" level="100"/>
+	<item id="30" fightResList="3,6,9,15,38,17,15" level="100" award="green,3"/>
+	<item id="31" fightResList="219,221,223,225,236,238" level="100"/>
+	<item id="32" fightResList="244,246,250,252,273,277" level="100"/>
+	<item id="33" fightResList="279,281,293,300,308,309" level="100"/>
+	<item id="34" fightResList="310,311,312,314,315,316" level="100"/>
+	<item id="35" fightResList="318,319,341,343,349,351" level="100"/>
+	<item id="36" fightResList="360,363,366,368,370,372" level="100"/>
+	<item id="37" fightResList="374,378,381,384,386,391" level="100"/>
+	<item id="38" fightResList="394,388,403,405,414,418" level="100"/>
+	<item id="39" fightResList="98,99,100,102,104,105" level="100"/>
+	<item id="40" fightResList="38,57,82,127,157,215" level="100" award="blue,1"/>
+	<item id="41" fightResList="425,428,430,433,437,439" level="100"/>
+	<item id="42" fightResList="512,508,510,517,457,458" level="100"/>
+	<item id="43" fightResList="522,523,534,529,539,533" level="100"/>
+	<item id="44" fightResList="322,325,328,331,334,337" level="100"/>
+	<item id="45" fightResList="690,694,698,706,710,753" level="100"/>
+	<item id="46" fightResList="724,754,768,780,781,790" level="100"/>
+	<item id="47" fightResList="797,807,818,826,812,835" level="100"/>
+	<item id="48" fightResList="852,884,885,888,903,911" level="100"/>
+	<item id="49" fightResList="605,612,631,657,661,667" level="100"/>
+	<item id="50" fightResList="649,610,590,681,785,813" level="100" award="blue,2"/>
+	<item id="51" fightResList="159,270,912,291,915,837" level="100"/>
+	<item id="52" fightResList="12,716,101,103,736,160" level="100"/>
+	<item id="53" fightResList="191,201,271,275,283,292" level="100"/>
+	<item id="54" fightResList="317,340,353,355,756,769" level="100"/>
+	<item id="55" fightResList="854,395,410,959,421,423" level="100"/>
+	<item id="56" fightResList="426,1100,435,442,450,1101" level="100"/>
+	<item id="57" fightResList="456,453,516,519,493,524" level="100"/>
+	<item id="58" fightResList="526,537,542,546,549,577" level="100"/>
+	<item id="59" fightResList="560,559,562,564,565,566" level="100"/>
+	<item id="60" fightResList="387,704,401,895,302,303" level="100" award="blue,3"/>
+	<item id="61" fightResList="777,567,578,579,580,581" level="100"/>
+	<item id="62" fightResList="583,585,589,592,584,599" level="100"/>
+	<item id="63" fightResList="600,598,603,609,608,615" level="100"/>
+	<item id="64" fightResList="617,613,624,620,627,629" level="100"/>
+	<item id="65" fightResList="568,636,638,648,653,106" level="100"/>
+	<item id="66" fightResList="659,569,107,663,669,108" level="100"/>
+	<item id="67" fightResList="673,676,680,682,683,688" level="100"/>
+	<item id="68" fightResList="691,692,570,571,572,573" level="100"/>
+	<item id="69" fightResList="574,575,695,697,699,814" level="100"/>
+	<item id="70" fightResList="248,595,738,895,739,740" level="100" award="purple,1"/>
+	<item id="71" fightResList="702,707,705,714,712,718" level="100"/>
+	<item id="72" fightResList="720,721,722,725,723,727" level="100"/>
+	<item id="73" fightResList="730,731,732,747,758,763" level="100"/>
+	<item id="74" fightResList="776,784,789,793,795,798" level="100"/>
+	<item id="75" fightResList="805,806,815,816,822,823" level="100"/>
+	<item id="76" fightResList="748,831,833,841,849,893" level="100"/>
+	<item id="77" fightResList="832,834,842,857,859,883" level="100"/>
+	<item id="78" fightResList="782,796,847,919,921,922" level="100"/>
+	<item id="79" fightResList="819,820,770,751,447,760" level="100"/>
+	<item id="80" fightResList="301,304,306,305,307,741" level="100" award="purple,2"/>
+	<item id="81" fightResList="749,90,234,887,389,772" level="100"/>
+	<item id="82" fightResList="496,495,840,839,494,541" level="100"/>
+	<item id="83" fightResList="543,586,587,901,606,618" level="100"/>
+	<item id="84" fightResList="623,632,630,899,640,641" level="100"/>
+	<item id="85" fightResList="646,654,650,655,656,750" level="100"/>
+	<item id="86" fightResList="665,664,671,670,674,668" level="100"/>
+	<item id="87" fightResList="677,678,687,685,684,689" level="100"/>
+	<item id="88" fightResList="686,576,696,700,709,715" level="100"/>
+	<item id="89" fightResList="771,726,733,530,531,801" level="100"/>
+	<item id="90" fightResList="810,809,808,757,827,855" level="100" award="purple,3"/>
+	<item id="91" fightResList="642,729,735,759,767,755" level="100"/>
+	<item id="92" fightResList="889,830,891,920,943,886" level="100"/>
+	<item id="93" fightResList="896,900,906,907,908,909" level="100"/>
+	<item id="94" fightResList="838,844,846,851,853,890" level="100"/>
+	<item id="95" fightResList="645,791,651,703,764,779" level="100"/>
+	<item id="96" fightResList="948,949,746,836,881,957" level="100"/>
+	<item id="97" fightResList="898,910,916,918,953,954" level="100"/>
+	<item id="98" fightResList="788,800,804,825,917,892" level="100"/>
+	<item id="99" fightResList="503,913,941,942,734,728" level="100"/>
+	<item id="100" fightResList="752,778,802,817,945,938" level="100"/>
+</root>

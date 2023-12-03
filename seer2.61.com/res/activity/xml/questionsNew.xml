@@ -1,0 +1,80 @@
+<!-- 题库配置表 -->
+<!--
+<question id="题id" title="题目" rightAnswers="正确答案，例如：A"> 
+	<option name="选项名，例如：A" 	content="答案内容A" />
+	<option name="选项名，例如：B" content="答案内容B" />
+	<option name="选项名，例如：C" 	content="答案内容C" />
+	<option name="选项名，例如：D" 	content="答案内容D" />
+</question> -->
+<root>
+	<question id="1" title="甲数是乙数的4分之5倍，乙数是甲数的（  ），甲数比乙数多（  ）%." right="A">
+		<option name="A" content="5分之4和25%" />
+		<option name="B" content="4分之5和20%" />
+		<option name="C" content="5分之4倍和20%" />
+	</question>
+	<question id="2" title="从家到商场，爸爸要走10分钟，小明要走12分钟，爸爸与小明的速度比是（ ）" right="B">
+		<option name="A" content="5:2" />
+		<option name="B" content="6:5" />
+		<option name="C" content="2:6" />
+	</question>
+	<question id="3" title="甲数的80%与乙数的6分之5相等，则甲数（ ）乙数.（  ）比28千克多12.5%。" right="A">
+		<option name="A" content="大于 31.5" />
+		<option name="B" content="小于 31.5" />
+		<option name="C" content="等于 31.5" />
+	</question>
+	<question id="4" title="一项工程，甲队单独做4天完成，乙队单独做6天完成，甲，乙两队的工作效率的最简整数比是（  ）" right="C">
+		<option name="A" content="1:3" />
+		<option name="B" content="2:3" />
+		<option name="C" content="3:2" />
+	</question>
+	<question id="5" title="一个两位小数精确到十分位是5.0,这个数最小是[    ]。" right="A">
+		<option name="A" content="4.95" />
+		<option name="B" content="5.1" />
+		<option name="C" content="4.94" />
+	</question>
+	<question id="6" title="昙花的寿命最少保持能4小时,小麦开花的时间是昙花寿命的0.02倍,约(      )左右。" right="B">
+		<option name="A" content="0.8分钟" />
+		<option name="B" content="5分钟" />
+		<option name="C" content="0.08分钟" />
+	</question>
+	<question id="7" title="下面的式子中,( )是方程。" right="C">
+		<option name="A" content="25x" />
+		<option name="B" content="15-3=12" />
+		<option name="C" content="6x+1=6" />
+	</question>
+	<question id="8" title="x=3是下面方程( )的解。" right="A">
+		<option name="A" content="2x+9=15" />
+		<option name="B" content="3x=4.5" />
+		<option name="C" content="18.8÷x=4" />
+	</question>
+	<question id="9" title="当a=4,b=5,c=6时,bc-ac的值是[  ]。" right="C">
+		<option name="A" content="1" />
+		<option name="B" content="10" />
+		<option name="C" content="6" />
+	</question>
+	<question id="10" title="五年级种树60棵,比四年级种的2倍少4棵。四年级种树[   ]。" right="B">
+		<option name="A" content="26棵" />
+		<option name="B" content="32棵" />
+		<option name="C" content="19棵 " />
+	</question>
+	<question id="11" title="a的一半与4.5的和用式子表示是[    ]。" right="B">
+		<option name="A" content="2a+4.5" />
+		<option name="B" content="a÷2+4.5" />
+		<option name="C" content="a÷2—4.5" />
+	</question>
+	<question id="12" title="三角形面积为S平方厘米,其高是4厘米,那么底是[    ]" right="B">
+		<option name="A" content="S÷2÷4 " />
+		<option name="B" content="S÷4" />
+		<option name="C" content="2S÷4" />
+	</question>
+	<question id="13" title="x=4是方程( )的解." right="A">
+		<option name="A" content="24+x=28" />
+		<option name="B" content="2x+3=5" />
+		<option name="C" content="8÷2x=16" />
+	</question>
+	<question id="14" title="妈妈用0.8元买了4千克白菜,每千克白菜[  ]元.1元能买[  ]千克白菜." right="A">
+		<option name="A" content="0.2和5" />
+		<option name="B" content="5和0.2" />
+		<option name="C" content="3和2" />
+	</question>
+</root>

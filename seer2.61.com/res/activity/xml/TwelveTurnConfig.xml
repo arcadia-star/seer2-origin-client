@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- npcIndex 第几个npc 分3播就是 0 1 2 -->
+<!-- act后面的id是地图id res面板和动画的名称 -->
+
+<!-- 巨锤莫古12轮素材 MoGuShengRi -->
+<!-- 圣冰不死12轮 80205 ShengBingBuSi12-->
+<root>
+	<act id="80207" npcNum="2" res="MoJiangLiRen12" time="2014-4-26-13-0,2014-4-27-13-0" stateId="1008" des="">
+		<turn id="1" animationName="SceneMc0" fightId="827" npcIndex="0" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？ ]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[不错，休息下，继续接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="3" animationName="SceneMc0" fightId="827" npcIndex="0" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？ ]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[不错，休息下，继续接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="5" animationName="SceneMc0" fightId="827" npcIndex="0" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？ ]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[不错，休息下，继续接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="7" animationName="SceneMc0" fightId="827" npcIndex="0" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？ ]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[不错，休息下，继续接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="9" animationName="SceneMc0" fightId="827" npcIndex="0" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？ ]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[不错，休息下，继续接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="11" animationName="SceneMc0" fightId="827" npcIndex="0" rewardDes="塔纳托斯精元 初级资质果实，学习力精片，五万经验券">
+			<npc type="prewar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[不错，休息下，继续接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="2" animationName="SceneMc1" fightId="828" npcIndex="1" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[怎么样？认真点你就招架不住了吧。]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[哇~死神镰刀也相当厉害啊！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[恩~看样子你是个强有力的对手！]]></node>
+						<reply action="close"><![CDATA[真的吗？太好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="4" animationName="SceneMc1" fightId="828" npcIndex="1" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[怎么样？认真点你就招架不住了吧。]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[哇~死神镰刀也相当厉害啊！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[恩~看样子你是个强有力的对手！]]></node>
+						<reply action="close"><![CDATA[真的吗？太好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="6" animationName="SceneMc1" fightId="828" npcIndex="1" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？ ]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[准备接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="8" animationName="SceneMc1" fightId="828" npcIndex="1" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[准备接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="10" animationName="SceneMc1" fightId="828" npcIndex="1" rewardDes="1级物攻药剂，1级特攻药剂，经验芯片5k*2">
+			<npc type="prewar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[准备接受下一轮的试炼吧！]]></node>
+						<reply action="close"><![CDATA[太好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		<turn id="12" animationName="SceneMc1" fightId="828" npcIndex="1" rewardDes="死神镰刀精元 初级资质果实，学习力精片，五万经验券">
+			<npc type="prewar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[你准备好接受我的试炼了吗？ ]]></node>
+						<reply params="showNpcSeatTips"><![CDATA[是的，我准备好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc type="postwar">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[准备接受下一轮的试炼吧！]]></node>
+						<reply  params="playFull"><![CDATA[太好了！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</turn>
+		
+		<waitDia>
+			<npc index="0">
+				<dialog npcId="563" npcName="塔纳托斯">
+					<branch id="default">
+						<node emotion="0"><![CDATA[每5分钟可以挑战我们其中一个。通过我们的试炼你就有机会成为我们的伙伴！]]></node>
+						<reply action="close"><![CDATA[我会努力的！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+			<npc index="1">
+				<dialog npcId="759" npcName="死神镰刀">
+					<branch id="default">
+						<node emotion="0"><![CDATA[每5分钟可以挑战我们其中一个。通过我们的试炼你就有机会成为我们的伙伴！]]></node>
+						<reply action="close"><![CDATA[我会努力的！]]></reply>
+					</branch>
+				</dialog>
+			</npc>
+		</waitDia>
+	</act>	
+</root>

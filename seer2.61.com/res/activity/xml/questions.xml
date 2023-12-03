@@ -1,0 +1,277 @@
+<!-- 题库配置表 -->
+<!--
+<des max="最多答题数"  grade="每一题的分数"/>
+	<swap>
+		<flunk id="不及格礼品兑换id"/>
+		<pass id="及格礼品兑换id"/>
+		<talent id="满分礼品兑换id"/>
+	</swap>
+<question id="题id" title="题目" rightAnswers="正确答案，例如：A"> 
+	<option name="选项名，例如：A" 	content="答案内容A" />
+	<option name="选项名，例如：B" content="答案内容B" />
+	<option name="选项名，例如：C" 	content="答案内容C" />
+</question> -->
+<root>
+	<des max="10"  grade="10"/>
+	<swap>
+		<flunk id="568"/>
+		<pass id="569"/>
+		<talent id="570"/>
+	</swap>
+	<question id="0" title="海洋水面周期性的涨落现象叫做潮汐，那么你知道产生海水潮汐的主要原因是什么吗？" right="B">
+		<option name="A" content="地球自转" />
+		<option name="B" content="月球引力" />
+		<option name="C" content="台风" />
+	</question>
+	<question id="1" title="我们生活中所需的大部分光和热都来源于太阳，那么你知道太阳表面温度大约多少吗？" right="A">
+		<option name="A" content="6000度" />
+		<option name="B" content="4000度" />
+		<option name="C" content="2000度" />
+	</question>
+	<question id="2" title="地球一直围绕着太阳转，你知道太阳在哪一天离地球最远吗？" right="C">
+		<option name="A" content="秋分" />
+		<option name="B" content="春分" />
+		<option name="C" content="夏至" />
+	</question>
+	<question id="3" title="地球有一颗卫星那就是月球，那么火星有几颗卫星？" right="A">
+		<option name="A" content="2" />
+		<option name="B" content="3" />
+		<option name="C" content="4" />
+	</question>
+	<question id="4" title="光年这个词似乎很奇妙，你知道光年到底是什么单位吗？" right="B">
+		<option name="A" content="时间" />
+		<option name="B" content="距离" />
+		<option name="C" content="面积" />
+	</question>
+	<question id="5" title="太阳系是人类生存的星系，那么下面哪个不是在太阳系中的行星？" right="C">
+		<option name="A" content="冥王星" />
+		<option name="B" content="土星" />
+		<option name="C" content="太白金星" />
+	</question>
+	<question id="6" title="太阳是并非永远都很稳定，有时太阳也会爆发太阳风暴，那么太阳风暴对地球影响最大的是哪方面？" right="A">
+		<option name="A" content="无线通讯" />
+		<option name="B" content="温度" />
+		<option name="C" content="白天增长" />
+	</question>
+	<question id="7" title="人造卫星是人类智慧的结晶，世界上第一颗人造卫星是那个国家发明的？" right="B">
+		<option name="A" content="美国" />
+		<option name="B" content="苏联" />
+		<option name="C" content="日本" />
+	</question>
+	<question id="8" title="9、	光在真空中传播的速度大约是多少？" right="B">
+		<option name="A" content="3万千米/秒" />
+		<option name="B" content="30万千米/秒" />
+		<option name="C" content="300万千米/秒" />
+	</question>
+	<question id="9" title="在太阳系中，体积最大的行星哪一颗?" right="C">
+		<option name="A" content="火星" />
+		<option name="B" content="土星" />
+		<option name="C" content="木星" />
+	</question>
+	<question id="10" title="在太阳系中，质量最大的行星是哪一颗？" right="C">
+		<option name="A" content="金星" />
+		<option name="B" content="水星" />
+		<option name="C" content="木星" />
+	</question>
+	<question id="11" title="太阳系中根据各行星的公转轨道距太阳的平均距离数算，距离地球最近的行星是哪一颗？" right="A">
+		<option name="A" content="金星" />
+		<option name="B" content="水星" />
+		<option name="C" content="木星" />
+	</question>
+	<question id="12" title="哈雷彗星是是一颗巨大而神秘的彗星，在地球上多久才能看到它一次吗？" right="B">
+		<option name="A" content="每隔16年" />
+		<option name="B" content="每隔76年" />
+		<option name="C" content="每隔96年" />
+	</question>
+	<question id="13" title="月球是地球的卫星，请问世界上第一个登上月球的载人飞船叫什么？" right="C">
+		<option name="A" content="神州7号" />
+		<option name="B" content="泰坦尼克号" />
+		<option name="C" content="阿波罗11号" />
+	</question>
+	<question id="14" title="天文望远镜是我们了解太空的眼睛，世界上第一台天文望远镜是谁发明的？" right="C">
+		<option name="A" content="汉斯•李波儿赛" />
+		<option name="B" content="哈勃" />
+		<option name="C" content="伽利略" />
+	</question>
+	<question id="15" title="太阳位于太阳系中心，为我们提供光和热，那么太阳是属于下列哪一种？" right="C">
+		<option name="A" content="行星" />
+		<option name="B" content="卫星" />
+		<option name="C" content="恒星" />
+	</question>
+	<question id="16" title="绚烂的星空中有很多星座，有谁知道北斗七星属于哪一个星座？" right="B">
+		<option name="A" content="小熊星座" />
+		<option name="B" content="大熊星座" />
+		<option name="C" content="射手星座" />
+	</question>
+	<question id="17" title="银河系大约有多少颗恒星？" right="C">
+		<option name="A" content="少于100亿" />
+		<option name="B" content="100亿到1000亿之间" />
+		<option name="C" content="1000亿以上" />
+	</question>
+	<question id="18" title="地球上出现的四季更替是由于?" right="C">
+		<option name="A" content="月球公转" />
+		<option name="B" content="地球自转" />
+		<option name="C" content="地球公转" />
+	</question>
+	<question id="19" title="地球上最大的海洋是哪一个？" right="A">
+		<option name="A" content="太平洋" />
+		<option name="B" content="印度洋" />
+		<option name="C" content="大西洋" />
+	</question>
+	<question id="20" title="晴朗的夜晚之所以能够看到月亮，是因为月球能够？" right="A">
+		<option name="A" content="反射太阳光" />
+		<option name="B" content="自身发光" />
+		<option name="C" content="月球是恒星" />
+	</question>
+	<question id="21" title="在阿卡迪亚星球上，有一只神奇的精灵能够进梦境之中，你知道是哪一只吗？" right="A">
+		<option name="A" content="法拉" />
+		<option name="B" content="啾啾" />
+		<option name="C" content="浣浣" />
+	</question>
+	<question id="22" title="在阿卡迪亚星球上，有一只发奋减肥，并且减肥成功的精灵是那一只？" right="A">
+		<option name="A" content="卡顿啾啾" />
+		<option name="B" content="布鲁托" />
+		<option name="C" content="格尔西克" />
+	</question>
+	<question id="23" title="在阿卡迪亚星球上，娜钱莱宫殿里的那只摇滚巨星叫什么？" right="A">
+		<option name="A" content="爆炸头" />
+		<option name="B" content="牛顿" />
+		<option name="C" content="多摩" />
+	</question>
+	<question id="24" title="它的到来总是伴随着电闪雷鸣，据说它来自远方的赫尔卡星，你知道它是谁吗？" right="B">
+		<option name="A" content="电伊特" />
+		<option name="B" content="雷伊" />
+		<option name="C" content="咪咔" />
+	</question>
+	<question id="25" title="在阿卡迪亚星球上，以下哪只精灵是跟随萨伦帝国的？" right="C">
+		<option name="A" content="雷克萨斯" />
+		<option name="B" content="费德提克" />
+		<option name="C" content="紫电" />
+	</question>
+	<question id="26" title="光系精灵是一个神秘的种族，你知道下面那一只精灵不是光系的吗？" right="C">
+		<option name="A" content="艾丽西斯" />
+		<option name="B" content="帕拉丁" />
+		<option name="C" content="菲亚斯" />
+	</question>
+	<question id="27" title="能够与雷伊合体使用雷鸣炎破斩的精灵是哪一只？" right="B">
+		<option name="A" content="赤炎兽" />
+		<option name="B" content="凯萨" />
+		<option name="C" content="凯瑟琳" />
+	</question>
+	<question id="28" title="在地道之路有这样一只精灵，打败他后他经常会吐出一些奇怪的东西，你知道它是谁吗？" right="B">
+		<option name="A" content="砂吉塔" />
+		<option name="B" content="格尔西克" />
+		<option name="C" content="怪笑波利" />
+	</question>
+	<question id="29" title="总是在舒尔小厨里面大吃大喝的精灵是哪一只？" right="B">
+		<option name="A" content="美食猪" />
+		<option name="B" content="诺基" />
+		<option name="C" content="浣浣" />
+	</question>
+	<question id="30" title="下面那只精灵不是SPT中的精灵？" right="C">
+		<option name="A" content="霍克努尔" />
+		<option name="B" content="巨锤莫古" />
+		<option name="C" content="雷金纳德" />
+	</question>
+	<question id="31" title="下面那只精灵不是在英格瓦要塞中通关获得的精灵？" right="C">
+		<option name="A" content="大关" />
+		<option name="B" content="齿轮鹰" />
+		<option name="C" content="荧光蝶" />
+	</question>
+	<question id="32" title="在阿卡迪亚星球上，获取精灵有很多种方式，你知道以下哪一只精灵直接通过钓鱼获取的吗？" right="B">
+		<option name="A" content="奇鲁" />
+		<option name="B" content="火花兽" />
+		<option name="C" content="希捷" />
+	</question>
+	<question id="33" title="你知道守护在视界原野的固执稻草人精灵叫什么吗？" right="B">
+		<option name="A" content="卡尔琳娜" />
+		<option name="B" content="费德提克" />
+		<option name="C" content="埃鲁达克" />
+	</question>
+	<question id="34" title="阿卡迪亚星球上有着丰富的矿产资源，除了能够为飞船提供动力之外，这些矿石还有什么用处？" right="B">
+		<option name="A" content="到舒尔小厨做菜" />
+		<option name="B" content="在VIP乐园锻造套装" />
+		<option name="C" content="给精灵补充体力" />
+	</question>
+	<question id="35" title="赛尔们有了一定的基础就可以前往教官室找克拉克教官创建自己的战队了，下面那些条件不是创建战队的必要条件？" right="C">
+		<option name="A" content="训练师等级达到8级" />
+		<option name="B" content="拥有5000赛尔豆" />
+		<option name="C" content="有50个好友" />
+	</question>
+	<question id="36" title="在赛尔号II中，玩家可以结交好友，那么你知道我们目前的好友上限是多少吗？" right="B">
+		<option name="A" content="100个" />
+		<option name="B" content="200个" />
+		<option name="C" content="300个" />
+	</question>
+	<question id="37" title="赛尔号II中，每一个赛尔都有属于自己的小屋，那么下面那些不是小屋中的功能？" right="B">
+		<option name="A" content="清扫垃圾" />
+		<option name="B" content="购买道具" />
+		<option name="C" content="精灵训练" />
+	</question>
+	<question id="38" title="阿卡迪亚星球上的精灵都有必杀技能，以下哪个是领悟必杀技的条件？" right="A">
+		<option name="A" content="精灵等级达到60" />
+		<option name="B" content="精灵经历60场胜利" />
+		<option name="C" content="精灵进化成第二形态后" />
+	</question>
+	<question id="39" title="资质是判断精灵是否优秀的标准之一，下面那些方式不能够提高精灵资质？" right="B">
+		<option name="A" content="对精灵使用资质灵石" />
+		<option name="B" content="通过战斗" />
+		<option name="C" content="通过活动" />
+	</question>
+
+
+	<question id="40" title="在《约瑟传说》中，雷伊是什么系别的精灵？" right="C">
+		<option name="A" content="战斗" />
+		<option name="B" content="神秘" />
+		<option name="C" content="电" />
+	</question>
+	<question id="41" title="在《约瑟传说》中，盖亚是什么系别的精灵？" right="A">
+		<option name="A" content="战斗" />
+		<option name="B" content="神秘" />
+		<option name="C" content="暗影" />
+	</question>
+	<question id="42" title="在《约瑟传说》中，卡修斯是什么系别的精灵？" right="B">
+		<option name="A" content="战斗" />
+		<option name="B" content="地面" />
+		<option name="C" content="特质" />
+	</question>
+	<question id="43" title="在《约瑟传说》中，布莱克是什么系别的精灵？" right="B">
+		<option name="A" content="战斗" />
+		<option name="B" content="暗影" />
+		<option name="C" content="超能" />
+	</question>
+	<question id="44" title="在《约瑟传说》中，缪斯是什么系别的精灵？" right="A">
+		<option name="A" content="超能" />
+		<option name="B" content="战斗" />
+		<option name="C" content="特质" />
+	</question>
+	<question id="45" title="在《约瑟传说》中，被称为“雷神”的战神联盟成员是？" right="B">
+		<option name="A" content="盖亚" />
+		<option name="B" content="雷伊" />
+		<option name="C" content="布莱克" />
+	</question>
+	<question id="46" title="《约瑟传说》创世三帝是哪三位？" right="B">
+		<option name="A" content="开元、奥创、混沌" />
+		<option name="B" content="创世、开元、混沌" />
+		<option name="C" content="休罗斯、迪兰特、拉奥叶" />
+	</question>
+	<question id="47" title="在哪里可以获得精灵神迹觉醒的神迹精华？" right="A">
+		<option name="A" content="神迹塔" />
+		<option name="B" content="永恒梦境" />
+		<option name="C" content="万王之炼" />
+	</question>
+	<question id="48" title="获得神迹精灵的觉醒技能需要哪两种物品？" right="C">
+		<option name="A" content="异晶和精元晶石" />
+		<option name="B" content="星魂和进化芯片" />
+		<option name="C" content="神迹精华和专属技能石" />
+	</question>
+	<question id="49" title="下面哪个精灵不是精灵王系的精灵？" right="B">
+		<option name="A" content="伊特王" />
+		<option name="B" content="暗黑超梦" />
+		<option name="C" content="极梦" />
+
+
+
+
+	</question>
+</root>

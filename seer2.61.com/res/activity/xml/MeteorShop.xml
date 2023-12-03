@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<root>
+	<item miID="801089" name="花仙精元蛋" priceNew="8" priceOld="30" />
+
+	<item miID="801134" name="朱雀精元蛋" priceNew="1" priceOld="50" />
+
+
+	<item miID="801090" name="河童精元蛋" priceNew="8" priceOld="30" />
+	<item miID="801093" name="火爆猴精元蛋" priceNew="8" priceOld="30" />
+	<item miID="801094" name="毛怪精元蛋" priceNew="8" priceOld="30" />
+	<item miID="801095" name="大眼精元蛋" priceNew="8" priceOld="30" />
+	<item miID="201069" name="约瑟王魄大礼包（天天特价）" priceNew="150" priceOld="200" />
+	<item miID="201070" name="精元精石包（天天特价）" priceNew="80" priceOld="150" />
+
+<!--<item miID="201071" name="精灵成长精华（天天特价）" priceNew="35" priceOld="50" />-->  
+
+	<item miID="201077" name="初级复活药水（天天特价）" priceNew="6" priceOld="10" />
+
+
+	<item miID="201078" name="性格重置秘药（天天特价）" priceNew="10" priceOld="20" />
+	<item miID="203339" name="觉醒纹章" priceNew="80" priceOld="250" />
+
+	<item miID="203340" name="幕影纹章" priceNew="80" priceOld="250" />
+	<item miID="203341" name="怒战纹章" priceNew="80" priceOld="250" />
+	<item miID="203342" name="怒影纹章" priceNew="80" priceOld="250" />
+
+	<item miID="203356" name="爱的纹章（特）" priceNew="60" priceOld="120" />
+	<item miID="203357" name="对抗纹章（特）" priceNew="30" priceOld="180" />
+
+	<item miID="203358" name="针灸纹章（特）" priceNew="30" priceOld="80" />
+
+
+	<item miID="203359" name="风暴纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203360" name="电荷纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203361" name="深结纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203362" name="恐惧纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203363" name="光辉纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203364" name="飞旋纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203365" name="沙阵纹章（特）" priceNew="30" priceOld="80" />
+
+	<item miID="203366" name="虫群纹章（特）" priceNew="30" priceOld="80" />
+
+
+
+	<item miID="203367" name="斗魂纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203368" name="谜团纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203369" name="超能纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203370" name="次元纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203371" name="芒刺纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203372" name="清洗纹章（特）" priceNew="30" priceOld="80" />
+	<item miID="203373" name="焰爆纹章（特）" priceNew="30" priceOld="80" />
+
+	<item miID="206609" name="草本之芯（特）" priceNew="50" priceOld="120" />
+
+
+	<item miID="206610" name="海洋之芯（特）" priceNew="50" priceOld="120" />
+	<item miID="206611" name="烈焰之芯（特）" priceNew="50" priceOld="120" />
+	<item miID="206612" name="冥翼之芯（特）" priceNew="350" priceOld="580" />
+	<item miID="206613" name="龙皇之芯（特）" priceNew="300" priceOld="460" />
+	<item miID="206614" name="圣尊之芯（特）" priceNew="500" priceOld="690" />
+	<item miID="206615" name="神武之芯（特）" priceNew="200" priceOld="350" />
+
+
+	<item miID="206616" name="神龙之芯（特）" priceNew="200" priceOld="350" />
+	<item miID="206617" name="神虎之芯（特）" priceNew="200" priceOld="350" />
+	<item miID="604154" name="星魂超灵" priceNew="60" priceOld="100" />
+
+	<item miID="604155" name="星魂神灵" priceNew="200" priceOld="300" />
+	<item miID="604156" name="星魂鬼步" priceNew="200" priceOld="300" />
+
+
+	<item miID="604157" name="星魂万钧" priceNew="300" priceOld="400" />
+
+</root>

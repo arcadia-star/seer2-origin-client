@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 		index显示时的顺序，值越大显示越靠后(米币版才会显示) -->
+<!-- 		mibi是否米币版本 0-非米币 1-米币 -->
+<!-- 		petResourceId 芯片对应的可使用的精灵resourceId -->
+<!-- 		equipId 骑上精灵时对应加上去的装备 -->
+<!-- 		swapId  给精灵使用芯片时后台swap协议id,每只精灵都不一样，让策划配 -->
+<!--		chipBackId 使用芯片后后台返回的芯片id,PetInfo更新信息使用的id也是这些 -->
+<!-- 		petBunchId 精灵的种类id，通常一个种类的精灵会有2种或者3中不同的形态，不同的形态对应不同的petResourceId -->
+<!-- 		getPetType 怎么获取精灵 module打开面板 map 跳转地图 -->
+<!-- 		whereToGet 具体怎么获得精灵 地图或者面板  -->
+
+
+														<!-- 		注意          -->
+		<!-- 如果某些精灵暂时关闭直接获得的跳转功能，那么getPetType和whereToGet要留空，否则一切后果自负 -->
+
+
+
+<root petrideId=""> 
+
+
+	<pet chipId="207001"  chipBackId="900001"  	index="1"   petResourceId="64"  	petBunchId="26" 	petName="格尔西克" 		equipId="100971"   name="格尔晶片"   mibi="0"  	swapId="1847" 	getPetType="map" whereToGet="510" />
+	<pet chipId="207002"  chipBackId="900002" 	index="2"   petResourceId="163" 	petBunchId="80" 	petName="雷克萨斯"  		equipId="100972"   name="雷克晶片"   mibi="0"  	swapId="1848" 	getPetType="" whereToGet="" />
+	<pet chipId="207003"  chipBackId="900003" 	index="3"   petResourceId="261"  	petBunchId="128" 	petName="英菲尼迪" 		equipId="100973"   name="英菲晶片"   mibi="0"  	swapId="1849" 	getPetType="" whereToGet="" />
+	<pet chipId="207004"  chipBackId="900004" 	index="4"   petResourceId="360"  	petBunchId="181" 	petName="兰博基尼" 		equipId="100974"   name="兰博晶片"   mibi="0"    swapId="1850" 	getPetType="module" whereToGet="LuckyDialMeePanel" />
+	<pet chipId="207005"  chipBackId="900005" 	index="5"   petResourceId="384" 	petBunchId="192"	petName="法拉利" 		equipId="100975"   name="拉利晶片"  	mibi="0"    swapId="1851" 	getPetType="module" whereToGet="LuckyDialMeePanel" />
+	<pet chipId="207006"  chipBackId="900006" 	index="6"   petResourceId="418"  	petBunchId="211"    petName="哈德拉奇" 		equipId="100976"   name="哈德晶片"   mibi="0"   swapId="1852"    getPetType="module" whereToGet="VipRechargeBasePanel" />
+	<pet chipId="207007"  chipBackId="900007" 	index="7"   petResourceId="381"  	petBunchId="191"    petName="萨菲隆" 		equipId="100977"   name="萨菲晶片"   mibi="0"   swapId="1853"   getPetType="" whereToGet="" />
+	<pet chipId="207008"  chipBackId="900008"   index="8"   petResourceId="363"     petBunchId="182"    petName="泰格武茨"       equipId="100978"   name="泰格晶片"   mibi="0"   swapId="1854"  getPetType="" whereToGet="" />
+	<pet chipId="207009"  chipBackId="900009"   index="9"   petResourceId="395"     petBunchId="199"    petName="奥黛丽"         equipId="100979"   name="奥黛晶片"   mibi="0"   swapId="1855" getPetType="" whereToGet="" />	
+	<pet chipId="207010"  chipBackId="900010"   index="10"  petResourceId="412"     petBunchId="208"    petName="赫本"           equipId="100980"   name="赫本晶片"   mibi="0"   swapId="1856" getPetType="" whereToGet="" />	
+		
+																	<!-- 警戒线 -->
+		
+	<pet chipId="208002"  	chipBackId="900002" 	index="1"   petResourceId="163"   petBunchId="80"	petName="雷克萨斯"	equipId="100972"   name="雷克晶片"   mibi="1"  	swapId="1848" 	getPetType="" whereToGet="" />
+	<pet chipId="208003" 	chipBackId="900003" 	index="2"   petResourceId="261"   petBunchId="128"	petName="英菲尼迪"	equipId="100973"   name="英菲晶片"   mibi="1"  	swapId="1849" 	getPetType="" whereToGet="" />
+	<pet chipId="208004" 	chipBackId="900004"  	index="3"   petResourceId="360"   petBunchId="181"	petName="兰博基尼"	equipId="100974"   name="兰博晶片"   mibi="1"   	swapId="1850" 	getPetType="module" whereToGet="LuckyDialMeePanel" />
+	<pet chipId="208005" 	chipBackId="900005"  	index="4"   petResourceId="384"   petBunchId="192"	petName="法拉利"		equipId="100975"   name="拉利晶片"   mibi="1"  	swapId="1851" 	getPetType="module" whereToGet="LuckyDialMeePanel" />
+	<pet chipId="208006"    chipBackId="900006"     index="5"   petResourceId="418"   petBunchId="211"  petName="哈德拉奇"   equipId="100976"   name="哈德晶片"   mibi="1"   swapId="1852"   getPetType="module" whereToGet="VipRechargeBasePanel" />
+	<pet chipId="208007"    chipBackId="900007"     index="6"   petResourceId="381"   petBunchId="191"  petName="萨菲隆"     equipId="100977"   name="萨菲晶片"   mibi="1"   swapId="1853"   getPetType="" whereToGet="" />
+	<pet chipId="208008"    chipBackId="900008"     index="7"   petResourceId="363"   petBunchId="182"  petName="泰格武茨"   equipId="100978"   name="泰格晶片"   mibi="1"    swapId="1854"  getPetType="" whereToGet="" />
+	<pet chipId="208009"    chipBackId="900009"     index="8"   petResourceId="395"   petBunchId="199"  petName="奥黛丽"     equipId="100979"   name="奥黛晶片"   mibi="1"    swapId="1855" getPetType="" whereToGet="" />
+	<pet chipId="208010"    chipBackId="900010"     index="9"   petResourceId="412"   petBunchId="208"  petName="赫本"      equipId="100980"   name="赫本晶片"  mibi="1"   swapId="1856"   getPetType="" whereToGet="" />
+	
+	
+</root>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- isNew:是否是本次新上架，属性可以不填，不填代表默认不是新上架 -->
+
+<root initSort="0">
+
+	
+	<!-- 神级蛋 -->
+	<kami>
+	
+		<item name="雷伊蛋" priceNew="100" priceOld="200" miID="801045" hasStar="1"/>
+		<item name="盖亚蛋" priceNew="100" priceOld="200" miID="801046" hasStar="1"/> 
+		<item name="卡修斯蛋" priceNew="100" priceOld="200" miID="801047" hasStar="1"/>
+		<item name="布莱克蛋" priceNew="100" priceOld="200" miID="801048" hasStar="1"/>
+		<item name="缪斯蛋" priceNew="100" priceOld="200" miID="801058" hasStar="1"/>
+		<item name="凯萨蛋" priceNew="100" priceOld="200" miID="801056" hasStar="1"/>
+		<item name="撒旦蛋" priceNew="100" priceOld="200" miID="801060" hasStar="1"/>
+
+	    <item name="占星者" priceNew="150" priceOld="300" miID="801085" isNew="0" hasStar="1"/>
+
+		<item name="圣兽天尊精元蛋" priceNew="150" priceOld="300" miID="801188" hasStar="1" isNew="1"/>
+
+		<item name="伊特王精元蛋" priceNew="150" priceOld="300" miID="801136" hasStar="1"/>
+        <item name="宙斯精元蛋" priceNew="150" priceOld="300" miID="801137" hasStar="1"/>
+        <item name="阿波罗精元蛋" priceNew="140" priceOld="280" miID="801138" hasStar="1"/>
+
+	<!--	
+		<item name="银河星王精元蛋" priceNew="240" priceOld="300" miID="801189" hasStar="1" isNew="1"/>	
+	-->
+
+
+
+
+
+	</kami>
+
+
+	<!-- 灵兽蛋 -->
+	<beast>
+
+		<item name="蚀魂兽蛋" priceNew="100" priceOld="200" miID="801185" isNew="0" hasStar="0"/>
+		<item name="瞳魂兽蛋" priceNew="100" priceOld="200" miID="801130" isNew="0" hasStar="1"/>
+		<item name="翼灵兽蛋" priceNew="100" priceOld="200" miID="801129" isNew="0" hasStar="1"/>
+		<item name="月灵兽蛋" priceNew="100" priceOld="200" miID="801128" isNew="0" hasStar="1"/>
+		<item name="爪灵兽蛋" priceNew="100" priceOld="200" miID="801127" isNew="0" hasStar="1"/>
+		<item name="沁灵兽蛋" priceNew="100" priceOld="200" miID="801126" isNew="0" hasStar="1"/>
+		<item name="幻灵兽蛋" priceNew="100" priceOld="200" miID="801125" isNew="0" hasStar="1"/>
+		<item name="脉灵兽蛋" priceNew="100" priceOld="200" miID="801124" isNew="0" hasStar="1"/>
+		<item name="目灵兽蛋" priceNew="100" priceOld="200" miID="801088" isNew="0" hasStar="1"/>
+
+	</beast>
+
+
+
+
+
+	
+	<!-- 龙蛋 -->
+	<dora>
+
+		<item name="哈莫雷特蛋" priceNew="75" priceOld="150" miID="801087" hasStar="1"/>
+       <item name="不死龙王蛋" priceNew="50" priceOld="100" miID="801081" hasStar="1"/>
+ <!-- <item name="鬼骨龙王精元蛋" priceNew="40" priceOld="80" miID="801141" isNew="0" hasStar="1"/>-->
+		<item name="迈巴蛋" priceNew="40" priceOld="80" miID="801073" isNew="0" hasStar="1"/>
+		<item name="玛莎蛋" priceNew="40" priceOld="80" miID="801074" isNew="0" hasStar="1"/>
+
+		<item name="沙捷蛋" priceNew="40" priceOld="80" miID="801075" isNew="0" hasStar="1"/>
+		<item name="雷克蛋" priceNew="40" priceOld="80" miID="801031" />
+		<item name="英菲精元蛋" priceNew="40" priceOld="80" miID="801032" hasStar="1"/>
+
+
+
+		<item name="兰博蛋" priceNew="40" priceOld="80" miID="801076" isNew="0" hasStar="1"/>
+		<item name="帕加蛋" priceNew="40" priceOld="80" miID="801077" isNew="0" hasStar="1"/>
+		<item name="拉法蛋" priceNew="40" priceOld="80" miID="801078" isNew="0" hasStar="1"/>
+		<item name="阿斯拉蛋" priceNew="40" priceOld="80" miID="801079" isNew="0" hasStar="1"/>
+		<item name="布加蛋" priceNew="40" priceOld="80" miID="801080" isNew="0" hasStar="1"/>
+
+
+
+
+
+
+	</dora>
+	
+	<!-- 明星蛋 -->
+	<star>
+ <!-- 	<item name="邪神精元蛋" priceNew="80" priceOld="100" miID="801182" isNew="1" hasStar="1"/>
+		<item name="星魂元神精元蛋" priceNew="80" priceOld="100" miID="801183" isNew="1" hasStar="0"/>
+		<item name="魔渊梦神精元蛋" priceNew="144" priceOld="180" miID="801184" isNew="1" hasStar="0"/>-->
+	    <item name="月神精元蛋" priceNew="75" priceOld="150" miID="801068" hasStar="1"/>
+		<item name="米咔蛋" priceNew="10" priceOld="20" miID="801044" />
+        <item name="观星者蛋" priceNew="150" priceOld="300" miID="801059" hasStar="1"/>
+	    <item name="库贝萨精元蛋" priceNew="150" priceOld="300" miID="801086" isNew="0" hasStar="1"/>
+
+
+		<item name="开元大帝精元蛋" priceNew="100" priceOld="200" miID="801146" hasStar="1" isNew="0"/>       
+		<item name="创世大帝精元蛋" priceNew="100" priceOld="200" miID="801147" hasStar="1" isNew="0"/>		
+		<item name="混沌大帝精元蛋" priceNew="100" priceOld="200" miID="801148" hasStar="1" isNew="0"/>	
+
+		<item name="魔尊左使精元蛋" priceNew="100" priceOld="200" miID="801186" isNew="1" hasStar="1"/>
+		<item name="魔尊右使精元蛋" priceNew="100" priceOld="200" miID="801187" isNew="1" hasStar="1"/>
+
+
+        <item name="圣灵天尊精元蛋" priceNew="100" priceOld="200" miID="801140" isNew="1" hasStar="1"/>
+
+
+
+
+	    <item name="冥界天尊蛋" priceNew="150" priceOld="300" miID="801066" hasStar="1"/>
+        <item name="贪星者蛋" priceNew="100" priceOld="200" miID="801069" hasStar="1"/>
+
+		
+<!--
+		<item name="雷煞蛋" priceNew="160" priceOld="200" miID="801057" hasStar="1"/>
+		<item name="炎煞蛋" priceNew="160" priceOld="200" miID="801063" hasStar="1"/> 
+        <item name="地煞蛋" priceNew="160" priceOld="200" miID="801064" />
+	    <item name="武煞蛋" priceNew="160" priceOld="200" miID="801065" />
+        <item name="暗煞蛋" priceNew="160" priceOld="200" miID="801070" hasStar="1"/>
+	    <item name="超煞蛋" priceNew="160" priceOld="200" miID="801071" hasStar="1"/>
+	    <item name="芬尼蛋" priceNew="5" priceOld="50" miID="801029" />
+        <item name="雅典娜精元蛋" priceNew="125" priceOld="250" miID="801139" isNew="1"  hasStar="1"/>	
+
+-->
+<!--	    <item name="死神蛋" priceNew="15" priceOld="150" miID="801082" isNew="0" hasStar="1"/>
+
+	<item name="奥黛丽精元蛋" priceNew="100" priceOld="200" miID="801061" hasStar="1"/>
+	<item name="赫本精元蛋" priceNew="100" priceOld="200" miID="801062" hasStar="1"/>-->
+
+	</star>
+	
+	<!-- 晶石包 -->
+	<stone>
+		<item name="精元晶石" priceNew="10" priceOld="10" miID="400314" />
+		<item name="晶石小礼包" priceNew="50" priceOld="50" miID="400390" />
+		<item name="晶石大礼包" priceNew="250" priceOld="250" miID="400391" />
+		<item name="初级强化包" priceNew="80" priceOld="80" miID="201059" />
+		<item name="中级强化包" priceNew="150" priceOld="150" miID="201060" />
+		<item name="高级强化包" priceNew="280" priceOld="280" miID="201061" />
+		<item name="光之守护礼包" priceNew="100" priceOld="100" miID="201063" />
+	</stone>
+</root>

@@ -1,0 +1,38 @@
+<!--  
+seat 位置，标签从左到右
+start 上架时间
+resId 资源id
+mountId 坐骑id
+clothId 套装id
+nonoId nono装id
+scrollId  卷轴id
+-->
+<root>
+	<constellation seat="1" start="2012_11_05_00_00" resId="1" mountId="100561" clothId="188" nonoId="102002" scrollId="206007"/>
+
+	<constellation seat="2" start="2012_12_05_00_00" resId="2" mountId="100582" clothId="203" nonoId="102005" scrollId="206008"/>
+
+	<constellation seat="3" start="2013_01_05_00_00" resId="3" mountId="100636" clothId="222" nonoId="102017" scrollId="206009"/>
+
+	<constellation seat="4" start="2013_02_05_00_00" resId="4" mountId="100659" clothId="234" nonoId="102018" scrollId="206012"/>
+
+	<constellation seat="5" start="2013_03_05_00_00" resId="5" mountId="100708" clothId="254" nonoId="102023" scrollId="206014"/>
+
+	<constellation seat="6" start="2013_04_05_00_00" resId="6" mountId="100747" clothId="271" nonoId="102030" scrollId="206015"/>
+	
+	<constellation seat="7" start="2013_05_05_00_00" resId="7" mountId="100789" clothId="285" nonoId="102034" scrollId="206016"/>
+
+
+	<constellation seat="8" start="2013_06_05_00_00" resId="8" mountId="100840" clothId="300" nonoId="102037" scrollId="206019"/>
+
+
+	<constellation seat="9" start="2013_07_05_00_00" resId="9" mountId="100880" clothId="317" nonoId="102041" scrollId="206020"/>
+
+
+	<constellation seat="10" start="2013_08_30_00_00" resId="10" mountId="100946" clothId="336" nonoId="102044" scrollId="206023"/>
+
+	<constellation seat="11" start="2013_09_27_00_00" resId="11" mountId="100970" clothId="344" nonoId="102048" scrollId="206024"/>
+
+	<constellation seat="12" start="2013_10_27_00_00" resId="12" mountId="100986" clothId="356" nonoId="102051" scrollId="206025"/>
+
+</root>

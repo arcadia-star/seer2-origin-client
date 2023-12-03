@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--		id:添加分享内容  累加计数
+ 		 * @param url  获取URL，可加上来自分享到QQ标识，方便统计 -->
+<!-- 		 * @param title   分享标题(可选) -->
+<!-- 		 * @param summary  分享摘要(可选) -->
+<!-- 		 * @param desc  分享理由(风格应模拟用户对话),支持多分享语随机展现（使用|分隔）       注意内容 不要配网址 -->
+<!-- 		 * @param site  分享来源(可选) 如：QQ分享 -->
+<!-- 		 * @param pics  分享图片列表 多张图片 用 |分隔开来，图片名字  实际素材在  (注意配置)http://seer2.61.com/res/sharePic/ 该参数为(可选) 可以不配置-->
+<!-- 		 * @param flash 视频地址(可选)	可以不配置 -->
+<!-- 		 * @param style 201  -->
+<!-- 		 * @param width  32  -->
+<!-- 		 * @param height  32  -->
+		
+<shares>
+    <share id="1" url="http://seer2.61.com" title="约瑟传说" summary="约瑟传说游戏官网" 
+        desc="约瑟传说无禽战开启，回归3年前原汁原味的阿卡迪亚星球，那里没有神魔化，没有星魂。引以为豪的独特文化，系统化的无禽构架，约瑟传说感恩回馈月，周周豪礼等你来拿，赶快加入吧！"
+        site="http://seer2.61.com"
+        pics="http://seer2.61.com/res/sharePic/1.png" flash="" style="" width="32" height="32"/>
+        
+    <share id="2" url="http://seer2.61.com" title="约瑟传说" summary="约瑟传说游戏官网" 
+        desc="约瑟传说在大家的陪伴下度过了4年多的时间，借此感恩之际，为所有新老赛尔们准备了丰厚大礼！丰厚大礼！丰厚大礼！重要的事情说3遍，还在等什么呢？赶紧来领取吧！！！"
+        site="http://seer2.61.com"
+        pics="http://seer2.61.com/res/sharePic/1.png" flash="" style="" width="32" height="32"/>
+    
+<!--     http://img1.v.tmcdn.net/img/h000/h65/img201403171742287d5190.png -->
+<!--    <share id="2" url="http://seer2.61.com" title="约瑟传说" summary="约瑟传说游戏官网"  -->
+<!--         desc="约瑟传说游戏官网 快点击我，快快快快快"  -->
+<!--         site="http://seer2.61.com"  -->
+<!--         pics="http://seer2.61.com/res/sharePic/2.jpg" flash="" style="" width="32" height="32"/>  -->
+    
+</shares>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+		@author ikee
+		配置表功能描述 
+ 		芯片熔炉 案子配置表 
+		案子面板名 LeiyiKaisaGadEndPanel 
+		
+		itemid 熔炼物品ID
+		mineID mine协议ID  
+		
+		ps. 策划添加更新配置 随便来来来！！！！！
+-->
+
+<chips>
+	<chip itemID="200313" mineID="205" index="0" x="0" y="0" scale="1.5" name="英菲之芯"/>
+	<chip itemID="200327" mineID="206" index="1" x="0" y="0" scale="1.5" name="兰博之芯"/>
+	<chip itemID="200328" mineID="207" index="2" x="0" y="0" scale="1.5" name="基尼之芯"/>
+	<chip itemID="200324" mineID="208" index="3" x="0" y="0" scale="1.5" name="冰封之芯"/>
+	<chip itemID="200306" mineID="209" index="4" x="0" y="0" scale="1.5" name="坚毅之芯"/>
+	<chip itemID="200307" mineID="210" index="5" x="0" y="0" scale="1.5" name="飞翼之芯"/>
+	<chip itemID="200338" mineID="356" index="6" x="0" y="0" scale="1.5" name="展翼之芯"/>
+	<chip itemID="200339" mineID="357" index="7" x="0" y="0" scale="1.5" name="闪翼之芯"/>
+	<chip itemID="200340" mineID="358" index="8" x="0" y="0" scale="1.5" name="飞砂之芯"/>
+	<chip itemID="200341" mineID="359" index="9" x="0" y="0" scale="1.5" name="砂影之芯"/>
+	<chip itemID="200346" mineID="360" index="10" x="0" y="0" scale="1.5" name="帕加之芯"/>
+	<chip itemID="200347" mineID="361" index="11" x="0" y="0" scale="1.5" name="加尼之芯"/>
+	<chip itemID="200350" mineID="362" index="12" x="0" y="0" scale="1.5" name="斯顿之芯"/>
+	<chip itemID="200351" mineID="363" index="13" x="0" y="0" scale="1.5" name="马丁之芯"/>
+	<chip itemID="200358" mineID="364" index="14" x="0" y="0" scale="1.5" name="巴赫之芯"/>
+	<chip itemID="200359" mineID="365" index="15" x="0" y="0" scale="1.5" name="迈赫之芯"/>
+	<chip itemID="206515" mineID="366" index="16" x="0" y="0" scale="1.5" name="加迪之芯"/>
+	<chip itemID="206517" mineID="367" index="17" x="0" y="0" scale="1.5" name="威龙之芯"/>
+	<chip itemID="206625" mineID="368" index="18" x="0" y="0" scale="1.5" name="鬼骨之芯"/>
+</chips>

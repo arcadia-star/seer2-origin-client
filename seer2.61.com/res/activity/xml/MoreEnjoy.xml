@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item title="恶灵兽超进化"  jump="PetDevilProcessMainPanel" />
+	<item title="淘乐节嘉年华" jump="TaomeeCarnivalPanel" />
+	<item title="VIP包月送伊特王" jump="VipRechargeGiveFivePetPanel" />
+	<item title="淘乐节大折扣 " jump="PkTaoSaleBuyPanel" />
+	<item title="99星钻精灵特卖 " jump="DoubleFestivalGiftPanel" />
+	<item title="极品坐骑摇出来 " jump="ShootDiceForRidesPanel" />
+
+</root>
