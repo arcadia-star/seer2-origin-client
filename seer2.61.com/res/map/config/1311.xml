@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="荆棘林幻境" categoryId="2">
+	<resource url="10013_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="370" y="440"/>
+	<entities>
+		<teleport id="1" name="荆棘林" pos="168,350" targetMapId="131" targetPos="665,400"/>
+	</entities>
+</map>

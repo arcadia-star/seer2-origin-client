@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="观星台" categoryId="0">
+	<resource url="10803_0.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="563" y="452"/>
+	<entities>
+		<npc id="745" resId="745" name="" dir="0" width="105" height="135" pos="165,340" actorPos="490,380" path="">
+				<eventHandler>
+					<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[占星者]]></HandlerShowNpcSlogan>
+					</mouseOver>
+					<click>
+						<HandlerToggleModule><![CDATA[ZhanXingZhePanel]]></HandlerToggleModule>
+					</click>
+				</eventHandler>
+		</npc>
+				<npc id="746" resId="746" name="" dir="0" width="105" height="135" pos="305,275" actorPos="490,380" path="">
+				<eventHandler>
+					<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[观星者]]></HandlerShowNpcSlogan>
+					</mouseOver>
+					<click>
+						<HandlerToggleModule><![CDATA[SkyFallPanel]]></HandlerToggleModule>
+					</click>
+				</eventHandler>
+		</npc>
+				<npc id="744" resId="744" name="" dir="0" width="105" height="135" pos="415,205" actorPos="490,380" path="">
+				<eventHandler>
+					<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[贪星者]]></HandlerShowNpcSlogan>
+					</mouseOver>
+					<click>
+						<HandlerToggleModule><![CDATA[GuanXingZhiZiPanel]]></HandlerToggleModule>
+					</click>
+				</eventHandler>
+		</npc>
+		<teleport id="1" name="VIP乐园" pos="680, 544" targetMapId="8011"/>				
+	</entities>
+</map>

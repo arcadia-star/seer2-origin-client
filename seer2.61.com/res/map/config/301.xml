@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬之地" categoryId="4" weather="0">
+	<resource url="10030_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="615" y="430"/>
+	<entities>
+		<npc id="33" resId="33" name="奥拉" dir="1" width="70" height="110" pos="682,297" actorPos="644,360" path="">
+			<dialog npcId="33" transport="1,300,400">
+				<branch id="default">
+					<node emotion="1"><![CDATA[小子我可告诉你了！我是这里老大（的小弟）！绰号老鼠！你最好听我的，不然……]]></node>
+					<reply action="close"><![CDATA[（老鼠……我还绰号猫头鹰呢！）]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[跟着洛克有肉吃。]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		 <npc id="3044" resId="3044" name="" dir="1" width="75" height="150" pos="490,470" actorPos="490,470" path="">  -->
+<!--  			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[GuoQingExpRandomPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!--  		</npc> -->
+		
+		<teleport id="1" name="火幻氏族主城" pos="922,539" targetMapId="230" targetPos="200,559"/>
+		<teleport id="2" name="灰烬岔口" pos="237,391" targetMapId="302" targetPos="756,226"/>
+	</entities>
+</map>

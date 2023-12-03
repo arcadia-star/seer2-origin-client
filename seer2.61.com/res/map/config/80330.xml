@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="帝王星域" categoryId="7" switch="0" weather="4">
+	<resource url="3824.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="587,554" targetMapId="70"/>
+
+
+
+
+
+		<npc id="3021" resId="3021" name="" dir="1" width="75" height="100"  pos="605,280" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[创世大帝超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[GoldProcessMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+		<npc id="3023" resId="3023" name="" dir="1" width="75" height="100"  pos="247,442" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[开元大帝超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[KingKaiYuanProcessPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+		<npc id="3025" resId="3025" name="" dir="1" width="75" height="100"  pos="956,442" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[混沌大帝超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[HunDunEvolutionMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+	</entities>
+</map>

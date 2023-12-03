@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="虫穴地牢" categoryId="10">
+	<resource url="1220.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="557" y="522"/>
+		<entities>		
+		<npc id="400" resId="347" name="" dir="1" width="92" height="130" pos="964,505" actorPos="600,468" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[小赛尔]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[80146]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

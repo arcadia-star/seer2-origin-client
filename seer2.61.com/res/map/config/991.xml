@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="噬魂塔" categoryId="1">
+	<resource url="991.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="480" y="580"/>
+	
+	<entities>
+		<teleport id="1" name="传送室" pos="269, 524" targetMapId="70" targetPos="375,723"/>
+		<npc id="387" resId="387" name="" dir="1" width="92" height="120" pos="920,530" actorPos="487,319" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[影劫]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[JieSuperChangePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>			 
+		</npc>
+		<npc id="386" resId="386" name="" dir="1" width="92" height="120" pos="475,530" actorPos="487,319" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[炎赫]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[HeSuperChangePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>			 
+		</npc>
+	</entities>
+</map>

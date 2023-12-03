@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="荆棘林(梦境宝藏)" categoryId="2" switch="1" weather="1">
+	<resource url="10013_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="370" y="440"/>
+	<entities>
+		<teleport id="1" name="草系主城" pos="497,575" targetMapId="90" targetPos="610,249"/>
+		<teleport id="2" name="荆棘小道" pos="180,415" targetMapId="132" targetPos="885,503"/>
+		<teleport id="3" name="幻影崖" pos="839,552" targetMapId="141" targetPos="227,252"/>
+	</entities>
+</map>

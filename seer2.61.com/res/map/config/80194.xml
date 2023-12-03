@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="欲望回廊" categoryId="2">
+    <resource url="1080.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="479" y="423"/>
+    <entities>
+       <teleport id="1" name="传送室" pos="360,85" targetMapId="70" />
+       
+       
+    <npc id="653" resId="653" name="莫利亚" dir="1" width="110" height="180" pos="198,361" actorPos="" path="">
+    	<eventHandler>
+				<mouseOver>
+<!-- 					<HandlerShowNpcSlogan><![CDATA[双面冥王]]></HandlerShowNpcSlogan> -->
+				</mouseOver>
+			</eventHandler>
+	</npc>
+       
+    </entities>
+</map>

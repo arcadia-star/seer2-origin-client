@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="万圣糖果树" categoryId="0">
+	<resource url="10098_5.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="253" y="390"/>
+	<entities>		
+		<teleport id="1" name="传送室" pos="1146,510" targetMapId="70"/>
+	</entities>
+</map>

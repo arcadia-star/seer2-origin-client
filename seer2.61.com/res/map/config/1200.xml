@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="虫林小径" categoryId="10">
+	<resource url="1200.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="666" y="447"/>
+	<entities>
+		<npc id="200" resId="200" name="小红帽" dir="1" width="75" height="115" pos="629,406" actorPos="656,467" path="">
+			<dialog npcId="200" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[采蘑菇，采蘑菇，一朵，两朵大蘑菇，哇~好多蘑菇。]]></node>
+					<reply action="close"><![CDATA[你就像个蘑菇]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>			
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="581" resId="581" name="蜻蜓" dir="1" width="75" height="115" pos="401,419" actorPos="590,485" path="">
+			<dialog npcId="581" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[啊！小赛尔！]]></node>
+					<reply action="close"><![CDATA[……]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>	
+				<node type="module" name="啊！蜻蜓！" params="DragonPanel" />		
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="虫群氏族主城" pos="745,283" targetMapId="1210" targetPos="664,540"/>
+	</entities>
+</map>

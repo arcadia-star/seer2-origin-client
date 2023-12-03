@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="漩涡风眼" categoryId="0">
+	<resource url="80337.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="492" y="462"/>
+	<entities>
+<!-- 		<npc id="549" resId="549" name="风姬" dir="1" width="110" height="140" pos="605,373" actorPos="605,373" path="">		 -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[我是风姬]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[NinjaPetKazeHimePanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<teleport id="1" name="传送室" pos="783,516" targetMapId="70"/>				
+	</entities>
+</map>

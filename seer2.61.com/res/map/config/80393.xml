@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="星魂空间" categoryId="9">
+	<resource url="80393.swf"/>
+	<fightMap id="100018"/>
+	<initialPoint x="600" y="560"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="494,553" targetMapId="70" targetPos="628,470"/>
+	</entities>
+</map>

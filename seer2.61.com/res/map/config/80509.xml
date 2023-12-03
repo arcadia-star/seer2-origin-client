@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="影子密室" categoryId="1">
+	<resource url="3854.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="245" y="377"/>
+	<entities>
+		<npc id="3020" resId="3020" name="弗雷德" dir="1" width="47" height="140" pos="470,270" actorPos="470,270" path="">
+			<dialog npcId="3020" transport="1,200,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[记住，我在暗中观察着你。]]></node>
+					<reply action="close"><![CDATA[好吓人呀!]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		
+	</entities>
+</map>

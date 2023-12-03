@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="孤独之战50V50" categoryId="100">
+	<resource url="10041_5.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="333" y="380" />
+</map>

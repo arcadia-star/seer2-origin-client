@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="残骸通道" categoryId="3">
+	<resource url="10019_2.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="571" y="457"/>
+	<entities>
+		<npc id="31" resId="31" name="巴尔卡" dir="0" width="70" height="115" pos="861,373" actorPos="777,444" path="">
+			<dialog npcId="31" transport="1,300,400">
+				<branch id="default">
+					<node emotion="2"><![CDATA[我没有什么可说的……也请不要问我来自哪里！火幻氏族！你会重夺以往的荣耀！]]></node>
+					<reply action="close"><![CDATA[他看起来似乎不像水族人……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[没有什么王者能永远统治]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="悲伤残骸" pos="940,293" targetMapId="193" targetPos="324,527"/>
+		<teleport id="2" name="残骸入口" pos="164,569" targetMapId="191" targetPos="699,314"/>
+	</entities>
+</map>

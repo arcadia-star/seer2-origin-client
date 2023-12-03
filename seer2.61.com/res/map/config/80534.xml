@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风暴悬崖" categoryId="12">
+	<resource url="80534.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="552" y="549"/>
+	<entities>		
+		
+	</entities>
+</map>

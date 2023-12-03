@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="异蘑小径" categoryId="2">
+	<resource url="10012_3.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="418" y="523"/>
+	<entities>
+		<npc id="20" resId="20" name="舒尔" dir="1" width="70" height="92" pos="347,398" actorPos="408,516" path="">
+			<dialog npcId="20" transport="1,300,400">
+				<branch id="default">
+					<node emotion="3"><![CDATA[妈妈说我会长高！爸爸说我会强壮！但是为什么我每天照镜子都一个样呢？]]></node>
+					<reply action="close"><![CDATA[心急可吃不了热豆腐……]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[浓缩就是精华！你懂不懂啊！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	<teleport id="1" name="朽木桥" pos="842,287" targetMapId="122" targetPos="279,243"/>
+	<teleport id="2" name="异蘑谷" pos="133,467" targetMapId="124" targetPos="157,527"/>
+	</entities>
+</map>

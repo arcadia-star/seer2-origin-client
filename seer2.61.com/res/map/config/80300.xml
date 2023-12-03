@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="神域天尊殿" categoryId="11" switch="1" weather="9">
+	<resource url="3817.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="600" y="400"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="206,546" targetMapId="70" targetPos="421,567"/>
+
+
+
+
+		<npc id="389" resId="389" name="" dir="1" width="75" height="100"  pos="598,271" actorPos="670,510" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[小梦超进化，超梦蜕变为极梦]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SuperDreamEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+	<!-- 		创世、开元、混沌三帝觉醒-->
+
+	<!--	<npc id="395" resId="395" name="" dir="1" width="110" height="145" pos="324,370" actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[创世、开元、混沌三帝觉醒！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[CreationThreeKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+
+
+
+
+
+		<!-- 		米咔超进化  -->
+
+	<!--	<npc id="3025" resId="3025" name="" dir="1" width="75" height="100"  pos="529,550" actorPos="670,590" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[混沌大帝超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[HunDunEvolutionMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+        <npc id="359" resId="359" name="" dir="1" width="75" height="100"   pos="279,476" actorPos="634,359">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[火神节倒计时]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[FireGodCommandPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+		<npc id="156" resId="156" name="" dir="1" width="110" height="145" pos="279,476"   actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[原魂兽试炼第一章开启]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[BagginsLogPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<npc id="1055" resId="1055" name="" dir="1" width="110" height="145" pos="279,476"   actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[银河战队之星河游侠]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[StarKingMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+		<!-- 		观星者超进化-->
+		<npc id="393" resId="393" name="" dir="1" width="110" height="145" pos="764,523" actorPos="800,590" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[观星圣主！观星者超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[StargazersSuperEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+      <!--  <npc id="330" resId="330" name="" dir="1" width="75" height="100"   pos="634，544" actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[机械恐龙第3弹！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonsAllTogetherPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+	    <npc id="321" resId="321" name="" dir="1" width="75" height="100" pos="920,431" actorPos="660,310" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[三主宠超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MainPetsProcessPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<!-- 		雷霆超进化 -->
+		<npc id="1057" resId="1057" name="" dir="1" width="75" height="100" pos="439,326" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[辛迪船长神宠雷霆超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LeiTingEvolutionMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+
+
+		<!-- 		蚀魂兽终极挑战
+
+		<npc id="1008" resId="1008" name="" dir="1" width="75" height="100"   pos="384,526" actorPos="600,468" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[蚀魂兽终极挑战]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[BagginsLogPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+	<!-- 		小鬼迷宫
+		<npc id="330" resId="330" name="" dir="1" width="75" height="100" pos="690,554" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[小鬼迷宫]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MiGongMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- 五小王国庆齐聚
+		<npc id="1007" resId="1007" name="" dir="1" width="75" height="100"  pos="777,356" actorPos="850,400" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[五小王齐聚]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[WuXingWangPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+      <npc id="395" resId="395" name="" dir="1" width="110" height="145"  pos="777,356" actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[创世、开元、混沌三帝觉醒！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[CreationThreeKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+       <npc id="1054" resId="1054" name="" dir="1" width="75" height="100"   pos="777,356" actorPos="954,359" path="">
+	  		<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[VIP包月送五王精灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[VipRechargeGiveFivePetPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+		<!-- 1星钻抢神级精灵
+	
+
+
+		<npc id="399" resId="399" name="" dir="1" width="75" height="100"  pos="641,549" actorPos="850,400" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[阿宝和X的冒险]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ABaoAdventurePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+	<npc id="3033" resId="3033" name="" dir="1" width="75" height="100" pos="402,533" actorPos="600,468" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[1星钻抢神级精灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LiMing2Panel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+
+	<npc id="1005" resId="1005" name="" dir="1" width="110" height="145"  pos="279,431"  actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[暗黑六煞]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[3822]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+	</entities>
+</map>

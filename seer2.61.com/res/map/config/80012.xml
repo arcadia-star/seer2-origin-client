@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="暗黑第二层" categoryId="3">
+	<resource url="80012.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="300" y="414"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="354,459" targetMapId="70" targetPos="300,414"/>
+	</entities>
+</map>

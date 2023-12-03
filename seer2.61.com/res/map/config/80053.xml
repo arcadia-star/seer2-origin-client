@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰封之轴" categoryId="7" switch="0" weather="0">
+	<resource url="80053.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="414" y="520"/>
+	<entities>
+		<npc id="626" resId="626" name="晨璨" dir="0" width="70" height="125" pos="740,333" actorPos="618,459" path="">
+			<dialog npcId="626" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[……这冰封之轴的晨光是真实的吗？……或许战斗可以让我回忆起过去……来和我战斗吧！]]></node>
+					<reply action="" params="toFight"><![CDATA[挑战晨璨]]></reply>
+					<reply action="" params="close"><![CDATA[准备一下]]></reply>
+				</branch>
+			</dialog>
+			<functionality/>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战胜我就可以直接获得冰魄]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="冰之谷" pos="1031,375" targetMapId="540"/>
+	</entities>
+</map>

@@ -1,0 +1,72 @@
+﻿<!-- 水脉氏族 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pets:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<data>	
+	<map id="160" >
+		<game name="奇妙的宝石" />
+	</map>
+    <map id="170" >
+		<activity name="重夺水源之心" time="每周六"/>
+	</map>	
+    <map id="180" level="16-18级">
+	    <pet  id="41" name="水墨点点"  />
+		<collect id="400009" />
+	</map>
+    <map id="191" level="15-17级">
+	    <pet  id="25" name="安可"  />
+	</map>	
+    <map id="192" level="19-21级">
+	    <pet  id="28" name="蓝喵"  />
+		<collect id="400013" />
+		<game name="影子大作战" />
+	</map>
+	<map id="193" level="30级">
+	    <pet isSpt="1" id="31" name="阿卡纳斯"  />
+		<collect id="400013" />
+		<collect id="400005" />
+	</map>
+	<map id="201" level="20-22级">
+	    <pet  id="26" name="安亚"  />
+	    <pet  id="28" name="蓝喵"  />
+	    <pet  id="140" name="希捷"  />
+	</map>
+	<map id="202" level="25-26级">
+	    <pet  id="26" name="安亚"  />
+	    <pet  id="28" name="蓝喵"  />
+	    <pet  id="21" name="库奇鲁"  />
+		<collect id="400005" />
+	</map>
+    <map id="203" level="23-25级">
+	    <pet  id="72" name="乌达"  />
+	</map>
+    <map id="204" level="26-28级">
+     	<pet  id="72" name="乌达"  />
+	    <pet  id="21" name="库奇鲁"  />
+	    <pet  id="140" name="希捷"  />
+		<collect id="400014" />
+	</map>	
+    <map id="211" level="9-12级">
+	    <pet  id="72" name="乌达"  />
+	    <pet  id="21" name="库奇鲁"  />
+	    <pet  id="25" name="安可"  />
+		<collect id="400005" />
+	</map>
+    <map id="212" level="14-15级">
+	    <pet  id="26" name="安亚"  />
+	    <pet  id="28" name="蓝喵"  />
+	    <pet  id="21" name="库奇鲁"  />
+		<collect id="400014" />
+	</map>	
+	<map id="213" level="15-17级">
+	    <pet  id="25" name="安可"  />
+		<collect id="400005" />
+	</map>
+	
+	<map id="220" level="29级">
+	    <pet  id="51" name="阿宝"  />
+		<fun name="钓鱼、骰子星寻宝记" />		
+	</map>
+</data>

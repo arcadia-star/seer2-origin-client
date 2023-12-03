@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="王命之涯" categoryId="7" switch="1" weather="9">
+	<resource url="80314.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="495" y="700"/>
+	<entities>
+	
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="144,507" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

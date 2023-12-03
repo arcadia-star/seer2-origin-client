@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="雷伊进化" categoryId="0">
+	<resource url="10086.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="550" y="480"/>
+	<entities>	
+		<npc id="378" resId="378" name="" dir="1" width="70" height="110" pos="340,410" actorPos="679,312" path="">
+			<dialog npcId="378" transport="1,300,400"/>
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LeiYiSuperProcessPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="379" resId="379" name="" dir="1" width="70" height="110" pos="460,300" actorPos="679,312" path="">
+			<dialog npcId="379" transport="1,300,400"/>
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LeiyiKaisaGadMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>	
+		<npc id="380" resId="380" name="" dir="1" width="70" height="110" pos="680,400" actorPos="679,312" path="">
+			<dialog npcId="380" transport="1,300,400"/>
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[DiRenLeiShenPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>			
+	</entities>
+</map>

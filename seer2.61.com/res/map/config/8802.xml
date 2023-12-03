@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="能源之潮(副本)" categoryId="0">
+	<resource url="8802.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="435" y="390"/>
+	<entities>		
+		<teleport id="1" name="传送室" pos="174,545" targetMapId="70"/>
+	</entities>
+</map>

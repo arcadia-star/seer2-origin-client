@@ -1,0 +1,28 @@
+<!--
+	item组为第一页
+	id=物品ID
+	level="需要的战队等级"
+	points="需要的战队积分" 
+	
+	total为第二页
+	idList为总共摇奖的ID列表
+	currIdList为可能出现摇奖的5个物品 最多5个
+-->
+<root>
+	<item index="1" id="200202" level="1" points="20" count ="1"/>
+	<item index="2" id="200205" level="3" points="40" count ="1"/>
+	<item index="3" id="200239" level="5" points="120" count ="1"/>
+	<item index="4" id="200004" level="7" points="160" count ="1"/>
+	<item index="5" id="200225" level="9" points="240" count ="1"/>
+	<item index="6" id="200206" level="9" points="240" count ="1"/>
+	<item index="7" id="604142" level="12" points="1000" count ="1"/>
+	<item index="8" id="604143" level="12" points="1000" count ="1"/>
+	<total index ="10001" id ="1" Name = "赛尔豆2000" count ="2000" down="0" points="50"/>
+    <total index ="10003" id ="200003" Name ="高级精灵胶囊" count = "2" down="0" points="50"/>
+    <total index ="10004" id ="200019" Name ="特级体力药剂" count = "2" down="0" points="50"/>
+    <total index ="10005" id ="401089" Name ="资质灵石" count = "10" down="1" points="50"/>
+    <total index ="10006" id ="200205" Name ="经验芯片5k" count = "1" down="1" points="50"/>
+    <total index ="10007" id ="605477" Name ="绿色星魂（随机）" count = "1" down="1" points="50"/>
+    <total index ="10008" id ="605478" Name ="蓝色星魂（随机）" count = "1" down="1" points="50"/>
+    <total index ="10009" id ="605479" Name ="紫色星魂（随机）" count = "1" down="1" points="50"/>
+</root>

@@ -1,0 +1,51 @@
+<!-- seat：格子位置 -----mobile:模型ID 0为玩家,其他为精灵id -----tileType:格子类型 empty:空格子 
+	lucky:运势牌 chance:机会牌 box:宝箱 addMoney:加赛尔豆 subMoney:减赛尔豆 fight:精灵战斗 reverse：倒退 
+	-----thingId：事件类型对应的事件ID random为随机 -----x：格子寻路x -----y：格子寻路y -->
+<tiles mobileId="0">
+	<tile seat="0" tileType="empty" thingId="random" x="225" y="515" />
+	<tile seat="1" tileType="addMoney" thingId="0" x="281" y="484" />
+	<tile seat="2" tileType="chance" thingId="random" x="337" y="514" />
+	<tile seat="3" tileType="subMoney" thingId="0" x="391" y="484" />
+	<tile seat="4" tileType="empty" thingId="random" x="448" y="514" />
+	<tile seat="5" tileType="lucky" thingId="random" x="502" y="546" />
+	<tile seat="6" tileType="box" thingId="1" x="560" y="514" />
+	<tile seat="7" tileType="reverse" thingId="random" x="615" y="546" />
+	<tile seat="8" tileType="lucky" thingId="random" x="670" y="516" />
+	<tile seat="9" tileType="chance" thingId="random" x="730" y="485" />
+	<tile seat="10" tileType="empty" thingId="random" x="787" y="453" />
+	<tile seat="11" tileType="addMoney" thingId="0" x="727" y="423" />
+	<tile seat="12" tileType="reverse" thingId="random" x="785" y="391" />
+	<tile seat="13" tileType="lucky" thingId="random" x="724" y="362" />
+	<tile seat="14" tileType="fight" thingId="1" x="667" y="331" />
+	<tile seat="15" tileType="chance" thingId="random" x="614" y="361" />
+	<tile seat="16" tileType="box" thingId="0" x="559" y="392" />
+	<tile seat="17" tileType="subMoney" thingId="0" x="502" y="422" />
+	<tile seat="18" tileType="empty" thingId="random" x="449" y="390" />
+	<tile seat="19" tileType="empty" thingId="random" x="394" y="359" />
+	<tile seat="20" tileType="chance" thingId="random" x="451" y="328" />
+	<tile seat="21" tileType="addMoney" thingId="0" x="507" y="299" />
+	<tile seat="22" tileType="reverse" thingId="random" x="451" y="267" />
+	<tile seat="23" tileType="subMoney" thingId="0" x="391" y="237" />
+	<tile seat="24" tileType="lucky" thingId="random" x="337" y="264" />
+	<tile seat="25" tileType="box" thingId="1" x="287" y="298" />
+	<tile seat="26" tileType="chance" thingId="random" x="229" y="266" />
+	<tile seat="27" tileType="empty" thingId="random" x="171" y="238" />
+	<tile seat="28" tileType="reverse" thingId="random" x="229" y="204" />
+	<tile seat="29" tileType="fight" thingId="2" x="284" y="174" />
+	<tile seat="30" tileType="empty" thingId="random" x="341" y="143" />
+	<tile seat="31" tileType="empty" thingId="random" x="397" y="112" />
+	<tile seat="32" tileType="chance" thingId="random" x="457" y="144" />
+	<tile seat="33" tileType="fight" thingId="2" x="514" y="175" />
+	<tile seat="34" tileType="lucky" thingId="random" x="562" y="185" />
+	<tile seat="35" tileType="empty" thingId="random" x="619" y="173" />
+	<tile seat="36" tileType="box" thingId="0" x="676" y="205" />
+	<tile seat="37" tileType="reverse" thingId="random" x="729" y="233" />
+	<tile seat="38" tileType="empty" thingId="random" x="784" y="263" />
+	<tile seat="39" tileType="chance" thingId="random" x="840" y="230" />
+	<tile seat="40" tileType="box" thingId="1" x="895" y="263" />
+	<tile seat="41" tileType="lucky" thingId="random" x="948" y="289" />
+	<tile seat="42" tileType="addMoney" thingId="0" x="1006" y="321" />
+	<tile seat="43" tileType="fight" thingId="1" x="951" y="353" />
+	<tile seat="44" tileType="subMoney" thingId="0" x="900" y="382" />
+	<tile seat="45" tileType="empty" thingId="random" x="957" y="413" />
+</tiles>

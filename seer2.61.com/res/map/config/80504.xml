@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="遗忘之岛(清风白帝)" categoryId="8">
+	<resource url="10071_2.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="466" y="389"/>
+	<entities>
+<!-- 		<teleport id="1" name="时镜之岛" pos="490, 541" targetMapId="700" targetPos="204,439"/> -->
+<!-- 		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="626,201" actorPos="538,345" path="">		 -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+	</entities>
+</map>

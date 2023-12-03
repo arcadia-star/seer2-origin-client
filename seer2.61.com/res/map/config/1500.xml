@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="熔岩地穴" categoryId="7" switch="0" weather="0">
+	<resource url="1500.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="773" y="389"/>
+	<entities>
+		<teleport id="1" name="沙之迷穴" pos="722,555" targetMapId="380"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="657,473" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

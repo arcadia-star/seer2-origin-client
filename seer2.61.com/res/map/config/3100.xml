@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="三八跑道线(沙)" categoryId="6">
+	<resource url="10031_A.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="547" y="362"/>
+	<entities>
+		<teleport id="1" name="回到现实" pos="424,294" targetMapId="390"/>
+	</entities>
+</map>

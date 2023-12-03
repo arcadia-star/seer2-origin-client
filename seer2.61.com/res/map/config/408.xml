@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="竞技之门" categoryId="100">
+	<resource url="10040_8.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="431" y="529" />
+	<entities>
+		<doorTeleport id="1" name="要塞B3" pos="131,607" targetMapId="84"
+			targetPos="216,451" tip="您确定要离开竞技之门吗?" doorRule="3" doorType="0"/>
+	</entities>
+</map>

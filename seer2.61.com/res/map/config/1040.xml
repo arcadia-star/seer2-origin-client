@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="骰子星机关城" categoryId="1">
+	<resource url="10040_0.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="251" y="241"/>
+	<entities>
+		<npc id="518" resId="518" name="狼妖" dir="1" width="75" height="120" pos="843,250" actorPos="101,129" path="">	
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[让你知道我的厉害！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>	
+		<teleport id="1" name="骰子星寻宝图" pos="57, 104" targetMapId="1030" targetPos="70, 465"/>
+	</entities>
+</map>

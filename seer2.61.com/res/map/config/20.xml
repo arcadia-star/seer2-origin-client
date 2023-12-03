@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="实验室" categoryId="1">
+	<resource url="10002.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="435" y="388"/>
+	<entities>
+		<npc id="2" resId="2" name="博士伊娃" dir="0" width="75" height="107" pos="244,284" actorPos="250,270" path="">
+			<dialog npcId="2" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[金、木、水、火、土！最最厉害的精灵难道是杂交体不成？我得继续研究研究……]]></node>
+					<reply action="close"><![CDATA[对于它的信息少之甚少……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="shop" name="商店" params="BusinessPanel {shopType:1}" />
+				<node type="" name="5周年大游行" params="activityAnniversaryParade" />
+				<node type="module" name="魔能宝石" params="ShopNextPanel" />
+				<!--<node type="module" name="[活]经验试炼" params="KaiXueBigTrialWithExperiencePanel" />-->
+				<node type="game" name="爱上捉迷藏" params="4" />
+				<node type="" name="精灵技能修复通道" params="skillBug"/>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[双精灵的对战！你能掌握吗？]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+<!-- 		<npc id="158" resId="158" name="" dir="1" width="75" height="100"  pos="421,408" actorPos="274,408" path="">	 -->
+<!-- 			<dialog npcId="0"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[快来测试案子啦!!(barry专属)]]></node> -->
+<!-- 					<reply action="close"><![CDATA[这就来]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality>				 -->
+<!-- 				<node type="module" name="奥斯卡" params="ASKActPanel" /> -->
+<!-- 			</functionality>  -->
+<!-- 			<eventHandler>  -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[2013、2014年兽免费得]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 					<HandlerToggleModule><![CDATA[PetSelectFightPanel|mode:7;posIndex:20;min:1;max:2]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler>		 -->
+<!-- 	 	</npc> -->
+	 	
+		<!--<npc id="9" resId="9" name="召集令大使" dir="0" width="75" height="107" pos="665,460" actorPos="580,450" path="">
+			<dialog npcId="9" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[赛尔号Ⅱ现在正缺少像你这样的士兵，当然如果你可以召集到更多的话，奖励是非常丰厚的！]]></node>
+					<reply action="close"><![CDATA[我走错了！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="登记召集官" params="inviteFriend" />
+				<node type="" name="领取召集令奖励" params="inviteReward" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>-->
+		<!--<npc id="151" resId="151" name="礼包" dir="0" width="75" height="120" pos="286,434" actorPos="373,345" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快点我！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>-->
+<!-- 		<npc id="176" resId="198" name="" dir="0" width="90" height="200" pos="630,352" actorPos="392,408" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[春季特卖会]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[SpringShopPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<teleport id="1" name="传送仓" pos="167,287" targetMapId="70"/>
+	</entities>		
+</map>

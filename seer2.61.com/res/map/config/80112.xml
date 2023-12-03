@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风暴悬崖" categoryId="12">
+	<resource url="100891.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="489" y="550"/>
+	<entities>		
+		<teleport id="1" name="传送仓" pos="256,234" targetMapId="70"/>
+	</entities>
+</map>

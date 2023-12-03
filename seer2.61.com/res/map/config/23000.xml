@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="火幻氏族主城" categoryId="4">
+	<resource url="10023.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="300" y="440"/>
+	<entities>
+		<npc id="35" resId="35" name="玛里" dir="1" width="70" height="100" pos="487,310" actorPos="513,333" path="">
+			<dialog npcId="35" transport="1,300,400">
+				<branch id="default">
+					<node emotion="3"><![CDATA[告诉你哦！巴尔卡是个这个世界上最最最最最伟大的人！说他坏话，我就打你！哼！]]></node>
+					<reply action="close"><![CDATA[（巴尔卡？我哪里见过？）]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[在我心里永远只有一个王者，他是巴尔卡！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="36" resId="36" name="玛妈" dir="1" width="70" height="110" pos="420,327" actorPos="393,356" path="">
+			<dialog npcId="36" transport="1,300,400">
+				<branch id="default">
+					<node emotion="2"><![CDATA[玛里闭嘴！别胡乱说话！请别把孩子说的话去告诉洛克大人……]]></node>
+					<reply action="close"><![CDATA[这里的人似乎都很怕洛克？！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[嘘……孩子！别乱说话！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<!--<npc id="176" resId="176" name="" dir="1" width="90" height="120" pos="164,478" actorPos="349,427" path="">
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LimitTimeShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>	
+		</npc>-->
+		<teleport id="1" name="幻空通道" pos="311,317" targetMapId="291" targetPos="500,480"/>
+		<teleport id="2" name="蛮神战场" pos="650,280" targetMapId="240" targetPos="126,416"/>
+		<teleport id="3" name="灰烬之地" pos="64,460" targetMapId="301" targetPos="773,450"/>
+	</entities>
+</map>

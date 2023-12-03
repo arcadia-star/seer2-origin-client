@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="深幽沼泽" categoryId="2">
+	<resource url="10013_3.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="448" y="565"/>
+	<entities>
+		<teleport id="1" name="荆棘小道" pos="765,579" targetMapId="132" targetPos="372,280"/>
+		<mineport id="2" resId="3" name="红色矿脉" pos="187,309" actorPos="168,382" limit="3" serverConfigId="1"/>
+	</entities>
+</map>

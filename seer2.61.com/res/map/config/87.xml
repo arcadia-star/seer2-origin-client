@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="要塞B6" categoryId="100">
+	<resource url="10008_7.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="475" y="255"/>
+	<entities>
+		<npc id="9" resId="9" name="卫兵" dir="0" width="75" height="120" pos="481,234" actorPos="500,250" path="">
+			<dialog npcId="9" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[欢迎来到约瑟传说！我想你会喜欢这里。]]></node>
+					<reply action="close"><![CDATA[离开]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

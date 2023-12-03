@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="试炼之门" categoryId="100">
+	<resource url="10040_1.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="332" y="406" />
+	<entities>
+		<doorTeleport id="1" name="要塞B1" pos="165,420" targetMapId="82"
+			targetPos="224,418"  tip="您确定要离开试炼之门吗?" doorRule="1" doorType="1"/>
+	</entities>
+</map>

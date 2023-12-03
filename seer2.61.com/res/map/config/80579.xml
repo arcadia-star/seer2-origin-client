@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="稳定的翘曲点" categoryId="9">
+	<resource url="80579.swf"/>
+	<fightMap id="100018"/>
+	<initialPoint x="680" y="1000"/>
+	<entities>
+		
+	</entities>
+</map>

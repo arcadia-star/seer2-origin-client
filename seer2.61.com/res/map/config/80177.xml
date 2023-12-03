@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="诸神之殿" categoryId="7" switch="0" weather="4">
+	<resource url="80177.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="710" y="460"/>
+	<entities>
+		<teleport id="1" name="冰之谷" pos="253,400" targetMapId="540" targetPos="416,441"/>	
+	</entities>
+</map>

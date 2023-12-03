@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="异蘑世界" categoryId="2" weather="1">
+	<resource url="10012_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="490" y="450"/>
+	<entities>
+		<teleport id="1" name="草系主城" pos="900,475" targetMapId="90" targetPos="595,480"/>
+		<teleport id="2" name="朽木桥" pos="495,280" targetMapId="122" targetPos="750,490"/>
+	</entities>
+</map>

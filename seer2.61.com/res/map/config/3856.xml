@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="雪人村" categoryId="2">
+    <resource url="10108_0.swf"/>
+    <fightMap id="100010"/>
+    <initialPoint x="372" y="486"/>
+    <entities>
+     <npc id="186" resId="186" name="圣诞老人" dir="1" width="90" height="120" pos="530,360" actorPos="624,340" path="">
+	 </npc>		
+<!--        <teleport id="1" name="传送室" pos="840,434" targetMapId="70" /> -->
+<!-- 	   <npc id="177" resId="177" name="小绿" dir="0" width="75" height="65" pos="204,570" actorPos="274,408" path=""> -->
+<!-- 			<dialog npcId="177" transport="1,300,400"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[雪人村儿有故事！雪人村儿最热闹！雪人村的白熊圆又圆！]]></node> -->
+<!-- 					<reply action="close"><![CDATA[我走错了！]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality> -->
+<!-- 				<node type="" name="变形计" params="kangte" /> -->
+<!-- 				<node type="" name="幸运口袋" params="koudai" /> -->
+<!-- 				<node type="module" name="放烟花" params="SpringFireworksPanel" /> -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+<!-- 		<npc id="534" resId="534" name="变身雪糕，吃一口就变身！" dir="0" width="75" height="107" pos="246,559" actorPos="345,278" path=""> -->
+<!-- 		</npc> -->
+
+
+
+
+		<npc id="3069" resId="3069" name="" dir="1" width="75" height="100"  pos="355,285" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[绝版精灵回归]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[LightningRunActPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+    	<npc id="3070" resId="3070" name="" dir="1" width="110" height="145" pos="907,329" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[四大界王回归]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[HappyGuaAwardPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> 
+    	<npc id="3073" resId="3073" name="" dir="1" width="110" height="145" pos="1049,464" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[雷锘超进化倒计时！]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[PreheatNegativeCharacterPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> 
+    	<npc id="3071" resId="3071" name="" dir="1" width="110" height="145" pos="827,509" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[绝望之塔第三层]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[DespairTowerThirdSeasonMainPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> 
+    	<npc id="3072" resId="3072" name="" dir="1" width="110" height="145" pos="688,382" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[圣骑天龙超进化]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[TianLongProcessPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> 
+        <npc id="1054" resId="1054" name="" dir="1" width="110" height="145" pos="373,412"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[VIP包月送满战力奎尔斯之影]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[VipRechargeBasePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+       <teleport id="1" name="传送室" pos="376,547" targetMapId="70" />
+    </entities>
+</map>

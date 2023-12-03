@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="天空竞技场" categoryId="2" switch="1" weather="9">
+	<resource url="1300.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="370" y="260"/>
+	<entities>
+		<npc id="195" resId="195" name="上尉雷文" dir="1" width="75" height="115" pos="572,252" actorPos="600,275" path="">
+			<dialog npcId="195" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[第十届天空竞技场开赛中！无战斗！不赛尔！大家加油！]]></node>
+					<reply action="close"><![CDATA[静静观战]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>	
+				<node type="" name="希望之光杯精灵王争霸赛" params="YueseCraft2016Act" />	
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗已经打响，踊跃参战吧少年！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="196" resId="196" name="军需官克蕾娜" dir="1" width="75" height="95" pos="933,193" actorPos="719,345" path="">
+			<dialog npcId="196" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[付出和回报是成正比的。]]></node>
+					<reply action="close"><![CDATA[经验和荣耀是最大的收获]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="荣誉物品兑换" params="SkySportsHonourRewardPanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>				
+			</eventHandler>
+		</npc>
+		<npc id="197" resId="197" name="军需官克劳泽" dir="0" width="75" height="115" pos="224,524" actorPos="719,345" path="">
+			<dialog npcId="197" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[做好充足的准备才能够上战场！]]></node>
+					<reply action="close"><![CDATA[我的准备已经很充分了。]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="S2赛季竞技场精灵风云榜" params="PetHotPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[想知道哪些精灵更适合PVP吗？来吧！让我悄悄的告诉你！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<functionality>
+					<node type="module" name="荣誉物品兑换" params="PeakBattleHonourPanel" />
+				</functionality>
+				<click>				
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="339" resId="339"  name="" dir="1" width="75" height="115" pos="34,194" actorPos="375,255" path=""/>
+		<npc id="127" resId="127"  name="" dir="1" width="75" height="115" pos="150,278" actorPos="375,255" path=""/>
+		<npc id="340" resId="340" name="" dir="1" width="75" height="115" pos="233,185" actorPos="375,255" path=""/>
+		<teleport id="1" name="传送室" pos="900,460" targetMapId="70"/>
+	</entities>
+</map>

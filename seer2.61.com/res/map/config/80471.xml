@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="战神遗迹" categoryId="7" switch="0" weather="4">
+	<resource url="10385_1.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="775" y="454"/>
+	<entities>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="340,492" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>		
+		<teleport id="1" name="传送室" pos="860,519" targetMapId="70"/>
+	</entities>
+</map>

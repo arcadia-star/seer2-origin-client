@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="门后世界" categoryId="4">
+	<resource url="80327.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="407" y="500"/>
+	<entities>		
+		<teleport id="1" name="萤火之墓" pos="100,470" targetMapId="80326"/>	
+	</entities>
+</map>

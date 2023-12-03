@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="炼狱入口" categoryId="2">
+    <resource url="100107_0.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="396" y="530"/>
+    <entities>
+    	<npc id="172" resId="172" name="S思念体" dir="1" width="90" height="110" pos="492,471" actorPos="419,550" path="">
+			<dialog npcId="172" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[这里是炼狱大门，里面关押着不可饶恕之人。只有强者和恶魔能够生存至今，但是这有什么不同吗……]]></node>
+					<reply action="close"><![CDATA[路过…路过而已…]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="剧情模式" params="LianyuCopyPanel {copyId:1,mode:1}" />
+				<node type="module" name="挑战模式" params="LianyuCopyPanel {copyId:1,mode:2}" />
+				<node type="module" name="炼狱模式（暂未开放）" params="LianyuCopyPanel {copyId:1,mode:3}" />
+				<node type="module" name="战斗物资" params="CopySwapPanel" />
+				<node type="module" name="了解故事" params="SevenLianyuPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[冥王撒旦就在七宗炼狱的底层！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+       <teleport id="1" name="传送室" pos="102,513" targetMapId="70" />
+    </entities>
+</map>

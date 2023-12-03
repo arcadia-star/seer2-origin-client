@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="隐居木屋(S炼狱告急副本)" categoryId="2">
+    <resource url="10106.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="600" y="572"/>
+    <entities>
+       <teleport id="1" name="传送室" pos="914,458" targetMapId="70" />
+    </entities>
+</map>

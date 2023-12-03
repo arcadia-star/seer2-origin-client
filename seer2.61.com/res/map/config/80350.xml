@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="朽木桥" categoryId="2" weather="1">
+	<resource url="10012_2.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="832" y="530"/>
+	<entities>
+		<npc id="111110" resId="111110" name="小树根" dir="1" width="90" height="120" pos="576,445" actorPos="423,519" path="">
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

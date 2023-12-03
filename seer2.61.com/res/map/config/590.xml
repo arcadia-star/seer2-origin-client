@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰沁神殿" categoryId="7" switch="0" weather="0">
+	<resource url="10059.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="518" y="468" />
+	<entities>
+		<!--以下DICK测试npc，下架注释请勿删除  -->
+<!-- 		<npc id="153" resId="185" name="DICK案子测试专员" dir="1" width="75" height="150" pos="490,260" actorPos="450,380" path=""> -->
+<!-- 			<dialog npcId="153"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="1"><![CDATA[各位哥哥姐姐早点测试吧，测完好下班啊！]]></node> -->
+<!-- 					<reply action="close"><![CDATA[不测试,你咬我?]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality> -->
+<!-- 				<node type="module" name="熊" params="YingHuaBearPanel" /> -->
+<!-- 				<node type="module" name="12轮" params="TwelveKaniyaPanel" /> -->
+<!-- 				<node type="module" name="观星者之子" params="GuanXingZhiZiPanel"/> -->
+<!-- 				<node type="module" name="特价" params="TeJiaShopPanel"/> -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[快来测试案子啦!!]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler>		 -->
+<!-- 		</npc> -->
+		<!--以上DICK测试npc，下架注释请勿删除 -->
+		<npc id="715" resId="715" name="圣冰骑士" dir="1" width="75" height="150" pos="444,467" actorPos="500,455" path="">
+			<dialog npcId="715"> 
+				<branch id="default">
+					<node emotion="0"><![CDATA[我是圣兵骑士]]></node>
+					<reply action="close"><![CDATA[......]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="圣冰传奇" params="HolyIceActPanel" /> 
+			</functionality>
+			<eventHandler>				
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		<teleport id="1" name="冰沁宫殿" pos="700,560" targetMapId="550" targetPos="717,561"/>
+	</entities>
+</map>

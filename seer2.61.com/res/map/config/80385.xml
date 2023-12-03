@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="超能广场" categoryId="0" switch="0" weather="4">
+	<resource url="3830.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+		<entities>
+		<teleport id="1" name="灵能通径" pos="1070,500" targetMapId="3828"/>
+	<npc id="1018" resId="1018" name="紫电队小兵" dir="1" width="47" height="90" pos="849,360" actorPos="592,441" path="">	
+		<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>	
+	</npc>
+<!-- 	<npc id="1017" resId="1017" name="瓦利大叔" dir="1" width="47" height="140" pos="408,488" actorPos="592,441" path=""/> -->
+	<npc id="1017" resId="1017" name="瓦利大叔" dir="1" width="47" height="140" pos="408,488" actorPos="592,441" path="">		
+			<dialog npcId="1017">
+				<branch id="default">
+					<node emotion="0"><![CDATA[咳咳……我只是一个首饰匠，我什么也不知道。（作为默认对话）]]></node>
+					<reply action="close"><![CDATA[大叔，我们不想做什么……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="quest" name="(主线)回归超能氏族" params="回归超能氏族2" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+	</entities>
+</map>

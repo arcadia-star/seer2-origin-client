@@ -1,0 +1,24 @@
+<map name="暗影氏族主城" categoryId="1">
+	<resource url="10384_8.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="351" y="456"/>
+	<entities>
+		<teleport id="1" name="影月林" pos="154,438" targetMapId="3847"/>	
+		<teleport id="2" name="影子密室" pos="920,180" targetMapId="3854"/>
+		
+		<npc id="3020" resId="3020" name="弗雷德" dir="1" width="47" height="140" pos="580,460" actorPos="582,455" path="">
+			<dialog npcId="3020" transport="1,200,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[记住，我在暗中观察着你。]]></node>
+					<reply action="close"><![CDATA[好吓人呀!]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		
+	</entities>
+</map>

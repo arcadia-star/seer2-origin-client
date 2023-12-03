@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="信奉广场" categoryId="2">
+	<resource url="10010.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="394" y="401"/>
+	<entities>
+		<npc id="354" resId="354" name="船长辛迪" dir="1" width="90" height="120" pos="236,315" actorPos="365,409" path="">
+			<dialog npcId="1" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[各位小赛尔！我代表飞船全体官员欢迎大家！前方还有很多的挑战，星际的黎明还没有来到，加油！]]></node>
+					<reply action="close"><![CDATA[是！！船长！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[欢迎来到约瑟传说！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+
+		<teleport id="1" name="传送仓" pos="1100,324" targetMapId="70"/>
+	</entities>
+</map>

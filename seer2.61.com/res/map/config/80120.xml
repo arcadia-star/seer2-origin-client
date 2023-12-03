@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="树洞" categoryId="10">
+	<resource url="1240.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="396" y="476"/>
+	<entities>
+		<teleport id="1" name="传送仓" pos="225,569" targetMapId="70"/>
+	</entities>
+</map>

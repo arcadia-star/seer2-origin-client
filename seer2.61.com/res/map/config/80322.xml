@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幽静珊瑚穴副本" categoryId="3">
+	<resource url="10020_5.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="470" y="280"/>
+</map>

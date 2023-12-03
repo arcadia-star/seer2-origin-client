@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="水仙溪口" categoryId="2">
+    <resource url="10015_2.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint 
+        x="313" y="406"/>
+    <entities>
+        <npc id="313" name="钓鱼大师"
+            width="75" height="107" resId="313" dir="1" pos="389,451" actorPos="318,392" path="">
+            <dialog npcId="313" transport="1,300,400">
+                <branch id="default">
+                    <node emotion="0">
+                        <![CDATA[我既喜欢精灵，又喜欢钓鱼，所以我的人生有双倍的乐趣。想钓鱼就点击水塘吧！]]>
+                    </node>
+                    <reply action="close">
+                        <![CDATA[听上去真棒！]]>
+                    </reply>
+                </branch>
+            </dialog>
+            <functionality>
+                <node name="钓鱼手册" type="fishBook" params="FishBookPanel"/>
+            </functionality>
+            <eventHandler>
+                <mouseOver>
+                    <HandlerShowNpcSlogan>
+                        <![CDATA[点击有鱼儿跃出的水面就能进行垂钓啦!]]>
+                    </HandlerShowNpcSlogan>
+                </mouseOver>
+                <click>
+                    <HandlerOpenDialogPanel/>
+                </click>
+            </eventHandler>
+        </npc>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="642,270" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+        <teleport id="1" name="水仙草界" pos="213,413" targetMapId="151" targetPos="641,555"/>
+    </entities>
+</map>

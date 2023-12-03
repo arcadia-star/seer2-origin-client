@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="黑岩旋梯[捣蛋鬼奇遇记]" categoryId="5" switch="1" weather="1">
+	<resource url="10053.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="775" y="587"/>
+	<entities>
+		<teleport id="1" name="实验禁地" pos="968,557" targetMapId="500" targetPos="448,548"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="410,344" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

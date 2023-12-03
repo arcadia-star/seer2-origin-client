@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="烈焰山口" categoryId="3">
+	<resource url="80043.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="447" y="539"/>
+	<entities>
+		<teleport id="1" name="火幻氏族主城" pos="220,545" targetMapId="230"/>
+	</entities>
+</map>

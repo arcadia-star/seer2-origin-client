@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="后花园" categoryId="10">
+	<resource url="80123.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="288" y="256"/>
+	<entities>
+	</entities>
+</map>

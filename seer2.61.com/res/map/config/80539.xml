@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="实验禁地"  categoryId="5">
+	<resource url="80539.swf"/>
+	<fightMap id="100008"/>
+	<initialPoint x="548" y="509"/>
+	<entities>
+
+	</entities>
+</map>

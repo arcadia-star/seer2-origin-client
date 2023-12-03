@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幻空通道" categoryId="4" weather="0">
+	<resource url="10029_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="520" y="400"/>
+	<entities>
+		<teleport id="1" name="火幻氏族主城" pos="572,472" targetMapId="230"/>
+	</entities>
+</map>

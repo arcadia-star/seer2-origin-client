@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="漩涡峡谷(梦境宝藏)" categoryId="3">
+	<resource url="10021_2.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="500" y="400"/>
+	<entities>
+		<teleport id="1" name="漩涡谷地" pos="180,578" targetMapId="211" targetPos="995,478"/>
+		<teleport id="2" name="狂暴漩涡" pos="325,380" targetMapId="213" targetPos="269,418"/>
+		<!--<npc id="318" resId="318" name="林园" dir="1" width="105" height="130" pos="394,400" actorPos="465,371" path="">
+			<dialog npcId="318">
+				<branch id="default">
+					<node emotion="0"><![CDATA[来来来，听听林园给大家讲屈原的故事。哇塞，逆天了~]]></node>
+					<reply action="close"><![CDATA[我去吃粽子咯~]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="和粽子一起过端午" params="ZhongMainPanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="320" resId="320" name="锅" dir="0" width="105" height="110" pos="274,450" actorPos="465,371" path=""> 
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[CookZhongPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="319" resId="319" name="粽子" dir="0" width="105" height="110" pos="514,450" actorPos="465,371" path="">
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[MakeZhongPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+	</entities>
+</map>

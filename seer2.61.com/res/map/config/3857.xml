@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="天宫" categoryId="0">
+	<resource url="10385_7.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="550" y="484"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="606,533" targetMapId="70"/> 
+		<npc id="153" resId="153" name="" dir="1" width="75" height="100"  pos="599,385" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[2016年度精灵]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[NewYearFreePetPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+
+
+		<npc id="3092" resId="3092" name="" dir="1" width="75" height="100"  pos="120,496" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[新增神宠：哈迪斯、奥古斯特、蚀恶。]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[CallBoxPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+
+		<npc id="3093" resId="3093" name="" dir="1" width="75" height="100"  pos="233,463" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[大量星魂等你拿！]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[RunningRabbitPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+
+
+		<npc id="1005" resId="1005" name="" dir="1" width="75" height="100"  pos="979,597" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[元宵节专属精灵]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[xiaoxiaoAccompanyYouPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+
+
+
+		<npc id="3056" resId="3056" name="" dir="1" width="75" height="100"  pos="1117,508" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[六重豪礼等你拿！]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[SixStarPrizePanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+
+		<npc id="158" resId="158" name="" dir="1" width="75" height="100"  pos="1011,448" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[春节特惠版]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[GiftMachinePanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+
+
+
+
+	</entities>
+</map>

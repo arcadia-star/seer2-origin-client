@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="银脉山脊" categoryId="3" switch="1">
+	<resource url="10018_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="494" y="566"/>
+	<entities>
+		<teleport id="1" name="水系主城" pos="1109,380" targetMapId="160"/>
+		<teleport id="2" name="残骸入口" pos="205,424" targetMapId="191"/>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="烈焰峡谷" categoryId="4" weather="1">
+	<resource url="10026_2.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="585" y="439"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="299,486" targetMapId="70"/>
+	</entities>
+</map>

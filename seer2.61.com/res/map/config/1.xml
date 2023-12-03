@@ -1,0 +1,9 @@
+:<?xml version="1.0" encoding="utf-8" ?>
+<map name="监狱" weather="0">
+	<resource url="1.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="600" y="470"/>
+	<entities>
+		<teleport id="1" name="" pos="454,278" targetMapId="2"/>
+	</entities>
+</map>

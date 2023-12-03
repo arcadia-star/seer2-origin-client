@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="狂暴回廊" categoryId="2">
+	<resource url="80005_1.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="490" y="420"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="490,475" targetMapId="70" targetPos="440,470"/>
+	</entities>
+</map>

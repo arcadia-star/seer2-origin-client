@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="信奉广场" categoryId="2">
+	<resource url="10010.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="394" y="401"/>
+	<entities>
+		<npc id="623" resId="623" name="草魄" dir="0" width="70" height="125" pos="490,330" actorPos="490,333" path="">
+			<dialog npcId="623" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[约瑟王魂魄已被召唤而出，我是王之草魄，战胜我你将有机会获得1枚树魂石]]></node>
+					<reply action="" params="toFight"><![CDATA[挑战草魄]]></reply>
+				</branch>
+			</dialog>
+			<functionality/>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[王之草魄等你迎战！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="草系主城" pos="920,260" targetMapId="90" targetPos="115,405"/>
+		<teleport id="2" name="水仙草界" pos="98,318" targetMapId="151" targetPos="812,472"/>
+	</entities>
+</map>

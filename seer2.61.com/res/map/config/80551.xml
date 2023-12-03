@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="海市蜃楼" categoryId="5" switch="1" weather="1">
+	<resource url="80551.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="615" y="523"/>
+	<entities>
+		
+	</entities>
+</map>

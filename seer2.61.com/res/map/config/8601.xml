@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="虫穴地牢" categoryId="10">
+	<resource url="1220_2.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="290" y="465"/>
+	<entities>
+		<teleport id="1" name="虫群氏族主城" pos="195,474" targetMapId="1210" targetPos="370,260"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="549,482" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="星球战境" categoryId="11" switch="1" weather="9">
+	<resource url="80137.swf" />
+	<fightMap id="100007" />
+	<initialPoint x="270" y="450" />
+	<entities>
+		<npc id="707" resId="707" name="魔轮天马" dir="1" width="110" height="145" pos="450,412" actorPos="270,450" path="">
+			<dialog npcId="707">
+				<branch id="default">
+					<node emotion="0"><![CDATA[听说有个叫约瑟的很厉害，是你吗？]]></node>
+					<reply params="toFight"><![CDATA[先过我这一关吧]]></reply>
+					<reply action="close"><![CDATA[ 让我准备一下]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel />
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="1057,570" targetMapId="70"/>
+	</entities>
+</map>

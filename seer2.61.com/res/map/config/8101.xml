@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="脉流之瀑副本" categoryId="9">
+	<resource url="10081.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="725" y="505"/>
+	<entities>
+		<teleport id="1" name="脉流之瀑" pos="424,549" targetMapId="810"/>
+		<npc id="481" resId="481" name="耐普图隆" dir="0" width="70" height="110" pos="513,402" actorPos="629,559" path=""/>
+	</entities>
+</map>

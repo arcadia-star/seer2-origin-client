@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="火源通径" categoryId="9">
+	<resource url="10082.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="661" y="271"/>
+	<entities>			
+		<teleport id="1" name="传送室" pos="886,496" targetMapId="70" targetPos="855,563"/>			
+	</entities>
+</map>

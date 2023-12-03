@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬深渊" categoryId="4" weather="1">
+	<resource url="10030_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="933" y="484"/>
+	<entities>
+		<teleport id="1" name="灰烬岔口" pos="1074,477" targetMapId="302" targetPos="136,210"/>
+	</entities>
+</map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神魔之界(缪斯神迹觉醒)" categoryId="2">
+	<resource url="80086.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="864" y="540"/>
+	<entities>
+		<teleport id="1" name="神魔之界" pos="1000,540" targetMapId="141"/>
+		
+<!-- 		<npc id="815" resId="815" name="邪神" dir="1" width="75" height="150" pos="396,334" actorPos="396,334" path="">  -->
+<!--  			<functionality> -->
+<!--  			</functionality>  -->
+<!--  			<eventHandler>  -->
+<!--  				<click>  -->
+<!--  					<HandlerOpenDialogPanel/>  -->
+<!--  				</click>  -->
+<!--  			</eventHandler>		  -->
+<!--  		</npc> -->
+	</entities>
+</map>

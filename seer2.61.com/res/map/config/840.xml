@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰晶魔域" categoryId="9">
+	<resource url="10084.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="559" y="411"/>
+	<entities>			
+		<teleport id="1" name="纠结之藤" pos="600,552" targetMapId="830" targetPos="248,409"/>
+		<teleport id="2" name="旋云之冠" pos="1010,473" targetMapId="850" targetPos="412,437"/>
+				
+		<npc id="489" resId="225" name="卡特琳娜" dir="1" width="75" height="120" pos="410,300" actorPos="570,407" path="">
+			<dialog npcId="489" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[（似乎在低低地吟唱）]]></node>
+					<reply action="close"><![CDATA[真好听，不打扰她了。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>			
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

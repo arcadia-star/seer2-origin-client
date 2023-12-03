@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="遗忘之岛" categoryId="8">
+	<resource url="10071.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="487" y="210"/>
+	<entities>
+		<teleport id="1" name="时镜之岛" pos="409, 506" targetMapId="700"/>
+	</entities>
+</map>

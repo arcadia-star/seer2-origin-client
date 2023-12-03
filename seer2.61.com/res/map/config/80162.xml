@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="珊瑚路" categoryId="3">
+	<resource url="10020_2.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="691" y="560"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="1075,210" targetMapId="70"/>
+		<mineport id="3" resId="2" name="黄色矿脉" pos="827,266" actorPos="819,353" limit="500" serverConfigId="308"/>
+	</entities>
+</map>

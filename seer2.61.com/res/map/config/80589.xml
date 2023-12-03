@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风刃氏族主城" categoryId="12">
+	<resource url="80589.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="760" y="470"/>
+	<entities>
+		
+	</entities>
+</map>

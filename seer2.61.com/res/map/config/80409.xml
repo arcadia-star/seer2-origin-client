@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="三八擂台" categoryId="7" switch="0" weather="4">
+	<resource url="10078_1.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="526" y="453"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="734, 554" targetMapId="70" targetPos="516,324"/>
+	</entities>
+</map>

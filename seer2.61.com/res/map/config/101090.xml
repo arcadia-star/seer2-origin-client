@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="雪人村" categoryId="2">
+    <resource url="10108_0.swf"/>
+    <fightMap id="100010"/>
+    <initialPoint x="700" y="300"/>
+    <entities>
+     <npc id="186" resId="186" name="圣诞老人" dir="1" width="90" height="120" pos="530,360" actorPos="624,340" path="">
+			<dialog npcId="180" transport="1,300,400">
+					<branch id="default">
+						<node emotion="1"><![CDATA[吼吼吼~好久不见，雪人村的怀抱一直向各位敞开！快来尽情的热闹起来吧。加入热闹的雪人村我会告诉你一件大事！]]></node>
+						<reply action="goToBranch" params="next0"><![CDATA[加入热闹的雪人村!]]></reply>
+						<reply action="close"><![CDATA[默默路过]]></reply>
+					</branch>
+					<branch id="next0">
+						<node emotion="1"><![CDATA[不错！下面隆重为你介绍我们家的大白熊康特，它的小卧室就是那所大红房子，去点点红房子，如果碰见平静的康特，和它对战有机会得到繁星水晶球。]]></node>
+						<reply action="goToBranch" params="next1"><![CDATA[我要繁星水晶球干嘛？我想得到康特啊！]]></reply>
+					</branch>
+					<branch id="next1">
+						<node emotion="1"><![CDATA[啊吆别着急啊，如果你在红房子里碰见的是狂暴的康特，那么在对战中使用繁星水晶球就能打败康特，获胜后就能获得精灵了！康特还可以重复获得。]]></node>
+						<reply action="" params="showClickMouse"><![CDATA[嗯！我这就去点击红房子，走起！ ]]></reply>
+					</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+ 				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[有熊出没！快点这里哦]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+       <teleport id="1" name="传送室" pos="840,434" targetMapId="70" />
+<!-- 	   <npc id="177" resId="177" name="小绿" dir="0" width="75" height="65" pos="204,570" actorPos="274,408" path=""> -->
+<!-- 			<dialog npcId="177" transport="1,300,400"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[雪人村儿有故事！雪人村儿最热闹！雪人村的白熊圆又圆！]]></node> -->
+<!-- 					<reply action="close"><![CDATA[我走错了！]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality> -->
+<!-- 				<node type="" name="变形计" params="kangte" /> -->
+<!-- 				<node type="" name="幸运口袋" params="koudai" /> -->
+<!-- 				<node type="module" name="放烟花" params="SpringFireworksPanel" /> -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+<!-- 		<npc id="534" resId="534" name="变身雪糕，吃一口就变身！" dir="0" width="75" height="107" pos="246,559" actorPos="345,278" path=""> -->
+<!-- 		</npc> -->
+
+
+
+
+<!-- 		<npc id="158" resId="158" name="" dir="1" width="75" height="100"  pos="337,292" actorPos="274,408" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[收集雪晶兑换圣诞绝版雪宝]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[LeaveSnowBabyMainPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+
+
+
+
+
+
+<!--     <npc id="156" resId="156" name="" dir="1" width="75" height="100" pos="391,501" actorPos="930,500" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[雪宝进化]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[LeaveSnowBabyEvolutionPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+
+
+
+
+
+
+
+
+<!-- 		<npc id="1024" resId="1024" name="" dir="1" width="75" height="100"  pos="959,541" actorPos="885,359" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[精元蛋圣诞特卖会]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerChangeMap><![CDATA[80304]]></HandlerChangeMap> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+
+
+
+<!-- 	<npc id="1008" resId="1008" name="" dir="1" width="110" height="145" pos="780,554" actorPos="600,468" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[凛冬争霸赛]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[MoPKshenPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+
+       <teleport id="1" name="传送室" pos="376,547" targetMapId="70" />
+    </entities>
+</map>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="游戏室(夜)" categoryId="1">
+	<resource url="801.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="392" y="258"/>
+</map>

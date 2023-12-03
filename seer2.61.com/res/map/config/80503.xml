@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="β空间" categoryId="3">
+	<resource url="80148_2.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="435" y="485"/>
+	<entities>
+<!-- 		<teleport id="1" name="传送室" pos="628,470" targetMapId="70" targetPos="628,470"/> -->
+	</entities>
+</map>

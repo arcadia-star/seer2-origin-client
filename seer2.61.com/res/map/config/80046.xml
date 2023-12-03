@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="微光湖畔" categoryId="9">
+	<resource url="10079.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="501" y="429"/>
+	<entities>
+		<teleport id="1" name="视界原野" pos="473,315" targetMapId="800"/>
+	
+		<npc id="209" resId="209" name="艾丽希斯" dir="1" width="70" height="160" pos="700,240" actorPos="700,150" path=""/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="519,271" actorPos="538,345" path="">		
+		</npc>
+	</entities>
+</map>

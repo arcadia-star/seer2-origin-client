@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="忏悔殿宗" categoryId="2">
+	<resource url="80201.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="570" y="485"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="460,475" targetMapId="1071" targetPos="500,470"/>
+		<npc id="756" resId="756" name="双面冥王" dir="1" width="110" height="180" pos="420,432" actorPos="" path=""/>
+			<eventHandler>
+				<mouseOver>
+<!-- 					<HandlerShowNpcSlogan><![CDATA[双面冥王]]></HandlerShowNpcSlogan> -->
+				</mouseOver>
+			</eventHandler>
+	
+	</entities>
+</map> 

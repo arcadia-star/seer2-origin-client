@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="欲望回廊（剧情）" categoryId="2">
+	<resource url="80001.swf"/>
+	<fightMap id="100014"/>
+	<initialPoint x="364" y="116"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="370,105" targetMapId="1071" targetPos="440,470"/>
+	</entities>
+</map>

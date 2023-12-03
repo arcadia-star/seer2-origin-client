@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="战队基地" categoryId="201">
+	<resource url="60000.swf" />
+	<fightMap id="100099"/>
+	<initialPoint x="738" y="493"/>
+	<entities>
+		<npc id="1041" resId="1041" name="" dir="1" width="90" height="140" pos="726,314" actorPos="709,382" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战队商店]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewTeamShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="1039" resId="1039" name="" dir="1" width="90" height="140" pos="440,370" actorPos="469,310" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[每日任务]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewTeamDayQuestPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="1040" resId="1040" name="" dir="1" width="90" height="140" pos="607,544" actorPos="690,547" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[每日签到]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewTeamSignPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="1042" resId="1042" name="" dir="1" width="90" height="140" pos="1053,358" actorPos="963,396" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战队BOSS]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewTeamBossPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="908,569" targetMapId="70" />
+	</entities>
+</map>

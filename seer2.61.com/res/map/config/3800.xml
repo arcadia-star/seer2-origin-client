@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="武战之炼" categoryId="1">
+	<resource url="10040_A.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="525" y="276"/>
+	<entities>
+		<npc id="518" resId="518" name="狼妖" dir="1" width="75" height="120" pos="681,198" actorPos="710,230" path="">	
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[让你知道我的厉害！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>	
+		<teleport id="1" name="传送仓" pos="458, 234" targetMapId="70" targetPos="480, 380"/>
+	</entities>
+</map>

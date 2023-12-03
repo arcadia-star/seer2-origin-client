@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="界王圣域" categoryId="0" switch="0" weather="4">
+	<resource url="3824.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<npc id="158" resId="158" name="" dir="1" width="110" height="160" pos="614,310" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[2015年兽界王神 ]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewYearVipPetPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<npc id="1044" resId="1044" name="" dir="1" width="110" height="160" pos="970,449" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[四大界王]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[WorldKingMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+	    <npc id="1024" resId="1024" name="" dir="1" width="110" height="145"  pos="270,446" actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[2015年兽界王神超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[YearPetSuperProcessPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--	<npc id="1055" resId="1055" name="" dir="1" width="110" height="160" pos="270,446" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[vip乐园]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[8011]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+
+
+
+		<npc id="1047" resId="1047" name="" dir="1" width="110" height="160" pos="238,242" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[累积充值12个月VIP送精灵界王神]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewYearVipPetPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+		<npc id="1048" resId="1048" name="" dir="1" width="110" height="160" pos="980,245" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[累积充值12个月VIP送精灵界王神]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewYearVipPetPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+		<teleport id="1" name="传送室" pos="587,554" targetMapId="70"/>
+	</entities>
+</map>

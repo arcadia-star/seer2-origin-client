@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="目灵祭台" categoryId="3">
+	<resource url="80223.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="226" y="302"/>
+	<entities>
+		<teleport id="1" name="视界原野" pos="120,370" targetMapId="800" targetPos="330,405"/>	
+	</entities>
+</map>

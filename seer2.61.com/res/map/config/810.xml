@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="脉流之瀑" categoryId="9">
+	<resource url="10081.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="690" y="540"/>
+	<entities>
+		<teleport id="1" name="视界原野" pos="430,547" targetMapId="800" targetPos="813,508"/>
+		<teleport id="2" name="火源通径" pos="937,574" targetMapId="820" targetPos="852,422"/>
+		<npc id="481" resId="481" name="耐普图隆" dir="0" width="70" height="110" pos="512,373" actorPos="690,540" path="">
+			<dialog npcId="481" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[爱丽斯……我会守住这片脉流，让星球回归纯净。]]></node>
+					<reply action="close"><![CDATA[爱丽斯难道就是那个爱丽斯？]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

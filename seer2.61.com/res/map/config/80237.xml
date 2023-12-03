@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="帝国废墟" categoryId="5" switch="1" weather="9">
+	<resource url="80147_2.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="595" y="400"/>
+	<entities>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="600,382" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>		
+		<teleport id="2" name="传送室" pos="395,453" targetMapId="70" targetPos="818,405"/>		
+	</entities>
+</map>

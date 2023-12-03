@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="空港(副本）" categoryId="8">
+	<resource url="7701.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="512" y="375"/>
+	<entities>
+		<npc id="80" resId="80" name="葛蕾芬兵团长" dir="0" width="70" height="110" pos="468,292" actorPos="445,312" path=""/>
+		<teleport id="1" name="空港" pos="955, 134" targetMapId="770"/>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="深幽沼泽梦境"  weather="1">
+	<resource url="80125.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="448" y="565"/>
+	<entities>
+		
+	</entities>
+</map>

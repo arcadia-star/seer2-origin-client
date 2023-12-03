@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="机械室" categoryId="1">
+	<resource url="10005.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="544" y="443"/>
+	<entities>
+		<npc id="4" resId="4" name="菲鲁" dir="0" width="70" height="120" pos="400,417" actorPos="544,443" path="">
+			<dialog npcId="4" transport="1,300,400">
+				<branch id="default">
+					<node emotion="3"><![CDATA[这螺丝帽决不能有一分一毫的偏差你明白吗？我想以你的智力很难理解我在说什么，因为我自己也不知道。对了，你找我有事吗？]]></node>
+					<reply action="close"><![CDATA[容我三思……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="5周年大游行" params="activityAnniversaryParade" />
+				<node type="module" name="附魔卷轴" params="EnchantingScrollOnePanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+			    <HandlerShowNpcSlogan><![CDATA[细节！注意细节！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="194" resId="194" name="" dir="1" width="70" height="120" pos="790,401" actorPos="544,443" path="">
+			<dialog npcId="4" transport="1,300,400">
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+			    <HandlerShowNpcSlogan><![CDATA[想得到黑金霸王套装？找菲鲁！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[EnchantingScrollPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="176" resId="176" name="" dir="1" width="70" height="120" pos="246,523" actorPos="544,443" path="">
+			<dialog npcId="176" transport="1,300,400">
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+			    <HandlerShowNpcSlogan><![CDATA[星座黄金圣衣秀，附魔卷轴同步出售！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ConstellationSellPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+<!-- 
+			<npc id="811" resId="176" name="小约瑟" dir="1" width="70" height="120"
+		pos="246,523" actorPos="544,443" path="">
+		<dialog npcId="176" transport="1,300,400">
+		</dialog>
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[小约瑟出现啦！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[BigReward]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+ -->
+
+		<teleport id="1" name="传送室" pos="150,523" targetMapId="70"/> 
+	</entities>
+</map>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="汲雨之岛" categoryId="8">
+	<resource url="80142.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="447" y="427"/>
+	<entities>
+		<npc id="714" resId="714" name="蒂姆森" dir="1" width="110" height="135" pos="525,385" actorPos="447,427" path="">		
+			<dialog npcId="714">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我会在5回合后逃走哦！带上胶囊抓紧时间捕获我吧!]]></node>
+					<reply params="toFight"><![CDATA[嗯，放心，我带上了！]]></reply>
+					<reply action="close"><![CDATA[我准备下]]></reply>
+				</branch>
+			</dialog>		
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="深幽沼泽幻境" categoryId="2">
+	<resource url="10013_3.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="409" y="556"/>
+	<entities>
+		<teleport id="1" name="深幽沼泽" pos="796,589" targetMapId="133"/>
+	</entities>
+</map>

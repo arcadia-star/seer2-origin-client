@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="盘龙水境" categoryId="0">
+	<resource url="80067.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="476" y="480"/>
+	<entities>
+
+		<npc id="641" resId="641" name="涟漪" dir="1" width="110" height="200" pos="486,328" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[忍者龙剑坛之涟漪在此]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+<!-- 					<HandlerToggleModule><![CDATA[SemiyaPanel]]></HandlerToggleModule> -->
+				</click>
+			</eventHandler>
+		</npc>
+		
+	
+		<teleport id="1" name="传送室" pos="678,429" targetMapId="70" targetPos="800, 350"/>				
+	</entities>
+</map>

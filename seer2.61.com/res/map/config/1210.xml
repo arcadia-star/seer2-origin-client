@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="虫群氏族主城" categoryId="10">
+	<resource url="1210.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="1000" y="380"/>
+	<entities>
+		<npc id="315" resId="315" name="黑桃皇后" dir="1" width="75" height="115" pos="406,358" actorPos="500,453" path="">
+			<dialog npcId="315" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我的皇宫赐予了我更美的容颜，你羡慕吗？]]></node>
+					<reply action="close"><![CDATA[（再见！再见！一百遍）]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>			
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+
+<!-- 
+				<npc id="811" resId="176" name="小约瑟" dir="1" width="70" height="120"
+		pos="246,523" actorPos="544,443" path="">
+		<dialog npcId="176" transport="1,300,400">
+		</dialog>
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[小约瑟出现啦！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[BigReward]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+ -->
+
+		<teleport id="1" name="虫林小径" pos="722,573" targetMapId="1200" targetPos="735,322"/>
+		<teleport id="2" name="虫穴地牢" pos="726,356" targetMapId="1220" targetPos="307,527"/>
+		<teleport id="3" name="后花园" pos="993,529" targetMapId="1230" targetPos="94,489"/>
+	</entities>
+</map>

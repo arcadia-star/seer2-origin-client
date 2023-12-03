@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="双子之门" categoryId="100">
+	<resource url="10042_1.swf"/>
+	<fightMap id="100100"/>
+	<initialPoint x="547" y="492"/>
+	<entities>
+		<doorTeleport id="1" name="要塞B5" pos="534,541" 
+		targetMapId="86" targetPos="475,255" tip="您确定要离开双子之门吗?" 
+		doorRule="5" doorType="1"/>
+	</entities>
+</map>

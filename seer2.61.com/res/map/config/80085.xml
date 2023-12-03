@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬深渊" categoryId="4" weather="1">
+	<resource url="10030_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="903" y="469"/>
+	<entities>
+		<npc id="189" resId="189" name="" dir="0" width="70" height="135" pos="815,370" actorPos="639,441" path="">
+		</npc>
+		<teleport id="1" name="传送室" pos="884,372" targetMapId="70" targetPos="340,420"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="503,459" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

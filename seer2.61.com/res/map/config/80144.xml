@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="教官室" categoryId="1">
+	<resource url="10006.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="700" y="310"/>
+	<entities>
+		<npc id="6" resId="6" name="克拉克" dir="0" width="75" height="120" pos="328,299" actorPos="414,317" path="">
+			<dialog npcId="6" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[约瑟！它不是一般的精灵！]]></node>
+					<reply action="close"><![CDATA[会比雷神强吗？]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[英雄出少年啊！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

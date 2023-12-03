@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="副本" categoryId="3">
+	<resource url="10088.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="435" y="462"/>
+	<entities>
+	</entities>
+</map>

@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<map id="1" musicId="BGM_JY:20000" fxId="FX_101:1" />
+        <map id="80229" musicId="BGM_JY:20000" fxId="FX_101:1" />
+        <map id="80108" musicId="BGM_JY:20000" fxId="FX_101:1" />
+        <map id="80110" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="2" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="3" musicId="MU_001:10000,MU_002:10000" fxId="FX_102:1" />
+	<map id="4" musicId="MU_001:10000,MU_002:10000" fxId="FX_102:1" />
+	<map id="5" musicId="MU_001:10000,MU_002:10000" fxId="FX_102:1" />
+	<map id="6" musicId="MU_001:10000,MU_002:10000" fxId="FX_102:1" />
+	<map id="90" musicId="BGM_001:20000" fxId="FX_103:1" />
+        <map id="80247" musicId="BGM_001:20000" fxId="FX_103:1" />
+	<map id="100" musicId="BGM_001:20000" fxId="FX_104:1" />
+	<map id="80051" musicId="BGM_001:5000,FX_001:10000" />
+	<map id="1332" musicId="BGM_052:10000" />
+	<map id="10000" musicId="BGM_052:20000" />
+	<map id="20000" musicId="BGM_002:20000" fxId="FX_105:1" />
+	<map id="101" musicId="HD_001:20000" fxId="FX_106:1" />
+	<map id="1012" musicId="BGM_052:20000" fxId="FX_107:1" />
+	<map id="1013" musicId="BGM_052:20000" fxId="FX_107:1" />
+	<map id="110" musicId="BGM_001:20000" fxId="FX_108:1" />
+	<map id="121" musicId="BGM_002:20000" fxId="FX_109:1" />
+        <map id="80365" musicId="BGM_002:20000" fxId="FX_109:1" />
+	<map id="80049" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="1211" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="122" musicId="BGM_002:20000" fxId="FX_110:1" />
+	<map id="123" musicId="BGM_002:20000" fxId="FX_103:1" />
+        <map id="80352" musicId="BGM_002:20000" fxId="FX_103:1" />
+	<map id="1231" musicId="BGM_002:20000" fxId="FX_103:1" />
+	<map id="124" musicId="BGM_002:20000" fxId="FX_111:1" />
+	<map id="1241" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="10107" musicId="BGM_002:20000" fxId="FX_112:1" />
+	<map id="125" musicId="BGM_001:20000" fxId="FX_113:1" />
+	<map id="126" musicId="BGM_052:10000" />
+	<map id="131" musicId="BGM_003:20000" fxId="FX_109:1" />
+	    <map id="80423" musicId="BGM_003:20000" fxId="FX_109:1" />	
+	<map id="1311" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1312" musicId="BGM_003:20000" fxId="FX_109:1" />
+	<map id="132" musicId="BGM_003:20000" fxId="FX_109:1" />
+        <map id="80366" musicId="BGM_003:20000" fxId="FX_109:1" />
+        <map id="80124" musicId="BGM_003:20000" fxId="FX_109:1" />
+	<map id="80050" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="80017" musicId="BGM_003:20000" fxId="FX_109:1" />
+	<map id="133" musicId="BGM_003:20000" fxId="FX_114:1" />
+        <map id="80125" musicId="BGM_003:20000" fxId="FX_114:1" />
+	<map id="80044" musicId="BGM_003:20000" fxId="FX_114:1" />
+	<map id="1334" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1331" musicId="BGM_052:10000" />
+	<map id="137" musicId="BGM_MJ:10000" />
+	<map id="138" musicId="BGM_MJ:10000" />
+	<map id="139" musicId="BGM_MJ:10000" />
+	<map id="141" musicId="BGM_004:20000" fxId="FX_115:1" />
+	<map id="80060" musicId="BGM_004:20000" fxId="FX_116:1" />
+	<map id="1411" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="142" musicId="BGM_004:20000" fxId="FX_115:1" />
+	<map id="1421" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="1422" musicId="BGM_004:20000" fxId="FX_115:1" />
+	<map id="1423" musicId="BGM_004:20000" fxId="FX_115:1" />
+	<map id="151" musicId="BGM_005:20000" fxId="FX_117:1" />
+	<map id="152" musicId="BGM_005:20000" fxId="FX_117:1" />
+	<map id="1522" musicId="BGM_005:20000" fxId="FX_117:1" />
+	<map id="1523" musicId="BGM_005:20000" fxId="FX_117:1" />
+        <map id="80104" musicId="BGM_005:20000" fxId="FX_117:1" />
+	<map id="153" musicId="BGM_005:5000,FX_003:10000" />
+	<map id="160" musicId="BGM_006:20000" fxId="FX_118:1" />
+	<map id="80040" musicId="BGM_006:20000" fxId="FX_118:1" />
+	<map id="180" musicId="BGM_007:20000" fxId="FX_119:1" />
+	<map id="1801" musicId="BGM_007:20000" fxId="FX_119:1" />
+        <map id="80071" musicId="BGM_007:5000,FX_005:10000" />
+	<map id="170" musicId="BGM_006:20000" fxId="FX_120:1" />
+	<map id="171" musicId="BGM_SY:20000" fxId="FX_121:1" />
+        <map id="80249" musicId="BGM_SY:20000" fxId="FX_121:1" />
+	<map id="1711" musicId="BGM_SY:5000,FX_005:10000" />
+	<map id="191" musicId="BGM_006:20000" fxId="FX_120:1" />
+	<map id="1911" musicId="BGM_006:20000" fxId="FX_120:1" />
+	    <map id="80421" musicId="BGM_006:20000" fxId="FX_120:1" />	
+	
+	<map id="192" musicId="BGM_006:20000" fxId="FX_120:1" />
+	<map id="193" musicId="BGM_006:20000" fxId="FX_120:1" />
+        <map id="80150" musicId="BGM_006:20000" fxId="FX_120:1" />
+        <map id="80151" musicId="BGM_006:20000" fxId="FX_120:1" />
+	<map id="1932" musicId="BGM_006:20000" fxId="FX_120:1" />
+	<map id="1933" musicId="BGM_006:20000" fxId="FX_120:1" />
+	<map id="1931" musicId="BGM_006:20000" fxId="FX_120:1" />
+	<map id="201" musicId="BGM_009:20000" fxId="FX_120:1" />
+    	<map id="80438" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="202" musicId="BGM_009:20000" fxId="FX_120:1" />
+        <map id="80162" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="2021" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="203" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="2030" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="2031" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="204" musicId="BGM_009:20000" fxId="FX_120:1" />
+        <map id="80328" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="2041" musicId="BGM_009:20000" fxId="FX_120:1" />
+	<map id="220" musicId="BGM_011:20000" fxId="FX_122:1" />
+	<map id="224" musicId="BGM_011:20000" fxId="FX_122:1" />
+	<map id="230" musicId="BGM_012:20000" fxId="FX_123:1" />
+	<map id="240" musicId="BGM_012:20000" fxId="FX_124:1" />
+	    <map id="80404" musicId="BGM_012:20000" fxId="FX_124:1" />	
+	
+	<map id="261" musicId="BGM_014:20000" fxId="FX_124:1" />
+	<map id="2611" musicId="BGM_014:20000" fxId="FX_124:1" />
+	<map id="262" musicId="BGM_014:20000" fxId="FX_123:1" />
+	<map id="80042" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="80043" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="2621" musicId="BGM_014:20000" fxId="FX_123:1" />
+	<map id="263" musicId="BGM_014:20000" fxId="FX_123:1" />
+        <map id="80248" musicId="BGM_014:20000" fxId="FX_123:1" />
+        <map id="80152" musicId="BGM_014:20000" fxId="FX_123:1" />
+	<map id="270" musicId="BGM_015:20000" fxId="FX_124:1" />
+	<map id="2701" musicId="BGM_015:20000" fxId="FX_124:1" />
+	<map id="2703" musicId="BGM_015:20000" fxId="FX_124:1" />
+	<map id="281" musicId="BGM_015:20000" fxId="FX_123:1" />
+	<map id="2811" musicId="BGM_015:20000" fxId="FX_123:1" />
+	<map id="2812" musicId="BGM_015:20000" fxId="FX_123:1" />
+	<map id="291" musicId="BGM_012:20000" fxId="FX_119:1" />
+        <map id="80176" musicId="BGM_012:20000" fxId="FX_119:1" />
+	<map id="2912" musicId="BGM_012:20000" fxId="FX_119:1" />
+	<map id="2911" musicId="BGM_012:20000" fxId="FX_119:1" />
+	<map id="2913" musicId="BGM_012:20000" fxId="FX_119:1" />
+	<map id="292" musicId="BGM_063:20000" fxId="FX_119:1" />
+	<map id="301" musicId="BGM_017:20000" fxId="FX_124:1" />
+	<map id="3013" musicId="BGM_017:20000" fxId="FX_124:1" />
+	<map id="3011" musicId="BGM_017:20000" fxId="FX_124:1" />
+	<map id="3012" musicId="BGM_017:20000" fxId="FX_124:1" />
+	<map id="302" musicId="BGM_012:20000" fxId="FX_124:1" />
+	<map id="3021" musicId="BGM_012:20000" fxId="FX_124:1" />
+	<map id="304" musicId="BGM_034:20000" fxId="FX_115:1" />
+        <map id="80192" musicId="BGM_034:20000" fxId="FX_115:1" />
+        <map id="80187" musicId="BGM_034:20000" fxId="FX_115:1" />
+	<map id="3041" musicId="BGM_034:5000,FX_009:10000" />
+	<map id="305" musicId="BGM_034:20000" fxId="FX_115:1" />
+	<map id="310" musicId="BGM_018:20000" fxId="FX_125:1" />
+        <map id="80203" musicId="BGM_018:20000" fxId="FX_125:1" />
+        <map id="80073" musicId="BGM_018:20000" fxId="FX_125:1" />
+        <map id="80408" musicId="BGM_018:20000" fxId="FX_125:1" />
+	<map id="3100" musicId="BGM_018:20000" fxId="FX_125:1" />
+	<map id="320" musicId="BGM_021:20000" fxId="FX_126:1" />
+	<map id="330" musicId="BGM_022:20000" fxId="FX_127:1" />
+	<map id="340" musicId="BGM_022:20000" fxId="FX_128:1" />
+	<map id="350" musicId="BGM_022:20000" fxId="FX_129:1" />
+	<map id="3501" musicId="BGM_022:20000" fxId="FX_129:1" />
+	<map id="360" musicId="BGM_021:20000" fxId="FX_130:1" />
+	<map id="370" musicId="BGM_021:20000" fxId="FX_130:1" />
+        <map id="80220" musicId="BGM_021:20000" fxId="FX_130:1" />
+	<map id="3701" musicId="BGM_021:20000" fxId="FX_130:1" />
+	<map id="3702" musicId="BGM_021:20000" fxId="FX_130:1" />
+	    <map id="80399" musicId="BGM_021:20000" fxId="FX_130:1" /> 	
+	
+	<map id="3703" musicId="BGM_021:20000" fxId="FX_130:1" />
+	<map id="3704" musicId="BGM_021:20000" fxId="FX_130:1" />
+	<map id="37002" musicId="BGM_021:20000" fxId="FX_130:1" />
+	<map id="3700" musicId="BGM_021:20000" fxId="FX_130:1" />
+	<map id="380" musicId="BGM_023:20000" fxId="FX_116:1" />
+	<map id="3804" musicId="BGM_023:20000" fxId="FX_116:1" />
+	<map id="3805" musicId="BGM_023:20000" fxId="FX_116:1" />
+	<map id="390" musicId="BGM_018:20000" fxId="FX_128:1" />
+	<map id="3904" musicId="BGM_018:5000,FX_010:10000" />
+	<map id="450" musicId="MU_001:5000,MU_002:10000" />
+	<map id="470" musicId="BGM_019:20000" fxId="FX_126:1" />
+	<map id="4701" musicId="BGM_019:20000" fxId="FX_126:1" />
+	<map id="4704" musicId="BGM_019:20000" fxId="FX_126:1" />
+	<map id="4705" musicId="BGM_019:20000" fxId="FX_126:1" />
+	<map id="480" musicId="BGM_019:20000" fxId="FX_131:1" />
+	<map id="4801" musicId="BGM_019:20000" fxId="FX_131:1" />
+	<map id="4804" musicId="BGM_019:20000" fxId="FX_131:1" />
+	<map id="4805" musicId="BGM_019:20000" fxId="FX_131:1" />
+	<map id="490" musicId="BGM_019:20000" fxId="FX_127:1" />
+	<map id="4901" musicId="BGM_019:20000" fxId="FX_127:1" />
+	<map id="4904" musicId="BGM_019:20000" fxId="FX_127:1" />
+    	<map id="80434" musicId="BGM_019:20000" fxId="FX_127:1" />	
+    	<map id="80435" musicId="BGM_019:20000" fxId="FX_127:1" />	
+	<map id="4905" musicId="BGM_019:20000" fxId="FX_127:1" />
+	<map id="500" musicId="BGM_024:20000" fxId="FX_101:1" />
+	<map id="5001" musicId="BGM_024:20000" fxId="FX_101:1" />
+	<map id="510" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5101" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5104" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5105" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="520" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5201" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5204" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5205" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="530" musicId="BGM_020:20000" fxId="FX_132:1" />
+        <map id="80233" musicId="BGM_020:20000" fxId="FX_132:1" />
+        <map id="80234" musicId="BGM_020:20000" fxId="FX_132:1" />
+        <map id="80237" musicId="BGM_020:20000" fxId="FX_132:1" />
+        <map id="80202" musicId="BGM_020:20000" fxId="FX_132:1" />
+        <map id="80193" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5303" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5302" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="5301" musicId="BGM_020:20000" fxId="FX_132:1" />
+	<map id="540" musicId="BGM_025:20000" fxId="FX_133:1" />
+	<map id="550" musicId="BGM_028:20000" fxId="FX_134:1" />
+        <map id="80074" musicId="BGM_028:20000" fxId="FX_134:1" />
+	<map id="570" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5701" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5702" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5703" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5704" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5705" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5706" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5707" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5708" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5709" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5710" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5711" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="5712" musicId="BGM_JY:20000" fxId="FX_101:1" />
+	<map id="590" musicId="BGM_041:20000" fxId="FX_132:1" />
+	<map id="80035" musicId="BGM_041:20000" fxId="FX_132:1" />
+	<map id="5900" musicId="BGM_041:20000" fxId="FX_132:1" />
+	<map id="610" musicId="BGM_026:20000" fxId="FX_123:1" />
+        <map id="80170" musicId="BGM_026:20000" fxId="FX_123:1" />
+        <map id="80172" musicId="BGM_026:20000" fxId="FX_123:1" />
+	<map id="6102" musicId="BGM_026:20000" fxId="FX_123:1" />
+	<map id="6103" musicId="BGM_026:20000" fxId="FX_123:1" />
+	<map id="620" musicId="BGM_045:20000" fxId="FX_135:1" />
+	<map id="640" musicId="BGM_045:20000" fxId="FX_136:1" />
+	<map id="650" musicId="BGM_027:20000" fxId="FX_137:1" />
+	<map id="80053" musicId="BGM_027:20000" fxId="FX_137:1" />
+	<map id="1310" musicId="BGM_003:20000" fxId="FX_109:1" />
+	<map id="1320" musicId="BGM_003:20000" fxId="FX_109:1" />
+	<map id="1400" musicId="BGM_003:20000" fxId="FX_139:1" />
+        <map id="80335" musicId="BGM_003:20000" fxId="FX_139:1" />
+        <map id="80336" musicId="BGM_003:20000" fxId="FX_139:1" />
+	<map id="1800" musicId="BGM_007:20000" fxId="FX_119:1" />
+	<map id="211" musicId="BGM_010:20000" fxId="FX_120:1" />
+	<map id="2111" musicId="BGM_010:20000" fxId="FX_120:1" />
+    	<map id="80416" musicId="BGM_010:20000" fxId="FX_120:1" />
+	<map id="2112" musicId="BGM_010:20000" fxId="FX_120:1" />
+	<map id="80039" musicId="BGM_010:20000" fxId="FX_120:1" />
+        <map id="80210" musicId="BGM_010:20000" fxId="FX_120:1" />
+        <map id="80212" musicId="BGM_010:20000" fxId="FX_120:1" />
+	<map id="212" musicId="BGM_010:20000" fxId="FX_120:1" />
+     	<map id="80425" musicId="BGM_010:20000" fxId="FX_120:1" />
+	<map id="213" musicId="BGM_010:20000" fxId="FX_120:1" />
+	    <map id="80418" musicId="BGM_010:20000" fxId="FX_120:1" />	    
+	<map id="80041" musicId="BGM_010:20000" fxId="FX_120:1" />
+	<map id="40" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="50" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="60" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80144" musicId="BGM_089:20000" fxId="FX_140:1" />
+        <map id="80145" musicId="BGM_100:20000" fxId="FX_136:1" />
+        <map id="80345" musicId="BGM_100:20000" fxId="FX_136:1" />
+        <map id="80246" musicId="BGM_100:20000" fxId="FX_136:1" />
+        <map id="80240" musicId="BGM_100:20000" fxId="FX_136:1" />
+        <map id="80230" musicId="BGM_100:20000" fxId="FX_136:1" />
+        <map id="80208" musicId="BGM_100:20000" fxId="FX_136:1" />
+        <map id="80153" musicId="BGM_100:20000" fxId="FX_137:1" />
+        <map id="80147" musicId="BGM_100:20000" fxId="FX_136:1" />
+        <map id="80148" musicId="BGM_101:20000" fxId="FX_137:1" />
+        <map id="80391" musicId="BGM_101:20000" fxId="FX_137:1" />
+        <map id="80322" musicId="BGM_101:20000" fxId="FX_137:1" />
+        <map id="80315" musicId="BGM_101:20000" fxId="FX_137:1" />
+        <map id="80308" musicId="BGM_101:20000" fxId="FX_137:1" />
+        <map id="80239" musicId="BGM_101:20000" fxId="FX_137:1" />
+	<map id="70" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80376" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="80" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="80063" musicId="MU_JLW:1" />
+	<map id="801" musicId="MU_JLW:1" />
+	<map id="81" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="82" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="83" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="84" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="85" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="3850" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	
+	<map id="30" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+    	<map id="80442" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />	
+	
+	<map id="20" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80353" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80127" musicId="MU_001:5000,MU_002:10000" />
+	<map id="10" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80344" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="10" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80363" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80351" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+	<map id="10" musicId="MU_001:10000,MU_002:10000" fxId="FX_140:1" />
+        <map id="80441" musicId="MU_001:5000,MU_002:10000" />
+	<map id="50000" musicId="MU_001:5000,MU_002:10000" />
+	<map id="60000" musicId="MU_001:5000,MU_002:10000" />
+	<map id="70000" musicId="BGM_118:10000" />
+	<map id="100000" musicId="BGM_1002:1" />
+	<map id="100002" musicId="BGM_1002:1" />
+	<map id="100003" musicId="BGM_1002:1" />
+	<map id="100004" musicId="BGM_1002:1" />
+	<map id="100005" musicId="BGM_1002:1" />
+	<map id="100006" musicId="BGM_1002:1" />
+	<map id="100007" musicId="BGM_1002:1" />
+	<map id="100009" musicId="BGM_1002:1" />
+	<map id="100010" musicId="BGM_1002:1" />
+	<map id="100011" musicId="BGM_1002:1" />
+	<map id="100017" musicId="BGM_1002:1" />
+	<map id="100096" musicId="BGM_1003:1" />
+	<map id="100097" musicId="BGM_1003:1" />
+	<map id="100098" musicId="BGM_1004:1" />
+	<map id="100099" musicId="BGM_1002:1" />
+	<map id="100100" musicId="BGM_1005:1" />
+	<map id="86" musicId="MU_003:10000" />
+	<map id="8011" musicId="BGM_095:10000" />
+	<map id="8021" musicId="MU_001:5000,MU_002:10000" />
+	<map id="8022" musicId="BGM_JBC:10000" />
+	<map id="8030" musicId="BGM_GXT:10000" />
+	<map id="1900" musicId="BGM_GXT:10000" />
+        <map id="80395" musicId="BGM_GXT:10000" />
+	<map id="80056" musicId="BGM_GXT:10000" />
+	<map id="80054" musicId="BGM_GXT:10000" />
+	<map id="8031" musicId="BGM_JSS:10000" />
+	<map id="8032" musicId="BGM_JSS:10000" />
+	<map id="660" musicId="BGM_029:5000,FX_013:10000" />
+	<map id="700" musicId="BGM_031:5000,FX_013:10000" />
+	<map id="710" musicId="BGM_032:5000,FX_013:10000" />
+	<map id="7101" musicId="BGM_032:5000,FX_013:10000" />
+	<map id="720" musicId="BGM_037:10000" />
+	<map id="7206" musicId="BGM_037:10000" />
+	<map id="730" musicId="BGM_035:5000,FX_010:10000" />
+	<map id="740" musicId="BGM_036:5000,FX_010:10000" />
+        <map id="3820" musicId="BGM_036:5000,FX_010:10000" />
+        <map id="3824" musicId="BGM_107:20000" fxId="FX_134:1" />
+        <map id="3821" musicId="BGM_103:20000" fxId="FX_119:1" />
+        <map id="80228" musicId="BGM_103:20000" fxId="FX_119:1" />
+        <map id="80219" musicId="BGM_103:20000" fxId="FX_119:1" />
+        <map id="80417" musicId="BGM_103:20000" fxId="FX_119:1" />
+        <map id="80214" musicId="BGM_103:20000" fxId="FX_119:1" />
+        <map id="38216" musicId="BGM_103:20000" fxId="FX_119:1" />
+        <map id="80186" musicId="BGM_103:20000" fxId="FX_119:1" />
+        <map id="80405" musicId="BGM_103:20000" fxId="FX_119:1" />
+	<map id="760" musicId="BGM_033:5000,FX_014:10000" />
+	<map id="80045" musicId="BGM_033:5000,FX_014:10000" />
+	<map id="770" musicId="BGM_030:5000,FX_013:10000" />
+	<map id="7701" musicId="BGM_030:5000,FX_013:10000" />
+	<map id="780" musicId="BGM_SB:10000" />
+       	<map id="80409" musicId="BGM_SB:10000" />
+	<map id="790" musicId="BGM_038:5000,FX_014:10000" />
+        <map id="80550" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="80046" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="7901" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="800" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="8001" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="8002" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="80018" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="810" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="8101" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="820" musicId="BGM_042:5000,FX_009:10000" />
+        <map id="80211" musicId="BGM_042:5000,FX_009:10000" />
+        <map id="80149" musicId="BGM_042:5000,FX_009:10000" />
+	<map id="830" musicId="BGM_043:5000,FX_010:10000" />
+	<map id="8301" musicId="BGM_043:5000,FX_010:10000" />
+	<map id="840" musicId="BGM_041:5000,FX_011:10000" />
+	<map id="80048" musicId="BGM_041:5000,FX_011:10000" />
+	<map id="8401" musicId="BGM_041:5000,FX_011:10000" />
+	<map id="850" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="80061" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="80058" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="80047" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="8501" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="8502" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="860" musicId="BGM_040:10000" />
+        <map id="80245" musicId="BGM_040:10000" />
+        <map id="80241" musicId="BGM_040:10000" />
+        <map id="80242" musicId="BGM_040:10000" />
+        <map id="80244" musicId="BGM_040:10000" />
+        <map id="80231" musicId="BGM_040:10000" />
+        <map id="80188" musicId="BGM_040:10000" />
+        <map id="80133" musicId="BGM_040:10000" />
+        <map id="80134" musicId="BGM_040:10000" />
+	<map id="80068" musicId="BGM_040:10000" />
+	<map id="80069" musicId="BGM_091:10000" />
+        <map id="80396" musicId="BGM_091:10000" />
+        <map id="80070" musicId="BGM_092:10000" />
+        <map id="80072" musicId="BGM_092:10000" />
+	<map id="80037" musicId="BGM_083:10000" />
+        <map id="80171" musicId="BGM_083:10000" />
+	<map id="80036" musicId="BGM_040:10000" />
+	<map id="80033" musicId="BGM_040:10000" />
+	<map id="80034" musicId="BGM_040:10000" />
+	<map id="870" musicId="BGM_044:10000" />
+        <map id="80379" musicId="BGM_044:10000" />
+        <map id="80343" musicId="BGM_044:10000" />
+	<map id="861" musicId="BGM_040:10000" />
+	<map id="880" musicId="BGM_047:10000" />
+        <map id="80243" musicId="BGM_047:10000" />
+        <map id="80132" musicId="BGM_047:10000" />
+	<map id="88001" musicId="BGM_047:10000" />
+	<map id="8802" musicId="BGM_047:10000" />
+	<map id="890" musicId="BGM_048:5000,FX_013:10000" />
+        <map id="80337" musicId="BGM_048:5000,FX_013:10000" />
+	<map id="891" musicId="BGM_048:5000,FX_013:10000" />
+	<map id="900" musicId="BGM_049:5000,FX_016:10000" />
+	<map id="9001" musicId="BGM_049:5000,FX_016:10000" />
+	<map id="910" musicId="BGM_050:5000,FX_013:10000" />
+        <map id="80117" musicId="BGM_050:5000,FX_013:10000" />
+	<map id="920" musicId="BGM_051:5000,FX_013:10000" />
+        <map id="80204" musicId="BGM_051:5000,FX_013:10000" />
+        <map id="80113" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="930" musicId="BGM_051:5000,FX_013:10000" />
+        <map id="80115" musicId="BGM_051:5000,FX_013:10000" />
+        <map id="80114" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="940" musicId="BGM_051:5000,FX_013:10000" />
+        <map id="80116" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="950" musicId="BGM_051:5000,FX_013:10000" />
+        <map id="951" musicId="BGM_105:20000" fxId="FX_115:1" />
+        <map id="80218" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="980" musicId="BGM_ICON:10000" />
+	<map id="981" musicId="BGM_WSJ12:10000" />
+	<map id="983" musicId="BGM_081:10000" />
+	<map id="984" musicId="BGM_081:10000" />
+	<map id="990" musicId="BGM_053:5000,FX_017:10000" />
+        <map id="991" musicId="BGM_106:20000" fxId="FX_115:1" />
+        <map id="80329" musicId="BGM_106:20000" fxId="FX_115:1" />
+        <map id="80327" musicId="BGM_110:20000" fxId="FX_127:1" />
+        <map id="80333" musicId="BGM_110:20000" fxId="FX_127:1" />
+        <map id="3827" musicId="BGM_110:20000" fxId="FX_127:1" />
+        <map id="3828" musicId="BGM_110:20000" fxId="FX_127:1" />
+        <map id="80346" musicId="BGM_110:20000" fxId="FX_127:1" />
+	<map id="1000" musicId="BGM_054:5000,FX_002:10000" />
+        <map id="80232" musicId="BGM_054:5000,FX_002:10000" />
+        <map id="80223" musicId="BGM_054:5000,FX_002:10000" />
+        <map id="80224" musicId="BGM_054:5000,FX_002:10000" />
+        <map id="80225" musicId="BGM_054:5000,FX_002:10000" />
+	<map id="1027" musicId="BGM_054:5000,FX_002:10000" />
+	<map id="1050" musicId="BGM_053:10000" />
+	<map id="1070" musicId="BGM_056:5000,FX_009:10000" />
+	<map id="1071" musicId="BGM_056:5000,FX_009:10000" />
+        <map id="80206" musicId="BGM_056:5000,FX_009:10000" />
+	<map id="1080" musicId="BGM_058:10000" />
+        <map id="80194" musicId="BGM_058:10000" />
+	<map id="1030" musicId="BGM_SZ2" />
+	<map id="1031" musicId="BGM_SZ2" />
+	<map id="1032" musicId="BGM_SZ2" />
+	<map id="1033" musicId="BGM_SZ2" />
+	<map id="1034" musicId="MU_010" />
+	<map id="1035" musicId="BGM_064" />
+	<map id="1037" musicId="BGM_079" />
+	<map id="1040" musicId="BGM_SZ1" />
+	<map id="3800" musicId="BGM_SZ1" />
+	<map id="3801" musicId="BGM_SZ1" />
+        <map id="3802" musicId="BGM_SZ1" />
+        <map id="80159" musicId="BGM_SZ1" />
+        <map id="3803" musicId="BGM_SZ1" />
+        <map id="3807" musicId="BGM_SZ1" />
+	<map id="3808" musicId="BGM_088" />
+	<map id="3010" musicId="BGM_088" />
+	<map id="80066" musicId="BGM_088" />
+	<map id="80067" musicId="BGM_091" />
+	<map id="80065" musicId="BGM_088" />
+	<map id="3809" musicId="BGM_088" />
+        <map id="80154" musicId="BGM_088" />
+	<map id="80064" musicId="BGM_088" />
+	<map id="80062" musicId="BGM_087" />
+	<map id="1041" musicId="BGM_SZ1" />
+	<map id="1500" musicId="BGM_074" />
+        <map id="80156" musicId="BGM_074" />
+	<map id="1501" musicId="BGM_079" />
+        <map id="80304" musicId="BGM_079" />
+	<map id="15001" musicId="BGM_079" />
+	<map id="1600" musicId="BGM_084" />
+	<map id="80059" musicId="BGM_084" />
+	<map id="10106" musicId="BGM_055:10000" />
+	<map id="10108" musicId="BGM_XRC:10000" />
+	<map id="10109" musicId="BGM_XRC:10000" />
+	<map id="10110" musicId="BGM_XRC:10000" />
+	<map id="101090" musicId="BGM_XRCY:10000" />
+        <map id="1160" musicId="BGM_SL:5000,FX_001:10000" />
+        <map id="80397" musicId="BGM_SL:5000,FX_001:10000" />
+	<map id="1161" musicId="BGM_SL:5000,FX_001:10000" />
+        <map id="80221" musicId="BGM_SL:5000,FX_001:10000" />
+        <map id="80157" musicId="BGM_SL:5000,FX_001:10000" />
+	<map id="1110" musicId="MU_009:10000" />
+	<map id="1111" musicId="MU_009:10000" />
+	<map id="80001" musicId="BGM_058:10000" />
+	<map id="80002" musicId="BGM_058:10000" />
+	<map id="80004" musicId="BGM_061:10000" />
+	<map id="80005" musicId="BGM_061:10000" />
+        <map id="80195" musicId="BGM_061:10000" />
+	<map id="80007" musicId="BGM_062:10000" />
+	<map id="80008" musicId="BGM_062:10000" />
+        <map id="80196" musicId="BGM_062:10000" />
+        <map id="80439" musicId="BGM_062:10000" />
+	<map id="100014" musicId="BGM_1002:1" />
+	<map id="100015" musicId="BGM_1002:1" />
+	<map id="100016" musicId="BGM_1002:1" />
+	<map id="1090" musicId="BGM_059:5000,FX_001:10000" />
+	<map id="1091" musicId="BGM_059:5000,FX_001:10000" />
+	<map id="1180" musicId="BGM_060:5000,FX_002:10000" />
+	<map id="1181" musicId="BGM_060:5000,FX_002:10000" />
+	<map id="1190" musicId="BGM_080:10000" />
+	<map id="1300" musicId="MU_011" />
+	<map id="1301" musicId="MU_011" />
+	<map id="1170" musicId="BGM_YT" />
+	<map id="1200" musicId="BGM_068:5000,FX_004:10000" />
+        <map id="80118" musicId="BGM_068:5000,FX_004:10000" />
+	<map id="1210" musicId="BGM_070:5000,FX_018:10000" />
+        <map id="80388" musicId="BGM_070:5000,FX_018:10000" />
+	<map id="1220" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="1221" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8600" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8601" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8602" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8603" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8604" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8605" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="1230" musicId="BGM_075:5000,FX_017:10000" />
+        <map id="80381" musicId="BGM_075:5000,FX_017:10000" />
+        <map id="80123" musicId="BGM_075:5000,FX_017:10000" />
+        <map id="80119" musicId="BGM_075:5000,FX_017:10000" />
+	<map id="1240" musicId="BGM_077:5000,FX_017:10000" />
+        <map id="80120" musicId="BGM_077:5000,FX_017:10000" />
+	<map id="80054" musicId="BGM_077:5000,FX_017:10000" />
+	<map id="1250" musicId="BGM_082:10000" />
+	<map id="1700" musicId="BGM_085:10000" />
+        <map id="80238" musicId="BGM_085:10000" />
+        <map id="80217" musicId="BGM_085:10000" />
+        <map id="80146" musicId="BGM_085:10000" />
+        <map id="80302" musicId="BGM_085:10000" />
+	<map id="80052" musicId="BGM_085:10000" />
+        <map id="80393" musicId="BGM_085:10000" />
+        <map id="80213" musicId="BGM_085:10000" />
+	<map id="80010" musicId="BGM_YT" />
+	<map id="80011" musicId="BGM_AYL" />
+	<map id="80012" musicId="BGM_AYL" />
+	<map id="80013" musicId="BGM_AYL" />
+	<map id="80019" musicId="BGM_AYL" />
+	<map id="80057" musicId="BGM_AYL" />
+	<map id="80020" musicId="BGM_AYL" />
+        <map id="80161" musicId="BGM_AYL" />
+        <map id="80235" musicId="BGM_AYL" />
+	<map id="80014" musicId="BGM_065" />
+	<map id="80015" musicId="BGM_065" />
+        <map id="80197" musicId="BGM_065" />
+	<map id="80021" musicId="BGM_067" />
+	<map id="80022" musicId="BGM_069" />
+	<map id="80023" musicId="BGM_069" />
+        <map id="80198" musicId="BGM_069" />
+        <map id="80222" musicId="BGM_069" />
+	<map id="80025" musicId="BGM_072" />
+	<map id="80026" musicId="BGM_072" />
+        <map id="80199" musicId="BGM_072" />
+	<map id="80028" musicId="BGM_076" />
+	<map id="80029" musicId="BGM_076" />
+        <map id="80200" musicId="BGM_076" />
+	<map id="80030" musicId="BGM_076" />
+	<map id="80030" musicId="BGM_076" />
+	<map id="80031" musicId="BGM_078" />
+	<map id="80032" musicId="BGM_078" />
+        <map id="80201" musicId="BGM_078" />
+        <map id="80180" musicId="BGM_078" />
+	=======
+	=======
+	>>>>>>> .r55686
+	<map id="1" musicId="BGM_JY:10000" />
+        <map id="80236" musicId="BGM_JY:10000" />
+	<map id="2" musicId="BGM_JY:10000" />
+	<map id="3" musicId="MU_001:5000,MU_002:10000" />
+	<map id="4" musicId="MU_001:5000,MU_002:10000" />
+	<map id="5" musicId="MU_001:5000,MU_002:10000" />
+	<map id="6" musicId="MU_001:5000,MU_002:10000" />
+	<map id="90" musicId="BGM_001:5000,FX_001:10000" />
+	<map id="100" musicId="BGM_001:5000,FX_001:10000" />
+        <map id="80367" musicId="BGM_001:5000,FX_001:10000" />
+        <map id="80226" musicId="BGM_001:5000,FX_001:10000" />
+        <map id="80143" musicId="BGM_001:5000,FX_001:10000" />
+	<map id="80051" musicId="BGM_001:5000,FX_001:10000" />
+	<map id="1332" musicId="BGM_052:10000" />
+	<map id="10000" musicId="BGM_052:10000" />
+	<map id="20000" musicId="BGM_002:5000,FX_015:10000" />
+	<map id="101" musicId="HD_001:10000" />
+	<map id="1012" musicId="BGM_052:10000" />
+	<map id="1013" musicId="BGM_052:10000" />
+	<map id="110" musicId="BGM_001:5000,FX_001:10000" />
+	<map id="121" musicId="BGM_002:5000,FX_001:10000" />
+        <map id="80163" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="80049" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="1211" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="122" musicId="BGM_002:5000,FX_001:10000" />
+        <map id="80350" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="123" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="1231" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="80079" musicId="BGM_002:5000,FX_001:10000" />
+        <map id="124" musicId="BGM_002:5000,FX_001:10000" />
+        <map id="80164" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="1241" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="10107" musicId="BGM_002:5000,FX_001:10000" />
+	<map id="125" musicId="BGM_001:10000" />
+	<map id="126" musicId="BGM_052:10000" />
+	<map id="131" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1311" musicId="BGM_003:5000,FX_002:10000" />
+        <map id="80105" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1312" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="132" musicId="BGM_003:5000,FX_002:10000" />
+        <map id="80078" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="80050" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="80017" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="133" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="80044" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1334" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1331" musicId="BGM_052:10000" />
+	<map id="137" musicId="BGM_MJ:10000" />
+	<map id="138" musicId="BGM_MJ:10000" />
+	<map id="139" musicId="BGM_MJ:10000" />
+        <map id="3823" musicId="BGM_104:10000" />
+        <map id="80173" musicId="BGM_104:10000" />
+        <map id="80182" musicId="BGM_104:10000" />
+        <map id="80183" musicId="BGM_104:10000" />
+        <map id="80177" musicId="BGM_104:10000" />
+        <map id="80214" musicId="BGM_104:10000" />
+	<map id="141" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="80060" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="1411" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="142" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="1421" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="1422" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="1423" musicId="BGM_004:5000,FX_007:10000" />
+        <map id="80080" musicId="BGM_004:5000,FX_007:10000" />
+        <map id="80081" musicId="BGM_004:5000,FX_007:10000" />
+	<map id="151" musicId="BGM_005:5000,FX_003:10000" />
+        <map id="80165" musicId="BGM_005:5000,FX_003:10000" />
+        <map id="80422" musicId="BGM_005:5000,FX_003:10000" />
+	<map id="152" musicId="BGM_005:5000,FX_003:10000" />
+	<map id="1522" musicId="BGM_005:5000,FX_003:10000" />
+	<map id="1523" musicId="BGM_005:5000,FX_003:10000" />
+	<map id="153" musicId="BGM_005:5000,FX_003:10000" />
+	<map id="160" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="80040" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="180" musicId="BGM_007:5000,FX_005:10000" />
+	<map id="1801" musicId="BGM_007:5000,FX_005:10000" />
+	<map id="170" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="171" musicId="BGM_SY:5000,FX_005:10000" />
+        <map id="80380" musicId="BGM_SY:5000,FX_005:10000" />
+	<map id="1711" musicId="BGM_SY:5000,FX_005:10000" />
+	<map id="191" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="1911" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="192" musicId="BGM_006:5000,FX_005:10000" />
+     	<map id="80426" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="193" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="1932" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="1933" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="1931" musicId="BGM_006:5000,FX_005:10000" />
+	<map id="201" musicId="BGM_009:5000,FX_005:10000" />
+	<map id="202" musicId="BGM_009:5000,FX_005:10000" />
+	<map id="2021" musicId="BGM_009:5000,FX_005:10000" />
+	<map id="203" musicId="BGM_009:5000,FX_005:10000" />
+	<map id="2030" musicId="BGM_009:5000,FX_005:10000" />
+	<map id="2031" musicId="BGM_009:5000,FX_005:10000" />
+	<map id="204" musicId="BGM_009:5000,FX_005:10000" />
+        <map id="80331" musicId="BGM_009:5000,FX_005:10000" />
+        <map id="80427" musicId="BGM_009:5000,FX_005:10000" />
+        <map id="80323" musicId="BGM_009:5000,FX_005:10000" />
+        <map id="80324" musicId="BGM_113:20000" fxId="FX_140:1" />
+        <map id="3831" musicId="BGM_113:20000" fxId="FX_140:1" />
+        <map id="3832" musicId="BGM_114:20000" fxId="FX_140:1" />
+        <map id="3833" musicId="BGM_115:20000" fxId="FX_140:1" />
+        <map id="80369" musicId="BGM_115:20000" fxId="FX_140:1" />
+        <map id="80373" musicId="BGM_115:20000" fxId="FX_140:1" />
+        <map id="80368" musicId="BGM_115:20000" fxId="FX_140:1" />
+        <map id="80362" musicId="BGM_114:20000" fxId="FX_140:1" />
+        <map id="80361" musicId="BGM_114:20000" fxId="FX_140:1" />
+        <map id="80348" musicId="BGM_114:20000" fxId="FX_140:1" />
+        <map id="80349" musicId="BGM_114:20000" fxId="FX_140:1" />
+        <map id="3834" musicId="BGM_116:20000" fxId="FX_129:1" />
+        <map id="3835" musicId="BGM_117:20000" fxId="FX_102:1" />
+        <map id="3836" musicId="BGM_104:20000" fxId="FX_137:1" />
+        <map id="3846" musicId="BGM_104:20000" fxId="FX_137:1" />
+		<map id="80330" musicId="BGM_104:20000" fxId="FX_137:1" />
+        <map id="80375" musicId="BGM_117:20000" fxId="FX_102:1" />
+        <map id="80374" musicId="BGM_116:20000" fxId="FX_129:1" />
+	<map id="2041" musicId="BGM_009:5000,FX_005:10000" />
+        <map id="80316" musicId="BGM_009:5000,FX_005:10000" />
+	<map id="220" musicId="BGM_011:5000,FX_006:10000" />
+        <map id="80160" musicId="BGM_011:5000,FX_006:10000" />
+	<map id="224" musicId="BGM_011:5000,FX_006:10000" />
+	<map id="230" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="240" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="261" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80190" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80413" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="2611" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="262" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80227" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80191" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80175" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="80042" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="80043" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="2621" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80320" musicId="BGM_014:5000,FX_009:10000" />
+    	<map id="80412" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="263" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80209" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80083" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80406" musicId="BGM_014:5000,FX_009:10000" />
+        <map id="80414" musicId="BGM_014:5000,FX_009:10000" />
+	<map id="270" musicId="BGM_015:5000,FX_008:10000" />
+        <map id="80088" musicId="BGM_015:5000,FX_008:10000" />
+        <map id="80090" musicId="BGM_015:5000,FX_008:10000" />
+        <map id="80082" musicId="BGM_015:5000,FX_008:10000" />
+	<map id="2701" musicId="BGM_015:5000,FX_008:10000" />
+	<map id="2703" musicId="BGM_015:5000,FX_008:10000" />
+	<map id="281" musicId="BGM_015:5000,FX_008:10000" />
+    	<map id="80436" musicId="BGM_015:5000,FX_008:10000" />
+	<map id="2811" musicId="BGM_015:5000,FX_008:10000" />
+	<map id="2812" musicId="BGM_015:5000,FX_008:10000" />
+	<map id="291" musicId="BGM_012:5000,FX_008:10000" />
+        <map id="80189" musicId="BGM_012:5000,FX_008:10000" />
+        <map id="80166" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="2912" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="2911" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="2913" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="292" musicId="BGM_063:5000,FX_009:10000" />
+        <map id="80317" musicId="BGM_063:5000,FX_009:10000" />
+        <map id="80318" musicId="BGM_063:5000,FX_009:10000" />
+	<map id="301" musicId="BGM_017:5000,FX_008:10000" />
+	<map id="3013" musicId="BGM_017:5000,FX_008:10000" />
+	<map id="3011" musicId="BGM_017:5000,FX_008:10000" />
+	<map id="3012" musicId="BGM_017:5000,FX_008:10000" />
+	<map id="302" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="3021" musicId="BGM_012:5000,FX_008:10000" />
+	<map id="304" musicId="BGM_034:5000,FX_009:10000" />
+	<map id="3041" musicId="BGM_034:5000,FX_009:10000" />
+	<map id="305" musicId="BGM_034:5000,FX_009:10000" />
+        <map id="80178" musicId="BGM_034:5000,FX_009:10000" />
+        <map id="80085" musicId="BGM_034:5000,FX_009:10000" />
+        <map id="80086" musicId="BGM_094:5000" />
+        <map id="80205" musicId="BGM_094:5000" />
+	<map id="310" musicId="BGM_018:5000,FX_010:10000" />
+	<map id="3100" musicId="BGM_018:5000,FX_010:10000" />
+	     <map id="80429" musicId="BGM_018:5000,FX_010:10000" />
+	     <map id="80437" musicId="BGM_018:5000,FX_010:10000" />
+	     <map id="80430" musicId="BGM_018:5000,FX_010:10000" />
+	     <map id="80431" musicId="BGM_018:5000,FX_010:10000" />
+	<map id="320" musicId="BGM_021:5000,FX_010:10000" />
+	<map id="330" musicId="BGM_022:5000,FX_010:10000" />
+     	<map id="80428" musicId="BGM_022:5000,FX_010:10000" />
+	<map id="340" musicId="BGM_022:5000,FX_010:10000" />
+	<map id="350" musicId="BGM_022:5000,FX_010:10000" />
+	<map id="3501" musicId="BGM_022:5000,FX_010:10000" />
+	<map id="360" musicId="BGM_021:5000,FX_010:10000" />
+	<map id="370" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="3701" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="3702" musicId="BGM_023:5000,FX_010:10000" />
+     	<map id="80410" musicId="BGM_023:5000,FX_010:10000" />		
+	<map id="3703" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="3704" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="37002" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="3700" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="380" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="3804" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="3805" musicId="BGM_023:5000,FX_010:10000" />
+	<map id="390" musicId="BGM_018:5000,FX_010:10000" />
+	<map id="3904" musicId="BGM_018:5000,FX_010:10000" />
+	<map id="450" musicId="MU_001:5000,MU_002:10000" />
+	<map id="470" musicId="BGM_019:5000,FX_010:10000" />
+	<map id="4701" musicId="BGM_019:5000,FX_010:10000" />
+	<map id="4704" musicId="BGM_019:5000,FX_010:10000" />
+	<map id="4705" musicId="BGM_019:5000,FX_010:10000" />
+	<map id="480" musicId="BGM_019:5000,FX_012:10000" />
+	<map id="4801" musicId="BGM_019:5000,FX_012:10000" />
+	<map id="4804" musicId="BGM_019:5000,FX_012:10000" />
+	<map id="4805" musicId="BGM_019:5000,FX_012:10000" />
+	<map id="490" musicId="BGM_024:5000,FX_010:10000" />
+	<map id="4901" musicId="BGM_024:5000,FX_010:10000" />
+	<map id="4904" musicId="BGM_024:5000,FX_010:10000" />
+	<map id="4905" musicId="BGM_024:5000,FX_010:10000" />
+	<map id="500" musicId="BGM_024:5000,FX_010:10000" />
+	<map id="5001" musicId="BGM_024:5000,FX_010:10000" />
+	<map id="510" musicId="BGM_020:5000,FX_010:10000" />
+        <map id="80179" musicId="BGM_020:5000,FX_010:10000" />
+        <map id="80400" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5101" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5104" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5105" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="520" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5201" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5204" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5205" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="530" musicId="BGM_020:5000,FX_010:10000" />
+        <map id="80215" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5303" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5302" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="5301" musicId="BGM_020:5000,FX_010:10000" />
+	<map id="540" musicId="BGM_025:5000,FX_011:10000" />
+        <map id="80128" musicId="BGM_025:5000,FX_011:10000" />
+        <map id="80432" musicId="BGM_025:5000,FX_011:10000" />
+        <map id="80433" musicId="BGM_025:5000,FX_011:10000" />
+	<map id="550" musicId="BGM_028:5000,FX_011:10000" />
+        <map id="80311" musicId="BGM_028:5000,FX_011:10000" />
+	<map id="570" musicId="BGM_JY:10000" />
+	<map id="5701" musicId="BGM_JY:10000" />
+	<map id="5702" musicId="BGM_JY:10000" />
+	<map id="5703" musicId="BGM_JY:10000" />
+	<map id="5704" musicId="BGM_JY:10000" />
+	<map id="5705" musicId="BGM_JY:10000" />
+	<map id="5706" musicId="BGM_JY:10000" />
+	<map id="5707" musicId="BGM_JY:10000" />
+	<map id="5708" musicId="BGM_JY:10000" />
+	<map id="5709" musicId="BGM_JY:10000" />
+	<map id="5710" musicId="BGM_JY:10000" />
+	<map id="5711" musicId="BGM_JY:10000" />
+	<map id="5712" musicId="BGM_JY:10000" />
+	<map id="590" musicId="BGM_041:10000" />
+        <map id="80155" musicId="BGM_041:10000" />
+	<map id="80035" musicId="BGM_041:10000" />
+	<map id="5900" musicId="BGM_041:10000" />
+	<map id="610" musicId="BGM_026:5000,FX_011:10000" />
+	<map id="6102" musicId="BGM_026:5000,FX_011:10000" />
+	<map id="6103" musicId="BGM_026:5000,FX_011:10000" />
+	<map id="620" musicId="BGM_045:5000,FX_011:10000" />
+        <map id="80093" musicId="BGM_045:5000,FX_011:10000" />
+	    <map id="80403" musicId="BGM_045:5000,FX_011:10000" />
+
+	<map id="640" musicId="BGM_045:5000,FX_011:10000" />
+        <map id="80338" musicId="BGM_045:5000,FX_011:10000" />
+        <map id="80135" musicId="BGM_045:5000,FX_011:10000" />
+	<map id="650" musicId="BGM_027:5000,FX_011:10000" />
+	<map id="80053" musicId="BGM_027:5000,FX_011:10000" />
+	<map id="1310" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1320" musicId="BGM_003:5000,FX_002:10000" />
+	<map id="1400" musicId="BGM_066:5000,FX_011:10000" />
+	<map id="1800" musicId="BGM_007:5000,FX_005:10000" />
+	<map id="211" musicId="BGM_010:5000,FX_005:10000" />
+        <map id="80354" musicId="BGM_010:5000,FX_005:10000" />
+	<map id="2111" musicId="BGM_010:5000,FX_005:10000" />
+	<map id="2112" musicId="BGM_010:5000,FX_005:10000" />
+	<map id="80039" musicId="BGM_010:5000,FX_005:10000" />
+	<map id="212" musicId="BGM_010:5000,FX_005:10000" />
+	<map id="213" musicId="BGM_010:5000,FX_005:10000" />
+	<map id="80041" musicId="BGM_010:5000,FX_005:10000" />
+	<map id="40" musicId="MU_001:5000,MU_002:10000" />
+	<map id="50" musicId="MU_001:5000,MU_002:10000" />
+	<map id="60" musicId="MU_001:5000,MU_002:10000" />
+	<map id="70" musicId="MU_001:5000,MU_002:10000" />
+	<map id="80" musicId="MU_001:5000,MU_002:10000" />
+	<map id="80063" musicId="MU_JLW:10000" />
+	<map id="801" musicId="MU_JLW:10000" />
+	<map id="8010" musicId="BGM_090:10000" />
+	<map id="81" musicId="MU_001:5000,MU_002:10000" />
+	<map id="82" musicId="MU_002:10000" />
+	<map id="83" musicId="MU_001:5000,MU_002:10000" />
+	<map id="84" musicId="MU_001:5000,MU_002:10000" />
+	<map id="85" musicId="MU_001:5000,MU_002:10000" />
+	<map id="30" musicId="MU_001:5000,MU_002:10000" />
+	<map id="20" musicId="MU_001:5000,MU_002:10000" />
+	<map id="10" musicId="MU_001:5000,MU_002:10000" />
+	<map id="50000" musicId="MU_001:5000,MU_002:10000" />
+	<map id="60000" musicId="MU_001:5000,MU_002:10000" />
+	<map id="70000" musicId="BGM_057:10000" />
+	<map id="100000" musicId="BGM_1003:1" />
+	<map id="100002" musicId="BGM_1002:1" />
+	<map id="100003" musicId="BGM_1002:1" />
+	<map id="100004" musicId="BGM_1002:1" />
+	<map id="100005" musicId="BGM_1002:1" />
+	<map id="100006" musicId="BGM_1002:1" />
+	<map id="100007" musicId="BGM_1002:1" />
+	<map id="100009" musicId="BGM_1002:1" />
+	<map id="100010" musicId="BGM_1002:1" />
+	<map id="100011" musicId="BGM_1002:1" />
+	<map id="100017" musicId="BGM_1002:1" />
+	<map id="100096" musicId="BGM_1003:1" />
+	<map id="100097" musicId="BGM_1003:1" />
+	<map id="100098" musicId="BGM_1004:1" />
+	<map id="100099" musicId="BGM_1002:1" />
+	<map id="100100" musicId="BGM_1005:1" />
+	<map id="86" musicId="MU_003:10000" />
+	<map id="8011" musicId="BGM_089:10000" />
+	<map id="8021" musicId="MU_001:5000,MU_002:10000" />
+	<map id="8022" musicId="BGM_JBC:10000" />
+        <map id="8022" musicId="MU_006_01:10000" />
+	<map id="8030" musicId="BGM_GXT:10000" />
+        <map id="80364" musicId="BGM_GXT:10000" />
+	<map id="1900" musicId="BGM_GXT:10000" />
+	<map id="80056" musicId="BGM_GXT:10000" />
+	<map id="80054" musicId="BGM_GXT:10000" />
+	<map id="8031" musicId="BGM_JSS:10000" />
+	<map id="8032" musicId="BGM_JSS:10000" />
+	<map id="660" musicId="BGM_029:5000,FX_013:10000" />
+	<map id="700" musicId="BGM_031:5000,FX_013:10000" />
+        <map id="80130" musicId="BGM_031:5000,FX_013:10000" />
+	<map id="710" musicId="BGM_032:5000,FX_013:10000" />
+        <map id="80306" musicId="BGM_032:5000,FX_013:10000" />
+        <map id="80309" musicId="BGM_032:5000,FX_013:10000" />
+	<map id="7101" musicId="BGM_032:5000,FX_013:10000" />
+	<map id="720" musicId="BGM_037:10000" />
+        <map id="80131" musicId="BGM_037:10000" />
+	<map id="7206" musicId="BGM_037:10000" />
+	<map id="730" musicId="BGM_035:5000,FX_010:10000" />
+	<map id="740" musicId="BGM_036:5000,FX_010:10000" />
+	<map id="760" musicId="BGM_033:5000,FX_014:10000" />
+        <map id="80138" musicId="BGM_033:5000,FX_014:10000" />
+        <map id="80139" musicId="BGM_033:5000,FX_014:10000" />
+        <map id="80140" musicId="BGM_033:5000,FX_014:10000" />
+        <map id="80424" musicId="BGM_033:5000,FX_014:10000" />
+        <map id="80141" musicId="BGM_033:5000,FX_014:10000" />
+        <map id="80142" musicId="BGM_033:5000,FX_014:10000" />
+	<map id="80045" musicId="BGM_033:5000,FX_014:10000" />
+	<map id="770" musicId="BGM_030:5000,FX_013:10000" />
+        <map id="80129" musicId="BGM_030:5000,FX_013:10000" />
+	<map id="7701" musicId="BGM_030:5000,FX_013:10000" />
+	<map id="780" musicId="BGM_SB:10000" />
+	<map id="790" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="80046" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="7901" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="800" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="8001" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="8002" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="80018" musicId="BGM_039:5000,FX_002:10000" />
+	<map id="810" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="8101" musicId="BGM_038:5000,FX_014:10000" />
+	<map id="820" musicId="BGM_042:5000,FX_009:10000" />
+        <map id="80084" musicId="BGM_042:5000,FX_009:10000" />
+	<map id="830" musicId="BGM_043:5000,FX_010:10000" />
+	<map id="8301" musicId="BGM_043:5000,FX_010:10000" />
+	<map id="840" musicId="BGM_041:5000,FX_011:10000" />
+	<map id="80048" musicId="BGM_041:5000,FX_011:10000" />
+	<map id="8401" musicId="BGM_041:5000,FX_011:10000" />
+	<map id="850" musicId="BGM_046:5000,FX_013:10000" />
+        <map id="80169" musicId="BGM_046:5000,FX_013:10000" />
+        <map id="80122" musicId="BGM_046:5000,FX_013:10000" />
+        <map id="80314" musicId="BGM_108:20000" fxId="FX_136:1" />
+        <map id="80307" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="80061" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="80058" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="80047" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="8501" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="8502" musicId="BGM_046:5000,FX_013:10000" />
+	<map id="860" musicId="BGM_040:10000" />
+	<map id="80037" musicId="BGM_083:10000" />
+	<map id="80036" musicId="BGM_040:10000" />
+	<map id="80033" musicId="BGM_040:10000" />
+	<map id="80034" musicId="BGM_040:10000" />
+	<map id="870" musicId="BGM_044:10000" />
+	<map id="861" musicId="BGM_040:10000" />
+	<map id="880" musicId="BGM_047:10000" />
+	<map id="88001" musicId="BGM_047:10000" />
+	<map id="8802" musicId="BGM_047:10000" />
+	<map id="890" musicId="BGM_048:5000,FX_013:10000" />
+        <map id="80332" musicId="BGM_048:5000,FX_013:10000" />
+        <map id="80334" musicId="BGM_111:20000" fxId="FX_129:1" />
+        <map id="3830" musicId="BGM_112:20000" fxId="FX_129:1" />
+        <map id="80385" musicId="BGM_112:20000" fxId="FX_129:1" />
+        <map id="80112" musicId="BGM_048:5000,FX_013:10000" />
+	<map id="891" musicId="BGM_048:5000,FX_013:10000" />
+        <map id="80324" musicId="BGM_048:5000,FX_013:10000" />
+	<map id="900" musicId="BGM_049:5000,FX_016:10000" />
+	<map id="9001" musicId="BGM_049:5000,FX_016:10000" />
+	<map id="910" musicId="BGM_050:5000,FX_013:10000" />
+        <map id="80387" musicId="BGM_050:5000,FX_013:10000" />
+	<map id="920" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="930" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="940" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="950" musicId="BGM_051:5000,FX_013:10000" />
+	<map id="980" musicId="BGM_ICON:10000" />
+	<map id="981" musicId="BGM_WSJ12:10000" />
+        <map id="80382" musicId="BGM_WSJ12:10000" />
+	<map id="983" musicId="BGM_081:10000" />
+	<map id="984" musicId="BGM_081:10000" />
+	<map id="990" musicId="BGM_053:5000,FX_017:10000" />
+	<map id="1000" musicId="BGM_054:5000,FX_002:10000" />
+	<map id="1027" musicId="BGM_054:5000,FX_002:10000" />
+	<map id="1050" musicId="BGM_053:10000" />
+	<map id="1070" musicId="BGM_056:5000,FX_009:10000" />
+	<map id="1071" musicId="BGM_056:5000,FX_009:10000" />
+	<map id="1080" musicId="BGM_058:10000" />
+	<map id="1030" musicId="BGM_SZ2" />
+	<map id="1031" musicId="BGM_SZ2" />
+	<map id="1032" musicId="BGM_SZ2" />
+	<map id="1033" musicId="BGM_SZ2" />
+	<map id="1034" musicId="MU_010" />
+	<map id="1035" musicId="BGM_064" />
+	<map id="1037" musicId="BGM_079" />
+	<map id="1040" musicId="BGM_SZ1" />
+	<map id="3800" musicId="BGM_SZ1" />
+	<map id="3801" musicId="BGM_SZ1" />
+	<map id="3808" musicId="BGM_088" />
+	<map id="3810" musicId="BGM_088" />
+        <map id="3812" musicId="BGM_093" />
+        <map id="80339" musicId="BGM_093" />
+        <map id="80097" musicId="BGM_093" />
+        <map id="3813" musicId="BGM_096" />
+        <map id="80341" musicId="BGM_096" />
+        <map id="80098" musicId="BGM_096" />
+        <map id="3814" musicId="BGM_096" />
+        <map id="80089" musicId="BGM_096" />
+        <map id="80087" musicId="BGM_093" />
+        <map id="80092" musicId="BGM_096" />
+        <map id="80094" musicId="BGM_096" />
+        <map id="80398" musicId="BGM_096" />       
+        <map id="80401" musicId="BGM_096" />			
+		<map id="80099" musicId="BGM_096" />
+        <map id="80100" musicId="BGM_096" />
+        <map id="80101" musicId="BGM_096" />
+        <map id="80095" musicId="BGM_095" />
+        <map id="3815" musicId="BGM_097" />
+        <map id="80102" musicId="BGM_097" />
+        <map id="3816" musicId="BGM_097" />
+        <map id="80419" musicId="BGM_097" />
+        <map id="80407" musicId="BGM_097" />
+        <map id="80411" musicId="BGM_097" />
+        <map id="80415" musicId="BGM_097" />
+        <map id="3817" musicId="BGM_098" />
+        <map id="80321" musicId="BGM_098" />
+        <map id="80300" musicId="BGM_098" />
+        <map id="80137" musicId="BGM_098" />
+        <map id="3818" musicId="BGM_099" />
+        <map id="80303" musicId="BGM_099" />
+        <map id="80301" musicId="BGM_099" />
+        <map id="80158" musicId="BGM_099" />
+        <map id="80107" musicId="BGM_097" />
+        <map id="80109" musicId="BGM_097" />
+        <map id="80111" musicId="BGM_097" />
+        <map id="80103" musicId="BGM_097" />
+        <map id="80305" musicId="BGM_097" />
+        <map id="80106" musicId="BGM_097" />
+        <map id="3811" musicId="BGM_093" />
+        <map id="80340" musicId="BGM_093" />
+        <map id="80096" musicId="BGM_093" />
+        <map id="80075" musicId="BGM_093" />
+        <map id="80077" musicId="BGM_093" />
+	<map id="80066" musicId="BGM_088" />
+	<map id="80065" musicId="BGM_088" />
+	<map id="3809" musicId="BGM_088" />
+        <map id="80136" musicId="BGM_088" />
+	<map id="80064" musicId="BGM_088" />
+	<map id="80062" musicId="BGM_087" />
+	<map id="1041" musicId="BGM_SZ1" />
+	<map id="1500" musicId="BGM_074" />
+	<map id="1501" musicId="BGM_079" />
+	<map id="15001" musicId="BGM_079" />
+	<map id="1600" musicId="BGM_084" />
+	<map id="80059" musicId="BGM_084" />
+	<map id="10106" musicId="BGM_055:10000" />
+	<map id="10108" musicId="BGM_XRC:10000" />
+	<map id="10109" musicId="BGM_XRC:10000" />
+	<map id="10110" musicId="BGM_XRC:10000" />
+	<map id="101090" musicId="BGM_XRCY:10000" />
+	<map id="1160" musicId="BGM_SL:5000,FX_001:10000" />
+	<map id="1110" musicId="MU_009:10000" />
+	<map id="1111" musicId="MU_009:10000" />
+	<map id="80001" musicId="BGM_058:10000" />
+	<map id="80002" musicId="BGM_058:10000" />
+	<map id="80004" musicId="BGM_061:10000" />
+	<map id="80005" musicId="BGM_061:10000" />
+	<map id="80007" musicId="BGM_062:10000" />
+	<map id="80008" musicId="BGM_062:10000" />
+	<map id="100014" musicId="BGM_1002:1" />
+	<map id="100015" musicId="BGM_1002:1" />
+	<map id="100016" musicId="BGM_1002:1" />
+	<map id="1090" musicId="BGM_059:5000,FX_001:10000" />
+	<map id="1091" musicId="BGM_059:5000,FX_001:10000" />
+	<map id="1180" musicId="BGM_060:5000,FX_002:10000" />
+	<map id="1181" musicId="BGM_060:5000,FX_002:10000" />
+	<map id="1190" musicId="BGM_080:10000" />
+	<map id="1300" musicId="MU_011" />
+	<map id="1301" musicId="MU_011" />
+	<map id="1170" musicId="BGM_YT" />
+        <map id="80319" musicId="BGM_YT" />
+	<map id="1200" musicId="BGM_068:5000,FX_004:10000" />
+	<map id="1210" musicId="BGM_070:5000,FX_018:10000" />
+	<map id="1220" musicId="BGM_071:5000,FX_012:10000" />
+        <map id="80325" musicId="BGM_071:5000,FX_012:10000" />
+        <map id="80326" musicId="BGM_109:20000" fxId="FX_114:1" />
+        <map id="3825" musicId="BGM_109:20000" fxId="FX_114:1" />
+        <map id="80389" musicId="BGM_109:20000" fxId="FX_114:1" />
+        <map id="3836" musicId="BGM_119:20000" fxId="FX_126:1" />
+        <map id="3837" musicId="BGM_120:20000" fxId="FX_134:1" />
+        <map id="3838" musicId="BGM_077:20000" fxId="FX_114:1" />
+        <map id="80394" musicId="BGM_077:20000" fxId="FX_114:1" />
+        <map id="80386" musicId="BGM_120:20000" fxId="FX_134:1" />
+        <map id="80383" musicId="BGM_119:20000" fxId="FX_126:1" />
+        <map id="80384" musicId="BGM_119:20000" fxId="FX_126:1" />
+        <map id="80378" musicId="BGM_109:20000" fxId="FX_114:1" />
+        <map id="80121" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="1221" musicId="BGM_071:5000,FX_012:10000" />
+        <map id="80390" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8600" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8601" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8602" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8603" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8604" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="8605" musicId="BGM_071:5000,FX_012:10000" />
+	<map id="1230" musicId="BGM_075:5000,FX_017:10000" />
+	<map id="1240" musicId="BGM_077:5000,FX_017:10000" />
+	<map id="80054" musicId="BGM_077:5000,FX_017:10000" />
+	<map id="1250" musicId="BGM_082:10000" />
+	<map id="1700" musicId="BGM_085:10000" />
+	<map id="80052" musicId="BGM_085:10000" />
+        <map id="80370" musicId="BGM_085:10000" />
+        <map id="80371" musicId="BGM_085:10000" />
+        <map id="80372" musicId="BGM_085:10000" />
+	<map id="80010" musicId="BGM_YT" />
+	<map id="80011" musicId="BGM_AYL" />
+	<map id="80012" musicId="BGM_AYL" />
+	<map id="80013" musicId="BGM_AYL" />
+	<map id="80019" musicId="BGM_AYL" />
+	<map id="80057" musicId="BGM_AYL" />
+	<map id="80020" musicId="BGM_AYL" />
+	<map id="80014" musicId="BGM_065" />
+	<map id="80015" musicId="BGM_065" />
+	<map id="80021" musicId="BGM_067" />
+        <map id="80168" musicId="BGM_067" />
+        <map id="80207" musicId="BGM_067" />
+	<map id="80022" musicId="BGM_069" />
+	<map id="80023" musicId="BGM_069" />
+	<map id="80025" musicId="BGM_072" />
+	<map id="80026" musicId="BGM_072" />
+	<map id="80028" musicId="BGM_076" />
+	<map id="80029" musicId="BGM_076" />
+	<map id="80030" musicId="BGM_076" />
+	<map id="80030" musicId="BGM_076" />
+	<map id="80031" musicId="BGM_078" />
+        <map id="80076" musicId="BGM_078" />
+	<map id="80032" musicId="BGM_078" />
+	<map id="3840" musicId="BGM_3840" fxId="FX_101:1" />
+	<map id="3842" musicId="BGM_3840" fxId="FX_101:1" />
+
+	<map id="3844" musicId="BGM_3844" fxId="FX_101:1" />
+	<map id="3845" musicId="BGM_202" fxId="FX_101:1" />
+	<map id="3847" musicId="BGM_3847" fxId="FX_3847" />
+ 	<map id="3848" musicId="BGM_3847" fxId="FX_3847" />
+</data>

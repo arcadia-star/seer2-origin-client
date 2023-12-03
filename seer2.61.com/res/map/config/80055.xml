@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="树洞" categoryId="0">
+	<resource url="1240.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="396" y="476"/>
+	<entities>
+		<teleport id="1" name="后花园" pos="257,544" targetMapId="1230"/>
+	</entities>
+</map>

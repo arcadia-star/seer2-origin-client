@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 神域 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pet:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<!-- isClose: 是否关闭 -->
+<data>
+	<!--神风祭台-->　　
+	<map id="910" level="60-100级">
+		<pet isSpt="0" id="248" name="卡多斯" category="7"/>
+	</map>
+	<!--风暴悬崖-->　　
+	<map id="891" level="1-100级">
+		<pet isSpt="0" id="240" name="海特尔" category="7"/>
+	</map>
+
+
+	<!--风刃氏族主城-->	
+	<map id="900" level="1-100级">
+        <activity name="活动：挑战斯堤姆军团" time="全天"/>
+
+
+		<pet isSpt="0" id="712" name="酷奇" category="7"/>
+	</map>
+	<!--流离街-->
+	<map id="920" level="1-100级">
+	</map>
+	<!--御风中枢-->
+	<map id="930" level="1-100级">
+	</map>
+	<!--风涡工房-->
+	<map id="940" level="1-100级">
+        <activity name="活动：挑战斯莫克" time="全天"/>
+		<pet isSpt="0" id="258" name="斯莫克" category="7"/>
+	</map>	
+
+	<!--神秘研究院-->
+	<map id="950" level="1-100级">
+	</map>
+
+
+</data>

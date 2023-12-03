@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="爪灵兽祭坛(爪灵兽超进化)"  categoryId="5">
+	<resource url="80498.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="620" y="425"/>
+	<entities>
+		<teleport id="1" name="返回传送仓" pos="50,460" targetMapId="70"/>
+	</entities>
+</map><?xml version="1.0" encoding="UTF-8"?>

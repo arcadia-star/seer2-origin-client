@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="火焰山" categoryId="4" weather="3">
+	<resource url="10026_4.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="500" y="400"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="847,435" targetMapId="70" targetPos="700,340"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="613,459" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

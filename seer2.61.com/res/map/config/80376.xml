@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="基地" categoryId="0" switch="0" weather="1">
+	<resource url="80376.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="730" y="560" />
+	<entities>
+	</entities>
+
+
+	
+</map>

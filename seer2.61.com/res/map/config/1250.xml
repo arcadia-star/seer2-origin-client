@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="翼灵空岛" categoryId="8" switch="0" weather="0">
+<!-- categoryid是该地图在小地图里属于哪个系列的一个标识 -->
+	<resource url="1250.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="677" y="490"/>
+	<entities>
+		<teleport id="1" name="飞翼氏族主城" pos="876,572" targetMapId="660" targetPos="500,390"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="787,473" actorPos="" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

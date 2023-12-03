@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="赫尔卡星荒地" categoryId="0">
+	<resource url="80134.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="550" y="380"/>
+	<entities>	
+			<npc id="692" resId="692" name="雷煞" dir="0" width="90" height="170" pos="550,400" actorPos="550,400" path="">
+			<dialog npcId="692">
+				<branch id="default">
+					<node emotion="0"><![CDATA[只有雷伊才有资格和我斗一斗，哼，你是哪里的小铁罐？]]></node>
+					<reply params="toFight"><![CDATA[挑战吧！]]></reply>
+					<reply action="close"><![CDATA[ 你和雷伊好像啊]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="748,432" targetMapId="70"/>
+	</entities>
+</map>

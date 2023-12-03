@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="英雄之战" categoryId="100">
+	<resource url="10041_8.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="140" y="480"/>
+</map>

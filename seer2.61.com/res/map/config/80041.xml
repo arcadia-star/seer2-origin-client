@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="狂暴漩涡" categoryId="3">
+	<resource url="80041.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="580" y="450"/>
+	<entities>
+		<npc id="619" resId="619" name="骤雨" dir="0" width="70" height="110" pos="336,400" actorPos="450,390" path="">
+			<dialog npcId="619" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[小铁皮！我幻灵骑士团【幻齿骤雨】等你很久了！我可不是菜鸟，好好搭配下你的对战精灵组合吧！]]></node>
+					<reply action="close"><![CDATA[准备一下]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="我要挑战你" params="startFight" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="漩涡峡谷" pos="233,390" targetMapId="212"/>
+		<teleport id="2" name="水仙草界" pos="625,440" targetMapId="151"/>
+		<mineport id="3" resId="5" name="蓝色矿脉" pos="772,360" actorPos="697,503" limit="3" serverConfigId="8"/>
+	</entities>
+</map>

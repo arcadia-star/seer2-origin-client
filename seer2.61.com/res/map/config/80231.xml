@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="赫尔卡星荒地" categoryId="0">
+	<resource url="10086_2.swf" />
+	<fightMap id="100099" />
+	<initialPoint x="370" y="395"/>
+	<entities>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="660,382" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>		
+		<teleport id="1" name="传送室" pos="305,442" targetMapId="70" targetPos="480,380"/>
+	</entities>
+</map>

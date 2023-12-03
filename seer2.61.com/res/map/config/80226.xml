@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="信奉广场" categoryId="2">
+	<resource url="10010.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="394" y="401"/>
+	<entities>
+		<npc id="767" resId="767" name="圣灵天尊" dir="0" width="70" height="150" pos="600,330" actorPos="608,300" path="">
+		</npc>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="616,461" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="草系主城" pos="920,260" targetMapId="90" targetPos="115,405"/>
+		<teleport id="2" name="水仙草界" pos="98,318" targetMapId="151" targetPos="812,472"/>
+	</entities>
+</map>

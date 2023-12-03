@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="纠结之藤" categoryId="9">
+	<resource url="10083.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="777" y="439"/>
+	<entities>			
+		<teleport id="1" name="传送室" pos="880,550" targetMapId="70" targetPos="373,183"/>		
+	</entities>
+</map>

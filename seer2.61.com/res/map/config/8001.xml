@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="视界原野副本" categoryId="9">
+	<resource url="10080.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="559" y="517"/>
+	<entities>
+		<teleport id="1" name="视界原野" pos="346,507" targetMapId="800"/>
+		<npc id="475" resId="475" name="费德提克" dir="0" width="70" height="110" pos="588,467" actorPos="559,517" path=""/>
+	</entities>
+</map>

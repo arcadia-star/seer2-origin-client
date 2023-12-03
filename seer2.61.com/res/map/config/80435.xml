@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="沙漠之鹰(梦境宝藏)" categoryId="6">
+	<resource url="10035.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="661" y="400"/>
+	<entities>
+		<npc id="54" resId="54" name="周扒皮" dir="1" width="70" height="120" pos="727,353" actorPos="641,394" path="">
+		</npc>
+		<teleport id="1" name="淘米市场" pos="794,464" targetMapId="330" targetPos="255,558"/>
+	</entities>
+
+</map>

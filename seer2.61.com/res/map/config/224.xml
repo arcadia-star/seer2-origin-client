@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幽静浅滩" categoryId="3">
+	<resource url="10224.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="480" y="380"/>
+	<entities>
+	</entities>
+</map>

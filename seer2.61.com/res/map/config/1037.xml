@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="骰子星海滩" categoryId="0">
+	<resource url="10103_7.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="395" y="501"/>
+	<entities>					
+	</entities>
+</map>

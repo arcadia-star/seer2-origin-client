@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="云海藏书(主线副本)"  categoryId="5">
+	<resource url="80523.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="715" y="510"/>
+	<entities>
+		<npc id="3107" resId="3107_0" name="布克" dir="0" width="70" height="110" pos="582,387" actorPos="615,491" path="">
+			<dialog npcId="3107" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[呼呼……呼……呼呼……]]></node>
+					<reply action="close"><![CDATA[（看上去好厉害的样子！）]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战布克" params="OpenNpcChallengePanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

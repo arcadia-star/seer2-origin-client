@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="微光湖畔" categoryId="9">
+	<resource url="10079.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="510" y="421"/>
+	<entities>
+		<teleport id="1" name="视界原野" pos="983,565" targetMapId="800"/>
+	</entities>
+</map>

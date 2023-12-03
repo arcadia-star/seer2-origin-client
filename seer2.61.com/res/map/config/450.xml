@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="精灵王之战" categoryId="100">
+	<resource url="10045.swf"/>
+	<fightMap id="100100"/>
+	<initialPoint x="437" y="352"/>
+	<entities>
+		<npc id="3" resId="3" name="上尉门罗" dir="0" width="70" height="110" pos="593,273" actorPos="600,330" path="">
+			<dialog npcId="3" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[试炼之战、勇士之战与50v50模式前10场胜利也会输出荣誉点，并且在19:00-21:00双倍输出。要塞每层前10场战斗也会输出荣誉点。]]></node>
+					<reply action="close"><![CDATA[我现在就去获得荣誉点！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="shop" name="荣誉兑换" params="HonorExchangePanel" />
+				<node type="module" name="中秋猜灯谜" params="PrepareAnswerPanel {id:4}" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[到我这里可以兑换荣誉点的奖励哦！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<!-- teleport id="1" name="传送室" pos="482,444" targetMapId="70" targetPos="480,300"/ -->
+	</entities>	
+</map>

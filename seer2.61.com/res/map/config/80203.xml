@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="复活岛" categoryId="5" switch="1" weather="1">
+	<resource url="80203.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="370" y="440"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="800,475" targetMapId="70" targetPos="265,324"/>
+	</entities>
+</map>

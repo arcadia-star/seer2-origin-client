@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="小屋" categoryId="200">
+	<resource url="50000.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="500" y="350"/>
+	<trainingPet>
+		<words>
+			<word><![CDATA[既然来了，就和我对战一场吧。]]></word>
+			<word><![CDATA[我可不是那种懦弱的精灵！]]></word>
+			<word><![CDATA[在这里战斗的话经验可是很多的哦。]]></word>
+			<word><![CDATA[可不是我吹牛，最近已经有很多精灵败在我手上了哦。]]></word>
+			<word><![CDATA[为什么我就找不到任何对手呢！]]></word>
+			<word><![CDATA[我只是想好好锻炼一下，别来理我！]]></word>
+			<word><![CDATA[低调，低调～]]></word>
+			<word><![CDATA[我不是好欺负的哦，敢和我单挑吗？]]></word>
+			<word><![CDATA[你好像也不过如此嘛]]></word>
+			<word><![CDATA[其实锻炼是有诀窍，我可以慢慢教给你哦……]]></word>
+		</words>
+		<birthPositions>
+			<position x="453" y="250"/>
+			<position x="542" y="244"/>
+			<position x="654" y="242"/>
+			<position x="489" y="303"/>
+			<position x="584" y="300"/>
+			<position x="713" y="300"/>
+			<position x="535" y="370"/>
+			<position x="631" y="366"/>
+			<position x="778" y="363"/>
+		</birthPositions>
+	</trainingPet>
+	<entities>		
+		<npc id="187" resId="187" name="" dir="1" width="105" height="130" pos="860,303" actorPos="465,371" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[精元孵化器]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[PetSpiritTrainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<!-- <teleport id="1" name="传送室" pos="130,350" targetMapId="70" targetPos="440,470"/> -->
+	</entities>
+</map>

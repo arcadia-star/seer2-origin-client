@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="火神道场(赤火炎帝)" categoryId="0">
+	<resource url="3845_1.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="670" y="496"/>
+	<entities>		
+	</entities>
+</map>

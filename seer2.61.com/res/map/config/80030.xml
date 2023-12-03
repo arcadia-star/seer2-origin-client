@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="傲慢大厅1号副本" categoryId="2">
+	<resource url="80007.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="757" y="510"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="670,475" targetMapId="1071"/>
+	</entities>
+</map>

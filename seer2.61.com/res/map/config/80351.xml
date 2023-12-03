@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="船长室" categoryId="1">
+	<resource url="80351.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="460" y="400"/>
+	<entities>				
+		<npc id="80351" resId="80351" name="船长辛迪" dir="1" width="90" height="120" pos="967,438" actorPos="423,519" path="">
+			<dialog npcId="1" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[各位小赛尔！我代表飞船全体官员欢迎大家！前方还有很多的挑战，星际的黎明还没有来到，加油！]]></node>
+					<reply action="close"><![CDATA[是！！船长！]]></reply>
+				</branch>
+			</dialog>
+		</npc>
+	</entities>
+</map>

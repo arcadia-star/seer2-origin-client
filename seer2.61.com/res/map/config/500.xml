@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="实验禁地"  categoryId="5">
+	<resource url="10050.swf"/>
+	<fightMap id="100008"/>
+	<initialPoint x="548" y="509"/>
+	<entities>
+		<npc id="429" resId="429" name="伊特" dir="0" width="70" height="65" pos="794,572" actorPos="600,523" path="">
+			<dialog npcId="429" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我就是捣蛋鬼怎么样！没有朋友又怎么样！我就这么惹人厌！]]></node>
+					<reply action="close"><![CDATA[……伊特……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="兑换奖励" params="ExchangeCollector" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[走开！别来惹我！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="492" resId="492" name="战伊特" dir="0" width="70" height="120" pos="741,531" actorPos="600,523" path="">
+			<dialog npcId="492" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[铁皮人，你是来这里打架的吗？你觉得我们兄弟里谁才是最强的？]]></node>
+					<reply action="close"><![CDATA[……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>		
+				<node type="module" name="族徽兑换" params="YiteSuperPetSwapPanel" />
+				<node type="module" name="伊特家族Shop秀" params="YiteSuperPetShopShowPanel" />
+				<node type="module" name="伊特族战！复苏的草伊特！" params="YiteSuperPetPanel" />
+				<node type="module" name="兑换奖励（原伊特大乱斗）" params="YiteFightSwapPanel" />	
+<!-- 				<node type="" name="10场胜利领奖" params="win10" /> -->
+<!-- 				<node type="" name="参与10场领奖" params="start10" /> -->
+<!-- 				<node type="" name="连胜3场领奖" params="win3" />			 -->
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[胜者为王！败者为寇！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="乌黑矿坑[捣蛋鬼奇遇记]" pos="554,584" targetMapId="5206" targetPos="739,241"/>
+		<teleport id="2" name="冰之谷" pos="508,444" targetMapId="540" targetPos="606,370"/>
+	</entities>
+</map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="娜钱莱宫殿(梦境宝藏)" categoryId="6">
+	<resource url="80433.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="589" y="474"/>
+	<entities>
+		
+	</entities>
+
+</map>

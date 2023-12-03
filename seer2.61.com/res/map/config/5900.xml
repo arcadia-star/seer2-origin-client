@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰沁神殿" categoryId="7" switch="0" weather="0">
+<!-- 这是为了沁灵兽第三章新作的地图，此地图普通玩家无法进入，只有通过沁灵兽第三章才能进入 -->
+	<resource url="10059.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="518" y="468" />
+	<entities>
+		<npc id="571" resId="571" name="沁灵兽" dir="0" width="75" height="100" pos="364,467" actorPos="500,455" path="">
+			<dialog npcId="571" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我已听到你们真挚的祈祷，赶快去拯救酋长吧。]]></node>
+					<reply action="close"><![CDATA[监狱的秘密]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+			<!-- <mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[冰沁与你同在！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			 -->	
+			
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="冰沁宫殿" pos="700,560" targetMapId="550" targetPos="717,561"/>
+	</entities>
+</map>

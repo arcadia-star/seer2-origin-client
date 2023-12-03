@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域回廊" categoryId="7" switch="1" weather="9">
+	<resource url="80111_1.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="287" y="531"/>
+	<entities>
+		<teleport id="70" name="传送室" pos="847,435" targetMapId="70" targetPos="700,340"/>
+	</entities>
+</map>

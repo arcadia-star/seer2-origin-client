@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="梅花三弄" categoryId="2">
+    <resource url="1180.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="237" y="449"/>
+    <entities>
+	   <npc id="544" resId="544" name="梅花一弄" dir="1" width="70" height="150" pos="802,571" actorPos="531,476" path="">
+			<dialog npcId="544" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[你能赢过我梅花一弄的无影梅花脚？？]]></node>
+					<reply action="close"><![CDATA[那是必须的。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="梅花三弄注意！" params="Panda1180EntryPanel" />
+				<node type="module" name="比武大会！" params="Panda1180MainPanel" />
+				<node type="module" name="挑战梅花三弄" params="Panda1180FightPanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="545" resId="545" name="梅花二弄" dir="1" width="70" height="175" pos="978,516" actorPos="531,476" path="">
+			<dialog npcId="545" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我比一弄哥弱一点点，又比三弄弟强一点点！]]></node>
+					<reply action="close"><![CDATA[你只要记得你比我弱。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="梅花三弄注意！" params="Panda1180EntryPanel" />
+				<node type="module" name="比武大会！" params="Panda1180MainPanel" />
+				<node type="module" name="挑战梅花三弄" params="Panda1180FightPanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="546" resId="546" name="梅花三弄" dir="1" width="70" height="200" pos="1066,428" actorPos="531,476" path="">
+			<dialog npcId="546" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我三弄才是梅花三弄组合中最压轴的黑马！！]]></node>
+					<reply action="close"><![CDATA[（吹着口哨直接无视路过）]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="梅花三弄注意！" params="Panda1180EntryPanel" />
+				<node type="module" name="比武大会！" params="Panda1180MainPanel" />
+				<node type="module" name="挑战梅花三弄" params="Panda1180FightPanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<!--<npc id="543" resId="543" name="习武的元蛋" dir="0" width="70" height="70" pos="660,484" actorPos="484,478" path="">
+			<dialog npcId="543" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[嗝儿——酒仙爷爷的佳酿太好喝了，喝完还有“头晕目眩”的神奇效果……]]></node>
+					<reply action="close"><![CDATA[一股酒气，离它远点！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="猪GIN" params="PartyNotisiPanel {id:3}" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>-->
+       <teleport id="1" name="青竹迷境" pos="118,435" targetMapId="1090" />
+    </entities>
+</map>

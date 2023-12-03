@@ -1,0 +1,22 @@
+<map name="影月林(艾瑞克输出副本)" categoryId="1">
+	<resource url="10384_7_1.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="351" y="456"/>
+	<entities>
+		<teleport id="1" name="超能广场" pos="154,438" targetMapId="3830"/>	
+		<teleport id="2" name="暗影氏族主城" pos="934,253" targetMapId="3848"/>	
+<!-- 		<npc id="3018" resId="3018" name="伊万" dir="1" width="47" height="140" pos="580,460" actorPos="582,455" path=""> -->
+<!-- 			<dialog npcId="3018"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[往前是暗影之地，没有主人的允许都不能通过这里。]]></node> -->
+<!-- 					<reply action="close"><![CDATA[我什么也没听到~]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler>		 -->
+<!-- 		</npc> -->
+	</entities>
+</map>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="蛮神战场(罗刹青帝)" categoryId="4" weather="0">
+	<resource url="10024_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="560" y="580"/>
+	<entities>
+	</entities>
+</map>

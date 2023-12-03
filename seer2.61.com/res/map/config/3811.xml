@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="原始雪森林" categoryId="7" switch="1" weather="9">
+	<resource url="3811.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="623" y="520"/>
+	<entities>
+	<!-- 889,382 -->
+		<npc id="647" resId="647" name="路奇" dir="1" width="110" height="120" pos="618,397" actorPos="633,458" path="">		
+		</npc>
+		<teleport id="1" name="雪之湖泊" pos="463,523" targetMapId="3812" targetPos="444,539"/>
+		<teleport id="2" name="冰沁宫殿" pos="1020,348" targetMapId="550" targetPos="553,508"/>
+	</entities>
+</map>

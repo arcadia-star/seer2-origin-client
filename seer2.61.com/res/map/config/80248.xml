@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="火焰山" categoryId="4" weather="3">
+	<resource url="10026_5.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="500" y="400"/>
+	<entities>
+		<teleport id="70" name="传送室" pos="847,435" targetMapId="70" targetPos="700,340"/>
+	</entities>
+</map>

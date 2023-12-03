@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="飞翼之核" categoryId="8">
+	<resource url="10072.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="662" y="445"/>
+	<entities>
+		<teleport id="1" name="飞翼氏族主城" pos="415, 365" targetMapId="660" targetPos="522,228"/>
+	</entities>
+</map>

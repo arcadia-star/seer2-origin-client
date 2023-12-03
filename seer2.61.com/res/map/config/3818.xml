@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="星球战境" categoryId="11" switch="1" weather="9">
+	<resource url="3818.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="270" y="450"/>
+	<entities>
+		<npc id="153" resId="153" name="贾斯汀" dir="0" width="90" height="160" pos="517,366" actorPos="565,409" path="">
+		</npc>
+		<npc id="151" resId="151" name="包打听" dir="1" width="70" height="95" pos="226,377" actorPos="261,434" path="">
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[新年快乐！迎春倒计时在1月29日20:00-21:00进行哦]]></HandlerShowNpcSlogan>
+					</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="771,437" targetMapId="70" targetPos="300,414"/>
+	</entities>
+</map>

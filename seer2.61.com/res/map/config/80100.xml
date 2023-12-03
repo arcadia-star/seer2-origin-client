@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰封魔域" categoryId="7" switch="1" weather="9">
+	<resource url="80100.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="380" y="462"/>
+	<entities>
+		<teleport id="1" name="雪之湖泊" pos="600,470" targetMapId="3812" targetPos="300,414"/>
+	</entities>
+</map>

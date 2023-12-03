@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="青竹迷境" categoryId="2">
+    <resource url="1090.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="770" y="540"/>
+    <entities>
+<!-- 		<npc id="193" resId="193" name="熊猫酒仙" dir="0" width="70" height="95" pos="460,299" actorPos="484,478" path=""> -->
+<!-- 			<dialog npcId="193" transport="1,300,400"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[嗝儿……采菊东篱下，悠然见南山……！]]></node> -->
+<!-- 					<reply action="close"><![CDATA[哇……一股酒味！]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality> -->
+<!-- 				<node type="module" name="青竹秘境注意！" params="PandaNotisiPanel" /> -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[采菊东篱下，悠然见南山]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+<!-- 		<npc id="547" resId="547" name="喝醉的元蛋" dir="0" width="70" height="70" pos="515,300" actorPos="484,478" path=""> -->
+<!-- 			<dialog npcId="547" transport="1,300,400"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[嗝儿——酒仙爷爷的佳酿太好喝了，喝完还有“头晕目眩”的神奇效果……]]></node> -->
+<!-- 					<reply action="close"><![CDATA[一股酒气，离它远点！]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality> -->
+<!-- 				<node type="module" name="秘境迷踪" params="PartyNotisiPanel {id:2}" /> -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+<!-- 		<npc id="548" resId="548" name="玩耍的乔飞" dir="1" width="70" height="80" pos="278,328" actorPos="272,419" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+<!-- 		<npc id="549" resId="549" name="玩耍的乔飞" dir="1" width="70" height="80" pos="172,308" actorPos="272,419" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+<!-- 		<npc id="554" resId="554" name="玩耍的乔飞" dir="0" width="70" height="80" pos="613,434" actorPos="272,419" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<npc id="3027" resId="3027" name="" dir="0" width="70" height="80" pos="370,510" actorPos="272,419" path=""></npc>
+		<npc id="3032" resId="3032" name="" dir="1" width="70" height="80" pos="497,459" actorPos="272,419" path="">
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[RabbitMoonLightCapsulePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+<!-- 		<npc id="3036" resId="3036" name="兔爷" dir="0" width="70" height="80" pos="597,459" actorPos="272,419" path=""></npc> -->
+			
+		<teleport id="2" name="梅花三弄" pos="1041,401" targetMapId="1180" />
+		<teleport id="1" name="异蘑谷" pos="980,302" targetMapId="124"/>
+    </entities>
+</map>

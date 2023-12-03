@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="彩虹珊瑚湾" categoryId="3">
+	<resource url="10020_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="618" y="542"/>
+	<entities>
+		<npc id="29" resId="29" name="哈瑞" dir="0" width="70" height="95" pos="832,379" actorPos="812,463" path="">
+			<dialog npcId="29" transport="1,300,400">
+				<branch id="default">
+					<node emotion="4"><![CDATA[这个世界上可是存在着很多神奇的事情哦！细心观察一下，或许就会有突破！哈哈！]]></node>
+					<reply action="close"><![CDATA[听起来好Cool！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[这是大自然的力量]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="深水之城" pos="997,551" targetMapId="170" targetPos="258,285"/>
+		<teleport id="2" name="幽静珊瑚穴" pos="95,265" targetMapId="204" targetPos="660,414"/>
+		<teleport id="3" name="珊瑚路" pos="704,357" targetMapId="202" targetPos="820,340"/>
+	</entities>
+</map>

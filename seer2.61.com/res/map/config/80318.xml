@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="烈火版幻空领" categoryId="4" weather="3">
+	<resource url="80318.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="705" y="563"/>
+	<entities>
+		<teleport id="1" name="幻空通道" pos="802,578" targetMapId="291" targetPos="535,355"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="843,454" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

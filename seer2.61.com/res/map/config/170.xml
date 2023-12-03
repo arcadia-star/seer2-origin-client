@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="深水之城" categoryId="3">
+	<resource url="10017.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="470" y="509"/>
+	<entities>
+		<npc id="25" resId="25" name="莱斯" dir="0" width="70" height="85" pos="428,382" actorPos="312,345" path="">
+			<dialog npcId="25" transport="1,300,400">
+				<branch id="default">
+					<node emotion="4"><![CDATA[这里守卫森严！休想浑水摸虾！！]]></node>
+					<reply action="close"><![CDATA[（是浑水摸鱼吧……）]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[和平源自力量]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="26" resId="26" name="莱克" dir="0" width="70" height="85" pos="715,432" actorPos="489,492" path="">
+			<dialog npcId="26" transport="1,300,400">
+				<branch id="default">
+					<node emotion="2"><![CDATA[守护这里是我的职责！洛水是整个水脉氏族的灵魂！绝不容许任何人伤害她！]]></node>
+					<reply action="close"><![CDATA[原来莱斯和莱克是双胞胎哦！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel><![CDATA[守护这里是我的职责]]></HandlerOpenDialogPanel>
+				</click>
+			</eventHandler>
+		</npc>
+		<!-- 
+		
+				<npc id="811" resId="176" name="小约瑟" dir="1" width="70" height="120"
+		pos="246,523" actorPos="544,443" path="">
+		<dialog npcId="176" transport="1,300,400">
+		</dialog>
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[小约瑟出现啦！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[BigReward]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+		 -->
+
+		<teleport id="1" name="彩虹珊瑚湾" pos="227,229" targetMapId="201" targetPos="770,520"/>
+		<teleport id="2" name="水系主城" pos="1018,452" targetMapId="160" targetPos="223,464"/>
+	</entities>
+</map>

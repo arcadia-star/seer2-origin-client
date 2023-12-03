@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="约瑟战境" categoryId="100">
+	<resource url="3858.swf"/>
+	<fightMap id="100100"/>
+	<initialPoint x="888" y="540"/>
+	<entities>
+		
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<teleport id="1" name="传送室" pos="980,540" targetMapId="70" targetPos="480,300"/>
+	</entities>	
+</map>

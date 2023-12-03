@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="赤链山脉" categoryId="4" weather="1">
+	<resource url="10030_3.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="615" y="430"/>
+	<entities>
+		<npc id="21" resId="21" name="油民" dir="1" width="70" height="120" pos="750,380" actorPos="720,400" path="">
+			<dialog npcId="21" transport="1,300,400">
+				<branch id="default">
+					<node emotion="2"><![CDATA[有人说我一脸囧样，但其实我觉得我挺英俊的！为什么没精灵喜欢我呢？]]></node>
+					<reply action="close"><![CDATA[这个……那个……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="game" name="精灵连连看" params="1" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[悲催！悲催！太悲催了！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="草系主城" pos="900,475" targetMapId="90" targetPos="595,480"/>
+		<teleport id="2" name="朽木桥" pos="495,280" targetMapId="122" targetPos="780,450"/>
+		<mineport id="3" resId="1" name="蓝色矿脉" pos="348,315" actorPos="398,400" limit="3" serverConfigId="4"/>
+	</entities>
+</map>

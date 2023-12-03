@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="街心花园" categoryId="8">
+	<resource url="10074.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="564" y="374"/>
+	<entities>
+		<teleport id="1" name="羽冠之岛" pos="1087, 522" targetMapId="730" targetPos="806,347"/>
+	</entities>
+</map>

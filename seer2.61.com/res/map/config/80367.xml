@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="深水之城" categoryId="3">
+	<resource url="10017.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="470" y="509"/>
+	<entities>
+		<teleport id="1" name="真·传送室" pos="188,201" targetMapId="70" targetPos="770,520"/>
+		<teleport id="2" name="传送室" pos="1018,452" targetMapId="70" targetPos="223,464"/>
+	</entities>
+</map>

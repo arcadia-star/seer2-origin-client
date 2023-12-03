@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="悲伤残骸" categoryId="3">
+	<resource url="10019_3.swf"/>
+	<fightMap id="100096"/>
+	<initialPoint x="379" y="481"/>
+	<entities>
+		<teleport id="1" name="残骸通道" pos="250,584" targetMapId="192" targetPos="975,350"/>
+		<mineport id="2" resId="4" name="绿色矿脉" pos="270,260" actorPos="342,405" limit="3" serverConfigId="5"/>
+		<npc id="199" resId="199" name="" dir="1" width="50" height="80" pos="423,280" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

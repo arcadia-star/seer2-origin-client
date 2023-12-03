@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="王者之门" categoryId="100" checkable="1">
+	<resource url="3850.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="475" y="454"/>
+	<entities>
+		<npc id="9" resId="9" name="卫兵" dir="0" width="75" height="120" pos="606,333" actorPos="590,367" path="">
+			<dialog npcId="9" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[欢迎来到约瑟传说!我想你会喜欢这里。]]></node>
+					<reply action="close"><![CDATA[离开]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				 <node type="module" name="王者试炼 目标奖励" params="KingFightTrailTaskPanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+		<teleport id="1" name="传送室" pos="402,364" targetMapId="70"/>
+	</entities>		
+</map>

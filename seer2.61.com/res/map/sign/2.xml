@@ -1,0 +1,77 @@
+﻿<!-- 草木氏族 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pets:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<map id="90" >
+		<fun name="烹饪食物" />
+	</map>
+	<map id="100" level="1-100级">
+	    <pet  id="252" name="利路姆（稀有）" />
+		<activity name="萨伦帝国入侵" time="每周五"/>
+	</map>
+	<map id="121" level="2-4级">
+	    <pet  id="10" name="法拉" />	
+	    <collect id="400005" />
+		<collect id="400007" />
+		<game name="精灵连连看" />
+	</map>
+    <map id="122" level="5-7级">
+	    <pet  id="43" name="啾啾" />
+        <pet  id="10" name="法拉" />
+        <pet  id="18" name="小树根" />
+		<collect id="400006" />
+	</map>
+    <map id="123" level="8-10级">
+	    <pet  id="43" name="啾啾" />
+        <pet  id="10" name="法拉" />
+	    <pet  id="65" name="浣浣" />
+	    <collect id="400008" />
+	</map>
+	<map id="124" level="20级">
+	    <pet  id="204" name="芙拉" />
+        <pet  id="10" name="法拉" />
+	    <pet  id="49" name="多摩" />
+	    <collect id="400005" />
+	</map>
+	<map id="131" level="5-7级">
+	    <pet  id="13" name="小小葵" />
+	    <collect id="400009" />
+		<collect id="400007" />
+	</map>
+	<map id="132" level="6-8级">
+	    <pet  id="43" name="啾啾" />
+        <pet  id="10" name="法拉" />
+	    <pet  id="204" name="芙拉" />
+	    <collect id="400009" />
+	</map>
+	<map id="133" level="12-14级">
+	    <pet  id="200" name="荧光蝶" />
+        <pet  id="10" name="法拉" />
+	    <pet  id="49" name="多摩" />
+	    <collect id="400005" />
+	</map>
+	<map id="141" level="9-11级">
+	    <pet  id="43" name="啾啾" />
+        <pet  id="10" name="法拉" />
+        <pet  id="18" name="小树根" />
+	    <collect id="400008" />
+		<game name="飞檐走壁" />
+	</map>
+	<map id="142" level="20级">
+        <pet isSpt="1" id="17" name="布鲁托" />
+	    <collect id="400005" />
+	</map>
+	<map id="151" level="12-14级">
+        <pet  id="20" name="奇鲁" />
+	    <collect id="400010" />
+	</map>
+	<map id="152" level="45级">
+        <pet isSpt="1" id="14" name="呆呆葵" />
+        <pet isSpt="1" id="57" name="麦麦迪" />
+		<fun name="钓鱼" />		
+	</map>
+
+</data>

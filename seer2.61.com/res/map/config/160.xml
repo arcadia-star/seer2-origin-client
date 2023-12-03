@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水系主城" categoryId="3">
+	<resource url="10016.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="580" y="430"/>
+	<entities>
+		<npc id="23" resId="23" name="神谕祭司" dir="0" width="70" height="110" pos="564,306" actorPos="615,491" path="">
+			<dialog npcId="23" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[在这里你将得到水脉氏族的祝福！永远幸福、快乐！]]></node>
+					<reply action="close"><![CDATA[谢谢大祭司.]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[灵脉之水与你同在]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="24" resId="24" name="爱丽斯" dir="0" width="70" height="110" pos="582,387" actorPos="615,491" path="">
+			<dialog npcId="24" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[呼呼……呼……呼呼……]]></node>
+					<reply action="close"><![CDATA[（看上去好厉害的样子！）]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战爱丽斯" params="OpenNpcChallengePanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="329,222" actorPos="341,440" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+<!-- 		<npc id="198" resId="198" name="" dir="0" width="90" height="200" pos="660,365" actorPos="574,388" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[春季特卖会]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[SpringShopPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<teleport id="1" name="深水之城" pos="66,551" targetMapId="170" targetPos="887,534"/>
+		<teleport id="2" name="银脉山脊" pos="357,407" targetMapId="180" targetPos="980,400"/>
+		<teleport id="3" name="漩涡谷地" pos="1111,507" targetMapId="211" targetPos="380,530"/>
+	</entities>
+</map>

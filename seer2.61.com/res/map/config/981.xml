@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="万圣糖果树" categoryId="0">
+	<resource url="10098_2.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="760" y="560"/>
+	<entities>		
+		<teleport id="1" name="传送室" pos="1090,530" targetMapId="70"/>
+	<npc id="3052" resId="3052" name="" dir="1" width="75" height="100" pos="380,469" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[5星万圣鬼王等你拿！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[DevilPetOutputPanel]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+	<npc id="3044" resId="3044" name="" dir="1" width="75" height="100" pos="557,514" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[影王降临]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[ShadowKingSuperEvolutionPanel]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+	<npc id="397" resId="397" name="" dir="1" width="75" height="100" pos="142,463" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[送绝版称号]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[HalloweenGiftPanel]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+	<npc id="1000" resId="1000" name="" dir="1" width="75" height="100" pos="232,313" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[6只绝版精灵等你拿！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[GoblinPresentGiftPanel]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+	<npc id="1054" resId="1054" name="" dir="1" width="75" height="100" pos="355,574" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[VIP包月送满级满战力恶灵兽]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[VipRechargeBasePanel]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+	<npc id="1007" resId="1007" name="" dir="1" width="75" height="100" pos="913,533" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[送满级苍耀]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[FiveStarKingWithMePromisePanel]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+
+
+
+
+
+	</entities>
+</map>

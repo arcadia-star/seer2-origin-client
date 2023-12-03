@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<map dayId="131" nightId="1310" /> 
+	<map dayId="132" nightId="1320" />
+	<map dayId="180" nightId="1800" />
+	<map dayId="203" nightId="2030" />
+	<map dayId="370" nightId="3700" change="1"/>
+	<map dayId="10109" nightId="101090" />
+	<!--<map dayId="8022" nightId="8021" />
+	  
+		change 表示是否直接跳转到夜晚地图 而非加载相应地图资源 
+		不知道怎么玩的话来找我:fraser	
+	-->
+</data>

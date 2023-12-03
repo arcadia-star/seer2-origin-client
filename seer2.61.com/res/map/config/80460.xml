@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="火源通径(凤凰超进化)" categoryId="9">
+	<resource url="80460.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="661" y="271"/>
+	<entities>			
+		<teleport id="1" name="脉流之瀑" pos="886,456" targetMapId="810" targetPos="855,523"/>		
+		<teleport id="2" name="纠结之藤" pos="312,178" targetMapId="830" targetPos="300,180"/>		
+	</entities>
+</map>

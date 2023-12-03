@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="后花园" categoryId="10">
+	<resource url="1230.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="348" y="369"/>
+	<entities>
+		<npc id="316" resId="316" name="匹喏曹" dir="1" width="75" height="115" pos="449,365" actorPos="525,375" path="">
+			<dialog npcId="316" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[不要以为我在说谎，其实我说的都是真的，相信我，相信我！]]></node>
+					<reply action="close"><![CDATA[ 说谎的小孩鼻子要变长]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>			
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="虫群氏族主城" pos="34,488" targetMapId="1210" targetPos="927,503"/>
+		<teleport id="2" name="树洞" pos="781,455" targetMapId="1240" targetPos="318,543"/>
+	</entities>
+</map>

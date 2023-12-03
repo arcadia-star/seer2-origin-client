@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="神龙栖地" categoryId="2">
+    <resource url="100116_1.swf"/>
+    <fightMap id="100003"/>
+    <initialPoint x="700" y="300"/>
+    <entities>
+       <teleport id="1" name="传送室" pos="600,475" targetMapId="70" targetPos="265,324"/>
+    </entities>
+</map>

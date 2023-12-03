@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="漩涡谷地" categoryId="3">
+	<resource url="10021_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="434" y="522"/>
+	<entities>
+		<npc id="111112" resId="111112" name="库奇鲁" dir="1" width="90" height="120" pos="576,595" actorPos="423,519" path="">
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

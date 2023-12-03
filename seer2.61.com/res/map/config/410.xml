@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="竞技之战" categoryId="100">
+	<resource url="10041.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="333" y="380" />
+</map>

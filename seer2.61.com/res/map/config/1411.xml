@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幻影崖幻境" categoryId="2">
+	<resource url="10014_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="220" y="325"/>
+	<entities>
+		<teleport id="1" name="幻影崖" pos="176,204" targetMapId="141" targetPos="220,325"/>
+	</entities>
+</map>

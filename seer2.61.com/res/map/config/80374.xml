@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地球表面(副本)" categoryId="0" switch="0" weather="1">
+	<resource url="3834_0.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="490" y="500" />
+	<entities>
+		<teleport id="1" name="传送室" pos="450,400" targetMapId="70" />
+	</entities>
+</map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="王者遗迹" categoryId="7" switch="0" weather="0">
+	<resource url="80302.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="460" y="541"/>
+	<entities>
+	<!-- 	<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="144,307" actorPos="538,345" path="">		
+				<eventHandler>
+					<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+					</mouseOver>
+					<click>
+						<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+					</click>
+				</eventHandler>
+		</npc> -->
+		<teleport id="1" name="传送室" pos="570,564" targetMapId="70"/>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="帝国废墟(副本)" categoryId="5" switch="1" weather="9">
+	<resource url="80345.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="671" y="508"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="600,500" targetMapId="70"/>
+	</entities>
+</map>

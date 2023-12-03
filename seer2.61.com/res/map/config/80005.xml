@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="暴食回廊（挑战）" categoryId="2">
+	<resource url="80002.swf"/>
+	<fightMap id="100015"/>
+	<initialPoint x="720" y="450"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="435,465" targetMapId="1071" targetPos="440,470"/>
+	</entities>
+</map>

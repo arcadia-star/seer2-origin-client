@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="魅罗门副本" categoryId="4" weather="3">
+	<resource url="80563.swf"/>
+	<fightMap id="100097"/>
+	<initialPoint x="285" y="307"/>
+</map>

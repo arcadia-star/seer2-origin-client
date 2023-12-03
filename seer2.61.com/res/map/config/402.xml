@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="试炼之战" categoryId="100">
+	<resource url="10040_2.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="332" y="406" />
+	<!--entities>
+		<trailsDoorTeleport id="1" name="要塞B1" pos="170,340" targetMapId="82"
+			targetPos="475,255" />
+	</entities -->
+</map>

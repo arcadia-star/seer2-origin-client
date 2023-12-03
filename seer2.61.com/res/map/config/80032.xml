@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="忏悔殿宗（挑战）" categoryId="2">
+	<resource url="80009.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="570" y="485"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="460,475" targetMapId="1071" targetPos="500,470"/>
+	</entities>
+</map>

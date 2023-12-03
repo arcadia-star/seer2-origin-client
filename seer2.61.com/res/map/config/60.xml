@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="教官室" categoryId="1">
+	<resource url="10006.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="855" y="300"/>
+	<entities>
+		<npc id="6" resId="6" name="克拉克" dir="0" width="75" height="120" pos="388,370" actorPos="388,370" path="">
+			<dialog npcId="6" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[稍息，立正！严肃点，机灵点！SPT的所有任务只有智勇双全的小赛尔才能接取。你呢，够格吗？]]></node>
+					<reply action="close"><![CDATA[会比雷神强吗？]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<!-- <node type="module" name="[活]学习力试炼" params="KaiXueBigTrialWithStudyPanel" /> -->
+				<node type="game" name="智慧连珠" params="2" />
+				<node type="" name="5周年大游行" params="activityAnniversaryParade" />
+				<node type="" name="我要管理战队" params="manageTeam" />
+				<node type="" name="我要管理战队" params="manageTeam" />
+				<node type="module" name="战队排名" params="TeamRankListPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[英雄出少年啊！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		<npc id="22" resId="190" name="eric测试专员" dir="1" width="75" height="100"  pos="800,380" actorPos="800,380" path=""> -->
+<!-- 			<dialog npcId="0"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[快来测试案子啦!!(eric专属)]]></node> -->
+<!-- 						<reply action="close"><![CDATA[这就来]]></reply> -->
+<!-- 				</branch> -->
+<!--  			</dialog> -->
+<!--  			<functionality> -->
+<!--  				<node type="module" name="整合面板" params="NightDayActsPanel" /> -->
+<!--  				<node type="module" name="圣甲狂战" params="JiBaBattleGodAllianceMainPanel" /> -->
+<!--  				<node type="module" name="Debug" params="DoubleNinthClimbGamePanel" /> -->
+<!--  			</functionality> -->
+<!--  			<eventHandler> -->
+<!--  				<mouseOver> -->
+<!--  					<HandlerShowNpcSlogan><![CDATA[2013、2014年兽免费得]]></HandlerShowNpcSlogan> -->
+<!--  				</mouseOver> -->
+<!--  				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!--  				</click> -->
+<!--  			</eventHandler> -->
+<!--  	 	</npc> -->
+ 	 	
+<!-- 		主宠神迹  神遁 ================ -->
+<!-- 		 <npc id="3047" resId="3047" name="" dir="1" width="75" height="100"  pos="815,520" actorPos="815,520">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[神遁试炼开启]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LaAoYeWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		 <npc id="3035" resId="3035" name="" dir="1" width="75" height="100"  pos="724,600"   actorPos="724,540">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[三主宠神迹试炼开启]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DiLanTeWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		   <npc id="396" resId="396" name="" dir="1" width="110" height="145"  pos="845,620" actorPos="845,620" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[三主宠神迹试炼开启]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[XiuLuoWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+<!-- 		================== -->
+
+		<npc id="190" resId="190" name="金" dir="1" width="75" height="115" pos="255,365" actorPos="417,401" path="">
+			<dialog npcId="190" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[最近接收到约瑟王的密令，密令里赏金丰富，有没有兴趣和我一起一探究竟啊？也许你就是我要选中的那位赏金猎人！]]></node>
+					<reply action="close"><![CDATA[只是路过]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="王之密令" params="GoldQuestsPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[王之密令]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<!--<npc id="350" resId="350" name="" dir="1" width="105" height="130" pos="710,490" actorPos="465,371" path="">
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[MainPetsProcessPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+		
+<!-- 		<npc id="154" resId="154" name="" dir="0" width="75" height="70" pos="530,291" actorPos="530,350" path="">	 -->
+<!-- 			<dialog npcId="6" npcName="贾斯汀和克拉克" transport="1,300,400"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="7"><![CDATA[小赛尔们好！我是贾斯汀站长，今天我和克拉克教官为大家带来了各种高效训练！快来参加吧！<font color='#ff0000'>每天13:00资质特训、14:00经验特训、15:00智慧特训整点开启</font>]]></node> -->
+<!-- 					<reply action="close"><![CDATA[还是算了]]></reply> -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality> -->
+<!-- 				<node type="module" name="开学高效资质训练" params="SchoolOpenAptitudeTrainPanel" /> -->
+<!-- 				<node type="module" name="开学极速成长训练" params="ShoolOpenGrowUpPanel" /> -->
+<!-- 				<node type="module" name="开学有奖智慧考验" params="SeerIIAnswerPanel" /> -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[点击装置进行特训！]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc>	 -->
+		
+<!-- 
+			<npc id="811" resId="176" name="小约瑟" dir="1" width="70" height="120"
+		pos="246,523" actorPos="544,443" path="">
+		<dialog npcId="176" transport="1,300,400">
+		</dialog>
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[小约瑟出现啦！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[BigReward]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+ -->		
+		<teleport id="1" name="传送仓" pos="857,336" targetMapId="70"/>
+	</entities>
+</map>

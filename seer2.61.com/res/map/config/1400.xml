@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="暴风山谷" categoryId="7" switch="0" weather="0">
+	<resource url="1400.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="506" y="539"/>
+	<entities>
+		<teleport id="1" name="冰之谷" pos="1015,390" targetMapId="540"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="752,562" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

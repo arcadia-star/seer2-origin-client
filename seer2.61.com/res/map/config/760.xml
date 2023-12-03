@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="汲雨之岛" categoryId="8">
+	<resource url="10076.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="915" y="543"/>
+	<entities>
+		<teleport id="1" name="飞翼氏族主城" pos="77,517" targetMapId="660" targetPos="973,407"/>
+	</entities>
+</map>

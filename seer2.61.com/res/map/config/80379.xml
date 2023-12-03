@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="诺亚方舟(副本2)" categoryId="0">
+	<resource url="80343.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="785" y="414"/>
+	<entities>	
+		
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="600,560" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<teleport id="2" name="空港" pos="837,445" targetMapId="770" targetPos="375,323"/>	
+	</entities>
+</map>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mobileId:模型ID 0为玩家,其他为精灵id
+	
+	seat：格子位置 
+	tileType:格子类型 
+	before:上一个格子相对于本格子的位置，1为上一个在这一格的左下，2为左上，3为右上，4为右下
+
+	empty:空格子
+	game:小游戏 
+	getFive:获得随机一个部件*5
+	getTen:获得5种部件，每种2个
+	fight:精灵战斗
+    getOrLose:随机获得或扣除一个部件*3
+	losePart:随机扣除一个部件*3
+	getpart1:获得头*1
+ 	getpart2:获得前足*1
+	getpart3:获得后足*1
+	getpart4:获得尾部*1
+	getpart5:获得背部*1
+	
+	x：起点玩家位置x 
+	y：起点玩家位置y -->
+<tiles mobileId="0" vipCount="15" normalCount="10" x="380" y="485" offTilesX="58" offTilesY="32" offPlayerX="65" offPlayerY="35">
+	<tile seat="0" tileType="empty" before="4"/>
+	<tile seat="1" tileType="getpart1" before="4"/>
+	<tile seat="2" tileType="game" before="4"/>
+	<tile seat="3" tileType="getpart2" before="1"/>
+	<tile seat="4" tileType="getOrLose" before="4"/>
+	<tile seat="5" tileType="fight" before="4"/>
+	<tile seat="6" tileType="getpart5" before="1"/>
+	<tile seat="7" tileType="getOrLose" before="4"/>
+	<tile seat="8" tileType="losePart" before="1"/>
+	<tile seat="9" tileType="fight" before="1"/>
+	<tile seat="10" tileType="game" before="4"/>
+	<tile seat="11" tileType="getpart1" before="1"/>
+	<tile seat="12" tileType="getpart5" before="1"/>
+	<tile seat="13" tileType="fight" before="2"/>
+	<tile seat="14" tileType="getpart3" before="2"/>
+	<tile seat="15" tileType="getpart4" before="2"/>
+	<tile seat="16" tileType="getpart2" before="2"/>
+	<tile seat="17" tileType="getpart5" before="3"/>
+	<tile seat="18" tileType="getFive" before="3"/>
+	<tile seat="19" tileType="fight" before="2"/>
+	<tile seat="20" tileType="getpart2" before="3"/>
+	<tile seat="21" tileType="getpart1" before="2"/>
+	<tile seat="22" tileType="getOrLose" before="2"/>
+	<tile seat="23" tileType="getpart3" before="1"/>
+	<tile seat="24" tileType="getpart1" before="1"/>
+	<tile seat="25" tileType="losePart" before="1"/>
+	<tile seat="26" tileType="getpart3" before="1"/>
+	<tile seat="27" tileType="getpart1" before="2"/>
+	<tile seat="28" tileType="game" before="2"/>
+	<tile seat="29" tileType="getpart3" before="2"/>
+	<tile seat="30" tileType="getpart1" x="1043" y="428" before="2"/>
+	<tile seat="31" tileType="getpart4" before="3"/>
+	<tile seat="32" tileType="getFive" before="3"/>
+	<tile seat="33" tileType="getOrLose" before="4"/>
+	<tile seat="34" tileType="fight" before="4"/>
+	<tile seat="35" tileType="getpart4" before="3"/>
+	<tile seat="36" tileType="getpart2" before="3"/>
+	<tile seat="37" tileType="game" before="2"/>
+	<tile seat="38" tileType="getTen" before="3"/>
+	<tile seat="39" tileType="getpart2" before="3"/>
+	<tile seat="40" tileType="getTen" before="4"/>
+	<tile seat="41" tileType="getpart5" before="4"/>
+	<tile seat="42" tileType="getpart4" before="3"/>
+	<tile seat="43" tileType="getpart2" before="4"/>
+</tiles>

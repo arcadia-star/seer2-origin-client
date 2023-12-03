@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="虫林小径" categoryId="10">
+	<resource url="1200.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="665" y="472"/>
+	<entities>
+		<teleport id="1" name="传送仓" pos="743,281" targetMapId="70"/>
+	</entities>
+</map>

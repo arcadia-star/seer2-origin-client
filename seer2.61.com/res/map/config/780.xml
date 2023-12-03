@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="三八擂台" categoryId="6">
+	<resource url="10078.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="526" y="453"/>
+	<entities>
+		<npc id="84" resId="84" name="BOSS二人组" dir="1" width="70" height="100" pos="564,147" actorPos="351,158" path="">
+			<dialog npcId="84" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[小子你准备好要挑战我们两了？胆子可真不小！没准备好两个厉害的精灵可别出洋相！]]></node>
+					<reply action="close"><![CDATA[一会再来收拾你]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="怕你不成啊！（进入双精灵对战）" params="fight_npc_780_50" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="85" resId="85" name="中级二人组" dir="0" width="70" height="120" pos="177,378" actorPos="226,214" path="">
+			<dialog npcId="85" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[	对战？双精灵？那我恐怕你不是我们的对手！我打赌我们肯定能赢！]]></node>
+					<reply action="close"><![CDATA[一会再来收拾你]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="切！我打赌我会赢！（进入双精灵对战）" params="fight_npc_780_40" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="86" resId="86" name="小喽啰二人组" dir="0" width="70" height="110" pos="803,402" actorPos="647,441" path="">
+			<dialog npcId="86" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[啧啧……你不老实我们就拿牙齿啃你！嘿！愣在那里干嘛！！来来来……切磋了！]]></node>
+					<reply action="close"><![CDATA[囧！我回头就来！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="说就说别喷口水！（进入双精灵对战）" params="fight_npc_780_30" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="三八跑道线(沙)" pos="564, 464" targetMapId="310" targetPos="516,324"/>
+	</entities>
+</map>

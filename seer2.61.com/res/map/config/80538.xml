@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="遗忘之岛(主)" categoryId="8">
+	<resource url="10071.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="487" y="280"/>
+	<entities>
+		
+	</entities>
+</map>

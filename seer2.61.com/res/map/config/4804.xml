@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地铁站"  categoryId="5">
+	<resource url="10048.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="689" y="412"/>
+	<entities>
+		<teleport id="1" name="地下黑市" pos="446,199" targetMapId="490"/>
+	</entities>
+</map>

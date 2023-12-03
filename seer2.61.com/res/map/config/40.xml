@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="动力室" categoryId="1">
+	<resource url="10004.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="480" y="450"/>
+	<entities>
+	    
+	    <!--以下ikee测试npc，下架注释请勿删除-->
+<!-- 		<npc id="153" resId="185" name="ikee测试专员" dir="1" width="75" height="150" pos="490,470" actorPos="490,470" path="">  -->
+<!--  			<dialog npcId="153">  -->
+<!--  				<branch id="default">  -->
+<!--  					<node emotion="1"><![CDATA[早点测试吧，测完好下班啊！]]></node>  -->
+<!--  					<reply action="close"><![CDATA[不测试,你咬我?]]></reply>  -->
+<!--  				</branch>  -->
+<!--  			</dialog>  -->
+<!--  			<functionality> -->
+<!--  			    <node type="module" name="test" params="IkeeToolForViolaPanel" /> -->
+<!--  			    <node type="module" name="清风白帝啪啪啪" params="QingFengBaiDiPanel" /> -->
+<!-- 				<node type="module" name="4月签到啪啪啪" params="MonthSignPanel" /> -->
+<!--  			</functionality>  -->
+<!--  			<eventHandler>  -->
+<!--  				<mouseOver>  -->
+<!--  					<HandlerShowNpcSlogan><![CDATA[快来测试案子啦!!]]></HandlerShowNpcSlogan>  -->
+<!--  				</mouseOver> -->
+<!--  				<click>  -->
+<!--  					<HandlerOpenDialogPanel/>  -->
+<!--  				</click>  -->
+<!--  			</eventHandler>		  -->
+<!--  		</npc> -->
+		 
+		 
+		<npc id="5" resId="5" name="乔休尔" dir="0" width="75" height="100" pos="814,394" actorPos="672,441" path="">
+			<dialog npcId="5" transport="1,300,400">
+				<branch id="default">
+		        <node emotion="4"><![CDATA[能源呢？矿石呢？飞船起飞了吗，这到底是怎么了。我……决不能让飞船陷入困境，我可是工程师乔休尔。]]></node>
+                <reply action="close"><![CDATA[这个……那个……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="“吞”！年兽出没！" params="nianshou" />
+				<node type="" name="5周年大游行" params="activityAnniversaryParade" />
+				<node type="module" name="矿石回收" params="OreSellPanel" />
+				<node type="shop" name="收集品商店" params="BusinessPanel {shopType:2}" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[我可不能出半点岔子！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="374" resId="374" name="星钻融合机" dir="0" width="75" height="120" pos="903,477" actorPos="273,294" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快点我！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MoneySwapMachinePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	<!--	<npc id="151" resId="151" name="礼包" dir="0" width="75" height="120" pos="209,232" actorPos="247,294" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快点我！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>-->
+		<teleport id="1" name="传送室" pos="614,552" targetMapId="70"/> 
+	</entities>
+</map>

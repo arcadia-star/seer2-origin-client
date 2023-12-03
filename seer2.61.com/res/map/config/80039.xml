@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="漩涡谷地" categoryId="3">
+	<resource url="10021_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="446" y="510"/>
+	<entities>
+		<teleport id="1" name="水系主城" pos="323,599" targetMapId="160"/>
+		<teleport id="2" name="幽静浅滩" pos="82,346" targetMapId="220"/>
+		<teleport id="3" name="漩涡峡谷" pos="1043,470" targetMapId="212"/>
+	</entities>
+</map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="荆棘小道" categoryId="2" switch="1">
+	<resource url="80050.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="640" y="410"/>
+	<entities>
+		<teleport id="1" name="荆棘林" pos="740,390" targetMapId="131" targetPos="190,370"/>
+		<teleport id="2" name="深幽沼泽" pos="270,165" targetMapId="133" targetPos="600,480"/>
+	</entities>
+</map>

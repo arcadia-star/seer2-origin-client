@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="雪之湖泊" categoryId="7" switch="1" weather="9">
+	<resource url="3812.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="613" y="484"/>
+	<entities>
+		<teleport id="1" name="原始雪森林" pos="379,570" targetMapId="3811" targetPos="518,531"/>
+		<teleport id="2" name="雪之溶洞" pos="841,366" targetMapId="3813" targetPos="377,468"/>
+		<npc id="663" resId="663" name="希雅" dir="1" width="110" height="140" pos="618,343" actorPos="538,345" path="">		
+		</npc>
+	</entities>
+</map>

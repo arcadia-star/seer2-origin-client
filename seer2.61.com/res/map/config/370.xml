@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="海市蜃楼" categoryId="5" switch="1" weather="1">
+	<resource url="10037.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="615" y="523"/>
+	<entities>
+		<teleport id="1" name="黄金之路" pos="1035,512" targetMapId="360" targetPos="189,493"/>
+		<teleport id="2" name="沙之迷穴" pos="543,334" targetMapId="380" targetPos="569,512"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="782,228" actorPos="615,523" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

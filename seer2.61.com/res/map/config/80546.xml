@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="焰之森" categoryId="4">
+	<resource url="10028_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="556" y="490"/>
+	<entities>
+		
+	</entities>
+</map>

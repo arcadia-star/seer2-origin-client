@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="帝王星域" categoryId="7" switch="0" weather="4">
+	<resource url="3824.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="587,554" targetMapId="70"/>
+		
+		<npc id="816" resId="816" name="创世大帝" dir="1" width="110" height="200" pos="263,439" actorPos="549,417" path="">		
+			<dialog npcId="816">
+				<branch id="default">
+					<node emotion="0"><![CDATA[     星空不灭！ 创世不败！我可以证明你一个真正的王者！]]></node>
+					<reply action="close"><![CDATA[我老崇拜您了]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="获得创世大帝" params="CreationThreeKingPanel" />
+				<node type="module" name="创世大帝觉醒" params="ThreeKingProcessPanel" />
+				<node type="" name="创世大帝超进化" params="GoldProcessAct" />
+			</functionality>
+			<eventHandler>
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[快来测试案子啦!!]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		
+		<npc id="817" resId="817" name="开元大帝" dir="1" width="110" height="200" pos="605,344" actorPos="549,417" path="">		
+			<dialog npcId="817">
+				<branch id="default">
+					<node emotion="0"><![CDATA[         开宇宙之先河！ 开元必胜！败将无缘于我携手！]]></node>
+					<reply action="close"><![CDATA[我老崇拜您了]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="    获得开元大帝" params="CreationThreeKingPanel" />
+				<node type="module" name="开元大帝觉醒" params="ThreeKingProcessPanel" />
+			</functionality>
+			<eventHandler>
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[快来测试案子啦!!]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		
+		<npc id="820" resId="820" name="混沌大帝" dir="0" width="110" height="200" pos="969,439" actorPos="549,417" path="">		
+			<dialog npcId="820">
+				<branch id="default">
+					<node emotion="0"><![CDATA[          混沌无败将！ 赢者真英雄！我只和英雄为伍！]]></node>
+					<reply action="close"><![CDATA[我老崇拜您了]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="    获得混沌大帝" params="CreationThreeKingPanel" />
+				<node type="module" name="混沌大帝觉醒" params="ThreeKingProcessPanel" />
+			</functionality>
+			<eventHandler>
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[快来测试案子啦!!]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+	</entities>
+</map>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="骰子星擂台" categoryId="0">
+	<resource url="10104_1.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="400" y="400"/>
+	<entities>					
+	</entities>
+</map>

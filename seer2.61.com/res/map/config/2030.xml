@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幻彩珊瑚" categoryId="3"  switch="1" weather="9">
+	<resource url="10020_3A.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="660" y="310"/>
+	<entities>
+		<npc id="5011" resId="418" name="乌达" dir="0" width="25" height="50" pos="609,301" actorPos="630,300" path="">
+			<dialog npcId="11" npcName="乌达" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[哈哈~ 队长和我一样笨！想到精灵梦境里，要带上入梦精灵，比如法拉才行啦！]]></node>
+					<reply action="close"><![CDATA[知道啦...]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerDreamNpcClick/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="5012" resId="418" name="乌达" dir="0" width="25" height="50" pos="495,240" actorPos="495,270" path="">
+			<dialog npcId="11" npcName="乌达" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[哈哈~ 队长和我一样笨！想到精灵梦境里，要带上入梦精灵，比如法拉才行啦！]]></node>
+					<reply action="close"><![CDATA[知道啦...]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerDreamNpcClick/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="5013" resId="418" name="乌达" dir="0" width="25" height="50" pos="385,216" actorPos="400,216" path="">
+			<dialog npcId="11" npcName="乌达" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[哈哈~ 队长，想要到精灵梦境里，要带上入梦精灵，比如法拉才行啦！]]></node>
+					<reply action="close"><![CDATA[知道啦...]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerDreamNpcClick/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="珊瑚路" pos="422,150" targetMapId="202" targetPos="255,459"/>
+	</entities>
+</map>

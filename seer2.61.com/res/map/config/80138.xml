@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="汲雨之岛" categoryId="8">
+	<resource url="10076.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="383" y="616"/>
+	<entities>
+		<npc id="712" resId="712" name="碧芙莱" dir="1" width="110" height="135" pos="600,220" actorPos="660,210" path="">		
+			<dialog npcId="712">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我会在5回合后逃走哦！带上胶囊抓紧时间捕获我吧!]]></node>
+					<reply params="toFight"><![CDATA[嗯，放心，我带上了！]]></reply>
+					<reply action="close"><![CDATA[我准备下]]></reply>
+				</branch>
+			</dialog>		
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

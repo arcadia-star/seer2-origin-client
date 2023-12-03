@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="纠结之藤副本" categoryId="9">
+	<resource url="10083.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="755" y="441"/>
+	<entities>			
+		<teleport id="1" name="纠结之藤" pos="925,563" targetMapId="830"/>		
+		<npc id="484" resId="484" name="埃鲁达克" dir="0" width="120" height="120" pos="657,388" actorPos="610,410" path=""/>
+	</entities>
+</map>

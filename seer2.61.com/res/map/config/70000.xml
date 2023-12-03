@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="小屋" categoryId="200">
+	<resource url="70000.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="673" y="460"/>
+	<trainingPet>
+	</trainingPet>
+	<entities>		
+		<npc id="625" resId="625" name="大毛怪" dir="0" width="70" height="125" pos="430,330" actorPos="490,333" path="">
+			<dialog npcId="625" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[喔哦~我一点都不吓人哦~]]></node>
+					<reply action="close" ><![CDATA[哦吼吼~啊！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[....]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[PipeBigSulleyPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="724" resId="724" name="花仙" dir="1" width="70" height="130" pos="220,310" actorPos="490,333" path="">
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[SpringEnvoyFairyPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="3040" resId="3040" name="" dir="1" width="70" height="130" pos="552,386" actorPos="592,400" path="">
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[StairOfMoonGodPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		<npc id="840" resId="840" name="小法师" dir="1" width="70" height="130" pos="627,416" actorPos="592,400" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[CandyNightmarePanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+	
+<!-- 		<npc id="827" resId="827" name="萌萌大月饼" dir="1" width="70" height="130" pos="592,370" actorPos="592,400" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[HugeMoonCakePanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<teleport id="1" name="木屋" pos="770,428" targetMapId="1050"/>
+		<teleport id="2" name="传送室" pos="541,611" targetMapId="70"/>
+	</entities>
+</map>

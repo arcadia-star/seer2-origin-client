@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="星王领域" categoryId="3">
+	<resource url="80021_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="337" y="427"/>
+	<entities>
+	<teleport id="1" name="传送室" pos="172,549" targetMapId="70"/>
+
+	  <npc id="397" resId="397" name="" dir="1" width="110" height="145" pos="631,162"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[傲王降临]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[AoChenSuperEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	  <npc id="3053" resId="3053" name="" dir="1" width="110" height="145" pos="662,548"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[炎王降临]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[YanHeSuperEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	  <npc id="3054" resId="3054" name="" dir="1" width="110" height="145" pos="265,347"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[苍王降临]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[CangYaoSuperEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+	  <npc id="3044" resId="3044" name="" dir="1" width="110" height="145" pos="1022,302"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[影王降临]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ShadowKingSuperEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	  <npc id="1007" resId="1007" name="" dir="1" width="110" height="145" pos="631,316"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[秘王降临]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MiSunSuperEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+
+
+	</entities>
+</map>

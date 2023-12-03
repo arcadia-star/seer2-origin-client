@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="玄云之冠" categoryId="9">
+	<resource url="10085.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="170" y="383"/>
+	<entities>	
+
+	<!-- 
+	
+			<npc id="811" resId="176" name="小约瑟" dir="1" width="70" height="120"
+		pos="246,523" actorPos="544,443" path="">
+		<dialog npcId="176" transport="1,300,400">
+		</dialog>
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[小约瑟出现啦！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[BigReward]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+	 -->
+	</entities>
+</map>

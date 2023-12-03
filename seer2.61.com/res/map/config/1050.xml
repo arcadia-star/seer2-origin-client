@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="守林人木屋" categoryId="200">
+	<resource url="1050.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="428" y="522"/>
+	<trainingPet>
+	</trainingPet>
+	<entities>		
+		<teleport id="1" name="普兰特山脚" pos="179,564" targetMapId="70000"/>
+		<npc id="160" resId="160" name="多茨莫博士" dir="1" width="70" height="92" pos="606,349" actorPos="428,522" path="">
+			<dialog npcId="160" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[普兰特山麓有很多值得研究的珍惜植被。]]></node>
+					<reply action="close"><![CDATA[还是不打扰教授的研究了。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="商店" params="PlantShopPanel" />
+				<node type="module" name="木屋升级" params="PlantHomeLevelPlant" />
+		    <!--<node type="module" name="中秋猜灯谜" params="PrepareAnswerPanel {id:3}" />  -->
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/> 
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

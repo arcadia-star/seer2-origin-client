@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="暗魄" categoryId="3">
+	<resource url="80011.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="300" y="414"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="354,459" targetMapId="70" targetPos="300,414"/>
+<!--		<npc id="699" resId="699" name="王之暗魄" dir="1" width="75" height="90" pos="542,470" actorPos="480,480" path="">
+			<dialog npcId="699" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我是约瑟王的魂魄之一，王之暗魄！]]></node>
+					<reply action="close"><![CDATA[我一会再来找你]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="狩猎者出现" params="PetClearPanel" />
+				<node type="module" name="报！我要来许愿！" params="NextyearActivitySwapPanel" />
+				<node type="module" name="黑夜祈祷" params="AnPoPanel"/>
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+	    <npc id="3031" resId="3031" name="" dir="1" width="75" height="100" pos="990,515" actorPos="250,580" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[次元魔盗团——罪恶之躯]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[EvilBodyActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+        <npc id="1003" resId="1003" name="" dir="1" width="75" height="100" pos="930,280" actorPos="375,440" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[次元魔盗团——罪恶之触]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SearchPlanarSphereMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+        <npc id="3048" resId="3048" name="" dir="1" width="75" height="100" pos="230,370" actorPos="375,440" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[次元魔盗团——罪恶之首]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[EvilHeadMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+	</entities>
+</map>

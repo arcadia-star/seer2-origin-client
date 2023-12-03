@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地球表面" categoryId="0" switch="0" weather="1">
+	<resource url="80369.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="730" y="560" />
+	<entities>
+		<teleport id="1" name="武斗场" pos="664,400" targetMapId="3832" />
+		<npc id="1025" resId="1025" name="废品队长" dir="1" width="90" height="120" pos="576,445" actorPos="576,445" path="">
+			<dialog npcId="1025" transport="1,576,445">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我是废品队长]]></node>
+					<reply action="close"><![CDATA[是！！队长！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="地球清理行动" params="SnakeGameEnterPanel"/>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+
+
+	
+</map>

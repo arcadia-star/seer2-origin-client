@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="草目氏族主城" categoryId="2">
+	<resource url="10009.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="529" y="427"/>
+	<entities>
+		<teleport id="1" name="荆棘林" pos="649,214" targetMapId="131" targetPos="516,509"/>
+		<teleport id="2" name="权力之帐" pos="661,510" targetMapId="110" targetPos="270,534"/>
+		<teleport id="3" name="异蘑世界" pos="740,575" targetMapId="121" targetPos="804,559"/>
+		<teleport id="4" name="信奉广场" pos="80,472" targetMapId="100" targetPos="1032,509"/>
+		<teleport id="5" name="七味小厨" pos="310,284" targetMapId="125" targetPos="1032,509"/>
+	</entities>
+</map>

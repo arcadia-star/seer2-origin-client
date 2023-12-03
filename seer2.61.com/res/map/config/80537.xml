@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="云海藏书(主线)"  categoryId="5">
+	<resource url="80523.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="715" y="510"/>
+	<entities>
+		
+	
+	</entities>
+</map>

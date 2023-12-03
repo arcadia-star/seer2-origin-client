@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="新手任务传送室" categoryId="1">
+	<resource url="10004.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="580" y="500"/>
+	<entities>
+		<npc id="5" resId="5" name="乔休尔" dir="0" width="75" height="100" pos="772,322" actorPos="672,441" path="">
+			<dialog npcId="5" transport="1,300,400">
+				<branch id="default">
+		        <node emotion="4"><![CDATA[看，我帅不帅？我可不想邋遢的跨年，喂喂喂，你们也赶紧打扮起来！新年要有新气象哦。]]></node>
+                <reply action="close"><![CDATA[这个……那个……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="矿石回收" params="OreSellPanel" />
+				<node type="shop" name="收集品商店" params="BusinessPanel {shopType:2}" />
+				<node type="" name="赐福！王之暗魄" params="nextYearActivityShip" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[我可不能出半点岔子！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

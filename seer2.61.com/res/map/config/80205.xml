@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="巨石洞穴" categoryId="2">
+	<resource url="80086.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="929" y="557"/>
+	<entities>
+<!-- 		<teleport id="1" name="神魔之界" pos="130,470" targetMapId="141" targetPos="700,165"/> -->
+	</entities>
+</map>

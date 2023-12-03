@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="原始雪森林(副本)" categoryId="5" switch="1" weather="9">
+	<resource url="3811.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="546" y="462"/>
+	<entities>
+	<!-- 889,382 -->
+		<teleport id="1" name="传送室" pos="336,583" targetMapId="70"/>
+	</entities>
+</map>

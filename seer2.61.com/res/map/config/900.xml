@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风刃氏族主城" categoryId="12">
+	<resource url="10090.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="419" y="345"/>
+	<entities>
+		<npc id="148" resId="148" name="娜娜" dir="1" width="70" height="110" pos="284,301" actorPos="442,356" path="">
+			<dialog npcId="148" transport="1,300,400">
+				<branch id="default">
+					<node emotion="3"><![CDATA[那个老锅炉就不能换掉吗？？喂你，要么过来帮忙，要么走开！]]></node>
+					<reply action="close"><![CDATA[我走开了……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战斯缇姆军团" params="fight_single_npc_900" />
+				<node type="" name="挑战双斯缇姆" params="fight_dual_npc_900" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[让你知道我的厉害！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="风暴悬崖" pos="118,507" targetMapId="891" targetPos="203,308"/>
+		<teleport id="2" name="神风祭台" pos="60, 188" targetMapId="910" targetPos="712,547"/>
+		<teleport id="3" name="流离街" pos="1043, 365" targetMapId="920" targetPos="1094,267"/>
+	</entities>
+</map>

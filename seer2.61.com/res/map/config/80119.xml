@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="后花园" categoryId="10">
+	<resource url="80119.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="288" y="256"/>
+	<entities>
+		<teleport id="1" name="传送仓" pos="68,380" targetMapId="70" targetPos="480,380"/>
+	</entities>
+</map>

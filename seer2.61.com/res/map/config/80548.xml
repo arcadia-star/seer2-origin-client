@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="资料室" categoryId="1">
+	<resource url="10003.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="693" y="464"/>
+	<entities>
+		
+		
+	</entities>
+
+</map>

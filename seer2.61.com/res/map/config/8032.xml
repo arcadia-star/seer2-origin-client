@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="禁食山顶" categoryId="8031">
+	<resource url="10803_2.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="616" y="528"/>
+	<entities>
+		<npc id="459" resId="459" name="米奇林大王" dir="0" width="90" height="130" pos="718,391" actorPos="686,448" path="">
+			<dialog npcId="459" npcName="米奇林大王" transport="1,450,340">
+				<branch id="default">
+					<node emotion="1"><![CDATA[捏哈哈哈哈！！！我又复活了！！！捏捏捏哈哈哈！！！我要吃了你！！捏捏捏捏哈哈哈！！！！压扁你！不在话下呀！]]></node>
+					<reply action="close"><![CDATA[我一会再来收拾你！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挠你痒痒！（可捕捉模式）" params="miqilin1"/>
+				<node type="" name="怕你不成！（全能力挑战）" params="miqilin2"/>
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="禁食山脚" pos="559,586" targetMapId="8031"/>
+	</entities>
+
+</map>

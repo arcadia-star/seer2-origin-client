@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幽静浅滩" categoryId="3">
+	<resource url="10022.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="480" y="380"/>
+	<entities>
+		<teleport id="1" name="地道之路" pos="967,555" targetMapId="510"  targetPos="632,468"/>
+		<teleport id="2" name="漩涡谷地" pos="90,314" targetMapId="211" targetPos="148,380"/>
+		<npc id="164" resId="164" name="" dir="0" width="110" height="100" pos="178,460" actorPos="395,494" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[骰子星球满地是宝藏！还有神秘小精灵！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[1030]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

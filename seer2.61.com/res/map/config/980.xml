@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="王者广场" categoryId="0">
+	<resource url="10098_6.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="123" y="458"/>
+	<entities>
+		<npc id="495" resId="495" name="神秘的某某" dir="1" width="70" height="110" pos="444,546" actorPos="334,549" path="">
+			<dialog npcId="503" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[颁奖礼的红毯仪式在8月10日13:00——14:00举行，裸机、穿的太寒酸的小赛尔都不能踏上红地毯哦。你可以去商城采购装备打扮一下。（走红毯有小礼品送哦）]]></node>
+					<reply action="" params="Walk_Red"><![CDATA[我穿的不错，我要走红毯！]]></reply>
+					<reply action="close"><![CDATA[没兴趣额。]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[点我参加红毯仪式哦~]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<teleport id="1" name="传送室" pos="134,546" targetMapId="70"/>
+	</entities>
+</map>

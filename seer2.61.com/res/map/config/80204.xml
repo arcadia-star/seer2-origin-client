@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="流离街" categoryId="12">
+	<resource url="10092.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="695" y="360"/>
+	<entities>
+		<npc id="106" resId="106" name="斯坦因" dir="1" width="70" height="110" pos="384,301" actorPos="525,336" path="">
+			<dialog npcId="106" transport="1,300,400">
+				<branch id="default">
+					<node emotion="1"><![CDATA[那个老锅炉就不能换掉吗？？喂你，要么过来帮忙，要么走开！]]></node>
+					<reply action="close"><![CDATA[我走开了……]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[让你知道我的厉害！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="风刃氏族主城" pos="1091,150" targetMapId="900"/>
+		<teleport id="2" name="御风中枢" pos="163,570" targetMapId="930"/>
+	</entities>
+</map>

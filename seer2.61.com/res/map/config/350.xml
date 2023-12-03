@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="沙漠之鹰" categoryId="6">
+	<resource url="10035.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="661" y="400"/>
+	<entities>
+		<npc id="54" resId="54" name="周扒皮" dir="1" width="70" height="120" pos="727,353" actorPos="641,394" path="">
+		</npc>
+		
+ 	     <npc id="3136" resId="3136" name="" dir="1" width="110" height="145" pos="526,277" actorPos="600,468" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[礼花兑换点]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LihuaExchangPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+ 	     <npc id="3137" resId="3137" dir="1" width="110" height="145" pos="731,278" actorPos="600,468" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[礼花燃放点]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[PlayLihuaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="淘米市场" pos="794,464" targetMapId="330" targetPos="255,558"/>
+	</entities>
+
+
+
+</map>

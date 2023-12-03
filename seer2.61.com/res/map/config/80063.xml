@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="假面舞会" categoryId="1">
+	<resource url="80063.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="392" y="258"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="610,471" targetMapId="70" targetPos="480,380"/>
+	</entities>
+</map>

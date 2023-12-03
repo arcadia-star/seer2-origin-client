@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="贪婪回廊（副本）" categoryId="2">
+	<resource url="80420.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="490" y="480"/>
+	<entities>
+		<teleport id="1" name="传送仓" pos="780,475" targetMapId="70"/>
+	</entities>
+</map>

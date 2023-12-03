@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水系主城" categoryId="3">
+	<resource url="10016.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="580" y="430"/>
+	<entities>	
+		<npc id="24" resId="24" name="爱丽斯" dir="0" width="70" height="110" pos="562,373" actorPos="615,491" path="">
+			<dialog npcId="24" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[呼呼……呼……呼呼……]]></node>
+					<reply action="close"><![CDATA[（看上去好厉害的样子！）]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战爱丽斯" params="fightAiLiSi" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="深水之城" pos="66,551" targetMapId="170"/>
+		<teleport id="2" name="银脉山脊" pos="357,407" targetMapId="180"/>
+		<teleport id="3" name="漩涡谷地" pos="1111,507" targetMapId="211"/>
+	</entities>
+</map>

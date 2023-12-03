@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="翼灵空岛" categoryId="8" switch="0" weather="0">
+<!-- categoryid是该地图在小地图里属于哪个系列的一个标识 -->
+	<resource url="80541.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="677" y="490"/>
+	<entities>
+		
+	</entities>
+</map>

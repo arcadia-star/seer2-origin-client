@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="飞翼之核" categoryId="8">
+	<resource url="10072.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="600" y="470"/>
+	<entities>
+		<teleport id="1" name="飞翼氏族主城" pos="545, 381" targetMapId="660" targetPos="422,170"/>
+		<npc id="107" resId="107" name="总督大人" dir="0" width="70" height="110" pos="545, 381" actorPos="437,338" path="">
+			<dialog npcId="107" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[真希望能和弟弟一样自由自在，随性奔放！]]></node>
+					<reply action="close"><![CDATA[好的，事不宜迟，我先去了！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[总督大人万岁]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

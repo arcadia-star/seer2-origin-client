@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="雪域" categoryId="7" switch="1" weather="9">
+	<resource url="80095.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="595" y="1000"/>
+	<entities>
+	</entities>
+</map>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="时镜之岛" categoryId="8">
+	<resource url="10070.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="637" y="521"/>
+	<entities>
+
+ 		<!--<npc id="153" resId="185" name="shine测试专员" dir="1" width="75" height="150" pos="490,470" actorPos="670,520" path=""> 
+ 			<dialog npcId="153"> 
+ 				<branch id="default"> 
+ 					<node emotion="1"><![CDATA[早点测试吧，测完好下班啊！]]></node> 
+ 					<reply action="close"><![CDATA[测试]]></reply> 
+ 				</branch> 
+ 			</dialog> 
+ 			<functionality> 
+ 				 <node type="module" name="中秋猜灯谜" params="GuessFestivalLightMystery" />
+ 				 <node type="module" name="三周年整合面板" params="NightDayActsPanel" />
+ 				 <node type="module" name="活动多多有你玩" params="MoreEnjoyPanel" />
+ 			</functionality> 
+ 			<eventHandler> 
+ 				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[快来测试案子啦!!]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerOpenDialogPanel/> 
+ 				</click> 
+ 			</eventHandler>		 
+ 		</npc>-->
+	
+		<teleport id="1" name="遗忘之岛" pos="219, 391" targetMapId="710" targetPos="377,468"/>
+		<teleport id="2" name="飞翼氏族主城" pos="933, 561" targetMapId="660" targetPos="206,362"/>
+		<npc id="102" resId="102" name="观察员纳格托" dir="0" width="70" height="110" pos="624,411" actorPos="728,507" path="">
+			<dialog npcId="102" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[嗯……]]></node>
+					<reply action="close"><![CDATA[嗯……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战双精灵克里普特！" params="fight_dual_npc_700" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

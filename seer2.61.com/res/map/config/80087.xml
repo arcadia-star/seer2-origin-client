@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="雪之湖泊" categoryId="7" switch="1" weather="9">
+	<resource url="80087.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="280" y="462"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="266,470" targetMapId="70" targetPos="300,414"/>
+		
+	</entities>
+</map>

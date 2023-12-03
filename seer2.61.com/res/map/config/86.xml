@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="要塞B5" categoryId="100">
+	<resource url="10008_6.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="393" y="412"/>
+	<entities>
+		<npc id="67" resId="67" name="西贡" dir="0" width="75" height="120" pos="591,273" actorPos="584,357" path="">
+			<dialog npcId="67" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[欢迎来到双子之门……敬请体验它所带来的双重乐趣吧！]]></node>
+					<reply action="close"><![CDATA[离开]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>			
+			<functionality>
+				<node type="module" name="双子星币兑换" params="DoubleCoinPanel" />
+			</functionality>
+		</npc>		
+	</entities>
+</map>

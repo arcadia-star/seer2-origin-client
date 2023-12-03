@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="勇士之战50V50" categoryId="100">
+	<resource url="10040_7.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="417" y="471" />
+</map>

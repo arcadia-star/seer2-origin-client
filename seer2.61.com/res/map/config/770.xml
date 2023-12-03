@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="空港" categoryId="8">
+	<resource url="10077.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="604" y="303"/>
+	<entities>
+		<npc id="80" resId="80" name="葛蕾芬兵团长" dir="0" width="70" height="110" pos="468,292" actorPos="531,358" path="">
+			<dialog npcId="80" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[妄入飞翼群岛者…………斩……！]]></node>
+					<reply action="close"><![CDATA[吓人！先撤退！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战葛蕾芬兵团" params="fight_single_npc_770" />
+				<node type="" name="挑战双精灵葛蕾芬" params="fight_dual_npc_770" />
+				
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[想进入飞翼氏族，先过我这关！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="飞翼氏族主城" pos="920, 142" targetMapId="660" targetPos="315,576"/>
+		<teleport id="2" name="诺亚方舟" pos="397, 425" targetMapId="870" targetPos="377,468"/>
+	</entities>
+</map>

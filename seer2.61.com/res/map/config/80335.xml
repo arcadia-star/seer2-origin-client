@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="梦魇冰轴" categoryId="7" switch="0" weather="4">
+	<resource url="80335.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="587,554" targetMapId="70"/>
+	</entities>
+</map>

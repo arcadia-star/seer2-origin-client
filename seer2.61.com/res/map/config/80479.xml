@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神坛" categoryId="7" switch="0" weather="0">
+	<resource url="80058_1.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="460" y="541"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="570,564" targetMapId="70"/>
+		<npc id="3026" resId="3026" name="圣王皓玥" dir="0" width="90" height="250" pos="610,480" actorPos="470,545" path="">
+			<dialog npcId="909">
+				<branch id="default">
+					<node emotion="0"><![CDATA[吾乃圣王，皓玥是也！你准备好接受圣王之炼了吗？]]></node>
+					<reply params="haoYueKingToFight"><![CDATA[挑战世界BOSS]]></reply>
+					<reply params="haoYueKingSeeRank"><![CDATA[ 查看排行榜]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

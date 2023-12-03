@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水源之心(神迹迪兰特)" categoryId="4" weather="1">
+	<resource url="1711_0.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="408" y="352"/>
+	<entities>
+	    <npc id="813" resId="813" name="脉灵神" dir="0" width="75" height="120" pos="617,400" actorPos="480,347" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快挑战我，战胜我就可以获得技能石哦！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="930,410" actorPos="930,410" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		 <teleport id="1" name="深水之城" pos="400,460" targetMapId="170" targetPos="510,320"/>
+	</entities>
+</map>

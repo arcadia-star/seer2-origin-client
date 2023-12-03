@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="赫尔卡星荒地" categoryId="0">
+	<resource url="80036.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="550" y="380"/>
+	<entities>	
+		<teleport id="1" name="离开副本" pos="302,530" targetMapId="70"/>
+	</entities>
+</map>

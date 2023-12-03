@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神迹领域" categoryId="0">
+	<resource url="3844.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="670" y="496"/>
+	<entities>		
+		<npc id="3007" resId="3007" name="小丑米咔" dir="1" width="75" height="130"  pos="493,400" actorPos="493,420" path="">	
+			<dialog npcId="749">
+				<branch id="default">
+					<node emotion="0"><![CDATA[要变5分钟才会拿到觉醒值哦，变成神迹米咔（就是那个大拳头米咔）能一下拿到5点觉醒值呢]]></node>
+					<reply action="close"><![CDATA[算了以后再说]]></reply>
+				</branch>
+			</dialog>
+			<functionality> 
+				<node type="" name="免费普通变身" params="MiKaNormalChange" />
+				<node type="" name="星钻变身（100%变成神迹米咔）" params="MiKaMiChange" />
+			</functionality> 
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+	 	</npc>
+
+
+
+		<npc id="360" resId="3010" name="" dir="1" width="110" height="145" pos="708,378" actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[米咔神迹觉醒！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MiKaAwakenPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+		<npc id="3008" resId="3008" name="" dir="1" width="110" height="145" pos="265,536" actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[神迹塔输出神迹元素]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[HolyTowerPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+		<npc id="360" resId="360" name="" dir="1" width="110" height="145" pos="850,423" actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[拂晓兔神迹觉醒！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[RabbitAwakenActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+		<npc id="1056" resId="1056" name="" dir="1" width="110" height="145" pos="420,600" actorPos="378,560" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[超进化+转系为神迹系+4大神技+变身效果=凯萨神迹觉醒！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[KaiSaAwakenMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+		<npc id="3039" resId="3039" name="" dir="1" width="110" height="145" pos="822,586" actorPos="378,560" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[月神神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MoonWakeUpActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<npc id="1009" resId="1009" name="" dir="1" width="110" height="145" pos="1038,526" actorPos="378,560" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[晨璨神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ChenCanWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+
+
+		<teleport id="1" name="传送室" pos="1146,510" targetMapId="70"/>
+	</entities>
+</map>

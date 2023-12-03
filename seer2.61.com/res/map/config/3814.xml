@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰封魔域" categoryId="7" switch="1" weather="9">
+	<resource url="3814.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="380" y="462"/>
+	<entities>
+		<teleport id="1" name="雪之湖泊" pos="600,545" targetMapId="3812"/>
+		
+		<npc id="679" resId="679" name="库贝萨" dir="1" width="110" height="180" pos="220,432" actorPos="350,427" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[我就是传说中的库贝萨]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+				<!-- <HandlerToggleModule><![CDATA[]]></HandlerToggleModule>  -->	
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="701" resId="701" name="亚伦" dir="1" width="110" height="145" pos="352,313" actorPos="393,392" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[半兽人亚伦]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[OrcYalunPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+	</entities>
+</map>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水仙草界" categoryId="2" weather="2">
+	<resource url="10015_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="400" y="365"/>
+	<entities>
+		<npc id="19" resId="19" name="维拉" dir="0" width="70" height="125" pos="374,277" actorPos="352,302" path="">
+			<dialog npcId="19" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[维尔家族世世代代都会为草目氏族做出最香甜的美酒！]]></node>
+					<reply action="close"><![CDATA[哇哦！听起来就很不错呢！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[只有想不通的人，没有走不通的路。]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="水仙溪口" pos="727,580" targetMapId="152" targetPos="269,425"/>
+		<teleport id="2" name="信奉广场" pos="601,349" targetMapId="100" targetPos="162,392"/>
+		<teleport id="3" name="狂暴漩涡" pos="196,213" targetMapId="213" targetPos="596,462"/>
+	</entities>
+</map>

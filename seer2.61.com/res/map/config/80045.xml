@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="汲雨之岛" categoryId="8">
+	<resource url="80045.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="425" y="605"/>
+	<entities>
+			<npc id="477" resId="477" name="雷伊" dir="0" width="70" height="160" pos="336,400" actorPos="360,480" path="">
+			<dialog npcId="477" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[小赛尔！经过雷电的洗礼你才能继续前进！搭配好你的对战精灵来与我好好战一场吧！]]></node>
+					<reply action="close"><![CDATA[准备一下]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="我要挑战你" params="startFight" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="59,429" targetMapId="70" targetPos="480,380"/>
+	</entities>
+</map>

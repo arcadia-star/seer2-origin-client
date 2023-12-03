@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="朽木桥" categoryId="2" weather="1">
+	<resource url="10012_2.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="832" y="530"/>
+	<entities>
+		<teleport id="1" name="异蘑世界" pos="944,552" targetMapId="121" targetPos="553,388"/>
+		<teleport id="2" name="异蘑小径" pos="244,212" targetMapId="123" targetPos="832,319"/>
+	</entities>
+</map>

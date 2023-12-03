@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域天尊殿" categoryId="11" switch="1" weather="9">
+	<resource url="3817.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="270" y="450"/>
+	<entities>
+		<teleport id="1" name="神域回廊" pos="891,487" targetMapId="3816" targetPos="127,538"/>
+		<npc id="702" resId="702" name="圣兽天尊" dir="1" width="110" height="145" pos="600,389" actorPos="428,375" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[神域之王 圣兽天尊]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[TianZunMainPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		战神联盟 -->
+		<npc id="361" resId="361" name="" dir="1" width="110" height="145" pos="334,405" actorPos="216,360" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ZhanShenLianMengPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		神宠英雄 -->
+		<npc id="362" resId="362" name="" dir="1" width="110" height="145" pos="432,350" actorPos="320,305" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ShenChongYingXiongPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+<!-- 		天龙骑士团VS魔域四将 -->
+		<npc id="363" resId="363" name="" dir="1" width="110" height="145" pos="730,335" actorPos="615,290" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[TianLongQiShiTuanPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		幻灵骑士团 -->
+		<npc id="364" resId="364" name="" dir="1" width="110" height="145" pos="832,345" actorPos="720,300" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[EidolonPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		忍者龙剑坛 -->
+		<npc id="365" resId="365" name="" dir="1" width="110" height="145" pos="909,400" actorPos="795,355" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SpriteQuickChangePanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		暗黑五煞 -->
+		<npc id="366" resId="366" name="" dir="1" width="110" height="145" pos="796,470" actorPos="680,425" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[AnHeiWuShaPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		三主宠超进化 -->
+		<npc id="367" resId="367" name="" dir="1" width="110" height="145" pos="628,530" actorPos="510,482" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MainPetsProcessPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+<!-- 		神龙王 -->
+		<npc id="369" resId="369" name="" dir="1" width="110" height="145" pos="429,515" actorPos="315,466" path="">		
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>  
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		
+		
+		
+	</entities>
+	
+	
+</map>

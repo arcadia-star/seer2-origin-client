@@ -1,0 +1,89 @@
+<!--沙爪氏族  -->
+<!--
+<map id="地图编号，场景中地图上方显示的地图编号,示例：520" level="适合的精灵等级，示例：1-100级">
+	<pet  id="精灵id" isSpt="是否为spt精灵,0不是，1是/>
+	<collect id="采集物id" />
+	<activity name="活动名" />
+	<game name="游戏名" />
+	<fun name="功能名" />
+</map>
+
+实例：
+<map id="520" level="34-36级">
+	<pet id="89" />
+	<collect id="400001" />
+	<activity name="捣蛋反攻战" />
+	<game name="酒鬼胖胖" />
+	<fun name="烹饪" /
+</map>
+-->
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<map id="310" level="37-39级">
+		<pet  id="114"  name="蹦蹦鼠"  />
+		<pet  id="211"  name="弗格斯"  />
+		<pet  id="68" name="酷壳鸡"  />
+		<collect id="400006" />
+	</map>
+    <map id="320" >
+		<collect id="400026" />
+	</map>
+	<map id="330">
+		<collect id="400027" />
+	</map>
+	<map id="340" level="38级">
+		<pet  id="85" name="爆炸头"  />
+		<collect id="400006" />
+	</map>
+	<map id="350">
+        <activity name="斗鸡比赛" />
+	</map>
+	<map id="360" level="34-36级">
+		<pet  id="68" name="酷壳鸡"  />
+		<pet  id="211"  name="弗格斯"  />
+		<pet  id="50"  name="多摩桑"  />
+		<collect id="400223" />
+		<collect id="400028" />
+	</map>
+    <map id="370" level="55级">
+    	<pet isSpt="1" id="82" name="SPT：沙皇鸟" />
+	</map>
+	<map id="380" level="10级">
+		<collect id="400027" />
+	</map>
+	<map id="390" >
+		<collect id="400031" />
+		<collect id="400029" />
+	</map>
+	<map id="470" >
+		<game name="酒鬼胖胖" />
+        <activity name="钓鱼大赛" />
+	</map>
+	<map id="480" level="39-41级">
+		<pet  id="129"  name="怪笑波利"  />
+		<pet  id="64"  name="格尔西克"  />
+		<pet  id="203"  name="碎晶蜂"  />
+	</map>
+	<map id="490" level="37-39级">
+		<pet  id="112" name="砂吉塔"  />
+		<pet  id="64"  name="格尔西克"  />
+		<pet  id="203"  name="碎晶蜂"  />
+	</map>
+    <map id="500">
+    <pet  id="91"  name="伊特"  /> 
+		<activity name="捣蛋反攻战" />
+	</map>
+	<map id="510" level="31-33级">
+		<pet  id="64"  name="格尔西克"  />
+		<collect id="400029" />
+		<collect id="400031" />
+	</map>
+	<map id="520" level="34-36级">
+		<pet  id="89" name="皮皮格" />
+		<collect id="400029" />
+	</map>
+    <map id="530" level="50级">
+    	<pet isSpt="1"  id="80"  name="SPT：巨锤莫古" />
+	</map>
+
+</data>	

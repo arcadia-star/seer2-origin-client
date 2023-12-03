@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="禁食山脚" categoryId="8031">
+	<resource url="10803_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="447" y="389"/>
+	<entities>
+		<npc id="62" resId="62" name="草系部落勇士" dir="1" width="30" height="135" pos="603,425" actorPos="583,495" path="">
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="63" resId="63" name="水系部落勇士" dir="1" width="30" height="90" pos="306,495" actorPos="435,470" path="">
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="64" resId="64" name="火系部落勇士" dir="0" width="30" height="120" pos="743,409" actorPos="583,495" path="">
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="61" resId="61" name="法海" dir="1" width="30" height="110" pos="376,473" actorPos="435,470" path="">
+			<dialog npcId="61" npcName="法海" transport="1,450,340">
+				<branch id="default">
+					<node emotion="0"><![CDATA[天道毕，三五成，日月俱！米奇林大王……咦？你是来干嘛的？]]></node>
+					<reply action="close"><![CDATA[打个酱油，这就走开！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="氏族精华兑换" params="StomachPanel" />
+				<node type="module" name="米奇林硬甲兑换" params="StomachSwapPanel" />
+				<!--<node type="" name="空腹节的灾难" params="10042"/>-->
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[洒家提供各种兑换！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="禁食山顶" pos="424,356" targetMapId="8032" targetPos="590,536"/>
+	</entities>
+			
+</map>

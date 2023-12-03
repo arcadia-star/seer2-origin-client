@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 双精灵战斗地图专用 -->
+<map name="">
+	<resource url="100000.swf"/>
+	<entities>
+		
+	</entities>
+</map>

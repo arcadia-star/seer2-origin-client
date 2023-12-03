@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="实验禁地"  categoryId="5">
+	<resource url="10050.swf"/>
+	<fightMap id="100008"/>
+	<initialPoint x="529" y="507"/>
+	<entities>
+		<npc id="429" resId="429" name="伊特" dir="0" width="70" height="65" pos="647,444" actorPos="630,460" path="">
+			<dialog npcId="429" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我就是捣蛋鬼怎么样！没有朋友又怎么样！我就这么惹人厌！]]></node>
+					<reply action="close"><![CDATA[……伊特……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[走开！别来惹我！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="乌黑矿坑" pos="544,569" targetMapId="520"/>
+		<teleport id="2" name="冰之谷" pos="521,447" targetMapId="540"/>
+	</entities>
+</map>

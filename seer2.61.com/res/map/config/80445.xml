@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="视界原野" categoryId="9">
+	<resource url="10080.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="581" y="518"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="608,446" targetMapId="70" targetPos="482,365"/>
+	</entities>
+</map>

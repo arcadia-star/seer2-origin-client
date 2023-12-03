@@ -1,0 +1,102 @@
+<map name="战神遗迹" categoryId="100" checkable="1">
+	<resource url="10385_1.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="475" y="454"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="590,551" targetMapId="70"/>
+	
+	
+		<npc id="1053" resId="1053" name="" dir="1" width="75" height="100"  pos="796,484" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[盖亚神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[GaiYaWakeupFirstPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>	
+
+
+		<npc id="1002" resId="1002" name="" dir="1" width="75" height="100"  pos="903,521" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[卡修斯神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[KaXiuSiWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+	
+         <npc id="156" resId="156" name="" dir="1" width="75" height="100" pos="592,449" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[冥神撒旦神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SaDanAwakenMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+         <npc id="1006" resId="1006" name="" dir="1" width="75" height="100" pos="465,592" actorPos="455,587" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[雷伊神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LeiYiWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+	
+         <npc id="1008" resId="1008" name="" dir="1" width="75" height="100" pos="345,446" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[唯一女战神缪斯神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MiuSiWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+	     <npc id="3022" resId="3022" name="" dir="1" width="75" height="100" pos="193,494" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[无极影神布莱克神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[BuLaiKeWakeupMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+	
+
+	     <npc id="1056" resId="1056" name="" dir="1" width="75" height="100" pos="692,590" actorPos="692,590" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[炎帝凯萨神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[KaiSaAwakenMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+	</entities>	
+</map>

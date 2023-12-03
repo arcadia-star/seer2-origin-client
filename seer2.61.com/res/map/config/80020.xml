@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="暗月岭" categoryId="3">
+	<resource url="80011.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="300" y="414"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="354,459" targetMapId="70" targetPos="300,414"/>
+	</entities>
+</map>

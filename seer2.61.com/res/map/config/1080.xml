@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="欲望回廊" categoryId="2">
+    <resource url="1080.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="380" y="85"/>
+    <entities>
+       <teleport id="1" name="传送室" pos="360,85" targetMapId="70" />
+    </entities>
+</map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="焰之森(斑斓圣焰)" categoryId="4">
+	<resource url="10028_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="556" y="490"/>
+	<entities>
+		<teleport id="1" name="蛮神战场" pos="300,586" targetMapId="240" targetPos="953,342"/>
+		<teleport id="2" name="魅罗门" pos="1011,510" targetMapId="270" targetPos="186,407"/>
+	</entities>
+</map>

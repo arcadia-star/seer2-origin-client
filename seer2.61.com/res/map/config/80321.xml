@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域天尊殿(副本)" categoryId="11" switch="1" weather="9">
+	<resource url="3817_1.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="270" y="450"/>
+	<entities>	
+	</entities>
+</map>

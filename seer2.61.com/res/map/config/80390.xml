@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="镜中世界-虫穴地牢" categoryId="10">
+	<resource url="80390.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="240" y="530"/>
+	<entities>
+		<teleport id="1" name="镜中世界-主城" pos="240,530" targetMapId="80388" targetPos="240,530"/>
+		<teleport id="1" name="镜中世界-萤火之墓" pos="722,573" targetMapId="80389" targetPos="735,573"/>
+	</entities>
+</map>

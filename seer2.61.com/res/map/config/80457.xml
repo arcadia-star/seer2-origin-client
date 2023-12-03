@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幻空通道(火神诏令)" categoryId="4" weather="0">
+	<resource url="80457.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="729" y="541"/>
+	<entities>
+		<teleport id="1" name="火幻氏族主城" pos="455,582" targetMapId="230" targetPos="434,434"/>
+		<teleport id="2" name="幻空岭" pos="340,331" targetMapId="292" targetPos="812,514"/>
+		<mineport id="2" resId="7" name="红色矿脉" pos="770,336" actorPos="742,445" limit="3" aniPos="0,0" serverConfigId="9"/>
+	</entities>
+</map>

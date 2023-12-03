@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="妒忌回廊（挑战）" categoryId="2">
+	<resource url="80006.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="490" y="420"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="490,475" targetMapId="1071" targetPos="440,470"/>
+	</entities>
+</map>

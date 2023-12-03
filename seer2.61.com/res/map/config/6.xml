@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="新手任务实验室" categoryId="1">
+	<resource url="10006.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="600" y="500"/>
+	<entities>
+	</entities>		
+</map>

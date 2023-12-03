@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="白龙岩阵" categoryId="0">
+	<resource url="80072.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="492" y="462"/>
+	<entities>
+		<npc id="649" resId="649" name="百魁" dir="1" width="110" height="140" pos="476,318" actorPos="487,416" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[我叫百魁]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NinjaPetBaikuiPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="783,516" targetMapId="70"/>				
+	</entities>
+</map>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="蛮神战场" categoryId="4" weather="0">
+	<resource url="10024.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="323" y="458"/>
+	<entities>
+		<npc id="32" resId="32" name="洛克" dir="1" width="70" height="110" pos="693,351" actorPos="692,445" path="">
+			<dialog npcId="32" transport="1,300,400">
+				<branch id="default">
+					<node emotion="4"><![CDATA[战争！掠夺！我所做的一切到底有意义吗？这真的是我想要的权利吗？]]></node>
+					<reply action="close"><![CDATA[（笑嘻嘻！笑嘻嘻！不是个好东西！）]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[不！我才是真正的烈焰蛮神！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="626" resId="626" name="晨璨" dir="1" width="70" height="110" pos="544,360" actorPos="550,492" path="">
+			<dialog npcId="626" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[米拉不怕，有我保护你]]></node>
+					<reply action="close"><![CDATA[我一直在你身边。]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[我是晨璨]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="赤炼山脉" pos="288,310" targetMapId="261" targetPos="271,532"/>
+		<teleport id="2" name="火幻氏族主城" pos="93,551" targetMapId="230" targetPos="736,366"/>
+		<teleport id="3" name="焰之森" pos="999,336" targetMapId="281" targetPos="360,546"/>
+	</entities>
+</map>

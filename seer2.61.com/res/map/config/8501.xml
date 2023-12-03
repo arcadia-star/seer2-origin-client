@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="旋云之冠" categoryId="9">
+	<resource url="10085.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="342" y="459"/>
+	<entities>			
+		<teleport id="1" name="旋云之冠副本" pos="342,459" targetMapId="850" targetPos="342,459"/>
+		<npc id="494" resId="494" name="萨兰古尔" dir="1" width="75" height="100" pos="583,233" actorPos="543,262" path=""/>
+	</entities>
+</map>

@@ -1,0 +1,249 @@
+<map name="传送室" categoryId="1">
+	<resource url="10007.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="607" y="465"/>
+	<entities>
+		<npc id="8" resId="8" name="艾农" dir="0" width="75" height="115" pos="695,385" actorPos="600,468" path="">
+			<dialog npcId="8" transport="1,300,400">
+				<branch id="default">
+					<node emotion="1"><![CDATA[啦啦啦~~~新的星球美如画~~~啦啦啦~~~我的歌声美到家~~~啦啦啦~~~原谅我无法控制自己以美妙的歌声来告诉你一切最新消息。]]></node>
+					<reply action="close"><![CDATA[约瑟加油！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="game" name="汤尼站稳" params="8"/>
+				<node type="module" name="封号名单" params="FoulPanel"/>
+				<node type="module" name="艾农小秘书" params="BugPanel"/>
+<!-- 				<node type="module" name="BUG补偿" params="CallBoxPanel"/> -->
+				<node type="" name="赐福！王之暗魄" params="nextYearActivityShip"/>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[参与小调查就可以得到小礼物喔！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+
+ 	     <npc id="3091" resId="3091" name="" dir="1" width="75" height="100" pos="876,226" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[赛尔号手游]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SeerShouyouPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+<!-- 		<npc id="3090" resId="3090" name="" dir="1" width="75" height="100" pos="872,255" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[上海站报名火热开启！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerHttpClick><![CDATA[http://seer.61.com/events/201606seer_ls/?tad=innermedia.seer2.free.inseer2]]></HandlerHttpClick>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+	    <npc id="3055" resId="3055" name="" dir="1" width="75" height="100"  pos="273,600" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[长臂猴超进化]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[ChangbihouSuperPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+	    </npc> 
+
+	    <npc id="3072" resId="3072" name="" dir="1" width="75" height="100"  pos="436,434" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[圣光斗者 武神缚体]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[ShengwufulingBuyPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+	    </npc> 
+
+		
+ 	
+    	<npc id="3065" resId="3065" name="" dir="1" width="75" height="100" pos="1105,309" actorPos="975,427" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[全新皮肤]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerHttpClick><![CDATA[http://mo.61.com/?tad=innermedia.seer2.free.inseer2]]></HandlerHttpClick>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<npc id="3063" resId="3063" name="" dir="1" width="75" height="100"  pos="287,279" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[往期活动]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[3855]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+ 		<npc id="152" resId="152" name="" dir="1" width="110" height="145" pos="248,470" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[鲁尼超进化]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[LuniSuperPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>
+
+ 		<npc id="3069" resId="3069" name="" dir="1" width="110" height="145" pos="484,605" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[格尼赛格]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[KenisaigeGetPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>
+
+
+ 		<npc id="1005" resId="1005" name="" dir="1" width="110" height="145" pos="578,333" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[碧珞·逍遥]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[BiluoMainPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>
+
+<!--    	<npc id="153" resId="153" name="" dir="1" width="110" height="145" pos="316,622" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[2016年度精灵]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[NewYearFreePetPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>--> 
+	
+<!--        <npc id="1055" resId="1055" name="" dir="1" width="110" height="145" pos="994,620" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[三大隐藏神技开放]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[LeishenleiyiSkillGetPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>--> 
+ 		<npc id="321" resId="321" name="" dir="1" width="110" height="145" pos="920,629" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[魔域四神]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[MoyusishengPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>
+
+<!--		<npc id="3035" resId="3035" name="" dir="1" width="110" height="145" pos="835,620" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[三大隐藏神技开放]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[YandikaisaSkillGetPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>--> 
+
+
+<!--    	<npc id="396" resId="396" name="" dir="1" width="110" height="145" pos="261,450" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[金鸡贺岁]]></HandlerShowNpcSlogan> 
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NewYearVipPetPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+ 		</npc> -->
+
+		<npc id="1054" resId="1054" name="" dir="1" width="75" height="100"  pos="1028,436" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[6月包月VIP送极品圣甲地裂]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[YearPet2017ShengJiaLeiMingPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc>
+<!--    	<npc id="3069" resId="3069" name="" dir="1" width="110" height="145" pos="259,590" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[燃放礼花得新春大礼！]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[LihuaExchangPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> --> 
+  
+
+
+ 		 <npc id="330" resId="330" name="" dir="1" width="110" height="145" pos="817,444"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[伊特超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[YiteSuperTogetherPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+<!--        <npc id="2575" resId="2575" name="" dir="1" width="110" height="145" pos="1044,427"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[元宵3部曲]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SpringFestivalMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>--> 
+
+
+<!--         <npc id="3071" resId="3071" name="" dir="1" width="110" height="145" pos="900,624"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[消费送黑龙王]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ShakeMoneyTreePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+
+<!--        <teleport id="1" name="活动场景" pos="608,547" targetMapId="3856" />-->
+
+
+	</entities>
+</map>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="贪婪回廊" categoryId="2">
+	<resource url="80003.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="490" y="480"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="650,475" targetMapId="1071" targetPos="440,470"/>
+		<npc id="655" resId="655" name="伊利塔" dir="1" width="110" height="180" pos="420,432" actorPos="" path="">
+			<eventHandler>
+				<mouseOver>
+<!-- 					<HandlerShowNpcSlogan><![CDATA[双面冥王]]></HandlerShowNpcSlogan> -->
+				</mouseOver>
+			</eventHandler>
+	</npc>
+	</entities>
+</map>

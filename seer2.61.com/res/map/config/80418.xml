@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="狂暴漩涡" categoryId="3">
+	<resource url="10021_4.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="580" y="450"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="233,390" targetMapId="70" targetPos="373,385"/>
+	</entities>
+</map>

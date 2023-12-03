@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="沙之迷穴" categoryId="6">
+	<resource url="10038.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="550" y="514"/>
+	<entities>
+		<npc id="437" resId="437" name="砂吉塔" dir="1" width="75" height="75" pos="668,443" actorPos="641,492" path="">
+			<dialog npcId="437">
+				<branch id="default">
+					<node emotion="0"><![CDATA[你也是来抢财宝的......我可没有小时候那么没有出息。来出手吧......]]></node>
+					<reply action="close"><![CDATA[不想理你]]></reply>
+				</branch>
+			</dialog>
+			<functionality>			
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		<teleport id="1" name="海市蜃楼" pos="403,579" targetMapId="370"/>
+		<teleport id="2" name="海市蜃楼" pos="403,579" targetMapId="3700"/>
+	</entities>
+</map>

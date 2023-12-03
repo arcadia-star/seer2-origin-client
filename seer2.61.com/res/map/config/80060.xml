@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="恐怖实验室" categoryId="3">
+	<resource url="3809.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="435" y="485"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="603,618" targetMapId="70"/>
+	</entities>
+</map>

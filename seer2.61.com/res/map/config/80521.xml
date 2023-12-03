@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="研究院(主线副本)"  categoryId="5">
+	<resource url="80521.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="871" y="537"/>
+	<entities>
+		<teleport id="1" name="返回传送仓" pos="50,460" targetMapId="70"/>
+	</entities>
+</map><?xml version="1.0" encoding="UTF-8"?>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="王者遗迹" categoryId="7" switch="0" weather="0">
+	<resource url="80146.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="460" y="541"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="570,564" targetMapId="70"/>
+		<!-- 以下为 204【限时活动】一万光年的祝福 中使用的npc，现已下架
+		 <npc id="158" resId="158" name="" dir="1" width="75" height="100" pos="294,578" actorPos="279,479" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[免费送精灵王约瑟]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[Blessings10000LightYearsPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="1010" resId="1010" name="" dir="1" width="75" height="100" pos="686,558" actorPos="686,558" path="">
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[DianfengMiaoshaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc> -->
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="银脉山脊" categoryId="3" switch="1">
+	<resource url="10018.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="682" y="515"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="1050,424" targetMapId="70" targetPos="481,433"/>
+	</entities>
+</map>

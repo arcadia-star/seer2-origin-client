@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="飞翼氏族主城" categoryId="8">
+	<resource url="80542.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="625" y="375"/>
+	<entities>
+		<npc id="83" resId="83" name="萨伯尔兵团长" dir="1" width="70" height="110" pos="616,345" actorPos="624,366" path="">
+		</npc>
+		
+	</entities>
+</map>

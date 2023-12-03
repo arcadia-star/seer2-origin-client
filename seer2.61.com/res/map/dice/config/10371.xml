@@ -1,0 +1,51 @@
+﻿<!-- seat：格子位置 mobile:模型ID 0为玩家,其他为精灵id tileType:格子类型 empty:空格子 lucky:蓝色，运势牌 
+	//现在没有了，下次再说 chance:绿色，随机小游戏 box:宝箱 addMoney:获得1个海盗币 subMoney:扣除1个海盗币 fight:精灵战斗 
+	reverse：扣除3个海盗币 thingId：事件类型对应的事件ID random为随机 x：格子寻路x y：格子寻路y -->
+<tiles mobileId="0" seatInfoId="204588" vipCount="15" normalCount="10"
+	useCountId="1275" buyedCountId="204552" coinId="204553" fightId="204554"
+	randomPoint="204556">
+	<tile seat="0" tileType="empty" x="371" y="494" />
+	<tile seat="1" tileType="subMoney" x="318" y="461" />
+	<tile seat="2" tileType="add10" x="263" y="431" />
+	<tile seat="3" tileType="chance" x="318" y="400" />
+	<tile seat="4" tileType="reverse" x="262" y="371" />
+	<tile seat="5" tileType="fight" x="208" y="339" />
+	<tile seat="6" tileType="addMoney" x="260" y="309" />
+	<tile seat="7" tileType="subMoney" x="206" y="276" />
+	<tile seat="8" tileType="empty" x="262" y="246" />
+	<tile seat="9" tileType="chance" x="317" y="215" />
+	<tile seat="10" tileType="box" x="261" y="184" />
+	<tile seat="11" tileType="fight" x="314" y="156" />
+	<tile seat="12" tileType="addMoney" x="371" y="125" />
+	<tile seat="13" tileType="box" x="428" y="154" />
+	<tile seat="14" tileType="add10" x="483" y="186" />
+	<tile seat="15" tileType="subMoney" x="542" y="215" />
+	<tile seat="16" tileType="chance" x="599" y="245" />
+	<tile seat="17" tileType="empty" x="541" y="276" />
+	<tile seat="18" tileType="fight" x="486" y="308" />
+	<tile seat="19" tileType="addMoney" x="542" y="337" />
+	<tile seat="20" tileType="empty" x="485" y="366" />
+	<tile seat="21" tileType="subMoney" x="541" y="398" />
+	<tile seat="22" tileType="chance" x="597" y="427" />
+	<tile seat="23" tileType="addMoney" x="653" y="398" />
+	<tile seat="24" tileType="fight" x="709" y="366" />
+	<tile seat="25" tileType="add10" x="764" y="338" />
+	<tile seat="26" tileType="reverse" x="821" y="306" />
+	<tile seat="27" tileType="addMoney" x="876" y="336" />
+	<tile seat="28" tileType="subMoney" x="932" y="366" />
+	<tile seat="29" tileType="addMoney" x="987" y="397" />
+	<tile seat="30" tileType="chance" x="1043" y="428" />
+	<tile seat="31" tileType="empty" x="987" y="459" />
+	<tile seat="32" tileType="addMoney" x="932" y="489" />
+	<tile seat="33" tileType="fight" x="877" y="460" />
+	<tile seat="34" tileType="reverse" x="822" y="429" />
+	<tile seat="35" tileType="subMoney" x="768" y="459" />
+	<tile seat="36" tileType="empty" x="713" y="490" />
+	<tile seat="37" tileType="addMoney" x="768" y="520" />
+	<tile seat="38" tileType="reverse" x="712" y="549" />
+	<tile seat="39" tileType="fight" x="659" y="581" />
+	<tile seat="40" tileType="empty" x="605" y="550" />
+	<tile seat="41" tileType="chance" x="542" y="520" />
+	<tile seat="42" tileType="addMoney" x="480" y="550" />
+	<tile seat="43" tileType="fight" x="424" y="522" />
+</tiles>

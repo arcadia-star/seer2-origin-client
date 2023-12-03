@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="约瑟战境" categoryId="100">
+	<resource url="10098_3.swf"/>
+	<fightMap id="100100"/>
+	<initialPoint x="482" y="444"/>
+	<entities>
+		<npc id="3" resId="3" name="激浪队" dir="1" width="75" height="130" pos="480,260" actorPos="480,380" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[激浪队请来我这里领奖喽！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		<npc id="190" resId="190" name="热火队" dir="1" width="75" height="130" pos="380,280" actorPos="350,360" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[热火队请来我这里领奖喽！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		<npc id="195" resId="195" name="原野队" dir="0" width="75" height="130" pos="585,280" actorPos="600,360" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[原野队请来我这里领奖喽！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		<npc id="621" resId="621" name="米咔" dir="0" width="105" height="135" pos="150,320" actorPos="482,444" path="">
+				<eventHandler>
+					<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[太阳神米咔]]></HandlerShowNpcSlogan>
+					</mouseOver>
+					<click>
+						<HandlerToggleModule><![CDATA[SonOfSunGoldPanel]]></HandlerToggleModule>
+					</click>
+				</eventHandler>
+		</npc>
+		<npc id="622" resId="622" name="巴鲁金斯" dir="0" width="105" height="135" pos="90,430" actorPos="482,444" path="">
+				<eventHandler>
+					<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[稻草人，找朋友]]></HandlerShowNpcSlogan>
+					</mouseOver>
+					<click>
+						<HandlerToggleModule><![CDATA[RollerLotteryPanel]]></HandlerToggleModule>
+					</click>
+				</eventHandler>
+		</npc>
+		<npc id="620" resId="620" name="幻蹄雷电" dir="0" width="105" height="135" pos="800,330" actorPos="482,444" path="">
+				<eventHandler>
+					<mouseOver>
+						<HandlerShowNpcSlogan><![CDATA[幻蹄雷电]]></HandlerShowNpcSlogan>
+					</mouseOver>
+					<click>
+						<HandlerToggleModule><![CDATA[BaozouLeidianPanel]]></HandlerToggleModule>
+					</click>
+				</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="720,400" targetMapId="70" targetPos="480,300"/>
+	</entities>	
+</map>

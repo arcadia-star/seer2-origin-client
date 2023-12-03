@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="天煞魔帝挑战" categoryId="7" switch="1" weather="9">
+	<resource url="3822_1.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="430" y="375"/>
+	<entities>
+	</entities>
+</map>

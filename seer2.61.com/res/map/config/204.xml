@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幽静珊瑚穴" categoryId="3">
+	<resource url="10020_4.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="672" y="423"/>
+	<entities>
+<!-- 	     <npc id="3044" resId="3044" name="" dir="1" width="75" height="150" pos="490,470" actorPos="490,470" path="">  -->
+<!--  			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[GuoQingExpRandomPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!--  		</npc> -->
+ 		
+		<teleport id="1" name="彩虹珊瑚湾" pos="844,532" targetMapId="201" targetPos="155,333"/>
+	</entities>
+</map>

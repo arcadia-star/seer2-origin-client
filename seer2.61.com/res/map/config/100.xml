@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="信奉广场" categoryId="2">
+	<resource url="10010.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="394" y="401"/>
+	<entities>
+		<npc id="18" resId="18" name="斯力普" dir="0" width="70" height="125" pos="791,317" actorPos="644,355" path="">
+			<dialog npcId="18" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我可是草目氏族的睡神……Zzzz……我真的不怕你挠我痒痒……]]></node>
+					<reply action="close"><![CDATA[这不是此地无银三百两嘛！囧]]></reply>
+				</branch>
+			</dialog>
+			<functionality/>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[吼吼……偶只是打酱油的！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="22" resId="22" name="科睡" dir="1" width="70" height="85" pos="864,321" actorPos="644,355" path="">
+			<dialog npcId="22" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[不要崇拜哥，哥只是个神话……Zzzz……我是在说梦话吗？Zzzz……]]></node>
+					<reply action="close"><![CDATA[嘘……不要吵醒科睡啦！]]></reply>
+				</branch>
+			</dialog>
+			
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[Zzzz……今天你睡了吗？]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<!--<npc id="158" resId="158" name="" dir="1" width="75" height="100"  pos="421,408" actorPos="274,408" path="">	
+			<dialog npcId="0">
+				<branch id="default">
+					<node emotion="0"><![CDATA[快来测试案子啦!!(barry专属)]]></node>
+					<reply action="close"><![CDATA[这就来]]></reply>
+				</branch>
+			</dialog>
+			<functionality> 
+				<node type="module" name="火神之战 " params="GodFirePkActPanel" />
+				<node type="module" name="凯萨神迹觉醒 " params="KaiSaAwakenMainPanel" />
+				<node type="module" name="陶神超进化 " params="KingTaoSuperProcessPanel" />
+				<node type="module" name="强插插" params="ThreeYearMainAllPanel" />
+			</functionality> 
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[2013、2014年兽免费得]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+	 	</npc>-->
+		<teleport id="1" name="草系主城" pos="1121,321" targetMapId="90" targetPos="176,469"/>
+		<teleport id="2" name="水仙草界" pos="102,381" targetMapId="151" targetPos="540,346"/>
+	</entities>
+</map>

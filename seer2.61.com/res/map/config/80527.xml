@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="研究院"  categoryId="8">
+	<resource url="80521.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="871" y="537"/>
+	<entities>
+		<teleport id="1" name="飞翼氏族主城" pos="265,507" targetMapId="80519" targetPos="625,375"/>	
+		<teleport id="2" name="云海藏书"    pos="256,274" targetMapId="80526" targetPos="715,510"/>	
+	</entities>
+</map>

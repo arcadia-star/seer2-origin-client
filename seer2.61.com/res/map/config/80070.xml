@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="白龙岩阵" categoryId="0">
+	<resource url="80072.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="492" y="462"/>
+	<entities>
+		<npc id="776" resId="776" name="迈巴赫" dir="1" width="110" height="140" pos="677,547" actorPos="487,416" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[迈巴赫]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="777" resId="777" name="保时捷" dir="1" width="110" height="140" pos="836,511" actorPos="387,416" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[保时捷]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="778" resId="778" name="玛莎拉蒂" dir="1" width="110" height="140" pos="617,357" actorPos="287,416" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[玛莎拉蒂]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="779" resId="779" name="布加迪威龙" dir="1" width="110" height="140" pos="414,360" actorPos="587,416" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[布加迪威龙]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="780" resId="780" name="帕加尼" dir="1" width="110" height="140" pos="320,437" actorPos="687,416" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[帕加尼]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="781" resId="781" name="法拉利" dir="1" width="110" height="140" pos="373,520" actorPos="787,416" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[法拉利]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+			<npc id="783" resId="783" name="阿斯顿马丁" dir="1" width="110" height="140" pos="519,551" actorPos="487,516" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[阿斯顿马丁]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="678,429" targetMapId="70" targetPos="800, 350"/>				
+	</entities>
+</map>

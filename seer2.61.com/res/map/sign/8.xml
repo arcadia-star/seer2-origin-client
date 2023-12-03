@@ -1,0 +1,60 @@
+﻿<!-- 飞翼氏族 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pets:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<!-- questid:需要完成这个任务才能进入  questid="33" -->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<map id="770" level="55-85级">
+		<pet isSpt="0" id="168" name="葛蕾芬" category="7"/>
+	</map>
+	
+	<map id="660" level="55-85级">
+		<pet isSpt="0" id="183" name="萨伯尔" category="7"/>
+		<limit questid="32"/>
+	</map>
+	
+	<map id="700" level="60-62级">
+		<pet isSpt="0" id="195" name="克里普特" category="7"/>
+		<pet isSpt="0" id="213" name="石像魔" category="7"/>
+		<pet isSpt="0" id="209" name="安吉丽塔" category="7"/>	
+		<collect id="400045" />
+		<limit questid="33"/>
+	</map>
+	<map id="720" level="66-68级">
+		<pet isSpt="0" id="199" name="泰姆尔" category="7"/>
+		<pet isSpt="0" id="213" name="石像魔" category="7"/>
+		<pet isSpt="0" id="173" name="阿童钢" category="7"/>
+		<limit questid="39"/>
+	</map>
+	<map id="730" level="63-65级">
+		<pet isSpt="0" id="199" name="泰姆尔" category="7"/>
+		<pet isSpt="0" id="195" name="克里普特" category="7"/>
+		<pet isSpt="0" id="173" name="阿童钢" category="7"/>	
+		<limit questid="36"/>
+	</map>
+	<map id="740" level="70级">
+		<pet isSpt="0" id="197" name="艾萨卡(稀有精灵)" category="7"/>		
+		<limit questid="37"/>
+	</map>
+	<map id="760" level="58-60级">
+		<pet isSpt="0" id="199" name="泰姆尔" category="7"/>
+		<pet isSpt="0" id="213" name="石像魔" category="7"/>
+		<pet isSpt="0" id="209" name="安吉丽塔" category="7"/>	
+		<limit questid="34"/>
+	</map>
+	<map id="710" level="80级">
+		<pet isSpt="1" id="157" name="菲亚斯" category="7"/>	
+		<limit questid="33"/>
+	</map>
+	<map id="80527" level="80级">
+		<limit questid="103"/> 
+	</map>
+	<map id="80526" level="80级">
+		<limit questid="104"/>
+	</map>
+	
+	
+</data>

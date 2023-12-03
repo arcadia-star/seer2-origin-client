@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="亡灵13区" categoryId="3">
+	<resource url="80057.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="450" y="430"/>
+	<entities>
+	</entities>
+</map>

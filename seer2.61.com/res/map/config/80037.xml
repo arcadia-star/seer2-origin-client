@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="观星者挑战" categoryId="0">
+	<resource url="80037.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="892" y="553"/>
+	<entities>	
+		<teleport id="1" name="传送室" pos="970,570" targetMapId="70"/>
+	</entities>
+</map>

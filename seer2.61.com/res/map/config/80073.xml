@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="三八跑道线(副本)" categoryId="6">
+	<resource url="10031.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="547" y="362"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="400,280" targetMapId="70"/>
+	</entities>
+</map>

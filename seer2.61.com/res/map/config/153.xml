@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="水仙溪口" categoryId="2">
+    <resource url="100153.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint 
+        x="176" y="331"/>
+    <entities>
+        <npc id="313" name="钓鱼大师"
+            width="75" height="107" resId="313" dir="1" pos="389,451" actorPos="318,392" path="">
+        </npc>
+    </entities>
+</map>

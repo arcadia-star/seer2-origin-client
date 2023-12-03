@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水源之心" categoryId="3">
+	<resource url="1711.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="450" y="400"/>
+	<entities>
+	<!-- 下面这些需要后期重新配置 -->
+		<teleport id="1" name="深水之城" pos="400,460" targetMapId="170" targetPos="510,320"/>
+		<npc id="550" resId="550" name="蓝虎鲸" dir="0" width="70" height="85" pos="316,334"  path="">
+		</npc>
+		<npc id="551" resId="551" name="水墨飞马" dir="0" width="70" height="85" pos="200,419"  path="">
+		</npc>
+		<npc id="552" resId="552" name="乌古达" dir="0" width="70" height="85" pos="795,310"  path="">
+		</npc>
+		<npc id="553" resId="553" name="希捷特" dir="0" width="70" height="85" pos="710,300"  path="">
+		</npc>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="683,385" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+	</entities>
+</map>

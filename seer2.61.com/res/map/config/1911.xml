@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="残骸入口副本" categoryId="3">
+	<resource url="10019_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="490" y="450"/>
+	<entities>
+		<teleport id="1" name="银脉山脊" pos="54,457" targetMapId="180" targetPos="236,477"/>
+	</entities>
+</map>

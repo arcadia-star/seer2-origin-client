@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="纠结之藤" categoryId="9">
+	<resource url="10083.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="777" y="439"/>
+	<entities>			
+		<teleport id="1" name="火源通径" pos="880,550" targetMapId="820" targetPos="373,183"/>		
+		<teleport id="2" name="冰晶魔域" pos="175,411" targetMapId="840" targetPos="655,504"/>		
+		
+		<npc id="484" resId="484" name="埃鲁达克" dir="0" width="120" height="120" pos="657,388" actorPos="610,410" path="">
+			<dialog npcId="484" transport="1,300,400">
+				<branch id="default">
+					<node emotion="3"><![CDATA[就算这战斗要陷入永恒，老夫也会奉陪到底。]]></node>
+					<reply action="close"><![CDATA[奋战到底！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="纠结之藤战役" params="boss"/>
+				<node type="module" name="奖品兑换" params="VinesFightPanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="490" resId="490" name="埃鲁达克(沙漠形态)" dir="0" width="120" height="120" pos="800,388" actorPos="800,421" path="">
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

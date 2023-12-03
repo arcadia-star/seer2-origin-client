@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="羽冠之岛" categoryId="8">
+	<resource url="10073.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="724" y="461"/>
+	<entities>
+		<teleport id="1" name="飞翼氏族主城" pos="616, 560" targetMapId="660" targetPos="968,267"/>
+		<teleport id="2" name="街心花园" pos="825, 317" targetMapId="740" targetPos="993,476"/>
+		<npc id="95" resId="95" name="克莉斯蒂" dir="0" width="70" height="110" pos="539,512" actorPos="497,548" path="">
+			<dialog npcId="95" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[听说某个星球上的一些奢侈品牌很不错，据说叫香奈儿什么的，很称我也！]]></node>
+					<reply action="close"><![CDATA[（那有什么，我妈妈有一橱子~）]]></reply>
+				</branch>
+			</dialog>
+
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[听说某个星球上的一些奢侈品牌很不错]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地下黑市"  categoryId="5">
+	<resource url="10049.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="420" y="545"/>
+	<entities>
+		<teleport id="1" name="地月氏族主城" pos="151,360" targetMapId="470"/>
+		<teleport id="2" name="地铁站" pos="1092,402" targetMapId="480"/>
+	</entities>
+</map>

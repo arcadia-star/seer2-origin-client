@@ -1,0 +1,10 @@
+<!-- 
+ 战队BOSS
+ id=BOSS ID
+ name=BOSS 名字
+ maxHp=BOSS 总血量
+ fightCount=一天可以打多少次	
+-->
+<root>
+	<boss id="1408" name="战啸天" maxHp="2500000" fightCount="1"/>
+</root>

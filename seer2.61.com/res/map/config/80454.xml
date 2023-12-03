@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="乌黑矿坑"  categoryId="5">
+	<resource url="10052.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="529" y="357"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="141,505" targetMapId="70" targetPos="615,341"/>
+	</entities>
+</map>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="沙之迷穴" categoryId="6">
+	<resource url="1003805.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="542" y="492"/>
+	<entities>
+		<teleport id="1" name="海市蜃楼" pos="457,468" targetMapId="370"/>
+		<npc id="45" resId="45" name="吉吉导游" dir="0" width="70" height="135" pos="202,422" actorPos="386,537" path="">
+			<dialog npcId="45" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[欢迎光临！（Welcome your presence！）恩哼！]]></node>
+					<reply action="close"><![CDATA[传说中的回音吗……]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+
+</map>

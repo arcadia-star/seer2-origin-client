@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地下黑市(梦境宝藏)"  categoryId="5">
+	<resource url="10049.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="594" y="534"/>
+	<entities>
+		<teleport id="1" name="地月氏族主城" pos="156,367" targetMapId="470" targetPos="793,510"/>
+		<teleport id="2" name="地铁站" pos="1016,458" targetMapId="480" targetPos="478,238"/>
+	</entities>
+</map>

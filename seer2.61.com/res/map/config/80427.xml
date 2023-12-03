@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幽静珊瑚穴(梦境宝藏)" categoryId="3">
+	<resource url="10020_4.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="672" y="423"/>
+	<entities>
+		<teleport id="1" name="彩虹珊瑚湾" pos="844,532" targetMapId="201" targetPos="155,333"/>
+	</entities>
+</map>

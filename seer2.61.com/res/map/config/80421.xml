@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="残骸入口(梦境宝藏)" categoryId="3">
+	<resource url="10019_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="625" y="477"/>
+	<entities>
+		<npc id="28" resId="28" name="银月兔兔" dir="0" width="70" height="125" pos="510,463" actorPos="557,474" path="">
+			<dialog npcId="28" transport="1,300,400">
+				<branch id="default">
+					<node emotion="1"><![CDATA[闭上你的眼睛，仔细聆听水脉氏族给你带来的忧伤与快乐！]]></node>
+					<reply action="close"><![CDATA[哇哦……这里似乎好神奇！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[传达感情的并不只有话语]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="银脉山脊" pos="54,457" targetMapId="180" targetPos="236,477"/>
+		<teleport id="2" name="残骸通道" pos="748,269" targetMapId="192" targetPos="284,490"/>
+	</entities>
+</map>

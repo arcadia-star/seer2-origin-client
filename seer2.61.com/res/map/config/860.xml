@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="赫尔卡星荒地" categoryId="0">
+	<resource url="10086.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="550" y="380"/>
+	<entities>	
+		<npc id="327" resId="327" name="" dir="1" width="70" height="110" pos="470,430" actorPos="679,312" path="">
+			<dialog npcId="327" transport="1,300,400"/>
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LeiyiChargingGamePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="588" resId="588" name="" dir="1" width="70" height="110" pos="810,380" actorPos="679,312" path="">
+			<dialog npcId="588" transport="1,300,400"/>
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LeiyiChargingEVEPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>		
+		<npc id="498" resId="498" name="" dir="1" width="70" height="110" pos="290,290" actorPos="679,312" path="">
+			<dialog npcId="498" transport="1,300,400"/>	
+		</npc>		
+		<npc id="592" resId="592" name="" dir="1" width="70" height="110" pos="610,280" actorPos="679,312" path="">
+			<dialog npcId="592" transport="1,300,400"/>
+		</npc>		
+		<npc id="593" resId="593" name="" dir="1" width="70" height="110" pos="420,230" actorPos="679,312" path="">
+			<dialog npcId="593" transport="1,300,400"/>	
+		</npc>		
+		<npc id="594" resId="594" name="" dir="1" width="70" height="110" pos="270,420" actorPos="679,312" path="">
+			<dialog npcId="594" transport="1,300,400"/>		
+		</npc>		
+	</entities>
+</map>

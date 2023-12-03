@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="目灵祭台(神遁拉奥叶)" categoryId="3">
+	<resource url="101000_0.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="480" y="380"/>
+	<entities>
+		<teleport id="1" name="视界原野" pos="125,476" targetMapId="800" targetPos="438,513"/>	
+		<npc id="3050" resId="3050" name="目灵神" dir="0" width="75" height="120" pos="617,400" actorPos="480,347" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快挑战我，战胜我就可以获得技能石哦！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="847,531" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

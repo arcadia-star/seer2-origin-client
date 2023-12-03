@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="微光湖畔" categoryId="9">
+	<resource url="80564.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="510" y="421"/>
+</map>

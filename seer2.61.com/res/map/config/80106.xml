@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域回廊" categoryId="7" switch="1" weather="9">
+	<resource url="3816.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="270" y="450"/>
+	<entities>
+		<npc id="684" resId="684" name="汤姆斯邦" dir="0" width="90" height="150" pos="836,309" actorPos="801,393" path="">
+			<dialog npcId="684">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我叫汤姆，汤姆-斯邦。]]></node>
+					<reply action="close"><![CDATA[哇~好酷的名字！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+		<npc id="678" resId="678" name="战神杰瑞" dir="0" width="90" height="120" pos="929,303" actorPos="801,393" path="">
+			<dialog npcId="678">
+				<branch id="default">
+					<node emotion="0"><![CDATA[什么？你有奶油生菜？能给我吃点吗？]]></node>
+					<reply action="close"><![CDATA[你的嘴可真馋……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

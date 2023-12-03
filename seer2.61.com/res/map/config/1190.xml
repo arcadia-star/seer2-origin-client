@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="爪灵兽祭坛"  categoryId="5">
+	<resource url="1190.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="620" y="425"/>
+	<entities>
+		<teleport id="1" name="沙之迷穴" pos="675,440" targetMapId="380" targetPos="550,380"/>
+	</entities>
+</map>

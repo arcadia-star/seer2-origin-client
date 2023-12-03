@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰雪溶洞" categoryId="7" switch="1" weather="9">
+	<resource url="3813.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="630" y="480"/>
+	<entities>
+		<teleport id="1" name="雪之湖泊" pos="324,470" targetMapId="3812" targetPos="788,394"/>
+	</entities>
+</map>

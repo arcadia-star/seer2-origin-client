@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="王者遗迹" categoryId="7" switch="0" weather="0">
+	<resource url="80146.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="460" y="541"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="570,564" targetMapId="70"/>
+		<npc id="888" resId="888" name="约瑟王" dir="0" width="90" height="250" pos="520,480" actorPos="470,545" path="">
+			<dialog npcId="888">
+				<branch id="default">
+					<node emotion="0"><![CDATA[接受王的挑战，获得王的敬畏！你准备好了吗？]]></node>
+					<reply params="yueSeKingToFight"><![CDATA[挑战世界BOSS]]></reply>
+					<reply params="yueSeKingSeeRank"><![CDATA[ 查看排行榜]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

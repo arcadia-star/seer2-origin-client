@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"<?xml version="1.0" encoding="UTF-8"?>
+<map name="船长的记忆" categoryId="1">
+	<resource url="80565.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="460" y="400"/>
+</map>

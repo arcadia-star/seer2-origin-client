@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="勇士之门50V50" categoryId="100">
+	<resource url="10040_5.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="417" y="471" />
+	<entities>
+		<doorTeleport id="1" name="要塞B2" pos="295,533" targetMapId="83"
+			targetPos="326,507" tip="您确定要离开勇士之门吗?" doorRule="2" doorType="0"/>
+	</entities>
+</map>

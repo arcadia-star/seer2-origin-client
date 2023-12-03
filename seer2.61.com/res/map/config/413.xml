@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="孤独之门50V50" categoryId="100">
+	<resource url="10041_3.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="551" y="535" />
+	<entities>
+		<doorTeleport id="1" name="要塞B4" pos="502,600" targetMapId="88"
+			targetPos="524,567" tip="您确定要离开孤独之门吗?" doorRule="7" doorType="1"/>
+	</entities>
+</map>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="羽冠之岛" categoryId="8">
+	<resource url="80614.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="871" y="537"/>
+</map>

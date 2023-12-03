@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="飞翼氏族主城(主线副本)" categoryId="8">
+	<resource url="10066.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="625" y="375"/>
+	<entities>	
+	     <teleport id="1" name="研究院" pos="943,134" targetMapId="80527" targetPos="871,537"/>	
+	</entities>
+</map>

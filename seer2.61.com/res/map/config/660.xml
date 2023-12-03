@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="飞翼氏族主城" categoryId="8">
+	<resource url="10066.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="625" y="375"/>
+	<entities>
+		<npc id="83" resId="83" name="萨伯尔兵团长" dir="1" width="70" height="110" pos="616,345" actorPos="624,366" path="">
+			<dialog npcId="83" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[飞翼群岛的秩序，由我来维护！]]></node>
+					<reply action="close"><![CDATA[哇！好帅气！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战萨伯尔兵团" params="fight_single_npc_660" />
+				<node type="" name="挑战双精灵萨伯尔" params="fight_dual_npc_660" />
+				
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[让你知道我的厉害！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="空港" pos="260, 577" targetMapId="770" targetPos="879,170"/>
+		<teleport id="2" name="时镜之岛" pos="166, 320" targetMapId="700" targetPos="876,520"/>
+		<teleport id="3" name="汲雨之岛" pos="1002, 454" targetMapId="760" targetPos="129,556"/>
+		<teleport id="4" name="羽冠之岛" pos="1034, 270" targetMapId="730" targetPos="643,517"/>
+		<teleport id="5" name="飞翼之核" pos="532, 192" targetMapId="720" targetPos="349,361"/>
+	</entities>
+</map>

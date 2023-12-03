@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="超能广场" categoryId="13">
+	<resource url="3830.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="灵能通径" pos="1070,500" targetMapId="3828"/>
+		<teleport id="2" name="穹顶大厅" pos="870,369" targetMapId="3837" targetPos="450,480"/>
+		<teleport id="3" name="能量之源" pos="183,535" targetMapId="3846" targetPos="261,380"/>
+<!-- 		<npc id="1018" resId="1018" name="紫电队小兵" dir="1" width="47" height="90" pos="849,360" actorPos="592,441" path="">	 -->
+<!-- 		<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler>	 -->
+<!-- 		</npc> -->
+	
+		<npc id="1017" resId="1017" name="瓦利大叔" dir="1" width="47" height="140" pos="408,488" actorPos="592,441" path="">
+			<dialog npcId="1017">
+				<branch id="default">
+					<node emotion="0"><![CDATA[咳咳……我只是一个首饰匠，我什么也不知道。]]></node>
+					<reply action="close"><![CDATA[大叔，我们不想做什么……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+<!-- 				<node type="quest" name="(主线)回归超能氏族" params="回归超能氏族" /> -->
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+		
+		<npc id="1032" resId="1032" name="梵拉" dir="0" width="47" height="140" pos="310,560" actorPos="310,560" path="">
+			<dialog npcId="1032">
+				<branch id="default">
+					<node emotion="0"><![CDATA[宁静的大地下隐藏着超能的魔力……要召唤魂兽还需要更多！]]></node>
+					<reply action="close"><![CDATA[你为什么长得跟别人不一样呢?]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+	</entities>
+</map>

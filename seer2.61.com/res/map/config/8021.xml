@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="下雪的姜饼城" categoryId="101" switch="0" weather="9">
+	<resource url="10802_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="268" y="396"/>
+</map>

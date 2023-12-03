@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰封魔域" categoryId="7" switch="1" weather="9">
+	<resource url="3814.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="380" y="462"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="570,564" targetMapId="70"/>
+		<npc id="3049" resId="3049" name="万龙尊者" dir="0" width="90" height="250" pos="610,480" actorPos="470,545" path="">
+			<dialog npcId="3049">
+				<branch id="default">
+					<node emotion="0"><![CDATA[吾乃龙尊，王龙之主，你准备好接受龙尊之战了吗？]]></node>
+					<reply params="haoJieDevilToFight"><![CDATA[挑战世界BOSS]]></reply>
+					<reply params="haoJieDevilSeeRank"><![CDATA[ 查看排行榜]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

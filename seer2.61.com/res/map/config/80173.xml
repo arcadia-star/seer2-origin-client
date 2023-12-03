@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="诸神之殿" categoryId="7" switch="0" weather="4">
+	<resource url="80173.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="516" y="495"/>
+	<entities>
+		<teleport id="1" name="冰之谷" pos="253,400" targetMapId="540" targetPos="416,441"/>
+		
+		<npc id="734" resId="734" name="阿波罗" dir="1" width="110" height="200" pos="405,307" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[触碰神光,随机与神挑战]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="738" resId="738" name="雅典娜" dir="1" width="110" height="200" pos="557,307" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[触碰神光,随机与神挑战]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		
+	</entities>
+</map>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="权力之帐"  categoryId="2">
+	<resource url="10011.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="454" y="518"/>
+	<entities>
+		<npc id="16" resId="16" name="神目酋长" dir="0" width="70" height="95" pos="554,443" actorPos="484,478" path="">
+			<dialog npcId="16" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[吼吼吼，欢迎来到草目氏族！我的客人，你可以到处去走走，我相信你会喜欢这里！]]></node>
+					<reply action="close"><![CDATA[草目氏族！我来咯！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[确定、一定以及肯定。]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+		<npc id="17" resId="17" name="特鲁伊" dir="0" width="70" height="70" pos="606,467" actorPos="484,478" path="">
+			<dialog npcId="17" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我将永远守护巴特！直至我死亡！]]></node>
+					<reply action="close"><![CDATA[这就是精灵之间的感情吗？]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战特鲁伊" params="OpenNpcChallengePanel" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="431,353" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="草系主城" pos="117,559" targetMapId="90" targetPos="618,457"/>
+	</entities>
+</map>

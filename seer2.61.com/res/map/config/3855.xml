@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="永恒殿" categoryId="0" switch="0" weather="4">
+	<resource url="3840_1.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="609,549" targetMapId="70"/>
+
+
+    	<npc id="399" resId="399" name="" dir="1" width="110" height="145" pos="893,487" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[六界王之幻境界王]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[SixKingdomKingPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> 
+
+			<npc id="2518" resId="2518" name="" dir="1" width="75" height="100" pos="667,250" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[伊特王超进化]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[YiTeWangEvolutionMainPanel]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+
+	    <npc id="157" resId="157" name="" dir="1" width="75" height="100"  pos="953,625" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[最强冰系精灵]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[LvShuangBingZhiPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+	    </npc> 
+
+	    <npc id="3062" resId="3062" name="" dir="1" width="110" height="145" pos="201,577" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[星海陨影系列活动]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[StarShadowPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>
+
+		<npc id="1007" resId="1007" name="" dir="1" width="75" height="100" pos="408,240" actorPos="250,580" path="">
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[五王超进化]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+					<HandlerChangeMap><![CDATA[80492]]></HandlerChangeMap>
+			</click>
+		</eventHandler>
+	    </npc>
+
+	    <npc id="3093" resId="3093" name="" dir="1" width="75" height="100"  pos="851,287" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[机甲战神联盟]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[JiBaBattleGodAllianceMainPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+	    </npc> 
+
+
+
+		<npc id="389" resId="389" name="" dir="1" width="75" height="100"  pos="964,267" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[小梦超进化，超梦蜕变为极梦]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[80300]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+
+ 		<npc id="3068" resId="3068" name="" dir="1" width="110" height="145" pos="1047,437" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[龙族三巨头]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[LongzusanjutouPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>
+
+
+   <!--      <npc id="183" resId="183" name="" dir="1" width="110" height="145" pos="902,590"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[神龙火圈]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LuckyDialMeePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+        <npc id="3033" resId="3033" name="" dir="1" width="271" height="213" pos="379,600"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[邪恶四灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[XieesilingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<npc id="395" resId="395" name="" dir="1" width="110" height="145"  pos="504,345"  actorPos="844,580" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[创世、混沌、开元三帝超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[80330]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>	
+
+
+
+  <!--		<npc id="3043" resId="3043" name="" dir="1" width="92" height="130" pos="621,251"  actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[约瑟超进化已开启]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[80146]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+        <npc id="3032" resId="3032" name="" dir="1" width="75" height="100" pos="722,349" actorPos="264,491" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[99星钻精灵特卖]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DoubleFestivalGiftPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+<!--        <npc id="391" resId="391" name="" dir="1" width="75" height="100"  pos="208,553" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[神宠精元蛋 限时超低价]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[BuyEggGiftStonePanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc>-->
+ <!--		<npc id="3069" resId="3069" name="" dir="1" width="75" height="100"  pos="297,450" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[绝版精灵回归]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[LightningRunActPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc>
+
+    	<npc id="3070" resId="3070" name="" dir="1" width="110" height="145" pos="436,646" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[四大界王回归]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[HappyGuaAwardPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> -->
+ <!-- 	    <npc id="1055" resId="1055" name="" dir="1" width="110" height="145" pos="204,451" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[圣灵神将—奥斯卡]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[ASKActPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> -->
+ <!-- 		<npc id="158" resId="158" name="" dir="1" width="75" height="100"  pos="912,625" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[春节特惠版]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[GiftMachinePanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> -->
+ <!--		<npc id="3092" resId="3092" name="" dir="1" width="75" height="100"  pos="1025,567" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[绝版强宠回归！]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[DragonChroniclesMainPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> -->
+
+		<npc id="3066" resId="3066" name="" dir="1" width="75" height="100"  pos="206,479" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[邪灵五帝之光明黄帝]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[EvilEmperorIntegrationPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+		</npc> 
+
+
+
+
+	    <npc id="3073" resId="3073" name="" dir="1" width="110" height="145" pos="274,324" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[雷锘超进化]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[LeiNuoEvolutionMainPanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc> 
+
+ 		<npc id="2574" resId="2574" name="" dir="1" width="110" height="145" pos="1115,549" actorPos="600,468" path=""> 
+			<eventHandler> 
+				<mouseOver> 
+ 					<HandlerShowNpcSlogan><![CDATA[呆目齿轮鹰超进化]]></HandlerShowNpcSlogan> 
+ 				</mouseOver> 
+ 				<click> 
+					<HandlerToggleModule><![CDATA[ChilunyingSuperPanel]]></HandlerToggleModule>
+ 				</click> 
+ 			</eventHandler> 
+ 		</npc>
+
+
+
+
+
+
+		<npc id="3064" resId="3064" name="" dir="1" width="75" height="100"  pos="1126,340" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[本周活动]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[70]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+
+	    <npc id="3047" resId="3047" name="" dir="1" width="75" height="100"  pos="433,465" actorPos="274,408" path=""> 
+ 			<eventHandler> 
+				<mouseOver> 
+					<HandlerShowNpcSlogan><![CDATA[寻找这颗神奇的星球上的诸多奇迹]]></HandlerShowNpcSlogan> 
+				</mouseOver> 
+ 				<click> 
+ 					<HandlerToggleModule><![CDATA[AkadiyaPetExplorePanel]]></HandlerToggleModule> 
+ 				</click> 
+ 			</eventHandler> 
+	    </npc> 
+
+
+
+
+	</entities>
+</map>

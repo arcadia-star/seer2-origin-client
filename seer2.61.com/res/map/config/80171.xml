@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="观星者挑战" categoryId="0">
+	<resource url="80171.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="925" y="599"/>
+	<entities>	
+	</entities>
+</map>

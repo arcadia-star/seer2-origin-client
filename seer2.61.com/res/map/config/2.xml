@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰室">
+	<resource url="2.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="500" y="400"/>
+</map>

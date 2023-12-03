@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="视界原野" categoryId="9">
+	<resource url="8002.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="428" y="514"/>
+	<entities>
+		<teleport id="1" name="传送仓" pos="507,576" targetMapId="70"/>
+		<npc id="565" resId="565" name="渡鸦之首" dir="1" width="75" height="120" pos="580,430" actorPos="497,515" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[点我，挑战我。]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		<npc id="524" resId="524" name="瑞克克" dir="1" width="70" height="140" pos="471,461" actorPos="497,515" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[点我，可以兑换我。]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		<npc id="525" resId="525" name="楼兰斯" dir="0" width="70" height="140" pos="581,520" actorPos="497,515" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[点我，可以兑换我。]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		<npc id="526" resId="526" name="碧芙莱" dir="1" width="70" height="120" pos="704,473" actorPos="497,515" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[点我，可以兑换我。]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

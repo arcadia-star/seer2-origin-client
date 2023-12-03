@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风暴" categoryId="8">
+	<resource url="80590.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="604" y="303"/>
+	<entities>
+		
+	</entities>
+</map>

@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地球表面" categoryId="0" switch="0" weather="1">
+	<resource url="3833.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="800" y="470" />
+	<entities>
+		<teleport id="1" name="战地海岸" pos="360,368" targetMapId="3834" targetPos="510,510"/>
+<!-- 
+		<npc id="10" resId="10" name="" dir="0" width="110" height="200"
+			pos="513,421" actorPos="592,441" path="" />
+		<npc id="11" resId="11" name="" dir="0" width="110" height="200"
+			pos="570,470" actorPos="592,441" path="" />
+		<npc id="829" resId="829" name="" dir="1" width="110" height="200"
+			pos="640,441" actorPos="592,441" path="" />
+		<npc id="1021" resId="1021" name="" dir="1" width="110" height="200"
+			pos="945,350" actorPos="592,441" path="" />
+		<npc id="1022" resId="1022" name="" dir="1" width="110" height="200"
+			pos="254,345" actorPos="592,441" path="" />
+
+ 		<npc id="1021" resId="1021" name="" dir="1" width="110" height="200"
+			pos="945,350" actorPos="592,441" path="" />
+ 		<npc id="766" resId="766" name="" dir="0" width="110" height="200"
+			pos="836,421" actorPos="492,441" path="" />
+		<npc id="1025" resId="766" name="" dir="0" width="110" height="200"
+			pos="836,421" actorPos="592,441" path="" /> -->
+	</entities>
+</map>

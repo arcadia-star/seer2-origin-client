@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水仙草界)" categoryId="2" weather="2">
+	<resource url="10015_1.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="400" y="365"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="548,485" targetMapId="70" targetPos="234,310"/>
+	</entities>
+</map>

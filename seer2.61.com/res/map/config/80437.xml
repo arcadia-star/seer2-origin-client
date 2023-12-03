@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="三八跑道线(沙)(斑斓圣焰)" categoryId="6">
+	<resource url="10031.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="547" y="362"/>
+	<entities>
+			<npc id="466" resId="466" name="礼品兑换大使" dir="0" width="75" height="70" pos="664,355" actorPos="606,367" path="">
+			<dialog npcId="466" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[最潮爆的三八赛纪念礼品更新了！想兑换？(周六、周日15点——16点参加三八擂台赛）]]></node>
+					<reply action="close"><![CDATA[离开]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="礼品兑换" params="ThreeEightSwapPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[纪念品更新！快来兑换啊！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="三八跑道线（地）" pos="423,303" targetMapId="390" targetPos="270,569"/>
+		<teleport id="2" name="沙爪氏族主城" pos="699,529" targetMapId="320" targetPos="543,346"/>
+	</entities>
+</map>

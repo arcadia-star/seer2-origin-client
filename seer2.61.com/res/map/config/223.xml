@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name=" 乌达的梦境" categoryId="3">
+	<resource url="10022_3.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="480" y="380"/>
+	<entities>
+		<dreamTeleport id="1" name="离开梦境" pos="356,389" targetMapId="203" targetPos="344,136"/>
+	</entities>
+</map>

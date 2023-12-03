@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="视界原野" categoryId="9">
+	<resource url="10080.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="425" y="463"/>
+	<entities>
+		<teleport id="2" name="脉流之瀑" pos="864,498" targetMapId="810"/>
+	</entities>
+</map>

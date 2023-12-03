@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幻影崖" categoryId="2">
+	<resource url="10014_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="220" y="325"/>
+	<entities>
+		<teleport id="1" name="荆棘林" pos="176,204" targetMapId="131" targetPos="660,440"/>
+		<teleport id="2" name="巨石洞穴" pos="700,130" targetMapId="142" targetPos="195,460"/>
+		<teleport id="2" name="灰烬岔口" pos="766,468" targetMapId="302" targetPos="815,411"/>
+	</entities>
+</map>

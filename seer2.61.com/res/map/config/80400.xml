@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地道之路"  categoryId="5">
+	<resource url="10051_1.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="400" y="426"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="600,475" targetMapId="70" targetPos="265,324"/>
+	</entities>
+</map>

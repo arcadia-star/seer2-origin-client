@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="梦境异蘑谷"  weather="1">
+	<resource url="126.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="590" y="428"/>
+	<entities>
+	</entities>
+</map>

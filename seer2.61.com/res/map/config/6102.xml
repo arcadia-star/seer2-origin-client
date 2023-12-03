@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰晶矿场副本" categoryId="7" switch="0" weather="4">
+	<resource url="10061.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="613" y="437"/>
+	<entities>
+		<teleport id="1" name="冰晶矿场" pos="399,407" targetMapId="610"/>
+	</entities>
+</map>

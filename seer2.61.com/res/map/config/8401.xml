@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰晶魔域副本" categoryId="9">
+	<resource url="10084.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="432" y="374"/>
+	<entities>			
+		<teleport id="1" name="冰晶魔域" pos="569,579" targetMapId="840"/>
+		<npc id="489" resId="225" name="卡特琳娜" dir="1" width="75" height="120" pos="293,290" actorPos="417,346" path=""/>
+	</entities>
+</map>

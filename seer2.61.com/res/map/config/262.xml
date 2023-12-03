@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="烈焰峡谷" categoryId="4" weather="1">
+	<resource url="10026_2.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="622" y="463"/>
+	<entities>
+		<teleport id="1" name="赤链山脉" pos="342,493" targetMapId="261" targetPos="848,396"/>
+		<npc id="143" resId="143" name="" dir="1" width="70" height="110" pos="751,555" actorPos="393,356" path="">
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[ActivityRewardSwapPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰脊之巅" categoryId="7" switch="0" weather="4">
+	<resource url="10064.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="676" y="523"/>
+	<entities>
+		<teleport id="1" name="冰脊山脉" pos="750,552" targetMapId="620"/>
+	</entities>
+</map>

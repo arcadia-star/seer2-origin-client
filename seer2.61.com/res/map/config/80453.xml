@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="切尔诺荒原(雷煞超进化BOSS副本)" categoryId="5" switch="1" weather="9">
+	<resource url="3808_1.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="530" y="477"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="222,562" targetMapId="70"/>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰晶魔域" categoryId="9">
+	<resource url="10084.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="559" y="411"/>
+	<entities>			
+		
+	</entities>
+</map>

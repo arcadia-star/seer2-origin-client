@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="新手任务小屋" weather="0">
+	<resource url="3.swf"/>
+	<initialPoint x="500" y="350"/>
+</map>

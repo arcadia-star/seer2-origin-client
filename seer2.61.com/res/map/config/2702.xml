@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="魅罗门副本" categoryId="4" weather="3">
+	<resource url="10027.swf"/>
+	<fightMap id="100097"/>
+	<initialPoint x="285" y="307"/>
+	<entities>
+		<teleport id="1" name="魅罗门" pos="130,464" targetMapId="270"/>
+	</entities>
+</map>

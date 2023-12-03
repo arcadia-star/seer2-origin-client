@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="草目氏族主城" categoryId="2">
+	<resource url="10009.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="529" y="427"/>
+	<entities>
+		
+	</entities>
+</map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="能源之潮(活动)" categoryId="0">
+	<resource url="1000000.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="724" y="314"/>
+	<entities>		
+		<npc id="5012" resId="418" name="影灵兽" dir="0" width="25" height="50" pos="542,240" actorPos="495,270" path="">
+		</npc>
+	</entities>
+</map>

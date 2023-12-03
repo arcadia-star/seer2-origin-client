@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰之谷" categoryId="7" switch="0" weather="0">
+	<resource url="10054.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="671" y="506"/>
+	<entities>
+		<teleport id="5" name="冰沁宫殿" pos="1076,429" targetMapId="550"/>
+	</entities>
+</map>

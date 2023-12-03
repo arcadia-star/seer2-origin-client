@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰封之轴" categoryId="7" switch="0" weather="0">
+	<resource url="10065.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="604" y="484"/>
+	<entities>
+		<teleport id="1" name="冰之谷" pos="786,564" targetMapId="540"/>
+	</entities>
+</map>

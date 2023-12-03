@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰之谷(梦境宝藏)" categoryId="7" switch="0" weather="0">
+	<resource url="10054.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="700" y="496"/>
+	<entities>
+		<teleport id="1" name="实验禁地" pos="537,282" targetMapId="500" targetPos="512,473"/>
+		<teleport id="2" name="冰晶矿场" pos="360,603" targetMapId="610" targetPos="527,436"/>
+		<teleport id="3" name="冰之监狱" pos="810,354" targetMapId="570" targetPos="570,358"/>
+		<teleport id="4" name="冰封之轴" pos="259,311" targetMapId="650" targetPos="809,361"/>
+		<teleport id="5" name="冰沁宫殿" pos="1078,446" targetMapId="550" targetPos="411,563"/>
+		<teleport id="6" name="冰脊山脉" pos="400,272" targetMapId="620" targetPos="1013,336"/>
+	</entities>
+</map>

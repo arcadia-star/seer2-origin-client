@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="飞翼之核(万斯输出)" categoryId="8">
+	<resource url="10072_1.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="600" y="470"/>
+	<entities>
+		<teleport id="1" name="飞翼氏族主城" pos="545, 381" targetMapId="660" targetPos="422,170"/>
+	</entities>
+</map>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="魔神之炼" categoryId="5" switch="1" weather="9">
+	<resource url="3807.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="370" y="440"/>
+	<entities>
+		<npc id="636" resId="636" name="莱曼萨尔" dir="1" width="75" height="120" pos="600,350" actorPos="600,400" path="">	
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[让你知道我的厉害！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			</eventHandler>
+		</npc>	
+		<teleport id="1" name="传送室" pos="889,382" targetMapId="70" targetPos="300,414"/>
+	</entities>
+</map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="黄金之路(梦境宝藏)" categoryId="6">
+	<resource url="10036.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="436" y="554"/>
+	<entities>
+		<teleport id="1" name="沙爪氏族主城" pos="587,461" targetMapId="320" targetPos="385,511"/>
+		<teleport id="2" name="海市蜃楼" pos="123,511" targetMapId="370" targetPos="983,500"/>
+		<teleport id="3" name="海市蜃楼" pos="123,511" targetMapId="3700" targetPos="983,500"/>
+	</entities>
+</map>

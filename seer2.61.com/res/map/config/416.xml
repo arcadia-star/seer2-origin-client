@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="英雄之门" categoryId="100">
+	<resource url="10041_6.swf"/>
+	<fightMap id="100098"/>
+	<initialPoint x="140" y="480"/>
+	<entities>
+		<doorTeleport id="1" name="要塞B4" pos="130,520" targetMapId="85" targetPos="216,451" tip="您确定要离开英雄之门吗?" doorRule="4" doorType="0"/>
+	</entities>
+</map>

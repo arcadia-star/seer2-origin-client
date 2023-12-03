@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="副本" categoryId="7">
+	<resource url="80156.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="620" y="360"/>
+	<entities>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="657,473" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

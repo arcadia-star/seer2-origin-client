@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="狂暴漩涡" categoryId="3">
+	<resource url="10021_3.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="580" y="450"/>
+	<entities>
+		<npc id="27" resId="27" name="占卜婆婆" dir="0" width="70" height="110" pos="399,380" actorPos="453,522" path="">
+			<dialog npcId="27" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[大事、小事、天下事！我邦妮婆婆都知道……吼……吼……]]></node>
+					<reply action="close"><![CDATA[( ⊙o⊙ )好大的螺壳！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>			
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[每个人都是自己的守护者]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="漩涡峡谷" pos="233,390" targetMapId="212" targetPos="373,385"/>
+		<teleport id="2" name="水仙草界" pos="625,440" targetMapId="151" targetPos="220,247"/>
+		<mineport id="3" resId="5" name="蓝色矿脉" pos="772,360" actorPos="697,503" limit="3" serverConfigId="8"/>
+	</entities>
+</map>

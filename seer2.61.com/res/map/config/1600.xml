@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="坐骑训练场" categoryId="7" switch="0" weather="0">
+	<resource url="5401.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="462" y="543"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="213,575" targetMapId="70"/>
+		<npc id="337" resId="337" name="天龙骑士—唐" dir="1" width="110" height="110" pos="593,516" actorPos="459,502" path="">		
+			<dialog npcId="337" npcName="天龙骑士—唐" >
+				<branch id="default">
+					<node emotion="0"><![CDATA[我就是大名鼎鼎的天龙骑士]]></node>
+					<reply action="" params="WithPetRide"><![CDATA[获得骑宠]]></reply>
+					<reply action="close"><![CDATA[呵呵]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快来试试骑宠系统吧]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="341" resId="341" name="" dir="1" width="110" height="110" pos="295,423" actorPos="" path="">		
+			<dialog npcId="341" npcName="霸王龙" >
+				<branch id="default">
+					<node emotion="0"><![CDATA[我就是大名鼎鼎的霸王龙]]></node>
+					<reply action="close"><![CDATA[呵呵]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快来试试骑宠系统吧]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="342" resId="342" name="" dir="1" width="110" height="80" pos="494,432" actorPos="" path="">		
+			<dialog npcId="342" npcName="迈巴赫" >
+				<branch id="default">
+					<node emotion="0"><![CDATA[我就是大名鼎鼎的迈巴赫]]></node>
+					<reply action="close"><![CDATA[呵呵]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快来试试骑宠系统吧]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="343" resId="343" name="" dir="0" width="110" height="80" pos="698,381" actorPos="" path="">		
+			<dialog npcId="343" npcName="朱雀" >
+				<branch id="default">
+					<node emotion="0"><![CDATA[我就是大名鼎鼎的朱雀]]></node>
+					<reply action="close"><![CDATA[呵呵]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[天龙冲锋号！骑宠大赛火热进行中]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="344" resId="344" name="" dir="0" width="110" height="80" pos="914,422" actorPos="" path="">		
+			<dialog npcId="344" npcName="哈德拉奇" >
+				<branch id="default">
+					<node emotion="0"><![CDATA[我就是大名鼎鼎的哈德拉奇]]></node>
+					<reply action="close"><![CDATA[呵呵]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快来试试骑宠系统吧]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

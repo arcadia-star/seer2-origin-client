@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="秘密基地(圣甲幻瞳)" categoryId="4">
+	<resource url="80500.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="407" y="500"/>
+	<entities>		
+<!-- 		<teleport id="1" name="灵能通径" pos="1000," targetMapId="3828"/>	 -->
+	</entities>
+</map>

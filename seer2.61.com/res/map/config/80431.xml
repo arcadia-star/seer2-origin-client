@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬岔口(梦境宝藏)" categoryId="4" weather="0">
+	<resource url="80431.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="423" y="547"/>
+	<entities>
+		<npc id="34" resId="34" name="麦铁" dir="1" width="70" height="125" pos="606,453" actorPos="423,547" path="">
+			<dialog npcId="34" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我只是个卖铁的，请问找我有什么事吗？不过就算有事我也会当你没事……]]></node>
+					<reply action="close"><![CDATA[(⊙o⊙)…额]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[我只不过是个卖铁的莽夫……]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="107" resId="107" name="总督大人" dir="1" width="70" height="125" pos="692,403" actorPos="423,547" path="">
+			<dialog npcId="107" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[刚铎的战锤马上就可以修复了！]]></node>
+					<reply action="close"><![CDATA[总督大人V5！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[你找我有什么事？]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<teleport id="1" name="幻影崖" pos="1080,443" targetMapId="141" targetPos="863,535"/>
+		<teleport id="2" name="灰烬之地" pos="751,195" targetMapId="301" targetPos="286,390"/>
+		<mineport id="3" resId="6" name="黄色矿脉" pos="360,294" actorPos="301,417" limit="3" aniPos="0,0" serverConfigId="10"/>
+		<teleport id="4" name="灰烬深渊" pos="128,181" targetMapId="304" targetPos="995,449"/>
+	</entities>
+</map>

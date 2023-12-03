@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰晶魔域" categoryId="9">
+	<resource url="10084.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="539" y="403"/>
+	<entities>			
+		<teleport id="1" name="纠结之藤" pos="574,563" targetMapId="830"/>
+		<teleport id="2" name="旋云之冠" pos="1007,464" targetMapId="850"/>
+				
+		<npc id="487" resId="487" name="米咔" dir="1" width="75" height="150" pos="269,274" actorPos="307,260" path="">
+		</npc>
+	</entities>
+</map>

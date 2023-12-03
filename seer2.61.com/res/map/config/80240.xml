@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="魔域军团" categoryId="3">
+	<resource url="80147.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="435" y="485"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="628,470" targetMapId="70" targetPos="628,470"/>
+	</entities>
+</map>

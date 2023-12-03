@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="水仙溪口副本" categoryId="2">
+    <resource url="10015_2.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint        x="338" y="359"/>
+    <entities>
+        <teleport id="1" name="水仙溪口" pos="220,413" targetMapId="152"/>
+    </entities>
+</map>

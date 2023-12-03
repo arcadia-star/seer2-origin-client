@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="夜间异蘑小径" categoryId="2">
+    <resource url="10107.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="613" y="512"/>
+    <entities>
+       <teleport id="1" name="传送室" pos="846,275" targetMapId="70" />
+    </entities>
+</map>

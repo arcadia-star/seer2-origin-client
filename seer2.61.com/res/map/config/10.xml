@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="船长室" categoryId="1">
+	<resource url="10001.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="900" y="400"/>
+	<entities>
+		<npc id="1" resId="1" name="船长辛迪" dir="1" width="90" height="120" pos="576,445" actorPos="423,519" path="">
+			<dialog npcId="1" transport="1,300,400">
+				<branch id="default">
+					
+					<node emotion="0"><![CDATA[我是伟大的船长辛迪，赛尔2号的航行目前遇到阻碍，不过我相信伟大的小赛尔们一定能找到让飞船搁浅的原因！]]></node>
+					<reply action="close"><![CDATA[是！！船长！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="5周年大游行" params="activityAnniversaryParade" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[欢迎来到约瑟传说！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="829" resId="829" name="雷霆" dir="0" width="70" height="70" pos="684,456" actorPos="484,478" path="">
+			<dialog npcId="829">
+				<branch id="default">
+					<node emotion="0"><![CDATA[强大、责任、忠诚是我的信念！雷霆之名守护阿卡迪亚！]]></node>
+					<reply action="close"><![CDATA[原来你就是船长的精灵]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="英雄雷霆" params="HeroLeiTingActPanel" />
+
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+<!-- 		<npc id="176" resId="198" name="" dir="1" width="90" height="200" pos="712,459" actorPos="426,428" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[春季特卖会]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[SpringShopPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<npc id="179" resId="179" name="" dir="1" width="90" height="120" pos="449,351" actorPos="426,428" path="">
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[船员公约]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[Map10NotisiPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>	
+		</npc>
+		<teleport id="1" name="传送室" pos="112,565" targetMapId="70"/>
+	</entities>
+</map>

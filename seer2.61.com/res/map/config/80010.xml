@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="伊特角斗场(副本)" categoryId="3">
+	<resource url="80010.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="422" y="482"/>
+	<entities>
+		<teleport id="1" name="伊特角斗场" pos="474,552" targetMapId="1170"/>
+	</entities>
+</map>

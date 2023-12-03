@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="蛮神战场" categoryId="4" weather="0">
+	<resource url="10024.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="323" y="458"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="288,310" targetMapId="70" targetPos="271,532"/>
+	</entities>
+</map>

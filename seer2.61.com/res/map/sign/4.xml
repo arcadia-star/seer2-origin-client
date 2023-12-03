@@ -1,0 +1,58 @@
+﻿<!-- 火幻氏族 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pets:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<map id="230" >
+		<collect id="400006" />
+	</map>
+	<map id="240" >
+		<collect id="400015" />
+	</map>
+	<map id="261" level="24-26级">
+		<pet  id="39" name="小赤豚"  />
+		<game name="绚丽的火花" />
+		<fun name="钓鱼" />		
+	</map>
+	<map id="262" level="28级">
+		<pet  id="76" name="达克尔（稀有）"  time="周五18:00-19：00"/>
+		<collect id="400017" />
+		<collect id="400034" />
+		<collect id="400035" />
+	</map>
+    <map id="270" level="40级">
+		<pet isSpt="1" id="33" name="乔尼"  />
+		<pet isSpt="1" id="36" name="大将岩浮"  />
+		<pet isSpt="1" id="38" name="霍克努尔"  />
+	</map>
+    <map id="281" level="20-22级">
+		<pet  id="39" name="小赤豚"  />
+		<pet  id="49" name="多摩"  />
+		<pet  id="32" name="小赤豚"  />
+		<collect id="400017" />
+	</map>
+	<map id="291" level="22-24级">
+		<pet  id="32" name="小赤豚"  />
+		<collect id="400017" />
+		<collect id="400005" />
+		<collect id="400016" />
+		<game name="乔尼祖玛" />		
+	</map>
+	<map id="301" level="25-27级">
+		<pet  id="32" name="小赤豚"  />
+		<pet  id="35" name="大角岩浮"  />
+		<pet  id="207" name="雷金纳德"  />
+		<collect id="400018" />
+		<game name="火箭小岩浮" />
+	</map>
+	<map id="302" level="32-33级">
+		<pet  id="35" name="大角岩浮"  />
+		<pet  id="207" name="雷金纳德"  />
+		<pet  id="40" name="赤炎兽"  />
+		<collect id="400005" />
+	</map>
+
+</data>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="巨石洞穴" categoryId="2">
+	<resource url="10014_5.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="489" y="502"/>
+	<entities>
+		<npc id="660" resId="660" name="巨石托尔" dir="1" width="70" height="120" pos="852,296" actorPos="700,410" path=""/>
+		<teleport id="1" name="幻影崖" pos="178,564" targetMapId="141"/>
+		<mineport id="2" resId="4" name="绿色矿脉" pos="393,349" actorPos="494,388" limit="3" serverConfigId="3"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="725,330" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

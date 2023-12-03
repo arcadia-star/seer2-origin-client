@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域天门" categoryId="7" switch="1" weather="9">
+	<resource url="3815.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="380" y="342"/>
+	<entities>
+			<npc id="678" resId="678" name="战神杰瑞" dir="0" width="90" height="120" pos="735,315" actorPos="660,327" path="">
+			<dialog npcId="678">
+				<branch id="default">
+					<node emotion="0"><![CDATA[什么？你有奶油生菜？能给我吃点吗？]]></node>
+					<reply action="close"><![CDATA[你的嘴可真馋……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

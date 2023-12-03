@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰沁宫殿" categoryId="7" switch="0" weather="0">
+	<resource url="10055.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="389" y="575"/>
+	<entities>
+		<teleport id="1" name="冰之谷" pos="345,590" targetMapId="540" targetPos="1006,456"/>
+		<teleport id="2" name="冰沁神殿" pos="648,564" targetMapId="590" targetPos="636,526"/>		
+		<teleport id="3" name="原始雪森林" pos="552,460" targetMapId="3811" targetPos="958,335"/>		
+	</entities>
+</map>

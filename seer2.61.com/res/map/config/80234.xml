@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="盗梦空间2" categoryId="3">
+	<resource url="80234.swf" />
+	<fightMap id="100002"/>
+	<initialPoint x="759" y="560"/>
+	<entities>
+		<teleport id="1" name="盗梦空间" pos="420,370" targetMapId="800" targetPos="330,405"/>	
+		<npc id="772" resId="772" name="" dir="1" width="110" height="80" pos="619,465" actorPos="732,458" path="">		
+			</npc>
+	</entities>
+</map>

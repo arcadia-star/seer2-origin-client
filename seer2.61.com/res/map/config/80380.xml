@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水源之心" categoryId="3">
+	<resource url="80380.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="450" y="400"/>
+	<entities>
+		<npc id="839" resId="839" name="海岩霸主" dir="0" width="90" height="170" pos="610,454" actorPos="492,480" path="">
+			<dialog npcId="851">
+				<branch id="default">
+					<node emotion="0"><![CDATA[准备好接受我的洗礼吧！]]></node>
+					<reply params="toFight"><![CDATA[挑战世界BOSS]]></reply>
+					<reply params="seeRank"><![CDATA[查看排行榜]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

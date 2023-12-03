@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="异蘑小径" categoryId="2">
+	<resource url="10012_3.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="418" y="523"/>
+	<entities>
+		<npc id="111111" resId="111111" name="小小葵" dir="1" width="90" height="120" pos="576,445" actorPos="423,519" path="">
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

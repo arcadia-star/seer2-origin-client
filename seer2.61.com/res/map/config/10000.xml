@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="黑暗梦境"  weather="1">
+	<resource url="10000.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="80" y="320"/>
+	<entities>
+	</entities>
+</map>

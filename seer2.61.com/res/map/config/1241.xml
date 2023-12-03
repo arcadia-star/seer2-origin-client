@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="异蘑谷幻境" categoryId="2">
+	<resource url="10012_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="512" y="473"/>
+	<entities>
+		<teleport id="1" name="异蘑谷" pos="40,350" targetMapId="124"/>
+	</entities>
+</map>

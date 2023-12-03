@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="梦境水源之心" categoryId="3">
+	<resource url="10017_3.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="450" y="380"/>
+	<entities>
+	</entities>
+</map>

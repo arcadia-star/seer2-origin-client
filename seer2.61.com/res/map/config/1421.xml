@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="巨石洞穴幻境" categoryId="2">
+	<resource url="10014_3.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="350" y="450"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="130,470" targetMapId="70" targetPos="350,450"/>
+	</entities>
+</map>

@@ -1,0 +1,52 @@
+﻿<!-- 能源之树 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pets:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<!-- questid:需要完成这个任务才能进入  questid="33" -->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<map id="540" level="40-42级">
+    	<pet  id="123" name="寒冰龟" />
+    	<pet  id="125" name="伊露辛" />
+    	<pet  id="230" name="米诺陶尔" />
+		<collect id="400212" />
+	</map>
+	<map id="550" level="40-42级">
+    	<pet  id="123" name="寒冰龟" />
+    	<pet  id="125" name="伊露辛" />
+    	<pet  id="129" name="怪笑波利" />
+		<collect id="400212" />
+	</map>
+	<map id="570" level="85级">
+		<collect id="400006" />
+	</map>
+	<map id="610" level="100级">
+    	<pet isSpt="1" id="127" name="卡尼娅" />
+	</map>
+	<map id="620" level="46-48级">
+    	<pet  id="230" name="米诺陶尔" />
+    	<pet  id="125" name="伊露辛" />
+    	<pet  id="129" name="怪笑波利" />
+	</map>	
+	
+	<!-- 原始雪森林 -->
+	<map id="3811" level="1-100级">
+    	 
+	</map>
+	<!-- 3812 雪之湖泊  -->
+	<map id="3812" level="40-100级">
+    	
+	</map>
+ <!-- 雪之溶洞 -->
+	<map id="3813" level="40-100级">
+    	<!--<activity name="活动：2014年费VIP：圣兽天尊" />  --> 
+	</map>
+	<!-- 冰封魔域 -->
+	<map id="3814" level="100级">
+    	 <activity name="活动：踏雪血魔" />
+	</map>
+	
+	
+</data>

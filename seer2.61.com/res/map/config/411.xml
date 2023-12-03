@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="竞技之战50V50" categoryId="100">
+	<resource url="10041_1.swf" />
+	<fightMap id="100098" />
+	<initialPoint x="431" y="529" />	
+</map>

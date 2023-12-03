@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="能量之源" categoryId="13">
+	<resource url="3846.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="351" y="456"/>
+	<entities>
+		<teleport id="1" name="超能广场" pos="274,486" targetMapId="3830"/>	
+		<npc id="3011" resId="3011" name="原魂兽" dir="1" width="47" height="140" pos="580,460" actorPos="582,455" path="">
+			<dialog npcId="3011">
+				<branch id="default">
+					<node emotion="0"><![CDATA[肉体终将灭亡，而意志将得永生。]]></node>
+					<reply action="close"><![CDATA[ 奎尔斯的意志真强大。]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+	</entities>
+</map>

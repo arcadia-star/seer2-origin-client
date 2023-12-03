@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="裂空" categoryId="9">
+	<resource url="80052.swf"/>
+	<fightMap id="100018"/>
+	<initialPoint x="680" y="800"/>
+	<entities>
+		
+	</entities>
+</map>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="巅峰神域" categoryId="0" switch="0" weather="4">
+	<resource url="3842.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="587,554" targetMapId="70"/>
+
+
+
+		<npc id="359" resId="359" name="" dir="1" width="75" height="100"  pos="351,528" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[银河守护者]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[BinaryStarKingActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+		<npc id="3001" resId="3001" name="" dir="1" width="75" height="100"  pos="234,401" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[最强辅助 奎尔斯之影]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[ShengLingTianZunPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+		<npc id="3003" resId="3003" name="" dir="1" width="75" height="100"  pos="802,268" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[最强控场 冥神哈迪斯]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[HaDiSiActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<npc id="3004" resId="3004" name="" dir="1" width="75" height="100"  pos="958,313" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[最强反伤 魔神库贝萨]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[KuBeiSaSuperProcessPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+		<npc id="3006" resId="3006" name="" dir="1" width="75" height="100"  pos="293,299" actorPos="600,514" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[最强输出 恶灵兽]]></HandlerShowNpcSlogan>
+				</mouseOver>
+			<click>
+					<HandlerToggleModule><![CDATA[PetElingActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+        <npc id="3042" resId="3042" name="" dir="1" width="110" height="145" pos="496,267" actorPos="600,404" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[史上首对羁绊灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[HotHeartYanLeiShaMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+       <!-- <npc id="1055" resId="1055" name="" dir="1" width="110" height="145" pos="678,539" actorPos="600,404" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[绝版回归！满80分就带走！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[AllSkillStudyBoyPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+       <!--  <npc id="3033" resId="3033" name="" dir="1" width="110" height="145" pos="988,418" actorPos="600,404" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[1星钻得雷锘]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LiMing2Panel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+        <npc id="152" resId="152" name="" dir="1" width="110" height="145" pos="674,256" actorPos="600,404" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[伊特家族终结章]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[IkeeYiTeWangPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+	</entities>
+</map>

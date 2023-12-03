@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="切尔诺荒原" categoryId="5" switch="1" weather="9">
+	<resource url="3808.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="685" y="442"/>
+	<entities>
+	<!-- 889,382 -->
+		<teleport id="1" name="传送室" pos="238,577" targetMapId="70"/>
+		
+		<npc id="2" resId="638" name="绝影" dir="1" width="110" height="120" pos="520,432" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快！前方的实验室中正进行着恐怖的实验！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NinjaPractiseSkillPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

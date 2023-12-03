@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="沙爪氏族主城" categoryId="6">
+	<resource url="10032.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="573" y="401"/>
+	<entities>
+		<npc id="56" resId="56" name="神爪财团老板" dir="0" width="70" height="135" pos="386,453" actorPos="573,401" path="">
+			<dialog npcId="56" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[你可别小看米共饲料了！在鸡毛与沙的斗鸡场上，它可能会派上大用场！你需要吗？]]></node>
+					<reply action="close"><![CDATA[留着您自个儿用吧……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[.....]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="三八跑道线（沙）" pos="542,328" targetMapId="310" targetPos="656,490"/>
+		<teleport id="2" name="黄金之路" pos="339,543" targetMapId="360" targetPos="558,485"/>
+		<teleport id="3" name="淘米市场" pos="983,488" targetMapId="330" targetPos="571,428"/>
+	</entities>
+</map>

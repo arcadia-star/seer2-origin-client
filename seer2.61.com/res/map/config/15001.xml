@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="庆典海滩" categoryId="0">
+	<resource url="1501.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="553" y="379"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="524,471" targetMapId="70" targetPos="800, 350"/>				
+	</entities>
+</map>

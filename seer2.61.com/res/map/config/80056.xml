@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神次元" categoryId="0">
+	<resource url="80056.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="693" y="518"/>
+</map>

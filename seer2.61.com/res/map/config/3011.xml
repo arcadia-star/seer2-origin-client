@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬之地" categoryId="4" weather="0">
+	<resource url="10030_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="615" y="430"/>
+	<entities>
+		<teleport id="1" name="火幻氏族主城" pos="828,474" targetMapId="230"/>
+		<teleport id="2" name="灰烬岔口" pos="276,384" targetMapId="302"/>
+	</entities>
+</map>

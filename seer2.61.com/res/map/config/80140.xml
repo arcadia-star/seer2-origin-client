@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幽静珊瑚穴" categoryId="3">
+	<resource url="80140.swf" />
+	<fightMap id="100003" />
+	<initialPoint x="470" y="280" />
+	<entities>
+		<npc id="632" resId="632" name="兰纳雅" dir="1" width="130" height="120" pos="277,400" actorPos="277,400" path="">
+			<dialog npcId="632">
+				<branch id="default">
+					<node emotion="0"><![CDATA[我会在5回合后逃走哦！带上胶囊抓紧时间捕获我吧!]]></node>
+					<reply params="toFight"><![CDATA[嗯，放心，我带上了！]]></reply>
+					<reply action="close"><![CDATA[我准备下]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel />
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

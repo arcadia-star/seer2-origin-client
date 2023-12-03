@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="娜钱莱宫殿" categoryId="6">
+	<resource url="10034.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="589" y="474"/>
+	<entities>
+		<teleport id="1" name="淘米市场" pos="422,560" targetMapId="330" targetPos="990,574"/>
+	</entities>
+
+</map>

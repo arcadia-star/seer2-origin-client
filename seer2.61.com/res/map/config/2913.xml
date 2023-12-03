@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="幻空通道" categoryId="4" weather="0">
+	<resource url="10029_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="520" y="400"/>
+	<entities>
+		<teleport id="1" name="火幻氏族主城" pos="449,572" targetMapId="230"/>
+		
+		<npc id="617" resId="617" name="伊鲁达" dir="0" width="75" height="120" pos="501,362" actorPos="610,380" path="">
+			<dialog npcId="617" transport="">
+				<branch id="default">
+				<node emotion="0"><![CDATA[我叫伊鲁达。。。]]></node>
+					<reply action="close"><![CDATA[你好，伊鲁达]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+	</entities>
+</map>

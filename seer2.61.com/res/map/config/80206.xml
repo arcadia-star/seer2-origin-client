@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="阎罗之殿" categoryId="2">
+    <resource url="100107_0.swf"/>
+    <fightMap id="100002"/>
+    <initialPoint x="164" y="436"/>
+    <entities>
+       <npc id="372" resId="372" name="地狱阎罗" dir="1" width="105" height="130" pos="475,410" actorPos="465,371" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[地狱阎罗活动]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[PetsGroupOneGateWayPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+       <teleport id="1" name="传送室" pos="42,409" targetMapId="70" />
+    </entities>
+</map>

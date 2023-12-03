@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="碧玉森林" categoryId="2">
+	<resource url="10010_1.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="533" y="481"/>
+	<entities>
+		<teleport id="1" name="信奉广场" pos="303,454" targetMapId="100"/>		
+		
+	<!--	<npc id="549" resId="549" name="小鬼迷宫" dir="1" width="105" height="90" pos="400,555" actorPos="465,371" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[小鬼迷宫]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MiGongMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+		
+	
+<!-- 		<npc id="549" resId="549" name="来自未来的案子" dir="1" width="75" height="90" pos="364,524" actorPos="691,489" path="">  -->
+<!--  			<dialog npcId="1">  -->
+<!--  				<branch id="default">  -->
+<!--  					<node emotion="0"><![CDATA[你以为你还出的去吗？]]></node>  -->
+<!--  					<reply action="close"><![CDATA[(╯' - ')╯( ┻━┻ ]]></reply>  -->
+<!--  				</branch>  -->
+<!--  			</dialog>  -->
+<!--  			<functionality>  -->
+<!-- 				<node type="module" name="贪吃蛇" params="SnakeGameEnterPanel" /> -->
+<!-- 				<node type="module" name="整合" params="NightDayActsPanel" /> -->				
+<!--  			</functionality>  -->
+<!--  			<eventHandler>  -->
+<!--  				<mouseOver>  -->
+<!--  					<HandlerShowNpcSlogan><![CDATA[进来的都是⑨]]></HandlerShowNpcSlogan>  -->
+<!--  				</mouseOver>  -->
+<!--  				<click>  -->
+<!--  					<HandlerOpenDialogPanel/>  -->
+<!--  				</click>  -->
+<!--  			</eventHandler>		  -->
+<!--  		</npc> -->
+ 	
+ 	<!--	<npc id="549" resId="549" name="宇宙骑士" dir="1" width="105" height="90" pos="600,555" actorPos="465,371" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[宇宙骑士]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[UniverseKnightPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+ 	
+		<npc id="549" resId="549" name="淘乐5折购物街" dir="1" width="105" height="90" pos="800,555" actorPos="465,371" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[淘乐5折购物街]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[TaoLe50offShoppingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	
+		<npc id="549" resId="549" name="精灵惊喜包" dir="1" width="105" height="90" pos="800,450" actorPos="465,371" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[精灵惊喜包]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[HalloweenScreamPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+ 		</npc> -->
+			
+		
+	</entities>
+</map>

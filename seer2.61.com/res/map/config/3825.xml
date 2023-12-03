@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="萤火之墓" categoryId="10">
+	<resource url="3825.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="557" y="522"/>
+	<entities>		
+		<teleport id="1" name="虫穴地牢" pos="799,557" targetMapId="1220"/>
+		<teleport id="1" name="秘密基地" pos="534,315" targetMapId="3827"/>
+	</entities>
+</map>

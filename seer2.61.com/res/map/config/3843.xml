@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="雪人村" categoryId="0" switch="0" weather="4">
+	<resource url="3843.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="611" y="348"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="392,567" targetMapId="70"/>
+		<npc id="396" resId="396" name="" dir="1" width="75" height="100" pos="380,378" actorPos="350,350" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[放烟花]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SpringFireworksPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

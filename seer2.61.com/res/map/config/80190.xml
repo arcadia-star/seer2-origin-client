@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="赤链山脉" categoryId="4" weather="3">
+	<resource url="10026_1.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="447" y="427"/>
+	<entities>
+		<teleport id="1" name="蛮神战场" pos="265,432" targetMapId="240"/>
+		<teleport id="2" name="烈焰峡谷" pos="903,364" targetMapId="262"/>
+	</entities>
+</map>

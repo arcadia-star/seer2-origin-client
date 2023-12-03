@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地球表面(封印!远古地魔副本)" categoryId="0" switch="0" weather="1">
+	<resource url="80383.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="510" y="510" />
+	<entities>
+		<teleport id="1" name="传送室" pos="352, 581" targetMapId="70" />
+	</entities>
+</map>

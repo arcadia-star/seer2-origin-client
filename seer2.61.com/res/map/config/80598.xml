@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰沁宫殿" categoryId="7" switch="0" weather="0">
+	<resource url="80598.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="389" y="575"/>
+	<entities>
+		
+	</entities>
+</map>

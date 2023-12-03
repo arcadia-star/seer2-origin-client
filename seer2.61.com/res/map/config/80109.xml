@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域回廊" categoryId="7" switch="1" weather="9">
+	<resource url="3816_1.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="270" y="450"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="160,440" targetMapId="70" targetPos="300,414"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="616,461" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

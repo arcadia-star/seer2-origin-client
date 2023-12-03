@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="疾速之炼" categoryId="10">
+	<resource url="1220_A.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="435" y="543"/>
+	<entities>
+		<teleport id="1" name="传送仓" pos="195,474" targetMapId="70" targetPos="480, 380"/>	
+	</entities>
+</map>

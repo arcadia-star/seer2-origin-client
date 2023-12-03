@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="六煞魔宫(盖亚神迹觉醒)" categoryId="7" switch="0" weather="4">
+	<resource url="3822.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="470" y="415"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="220,440" targetMapId="70" targetPos="729,500"/>
+	</entities>
+</map>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="庆典海滩" categoryId="0">
+	<resource url="1501.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="553" y="379"/>
+	<entities>
+
+
+
+
+
+
+	    <npc id="1001" resId="1001" name="" dir="1" width="110" height="80" pos="790,527" actorPos="446,527" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[免星钻抽精灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[liMingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+<!--
+	  <npc id="3032" resId="3032" name="" dir="1" width="110" height="145"  pos="401,390" actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[99星钻精灵特卖]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DoubleFestivalGiftPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+<!--
+	  <npc id="3034" resId="3034" name="" dir="1" width="110" height="145"  pos="552,263" actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[三帝刮刮乐]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[HappyGuaAwardPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+
+
+
+	  <npc id="347" resId="347" name="" dir="1" width="110" height="145"  pos="638,527" actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[巅峰秒杀]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DianfengMiaoshaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+	  <npc id="1054" resId="1054" name="" dir="1" width="110" height="145" pos="927,387"  actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[VIP包月送五王精灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[VipRechargeBasePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<npc id="399" resId="399" name="" dir="1" width="75" height="100" pos="640,351" actorPos="250,580" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[精元蛋开学特卖！全场5折]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[BuyEggGiftStonePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+<!--
+
+	  <npc id="1000" resId="1000" name="" dir="1" width="110" height="145"  pos="638,527" actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[特卖1折精灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[NDPet1ZhePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+			<npc id="359" resId="359" name="" dir="1" width="110" height="145"  pos="383,388"  actorPos="340,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[暑假兑钻送]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SwapMiGetPetsPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+       <npc id="1003" resId="1003" name="" dir="1" width="75" height="100" pos="893,404" actorPos="870,580" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[放烟花 抢红包]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[261]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+       <npc id="1056" resId="1056" name="" dir="1" width="75" height="100"   pos="515,527" actorPos="634,359">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[送赛元宝、冥翼之芯等]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[VIPDarkSeniorBoxPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+        <npc id="1024" resId="1024" name="" dir="1" width="75" height="100" pos="381,374" actorPos="870,580" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[五一狂欢三部曲]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SpringFestivalMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+
+
+		<npc id="157" resId="157" name="" dir="1" width="75" height="100" pos="272,527" actorPos="250,580" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[神龙齐聚]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[DragonKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+<!--	<npc id="399" resId="399" name="" dir="1" width="75" height="100" pos="380,527" actorPos="250,580" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[精元蛋特卖会5折起]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[BuyEggGiftStonePanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+<!--
+		<npc id="156" resId="156" name="" dir="1" width="110" height="80" pos="638,527" actorPos="770,350" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[召唤宝箱更新了！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[CallBoxPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+	
+
+		<npc id="1002" resId="1002" name="" dir="1" width="110" height="80"   pos="913,403" actorPos="770,350" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[机甲敢死队]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[VipFirstJiJiaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+  
+
+
+
+
+
+
+		<teleport id="1" name="传送室" pos="524,471" targetMapId="70"/>
+	</entities>
+</map>

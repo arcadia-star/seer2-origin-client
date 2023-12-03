@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="机械恐龙集结号" categoryId="0">
+	<resource url="10374.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="395" y="501"/>
+</map>

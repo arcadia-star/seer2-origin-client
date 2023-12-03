@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="玄云之冠" categoryId="9">
+	<resource url="10085.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="342" y="459"/>
+	<entities>			
+		<teleport id="1" name="冰晶魔域" pos="342,459" targetMapId="840" targetPos="794,372"/>
+				
+		
+		
+		<npc id="734" resId="734" name="太阳神阿波罗" dir="0" width="75" height="160" pos="217,387" actorPos="" path="">
+		</npc>
+		<npc id="735" resId="735" name="米瑞尔" dir="0" width="75" height="160" pos="757,350" actorPos="" path="">
+		</npc>
+		
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="657,473" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="船长室梦境" categoryId="2">
+	<resource url="100013.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="300" y="420"/>
+	<entities>
+	</entities>
+</map>

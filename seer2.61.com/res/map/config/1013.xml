@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="信奉广场副本" categoryId="0">
+	<resource url="1002.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="617" y="435"/>
+</map>

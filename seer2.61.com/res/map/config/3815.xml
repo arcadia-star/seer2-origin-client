@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域天门" categoryId="11" switch="1" weather="9">
+	<resource url="3815.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="614" y="357"/>
+	<entities>
+<!-- 		<npc id="153" resId="153" name="贾斯汀" dir="1" width="90" height="160" pos="605,265" actorPos="565,409" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 				</mouseOver> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<npc id="678" resId="678" name="战神杰瑞" dir="0" width="90" height="120" pos="997,320" actorPos="565,509" path="">
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		<npc id="477" resId="477" name="雷伊" dir="0" width="90" height="120" pos="305,317" actorPos="565,509" path="">
+			<eventHandler>
+					<click>
+						<HandlerToggleModule><![CDATA[LeiyiKaisaGadMainPanel]]></HandlerToggleModule>
+ 					</click> 
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		
+		<npc id="726" resId="726" name="布莱克" dir="0" width="90" height="120" pos="479,222" actorPos="565,509" path="">
+			<eventHandler>
+			<click>
+						<HandlerToggleModule><![CDATA[BuLaiKeActPanel]]></HandlerToggleModule>
+ 					</click> 
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		
+		<npc id="705" resId="705" name="缪斯" dir="0" width="90" height="120" pos="832,552" actorPos="565,509" path="">
+			<eventHandler>
+			<click>
+						<HandlerToggleModule><![CDATA[MiuSiActPanel]]></HandlerToggleModule>
+ 					</click> 
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		
+		<npc id="601" resId="601" name="盖亚" dir="0" width="90" height="120" pos="397,549" actorPos="565,509" path="">
+			<eventHandler>
+			<click>
+						<HandlerToggleModule><![CDATA[GaiyaActPanel]]></HandlerToggleModule>
+ 					</click> 
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		
+		<npc id="761" resId="761" name="卡修斯" dir="0" width="90" height="120" pos="678,567" actorPos="565,509" path="">
+			<eventHandler>
+			<click>
+						<HandlerToggleModule><![CDATA[KaXiuSiActPanel]]></HandlerToggleModule>
+ 					</click> 
+				<mouseOver>
+				</mouseOver>
+			</eventHandler>
+		</npc>
+		
+		
+<!-- 		<npc id="354" resId="354" name="辛迪船长" dir="1" width="90" height="120" pos="255,265" actorPos="265,509" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[NewYearQuestPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[百万经验庆新春]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+		<teleport id="1" name="传送室" pos="160,440" targetMapId="70" targetPos="300,414"/>
+	</entities>
+</map>

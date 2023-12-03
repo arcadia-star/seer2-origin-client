@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="傲慢大厅" categoryId="2">
+	<resource url="80007.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="759" y="488"/>
+	<entities>
+		<teleport id="1" name="炼狱入口" pos="868,550" targetMapId="1071"/>
+		<npc id="659" resId="659" name="伊利丹" dir="1" width="110" height="180" pos="420,400" actorPos="" path="">
+			<eventHandler>
+				<mouseOver>
+<!-- 					<HandlerShowNpcSlogan><![CDATA[双面冥王]]></HandlerShowNpcSlogan> -->
+				</mouseOver>
+			</eventHandler>
+	
+	</npc>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="船长的记忆" categoryId="1">
+	<resource url="80347.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="460" y="400"/>
+	<entities>				
+		<teleport id="1" name="传送室" pos="341,567" targetMapId="70"/>
+	</entities>
+</map>

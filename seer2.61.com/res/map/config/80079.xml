@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="异蘑谷(副本)" categoryId="2">
+	<resource url="10012_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="544" y="417"/>
+	<entities>
+		<teleport id="1" name="异蘑小径" pos="56,444" targetMapId="123"/>
+		<mineport id="2" resId="2" name="黄色矿脉" pos="648,218" actorPos="565,300" limit="3" aniPos="0,0" serverConfigId="2"/>
+	</entities>
+</map>

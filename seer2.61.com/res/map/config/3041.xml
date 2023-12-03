@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬深渊" categoryId="4" weather="1">
+	<resource url="10030_4.swf"/>
+	 <!-- 10030_5 -->
+	<fightMap id="100002"/>
+	<initialPoint x="653" y="452"/>
+	<entities>
+		
+	</entities>
+</map>

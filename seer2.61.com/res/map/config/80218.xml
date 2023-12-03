@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神秘研究院" categoryId="12">
+	<resource url="80218.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="760" y="430"/>
+	<entities>	
+		<teleport id="1" name="御风中枢" pos="44,416" targetMapId="930" targetPos="400,310"/>
+	</entities>
+</map>

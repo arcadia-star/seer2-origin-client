@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="御风中枢" categoryId="12">
+	<resource url="10093.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="622" y="484"/>
+	<entities>
+		<teleport id="1" name="流离街" pos="48,390" targetMapId="920" targetPos="260,543"/>
+		<teleport id="2" name="风涡工房" pos="991,514" targetMapId="940" targetPos="395,569"/>
+		<teleport id="3" name="神秘研究院" pos="501,342" targetMapId="950" targetPos="792,518"/>
+	</entities>
+</map>

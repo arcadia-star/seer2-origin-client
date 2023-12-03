@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灵能小径" categoryId="7" switch="0" weather="4">
+	<resource url="3828.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="649,515" targetMapId="70"/>
+		
+		<npc id="1016" resId="1016" name="里格" dir="0" width="110" height="200" pos="513,421" actorPos="592,441" path="">		
+			<dialog npcId="1016">
+				<branch id="default">
+					<node emotion="0"><![CDATA[小赛尔，要在这危险的地方生存，必须先在我面前证明实力。]]></node>
+					<reply action="close"><![CDATA[我等一下再来证明……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战伟恩军团！" params="fight_dual_npc_3828" />
+				<node type="" name="挑战双精灵伟恩！" params="fight_single_npc_3828" />
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+		</npc>
+	</entities>
+</map>

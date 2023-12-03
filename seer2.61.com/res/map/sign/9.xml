@@ -1,0 +1,34 @@
+﻿<!-- 能源之树 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pets:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<!-- questid:需要完成这个任务才能进入  questid="33" -->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<map id="790" level="90级">
+    	<pet isSpt="1" id="215" name="艾丽西斯" category="12"/>
+	</map>
+	
+	<map id="800" level="85级">
+    	<pet  id="189" name="费德提克" category="2"/>
+	</map>
+	
+	<map id="810" level="85级">
+    	<pet  id="219" name="耐普图隆" category="3"/>
+	</map>
+	
+	
+	<map id="830" level="100级">
+    	<pet  id="221" name="埃鲁达克" category="9"/>
+	</map>
+	
+	<map id="840" level="100级">
+    	<pet  id="225" name="卡特琳娜" category="10"/>
+	</map>
+	
+	<map id="850" level="100级">
+    	<pet  id="236" name="萨兰古尔" category="7"/>
+	</map>	
+</data>

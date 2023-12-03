@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="梅花三弄" categoryId="2">
+    <resource url="1180.swf"/>
+    <fightMap id="100002"/>
+   <initialPoint x="237" y="449"/>
+    <entities>
+		
+       <teleport id="1" name="青竹迷境" pos="118,435" targetMapId="1090" />
+    </entities>
+</map>

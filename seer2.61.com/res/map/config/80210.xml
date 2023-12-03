@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="烈焰山口" categoryId="3">
+	<resource url="80175_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="330" y="440"/>
+	<entities>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="749,482" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="180,480" targetMapId="70" targetPos="300,400"/>
+	</entities>
+</map>

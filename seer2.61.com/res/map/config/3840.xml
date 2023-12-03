@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="永恒殿" categoryId="0" switch="0" weather="4">
+	<resource url="3840.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="587,554" targetMapId="70"/>
+		<npc id="887" resId="887" name="" dir="1" width="75" height="100" pos="302,276" actorPos="585,455" path=""/>
+		<npc id="891" resId="891" name="" dir="1" width="75" height="100" pos="929,274" actorPos="585,455" path=""/>
+<!-- 		<npc id="1053" resId="1053" name="" dir="1" width="75" height="100" pos="460,414" actorPos="585,455" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 					<mouseOver> -->
+<!-- 						<HandlerShowNpcSlogan><![CDATA[神宠扭蛋鸡]]></HandlerShowNpcSlogan> -->
+<!-- 					</mouseOver> -->
+<!-- 					<click> -->
+<!-- 						<HandlerToggleModule><![CDATA[DreamExplorePanel]]></HandlerToggleModule> -->
+<!-- 					</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+<!--		<npc id="601" resId="602" name="盖亚" dir="1" width="90" height="120" pos="808,449" actorPos="808,449" path="">
+			<dialog npcId="601">
+				<branch id="default">
+					<node emotion="0"><![CDATA[诅咒之子卡修斯与战神盖亚带领的神咒队，当他们联手这个世界都将颤抖。撼地盖世，所向披靡！]]></node>
+					<reply action="close"><![CDATA[加油！加油]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>			
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>-->
+	</entities>
+</map>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="VIP乐园" categoryId="0">
+	<resource url="10801_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="447" y="417"/>
+	<entities>
+		<npc id="48" resId="48" name="希尔顿" dir="1" width="90" height="120" pos="501,500" actorPos="534,506" path="">
+			<dialog npcId="105" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[哈哈，每个赛尔都对乐园的建设作出了贡献，我决定把能量格兑换物品的福利，扩展到每一个赛尔的手中！]]></node>
+					<reply action="close"><![CDATA[呵呵，谢谢！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="VIP有什么特权？" params="NewVipPanel {currentTab:4}" />
+				<node type="" name="充值优惠" params="whenVip" />	
+<!-- 				<node type="module" name="打工领六一套装" params="WorkRewardPanel" /> -->
+			</functionality>			
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[乐园大酬宾，能量人人涨！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="113" resId="113" name="" dir="1" width="90" height="120" pos="534,310" actorPos="230,426" path="">
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[天天快乐，天天抽奖！]]></HandlerShowNpcSlogan>
+				</mouseOver>			
+				<click>
+					<HandlerToggleModule><![CDATA[NewVipPanel|currentTab:1]]></HandlerToggleModule>
+				</click>
+			</eventHandler>	
+		</npc>	
+<!-- 		<npc id="174" resId="174" name="" dir="1" width="90" height="120" pos="420,300" actorPos="230,426" path=""> -->
+<!-- 			<functionality> -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[TimeNews]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler>	 -->
+<!-- 		</npc>		 -->
+		
+<!-- 		<npc id="176" resId="176" name="" dir="1" width="90" height="120" pos="711,423" actorPos="613,357" path=""> -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[热门纹章来袭]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[GadTipPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc>		 -->
+		
+		<!--<npc id="176" resId="176" name="" dir="1" width="90" height="120" pos="711,423" actorPos="613,357" path="">
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LimitTimeShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>	
+		</npc>		-->
+<!-- 		<npc id="115" resId="115" name="" dir="1" width="68" height="92" pos="631,429" actorPos="557,408" path="">	 -->
+<!-- 			<eventHandler> -->
+<!-- 				<mouseOver> -->
+<!-- 					<HandlerShowNpcSlogan><![CDATA[假日秘宝大行动，开始啦！]]></HandlerShowNpcSlogan> -->
+<!-- 				</mouseOver> -->
+<!-- 				<click> -->
+<!-- 					<HandlerToggleModule><![CDATA[SecretTreasuresActPanel]]></HandlerToggleModule> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+
+
+ 
+<!-- 
+		<npc id="811" resId="176" name="小约瑟" dir="1" width="70" height="120"
+		pos="246,523" actorPos="544,443" path="">
+		<dialog npcId="176" transport="1,300,400">
+		</dialog>
+		<eventHandler>
+			<mouseOver>
+				<HandlerShowNpcSlogan><![CDATA[小约瑟出现啦！]]></HandlerShowNpcSlogan>
+			</mouseOver>
+			<click>
+				<HandlerToggleModule><![CDATA[BigReward]]></HandlerToggleModule>
+			</click>
+		</eventHandler>
+	</npc>
+ -->
+		<teleport id="1" name="观星台" pos="55, 460" targetMapId="8030" targetPos="553, 379"/>				
+	</entities>
+</map>

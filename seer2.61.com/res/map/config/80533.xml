@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="忏悔殿宗" categoryId="2">
+	<resource url="80533.swf"/>
+	<fightMap id="100016"/>
+	<initialPoint x="570" y="485"/>
+	<entities>
+		
+		<npc id="1065" resId="1065" name="冥王·撒旦" dir="1" width="70" height="180" pos="833,338" actorPos="787,406" path="">
+			<dialog npcId="1065" name="冥王·撒旦" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[希望之光杯精灵王争霸赛]]></node>
+					<reply action="close"><![CDATA[]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="传说追溯" params="ChuanShuoZhuiSuAct" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[希望之光杯精灵王争霸赛]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+	</entities>
+</map>

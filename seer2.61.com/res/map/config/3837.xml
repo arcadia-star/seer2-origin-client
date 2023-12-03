@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="穹顶大厅" categoryId="13" switch="0" weather="4">
+	<resource url="3837.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="510" y="510" />
+	<entities>
+		<teleport id="1" name="影月林" pos="972,532" targetMapId="3847"/>
+		<teleport id="2" name="超能广场" pos="226,348" targetMapId="3830" targetPos="907,353"/>
+		<teleport id="3" name="灵能通径" pos="163,553" targetMapId="3828"/>
+<!-- 		<npc id="1033" resId="1033" name="巴蒂多罗" dir="1" width="47" height="90" pos="232,538" actorPos="232,538" path="">	 -->
+<!-- 			<eventHandler> -->
+<!-- 					<click> -->
+<!-- 						<HandlerOpenDialogPanel/> -->
+<!-- 					</click> -->
+<!-- 				</eventHandler>	 -->
+<!-- 		</npc> -->
+		
+		<npc id="1020" resId="1020" name="达斯维达" dir="0" width="110" height="140" pos="729,301" actorPos="730,341" path="">		
+			<dialog npcId="1020">
+				<branch id="default">
+					<node emotion="0"><![CDATA[来到超能氏族，你就必须能洞察谎言！]]></node>
+					<reply action="close"><![CDATA[超能氏族的每个人都神神秘秘。]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+					<click>
+						<HandlerOpenDialogPanel/>
+					</click>
+			</eventHandler>	
+		</npc>
+	</entities>
+</map>

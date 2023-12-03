@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="王者遗迹" categoryId="7" switch="0" weather="0">
+	<resource url="1700.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="444" y="555"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="440,480" targetMapId="70" targetPos="480,380"/>
+	</entities>
+</map>

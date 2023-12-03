@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="僵尸世界大战" categoryId="5" switch="1" weather="9">
+	<resource url="3808.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="685" y="442"/>
+	<entities>
+	<!-- 889,382 -->
+		<teleport id="1" name="传送室" pos="238,577" targetMapId="70"/>
+	</entities>
+</map>

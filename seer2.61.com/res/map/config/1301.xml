@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="天空竞技场(圣光争夺战)" categoryId="2" switch="1" weather="9">
+	<resource url="1300.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="370" y="260"/>
+	<entities>
+		<npc id="127" resId="127" name="" dir="1" width="75" height="115" pos="95,275" actorPos="375,255" path=""/>
+		<npc id="127" resId="127" name="" dir="1" width="75" height="115" pos="30,170" actorPos="375,255" path=""/>
+		<npc id="128" resId="128" name="" dir="1" width="75" height="115" pos="150,185" actorPos="375,255" path=""/>
+		<teleport id="1" name="传送室" pos="902,459" targetMapId="70"/>
+	</entities>
+</map>

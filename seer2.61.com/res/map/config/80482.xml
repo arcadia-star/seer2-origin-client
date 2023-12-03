@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬深渊(神迹休罗斯)" categoryId="4" weather="1">
+	<resource url="10030_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="408" y="352"/>
+	<entities>
+	    <npc id="818" resId="818" name="幻灵神" dir="0" width="75" height="120" pos="617,400" actorPos="480,347" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[快挑战我，战胜我就可以获得技能石哦！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<teleport id="1" name="灰烬岔口" pos="1074,477" targetMapId="302" targetPos="136,210"/>
+	</entities>
+</map>

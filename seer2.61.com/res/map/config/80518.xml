@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="约瑟战境" categoryId="100">
+	<resource url="80518.swf"/>
+	<fightMap id="100100"/>
+	<initialPoint x="482" y="444"/>
+	<entities>
+		
+	</entities>	
+</map>

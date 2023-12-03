@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="诸神之殿" categoryId="0" switch="0" weather="4">
+	<resource url="80173_2.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="470" y="415"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="595,542" targetMapId="70"/>
+		
+		<npc id="752" resId="752" name="潘多拉" dir="1" width="110" height="160" pos="214,380" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[魔盒诅咒潘多拉]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[PanDuoLaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="734" resId="734" name="阿波罗" dir="1" width="110" height="180" pos="335,353" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[米咔之父 太阳神阿波罗]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[AboLuoPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="753" resId="753" name="宙斯" dir="0" width="110" height="160" pos="828,333" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[奥林匹斯众神之父 宙斯！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ZhouSiActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="738" resId="738" name="雅典娜" dir="0" width="110" height="160" pos="975,397" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[燃烧小宇宙！守护雅典娜]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[YaDianNaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+	</entities>
+</map>

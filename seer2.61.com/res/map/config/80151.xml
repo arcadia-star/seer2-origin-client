@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="悲伤残骸" categoryId="3">
+	<resource url="10019_4.swf"/>
+	<fightMap id="100096"/>
+	<initialPoint x="290" y="430"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="255,435" targetMapId="70" targetPos="290,430"/>
+	</entities>
+</map>

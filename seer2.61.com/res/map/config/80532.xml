@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="火源通径" categoryId="9">
+	<resource url="10082.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="661" y="271"/>
+	<entities>			
+		<npc id="1064" resId="1064" name="炎帝·凯萨" dir="0" width="70" height="170" pos="833,338" actorPos="787,406" path="">
+			<dialog npcId="1064"  name="炎帝·凯萨" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[希望之光杯精灵王争霸赛]]></node>
+					<reply action="close"><![CDATA[]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="传说追溯" params="ChuanShuoZhuiSuAct" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[希望之光杯精灵王争霸赛]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+	</entities>
+</map>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="巨树森林(副本)" categoryId="0">
+	<resource url="80069.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="476" y="380"/>
+	<entities>
+
+		<npc id="645" resId="645" name="木忍" dir="1" width="110" height="200" pos="476,318" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[我叫木忍]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+<!-- 					<HandlerToggleModule><![CDATA[SemiyaPanel]]></HandlerToggleModule> -->
+				</click>
+			</eventHandler>
+		</npc>
+		
+	
+		<teleport id="1" name="传送室" pos="678,429" targetMapId="70" targetPos="800, 350"/>				
+	</entities>
+</map>

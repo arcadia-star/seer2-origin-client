@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="地月氏族主城"  categoryId="5">
+	<resource url="10047.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="437" y="526"/>
+	<entities>
+		<npc id="45" resId="45" name="吉吉导游" dir="0" width="70" height="135" pos="472,486" actorPos="527,533" path="">
+			<dialog npcId="45" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[欢迎光临！（Welcome your presence！）恩哼！现在您所看到的正是地月氏族的中心区域！地月氏族的中心区域！中心区域！区域！]]></node>
+					<reply action="close"><![CDATA[传说中的回音吗……]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[Welcome your presence！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="443" resId="443" name="埃卡维特" dir="0" width="70" height="100" pos="575,482" actorPos="527,533" path="">
+			<dialog npcId="443" transport="1,335,422">
+				<branch id="default">
+					<node emotion="0"><![CDATA[嘿，不管你有没有见到过我，我都要做一个自我介绍。我就是那会变戏法的埃卡维特。每天都来见见我吧！]]></node>
+					<reply action="close"><![CDATA[一个神奇的精灵！]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>		
+			<functionality>				
+			</functionality>			
+		</npc>
+		<teleport id="1" name="地道之路" pos="113,381" targetMapId="510" targetPos="284,535"/>
+		<teleport id="2" name="三八跑道线(地)" pos="346,599" targetMapId="390" targetPos="770,370"/>
+		<teleport id="3" name="地下黑市" pos="845,500" targetMapId="490" targetPos="155,425"/>
+	</entities>
+</map>

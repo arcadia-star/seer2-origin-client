@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="姜饼城" categoryId="0">
+	<resource url="10802_2.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="562" y="357"/>
+	<entities>
+		<teleport id="1" name="VIP乐园" pos="306, 462" targetMapId="8011"/>				
+	</entities>
+</map>

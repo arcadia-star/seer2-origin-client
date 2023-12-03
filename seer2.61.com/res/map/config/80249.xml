@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="水源之心" categoryId="3">
+	<resource url="80249.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="450" y="400"/>
+	<entities>
+		<teleport id="1" name="深水之城" pos="400,460" targetMapId="170" targetPos="510,320"/>
+	</entities>
+</map>

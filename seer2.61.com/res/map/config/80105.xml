@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="小小葵梦境" categoryId="2">
+	<resource url="10013_3A.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="595" y="800"/>
+	<entities>
+	</entities>
+</map>

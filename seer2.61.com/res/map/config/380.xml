@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="沙之迷穴" categoryId="6">
+	<resource url="10038.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="587" y="477"/>
+	<entities>
+		<teleport id="1" name="海市蜃楼" pos="560,574" targetMapId="370" targetPos="570,350"/>
+		<teleport id="2" name="海市蜃楼" pos="560,574" targetMapId="3700" targetPos="570,350"/>
+	</entities>
+
+</map>

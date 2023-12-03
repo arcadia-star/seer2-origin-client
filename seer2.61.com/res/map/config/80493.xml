@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风涡工房(维奇输出副本)" categoryId="12">
+	<resource url="10094_2.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="444" y="485"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="314,584" targetMapId="70" targetPos="908,585"/>
+	</entities>
+</map>

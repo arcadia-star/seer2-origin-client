@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="双子之战" categoryId="100">
+	<resource url="10042_2.swf"/>
+	<fightMap id="100100"/>
+	<initialPoint x="547" y="492"/>
+</map>

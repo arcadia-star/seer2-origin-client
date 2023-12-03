@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="玄云之冠(副本)" categoryId="9">
+	<resource url="10085.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="170" y="383"/>
+	<entities>			
+	</entities>
+</map>

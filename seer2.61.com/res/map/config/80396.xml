@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="巨树森林(驯龙战纪副本)" categoryId="0">
+	<resource url="80069_0.swf"/>
+	<fightMap id="100011"/>
+	<initialPoint x="574" y="328"/>
+	<entities>
+<!-- 		<teleport id="1" name="传送室" pos="678,429" targetMapId="70" targetPos="800, 350"/>				 -->
+	</entities>
+</map>

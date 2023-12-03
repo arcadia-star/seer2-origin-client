@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="神域回廊" categoryId="7" switch="1" weather="9">
+	<resource url="3816.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="270" y="450"/>
+	<entities>
+		
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="小小葵梦境" categoryId="2">
+	<resource url="10013_7.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="300" y="420"/>
+	<entities>
+		<dreamTeleport id="1" name="离开梦境" pos="669,592" targetMapId="131" targetPos="440,470"/>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="珊瑚路副本" categoryId="3">
+	<resource url="10020_2.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="660" y="560"/>
+	<entities>
+		<teleport id="1" name="珊瑚路" pos="1059,227" targetMapId="202"/>
+	</entities>
+</map>

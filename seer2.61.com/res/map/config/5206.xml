@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="乌黑矿坑[捣蛋鬼奇遇记]"  categoryId="5">
+	<resource url="10052.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="529" y="357"/>
+	<entities>
+		<npc id="42" resId="42" name="大板牙" dir="0" width="70" height="95" pos="418,409" actorPos="458,423" path="">
+			<dialog npcId="42" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[啧啧啧……大金牙你少嚣张？总有一天我要把板牙换成金牙！]]></node>
+					<reply action="close"><![CDATA[喷的我一脸口水……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="吹笛子引石蝎" params="getScorpion" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[干啥！没见过板牙哥啊！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="地道之路[捣蛋鬼奇遇记]" pos="141,505" targetMapId="5106" targetPos="615,341"/>
+		<teleport id="2" name="实验禁地" pos="788,221" targetMapId="500" targetPos="554,542"/>
+	</entities>
+</map>

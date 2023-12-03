@@ -1,0 +1,44 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="太空武斗场" categoryId="0" switch="0" weather="1">
+	<resource url="3832.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="800" y="470" />
+	<entities>
+
+		<npc id="6" resId="6" name="克拉克" dir="0" width="75" height="120" pos="295,515" actorPos="388,370" path="">
+			<dialog npcId="6" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[星级系统……公平的对决。嗯，太空武斗场，对教育新的赛尔战士很有价值……这是一个不错的开端。]]></node>
+					<reply action="close"><![CDATA[教官也对武斗场感兴趣啦？]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="希望之光杯精灵王争霸赛" params="YueseCraft2016Act" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[英雄出少年啊！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="传送室" pos="450,400" targetMapId="70" />
+<!-- 
+		<npc id="10" resId="10" name="" dir="0" width="110" height="200"
+			pos="513,421" actorPos="592,441" path="" />
+		<npc id="11" resId="11" name="" dir="0" width="110" height="200"
+			pos="570,470" actorPos="592,441" path="" />
+		<npc id="829" resId="829" name="" dir="1" width="110" height="200"
+			pos="640,441" actorPos="592,441" path="" />
+	   <npc id="766" resId="766" name="" dir="0" width="110" height="200"
+		pos="836,421" actorPos="592,441" path="" />
+ -->
+		<npc id="1021" resId="1021" name="" dir="1" width="110" height="200"
+			pos="945,350" actorPos="592,441" path="" />
+		<npc id="1022" resId="1022" name="" dir="1" width="110" height="200"
+			pos="254,345" actorPos="592,441" path="" />
+	</entities>
+</map>

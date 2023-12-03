@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="六煞魔宫" categoryId="7" switch="0" weather="4">
+	<resource url="3822.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="593" y="431"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="587,554" targetMapId="70"/>
+		
+		<npc id="723" resId="723" name="武煞" dir="1" width="110" height="200" pos="200,479" actorPos="549,417" path="">		
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[FightVsWuShaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="719" resId="719" name="地煞" dir="1" width="110" height="200" pos="275,434" actorPos="549,417" path="">		
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[ShanMoDiShaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="725" resId="725" name="暗煞" dir="1" width="110" height="200" pos="359,381" actorPos="549,417" path="">		
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[YingMoAnShaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="708" resId="708" name="炎煞" dir="0" width="110" height="200" pos="709,348" actorPos="709,348" path="">		
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[HuoMoYanShaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="692" resId="692" name="雷煞" dir="0" width="110" height="200" pos="800,420" actorPos="780,387" path="">		
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LeiShaActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+		<npc id="750" resId="750" name="超煞" dir="0" width="110" height="200" pos="870,470" actorPos="870,470" path="">		
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[LockXStarPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="751" resId="751" name="魔煞帝王" dir="1" width="110" height="200" pos="582,307" actorPos="582,307" path="">		
+			<eventHandler>
+				<click>
+					<HandlerToggleModule><![CDATA[MoKingActPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+	</entities>
+</map>

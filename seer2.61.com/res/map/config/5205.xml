@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="乌黑矿坑"  categoryId="5">
+	<resource url="10052.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="400" y="270"/>
+	<entities>
+		<npc id="55" resId="55" name="神月老大" dir="1" width="70" height="110" pos="441,300" actorPos="490,353" path="">
+			<dialog npcId="55" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[什么？你想带我去见神爪财团老板？你不知道我和他是死对头吗？打赢我再说。]]></node>
+					<reply action="close" params="fight_monster"><![CDATA[接受挑战]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[我是神月老大...]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+		<teleport id="1" name="沙爪氏族主城" pos="284,491" targetMapId="320"/>
+	</entities>
+</map>

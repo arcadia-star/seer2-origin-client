@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="海市蜃楼" categoryId="5" switch="1" weather="9">
+	<resource url="10037_D.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="631" y="492"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="600,475" targetMapId="70" targetPos="265,324"/>
+	</entities>
+</map>

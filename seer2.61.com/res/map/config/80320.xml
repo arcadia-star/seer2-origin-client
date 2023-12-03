@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="烈焰峡谷[副本]" categoryId="4" weather="1">
+	<resource url="80320.swf"/>
+	<fightMap id="100004"/>
+	<initialPoint x="830" y="610"/>
+	<entities>
+		<teleport id="1" name="赤链山脉" pos="299,486" targetMapId="261"/>
+	</entities>
+</map>

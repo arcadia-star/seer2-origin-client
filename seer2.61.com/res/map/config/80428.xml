@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="淘米市场(梦境宝藏)" categoryId="6">
+	<resource url="10033.swf"/>
+	<fightMap id="100006"/>
+	<initialPoint x="521" y="517"/>
+	<entities>
+		<npc id="43" resId="43" name="汪总管" dir="0" width="70" height="135" pos="342,499" actorPos="438,515" path="">
+			<dialog npcId="43" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[你可别小看米共饲料了！在鸡毛与沙的斗鸡场上，它可能会派上大用场！你需要吗？]]></node>
+					<reply action="close"><![CDATA[留着您自个儿用吧……]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="shop" name="兜售米共饲料" params="MiPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[米共饲料便宜卖啦！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="沙爪氏族主城" pos="633,415" targetMapId="320" targetPos="922,474"/>
+		<teleport id="2" name="娜钱莱宫殿" pos="1042,543" targetMapId="340" targetPos="469,523"/>
+		<teleport id="3" name="沙漠之鹰" pos="200,578" targetMapId="350" targetPos="840,449"/>
+	</entities>
+</map>

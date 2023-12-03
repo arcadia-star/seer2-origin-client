@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="英格瓦要塞" categoryId="100" checkable="1">
+	<resource url="10008_1.swf"/>
+	<fightMap id="100000"/>
+	<initialPoint x="397" y="368"/>
+	<trainingPet>
+	</trainingPet>
+	<entities>
+		<npc id="125" resId="125" name="试炼高手" dir="0" width="70" height="120" pos="381,343" actorPos="347,300" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[你要战,那就战！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="126" resId="126" name="勇士之王" dir="0" width="70" height="120" pos="770,420" actorPos="608,300" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[勇士,我从你的眼中看到了我年轻的样子！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+
+		<npc id="3" resId="3" name="门罗" dir="0" width="75" height="95" pos="602,404" actorPos="720,400" path="">
+			<dialog npcId="3" transport="1,350,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[战士无需多言。去挑战孤独之战吧，那将是极致的谋略交锋。]]></node>
+					<reply action="close"><![CDATA[上尉英武！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="希望之光杯精灵王争霸赛" params="YueseCraft2016Act" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[希望之光杯精灵王争霸赛开幕啦！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+
+		<!-- 
+		<npc id="142" resId="142" name="单挑王裁判" dir="0" width="75" height="85" pos="684,304" actorPos="653,311" path="">
+			<dialog npcId="146" transport="1,350,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[没有最强,只有更强！在勇者之路上]]></node>
+					<reply action="close"><![CDATA[我知道了]]></reply>
+				</branch>
+			</dialog>		
+			<functionality>
+				<node type="module" name="单挑王争霸赛" params="WoHooStartFightPanel" />
+			</functionality>		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[单挑王争霸赛开始咯！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+		<npc id="146" resId="146" name="训练师裁判" dir="0" width="75" height="95" pos="720,370" actorPos="720,400" path="">
+			<dialog npcId="146" transport="1,350,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[你知道吗？训练师是个神圣的职业，最强的训练师更是神圣中的神圣。]]></node>
+					<reply action="close"><![CDATA[我知道了]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="训练师争霸赛" params="TrainerMatchPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[训练师争霸赛开始咯！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>		
+		 -->
+
+<!-- 	 	<npc id="477" resId="477" name="雷伊" dir="1" width="90" height="120" pos="808,449" actorPos="808,449" path=""> -->
+<!-- 			<dialog npcId="477"> -->
+<!-- 				<branch id="default"> -->
+<!-- 					<node emotion="0"><![CDATA[电系之王雷伊与夜魔之神布莱克带领的雷影队，闪电与暗影的强大组合。势在必得，剑指冠军！]]></node> -->
+<!-- 					<reply action="close"><![CDATA[加油！加油]]></reply>	 -->
+<!-- 				</branch> -->
+<!-- 			</dialog> -->
+<!-- 			<functionality>			 -->
+<!-- 			</functionality> -->
+<!-- 			<eventHandler> -->
+<!-- 				<click> -->
+<!-- 					<HandlerOpenDialogPanel/> -->
+<!-- 				</click> -->
+<!-- 			</eventHandler> -->
+<!-- 		</npc> -->
+
+
+ 	     <npc id="3136" resId="3136" name="" dir="1" width="75" height="100" pos="915,606" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[礼花兑换点]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LihuaExchangPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+ 	     <npc id="3137" resId="3137" name="" dir="1" width="75" height="100" pos="644,596" actorPos="652,325" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[礼花燃放点]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[PlayLihuaPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+		<teleport id="1" name="传送室" pos="402,364" targetMapId="70" targetPos="480,300"/>
+	</entities>		
+</map>

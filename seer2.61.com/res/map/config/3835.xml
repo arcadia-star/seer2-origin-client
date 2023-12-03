@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="要塞指挥室" categoryId="0" switch="0" weather="1">
+	<resource url="3835.swf" />
+	<fightMap id="100010" />
+	<initialPoint x="510" y="510" />
+	<entities>
+		<teleport id="1" name="战地海岸" pos="268,526" targetMapId="3834" targetPos="510,510"/>
+	</entities>
+</map>

@@ -1,0 +1,31 @@
+<!-- 虫群氏族 -->
+<!-- id:地图编号，场景中地图上方显示的地图编号 -->
+<!-- level:适合的精灵等级，示例：1-100级-->
+<!-- pets:分布的精灵名字， 示例：小小葵，奇鲁 -->
+<!-- game: 分布的小游戏名称 -->
+<!-- isClose: 是否关闭 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!--虫群氏族主城-->　　
+	<map id="1210" level="1-100级">
+	</map>
+	<!--虫穴地牢-->	
+	<map id="1220" level="95级">
+        <pet isSpt="1" id="401" name="特米提" />
+	</map>
+	<!--虫林小径-->
+	<map id="1200" level="1-100级">
+	</map>
+	<map id="1230" level="1-100级">
+	</map>
+    <map id="1240" level="1-100级">
+	</map>
+    <map id="123" level="8-10级" isClose="1">
+	</map>
+	<map id="124" level="20级" isClose="1">
+	</map>
+	<map id="131" level="5-7级" isClose="1">
+	</map>
+	<map id="132" level="6-8级" isClose="1">
+	</map>
+</data>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="玄云之冠" categoryId="9">
+	<resource url="10085_1.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="342" y="459"/>
+	<entities>			
+		<teleport id="1" name="冰晶魔域" pos="442,459" targetMapId="840" targetPos="794,372"/>
+				
+		
+	</entities>
+</map>

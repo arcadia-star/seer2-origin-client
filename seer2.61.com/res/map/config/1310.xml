@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="荆棘林" categoryId="2" switch="1" weather="9">
+	<resource url="10013_1A.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="370" y="440"/>
+	<entities>
+		<npc id="4011" resId="4011" name="小小葵" dir="0" width="25" height="50" pos="328,467" actorPos="489,530" path="">
+			<dialog npcId="11" npcName="多罗" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[哈哈~ 队长和我一样笨！想到精灵梦境里，要带上入梦精灵，比如法拉才行啦！]]></node>
+					<reply action="close"><![CDATA[知道啦...]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerDreamNpcClick/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="4012" resId="4011" name="小小葵" dir="0" width="25" height="50" pos="527,493" actorPos="489,530" path="">
+			<dialog npcId="11" npcName="多罗" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[哈哈~ 队长和我一样笨！想到精灵梦境里，要带上入梦精灵，比如法拉才行啦！]]></node>
+					<reply action="close"><![CDATA[知道啦...]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerDreamNpcClick/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="4013" resId="4011" name="小小葵" dir="0" width="25" height="50" pos="761,551" actorPos="489,530" path="">
+			<dialog npcId="11" npcName="多罗" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[哈哈~ 队长，想要到精灵梦境里，要带上入梦精灵，比如法拉才行啦！]]></node>
+					<reply action="close"><![CDATA[知道啦...]]></reply>
+				</branch>
+			</dialog>
+			<eventHandler>
+				<click>
+					<HandlerDreamNpcClick/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="草系主城" pos="497,575" targetMapId="90" targetPos="610,249"/>
+		<teleport id="2" name="荆棘小道" pos="180,415" targetMapId="132" targetPos="885,503"/>
+		<teleport id="3" name="幻影崖" pos="839,552" targetMapId="141" targetPos="227,252"/>
+	</entities>
+</map>

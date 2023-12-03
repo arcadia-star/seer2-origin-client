@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="海市蜃楼" categoryId="5" switch="1" weather="9">
+	<resource url="10037_C.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="370" y="440"/>
+	<entities>
+		<teleport id="1" name="黄金之路" pos="889,382" targetMapId="360" targetPos="140,405"/>
+		<teleport id="2" name="沙之迷穴" pos="412,237" targetMapId="380" targetPos="441,391"/>
+	</entities>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="姜饼城" categoryId="0">
+	<resource url="10802_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="676" y="271"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="917, 542" targetMapId="70" targetPos="911, 543"/>				
+	</entities>
+</map>

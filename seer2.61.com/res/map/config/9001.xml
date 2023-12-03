@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风刃氏族主城副本" categoryId="12">
+	<resource url="10090.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="389" y="370"/>
+	<entities>
+		<npc id="148" resId="148" name="娜娜" dir="1" width="70" height="110" pos="417,335" actorPos="388,388" path=""/>
+		<teleport id="1" name="风刃氏族主城" pos="111,494" targetMapId="900"/>
+	</entities>
+</map>

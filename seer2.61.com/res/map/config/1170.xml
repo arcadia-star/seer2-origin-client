@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 这是1170/伊特决斗场-伊特锦标赛进行中的地图配置，与Mapprocessor_11700.as相对应 -->
+<map name="伊特角斗场" categoryId="3">
+	<resource url="1170.swf"/>
+	<fightMap id="100005"/>
+	<initialPoint x="514" y="395"/>	
+	<entities>
+		
+		<!--<npc id="183" resId="183" name="地、龙伊特" dir="0" width="70" height="85" pos="167,321" actorPos="325,383" path="">
+		</npc>-->
+		
+		<npc id="151" resId="151" name="包打听" dir="0" width="70" height="95" pos="490,300" actorPos="490,475" path="">
+			<dialog npcId="151" >
+				<branch id="default">
+					<node emotion="0"><![CDATA[喂喂喂，我这里有关于江湖的小道消息哟。你想知道吗？嘿嘿嘿，来找我打听吧。]]></node>
+					<reply action="close"><![CDATA[我不是江湖人士"]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="75" resId="75" name="风电冰组合" dir="0" width="70" height="85" pos="90,276" actorPos="325,383" path="">
+		</npc>
+		<npc id="76" resId="76" name="飞沙虫组合" dir="0" width="70" height="85" pos="250,244" actorPos="325,383" path="">
+		</npc>
+		<npc id="77" resId="77" name="暗光组合" dir="0" width="70" height="85" pos="410,276" actorPos="325,383" path="">
+		</npc>
+		<npc id="78" resId="78" name="战伊特" dir="0" width="70" height="85" pos="253,317" actorPos="325,383" path="">
+		</npc>
+		<teleport id="1" name="传送室" pos="398,554" targetMapId="70"/>
+		<teleport id="2" name="实验禁地" pos="687,562" targetMapId="500"/>
+	</entities>
+</map>

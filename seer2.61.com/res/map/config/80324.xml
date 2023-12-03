@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="风暴悬崖" categoryId="12">
+	<resource url="10089_1.swf"/>
+	<fightMap id="100099"/>
+	<initialPoint x="552" y="549"/>
+	<entities>		
+		<teleport id="1" name="风刃氏族主城" pos="224,255" targetMapId="80326"/>
+	</entities>
+</map>

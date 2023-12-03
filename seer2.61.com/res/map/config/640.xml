@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="冰脊之巅" categoryId="7" switch="0" weather="4">
+	<resource url="10064.swf"/>
+	<fightMap id="100010"/>
+	<initialPoint x="686" y="512"/>
+	<entities>
+
+		<npc id="564" resId="564" name="神秘九尾" dir="0" width="75" height="100" pos="243,380" actorPos="418,467" path="">
+			<dialog npcId="564" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[经过这段时间的休养，我的力量已逐渐恢复——你想挑战我吗？]]></node>
+					<reply action="close"><![CDATA[暂时还不想，再见！]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="" name="挑战神秘九尾" params="fightJiuWei" />
+				<node type="module" name="九尾双线超进化" params="JiuWeiSuperProcessMainPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[冰沁与你同在！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="144,307" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="冰脊山脉" pos="737,584" targetMapId="620" targetPos="213,133"/>
+	</entities>
+</map>

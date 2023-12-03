@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="树洞" categoryId="10">
+	<resource url="1240.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="615" y="522"/>
+	<entities>
+		<npc id="324" resId="324" name="白雪公主" dir="1" width="75" height="115" pos="807,483" actorPos="727,548" path="">
+			<dialog npcId="324" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[树洞的生命力，让我变得美丽，只有在这里我才如此美丽。]]></node>
+					<reply action="close"><![CDATA[其实你本来就很美]]></reply>	
+				</branch>
+			</dialog>
+			<functionality>			
+<!-- 			    <node type="quest" name="(支线)蚀魂兽试炼：第一章" params="蚀魂兽第一章"/> -->
+			</functionality>
+			<eventHandler>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="后花园" pos="251,539" targetMapId="1230" targetPos="718,465"/>
+	</entities>
+</map>

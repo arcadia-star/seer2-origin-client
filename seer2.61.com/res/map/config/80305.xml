@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="神域回廊" categoryId="11" switch="1" weather="9">
+	<resource url="3816.swf"/>
+	<fightMap id="100007"/>
+	<initialPoint x="458" y="505"/>
+	<entities>
+		<teleport id="1" name="神域天尊殿" pos="66,546" targetMapId="3817" targetPos="830,491"/>
+		<teleport id="2" name="神域天门" pos="872,302" targetMapId="3815" targetPos="833,300"/>
+
+
+
+		<npc id="1005" resId="1005" name="" dir="1" width="75" height="100" pos="318,564" actorPos="390,610" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[暗黑六煞]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerChangeMap><![CDATA[3822]]></HandlerChangeMap>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+     <!--   <npc id="1055" resId="1055" name="" dir="1" width="75" height="100"   pos="856,251" actorPos="634,359">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[堕落的鬼瞳]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[FallenGhostPupilPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+       <npc id="156" resId="156" name="" dir="1" width="75" height="100"   pos="856,251" actorPos="954,359" path="">
+	  		<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[冥神撒旦神迹觉醒]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SaDanAwakenMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+		<npc id="3041" resId="3041" name="" dir="1" width="75" height="100"  pos="647,208" actorPos="274,408" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[最美丽的灵兽超进化啦]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[YiLingShouEvolutionMainPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+		<npc id="392" resId="392" name="" dir="1" width="75" height="100" pos="520,304" actorPos="590,350" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[星座之王]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[XingZuoShouHuPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+<!--		<npc id="156" resId="156" name="" dir="1" width="75" height="100" pos="171,532" actorPos="271,552" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[缪斯超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MiuSiSuperStrengthenPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="391" resId="391" name="" dir="1" width="75" height="100" pos="948,327" actorPos="271,552" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[魔尊系列精灵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MoZunAllPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		
+			<npc id="396" resId="396" name="" dir="1" width="75" height="100" pos="625,536" actorPos="271,552" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[米咔超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[SonOfSunGoldPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>	
+		
+		
+			<npc id="360" resId="360" name="" dir="1" width="75" height="100" pos="191,306" actorPos="260,350" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[小圣进化为圣灵天尊]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[ShengLingTianZunPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>	
+		
+		
+		
+		
+		
+
+
+		<npc id="395" resId="395" name="" dir="1" width="75" height="100" pos="260,380" actorPos="260,350" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[创世、开元、混沌三帝觉醒！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[CreationThreeKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+         <npc id="391" resId="391" name="" dir="1" width="110" height="145"  pos="603,510" actorPos="600,404" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[魔神库贝萨]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[KuBeiSaSuperProcessPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+		<!-- 		观星圣主！观星者超进化 -->
+
+
+		<!--<npc id="393" resId="393" name="" dir="1" width="110" height="145" pos="761,456" actorPos="800,590" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[观星圣主！观星者超进化]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[StargazersSuperEvolutionPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+
+
+	   <npc id="395" resId="395" name="" dir="1" width="75" height="100" pos="761,456" actorPos="260,350" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[创世、开元、混沌三帝觉醒！]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[CreationThreeKingPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+
+
+
+
+
+		<npc id="152" resId="152" name="" dir="1" width="75" height="100" pos="177,565" actorPos="270,600" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[伊特家族最终章]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[IkeeYiTeWangPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+
+<!--
+		<npc id="397" resId="397" name="" dir="1" width="75" height="100" pos="603,510" actorPos="700,510" path="">
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[烈焰霸主]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[LieYanBaZhuPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>-->
+
+
+
+	</entities>
+</map>

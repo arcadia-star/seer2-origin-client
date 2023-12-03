@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="珊瑚路" categoryId="3">
+	<resource url="10020_2.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="712" y="478"/>
+	<entities>
+		<teleport id="1" name="彩虹珊瑚湾" pos="1058,216" targetMapId="201" targetPos="729,403"/>
+		<teleport id="2" name="幻彩珊瑚" pos="149,434" targetMapId="203" targetPos="448,200"/>
+		<mineport id="3" resId="2" name="黄色矿脉" pos="819,268" actorPos="838,379" limit="3" serverConfigId="6"/>
+	</entities>
+</map>

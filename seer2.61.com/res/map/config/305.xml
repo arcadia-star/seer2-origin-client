@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="灰烬深渊" categoryId="4" weather="1">
+	<resource url="10030_4.swf"/>
+	<fightMap id="100002"/>
+	<initialPoint x="653" y="452"/>
+	<entities>
+		<npc id="189" resId="189" name="" dir="0" width="70" height="135" pos="815,370" actorPos="639,441" path="">
+		</npc>
+		<npc id="536" resId="536" name="地狱火" dir="0" width="75" height="210" pos="502,363" actorPos="639,441" path="">
+			<dialog npcId="536" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[深渊大魔王是不朽的……一起讴歌这邪恶吧……！]]></node>
+					<reply action="close"><![CDATA[我是正义人士，再见。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="获得深渊地狱火" params="PartyMainPanel" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[我是黑暗之火]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="537" resId="537" name="暗笑葵" dir="0" width="65" height="100" pos="303,248" actorPos="672,441" path="">
+			<dialog npcId="537" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[地狱的烈焰才是我要的阳光——欢呼吧地狱魔王！]]></node>
+					<reply action="" params="fight0"><![CDATA[开始挑战]]></reply>
+					<reply action="close"><![CDATA[我是正义人士，再见。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="击杀攻略" params="PartyPagePanel {currentTab:1}" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[暗笑葵]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="538" resId="538" name="残酷钳" dir="0" width="75" height="95" pos="507,190" actorPos="672,441" path="">
+			<dialog npcId="538" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[钳碎你的希望，与我进入深渊——深渊魔王威武！]]></node>
+					<reply action="" params="fight1"><![CDATA[开始挑战]]></reply>
+					<reply action="close"><![CDATA[我是正义人士，再见。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="击杀攻略" params="PartyPagePanel {currentTab:2}" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[大将岩浮]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<npc id="539" resId="539" name="绝望肤" dir="0" width="75" height="100" pos="703,260" actorPos="672,441" path="">
+			<dialog npcId="539" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[你所有的期待都无法命中——将一切奉献给大魔王！]]></node>
+					<reply action="" params="fight2"><![CDATA[开始挑战]]></reply>
+					<reply action="close"><![CDATA[我是正义人士，再见。]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="击杀攻略" params="PartyPagePanel {currentTab:3}" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[水墨飞马]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		
+		<npc id="540" resId="540" name="元蛋" dir="0" width="75" height="90" pos="652,357" actorPos="672,441" path="">
+			<dialog npcId="540" transport="1,300,400">
+				<branch id="default">
+					<node emotion="0"><![CDATA[深渊大魔王要我告诉大家它的故事——不，不要杀我……啊……（快给我人工呼吸！）]]></node>
+					<reply action="close"><![CDATA[改天再来救你！]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+				<node type="module" name="听一听深渊大魔王的故事" params="PartyNotisiPanel {id:1}" />
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[元蛋]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click>
+			</eventHandler>
+		</npc>
+		<teleport id="1" name="灰烬岔口" pos="884,372" targetMapId="302" targetPos="340,420"/>
+	</entities>
+</map>

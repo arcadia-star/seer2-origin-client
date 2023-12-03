@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="能源之潮" categoryId="0">
+	<resource url="80010_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="573" y="315"/>
+	<entities>		
+		<npc id="817" resId="817" name="开元大帝" dir="0" width="90" height="170" pos="240,250" actorPos="470,310" path="">
+			<dialog npcId="817">
+				<branch id="default">
+					<node emotion="0"><![CDATA[征战帝王杯，接受我的试炼吧！]]></node>
+					<reply params="toFight"><![CDATA[挑战世界BOSS]]></reply>
+					<reply params="seeRank"><![CDATA[ 查看排行榜]]></reply>
+				</branch>
+			</dialog>
+			<functionality>
+			</functionality>
+			<eventHandler>
+				<mouseOver>
+				</mouseOver>
+				<click>
+					<HandlerOpenDialogPanel/>
+				</click> 
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

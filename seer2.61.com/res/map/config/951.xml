@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="瞳魂风库" categoryId="12">
+	<resource url="951.swf"/>
+	<fightMap id="100009"/>
+	<initialPoint x="894" y="554"/>
+	<entities>	
+		<teleport id="1" name="御风中枢" pos="989,569" targetMapId="930"/>
+	</entities>
+</map>

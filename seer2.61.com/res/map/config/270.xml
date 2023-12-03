@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="魅罗门" categoryId="4" weather="3">
+	<resource url="10027.swf"/>
+	<fightMap id="100097"/>
+	<initialPoint x="355" y="384"/>
+	<entities>
+		<teleport id="1" name="焰之森" pos="125,466" targetMapId="281" targetPos="1007,442"/>
+		<npc id="199" resId="199" name="" dir="1" width="110" height="80" pos="413,211" actorPos="538,345" path="">		
+			<eventHandler>
+				<mouseOver>
+					<HandlerShowNpcSlogan><![CDATA[战斗物资箱]]></HandlerShowNpcSlogan>
+				</mouseOver>
+				<click>
+					<HandlerToggleModule><![CDATA[MedicineShopPanel]]></HandlerToggleModule>
+				</click>
+			</eventHandler>
+		</npc>
+	</entities>
+</map>

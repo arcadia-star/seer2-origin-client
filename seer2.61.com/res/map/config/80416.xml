@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<map name="漩涡谷地" categoryId="3">
+	<resource url="10021_1.swf"/>
+	<fightMap id="100003"/>
+	<initialPoint x="372" y="535"/>
+	<entities>
+		<teleport id="1" name="传送室" pos="180,480" targetMapId="70"/>
+	</entities>
+</map>
