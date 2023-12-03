@@ -1,0 +1,27 @@
+<root>
+	<page id="1" title="“三八”双雄战！">
+		<btn type="map">310</btn>
+	</page>
+	<page id="2" title="吾乃星际使者（上）">
+		<btn type="map">770</btn>
+	</page>
+	<page id="3" title="空港战纪">
+		<btn type="map">770</btn>
+	</page>
+	<page id="4" title="精灵技能调整周">
+	</page>
+	<page id="5" title="精灵讲座：魅惑绫彩">
+		<btn type="fight">13|0</btn>
+	</page>
+	<page id="6" title="嗨！来PK吧！">
+	</page>
+	<page id="7" title="训练师成长之旅">
+		<btn type="module">app/TrainerPanel|正在打开训练师成长面板...</btn>
+	</page>
+	<page id="8" title="双生利器 双子之门">
+		<btn type="map">81</btn>
+	</page>
+	<page id="9" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+</root>

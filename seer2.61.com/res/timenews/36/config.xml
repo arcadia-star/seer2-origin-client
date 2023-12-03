@@ -1,0 +1,27 @@
+<root>
+	<page id="1" title="星球末日">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="2" title="谁来拯救我的米咔">
+	</page>	
+	<page id="3" title="猪神降临">
+	</page>	
+	<page id="4" title="百万豪车大派送">
+	</page>
+	<page id="5" title="赛尔豆大放送">
+	</page>	
+	<page id="6" title="野外纹章精英">
+	</page>	
+	<page id="7" title="纠结之藤战役">
+		<btn type="map">830</btn>
+	</page>
+	<page id="8" title="攒礼券迎六一">
+		<btn type="map">8011</btn>
+	</page>	
+	<page id="9" title="精灵跟随长经验">
+	</page>
+	<page id="10" title="精灵决斗卡">
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

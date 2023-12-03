@@ -1,0 +1,31 @@
+<root>
+	<page id="1" title="时镜之克里普">
+		<btn type="map">770</btn>
+	</page>
+	<page id="2" title="资质修炼器！">
+		<btn type="map">20</btn>
+	</page>
+	<page id="3" title="我来自火焰山">
+		<btn type="map">261</btn>
+	</page>
+	<page id="4" title="火焰之战 王者角逐">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>				
+	<page id="5" title="星球之旅">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="6" title="NONO G3 登场！">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...</btn>
+	</page>
+	<page id="7" title="能量格普及">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="8" title="主宠成长更快！">
+	</page>
+	<page id="9" title="新手服务器！">
+	</page>
+	<page id="10" title="精灵技能调整周">
+	</page>	
+	<page id="11" title="下期预告">
+	</page>
+</root>

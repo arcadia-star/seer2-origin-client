@@ -1,0 +1,26 @@
+<root>
+	<page id="1" title="精灵王争霸赛">
+	</page>
+	<page id="2" title="帕帕米拉的造型">
+		<btn type="map">281</btn>
+	</page>	
+	<page id="3" title="回归！英格瓦要塞">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>		
+	<page id="4" title="伊特大乱斗">
+	</page>	
+	<page id="5" title="最强训练师之战">
+		<btn type="map">850</btn>
+	</page>	
+	<page id="6" title="立正站好来签到！">
+	</page>	
+	<page id="7" title="天降红包六连击">
+	</page>	
+	<page id="8" title="假日秘宝大行动">
+		<btn type="module">app/SecretTreasuresActPanel|正在打开面板...</btn>	
+	</page>
+	<page id="9" title="赛尔号线下讯息">
+	</page>
+	<page id="10" title="下期预告">
+	</page>
+</root>

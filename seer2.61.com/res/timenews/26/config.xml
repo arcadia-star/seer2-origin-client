@@ -1,0 +1,28 @@
+<root>
+	<page id="1" title="VIP试用正式开幕">
+		<btn type="module">app/MakeWishPanel|正在打开许愿面板...</btn>
+	</page>
+	<page id="2" title="GO！先祖祭拜日！">												
+	</page>
+	<page id="3" title="微光湖畔的圣光">
+		<btn type="map">790</btn>		
+	</page>				
+	<page id="4" title="神翼总督之弟">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="5" title="惊现纹章精英">
+	</page>
+	<page id="6" title="最炫马路杀手">
+		<btn type="module">app/SupermarketPanel|正在打开商城面板...</btn>
+	</page>
+	<page id="7" title="翱翔天际的鱼群">
+		<btn type="map">770</btn>		
+	</page>	
+	<page id="8" title="精灵图鉴上市！">
+		<btn type="map">30</btn>
+	</page>
+	<page id="9" title="图书火热上市！">
+	</page>	
+	<page id="10" title="下期预告">
+	</page>	
+</root>

@@ -1,0 +1,32 @@
+<root>
+	<page id="1" title="漩涡还在持续！">
+	</page>
+	<page id="2" title="迷糊的观察员">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="3" title="时镜之岛观测点">
+		<btn type="map">770</btn>
+	</page>
+	<page id="4" title="深幽沼泽之光">
+		<btn type="map">133</btn>
+	</page>				
+	<page id="5" title="最新荣誉兑换">
+		<btn type="map">81</btn>
+	</page>
+	<page id="6" title="快乐天天抽奖">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...|currentTab:1</btn>
+	</page>
+	<page id="7" title="商城华丽更新">
+		<btn type="module">app/SupermarketPanel|正在打开商城面板...</btn>
+	</page>
+	<page id="8" title="最新充值礼包">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...|currentTab:5</btn>
+	</page>
+	<page id="9" title="图书火热上市！">
+		<btn type="map">30</btn>
+	</page>
+	<page id="10" title="精灵图鉴上市！">
+	</page>	
+	<page id="11" title="下期预告">
+	</page>	
+</root>

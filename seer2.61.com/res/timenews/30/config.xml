@@ -1,0 +1,32 @@
+<root>
+	<page id="1" title="赛尔豆雨再袭">
+		<btn type="map">70</btn>
+	</page>
+	<page id="2" title="全新精灵碎晶蜂">
+		<btn type="map">490</btn>
+	</page>	
+	<page id="3" title="这是谁的阴谋">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="4" title="捣蛋大三角">
+		<btn type="module">app/NewTurnBeatPanel|正在打开面板...</btn>
+	</page>
+	<page id="5" title="费德提克的哀伤">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="6" title="VIP特权调整">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...|currentTab:3</btn>
+	</page>
+	<page id="7" title="部分活动下架">
+		<btn type="map">8031</btn>
+		<btn type="map">500</btn>
+	</page>
+	<page id="8" title="赛尔号大电影2！">
+	</page>
+	<page id="9" title="赛尔号II英雄战队">
+	</page>
+	<page id="10" title="南京读者见面会">
+	</page>		
+	<page id="11" title="下期预告">
+	</page>
+</root>

@@ -1,0 +1,28 @@
+<root>
+	<page id="1" title="新学期的盛大典礼">
+	</page>
+	<page id="2" title="神秘的 X龙蛋诞生">	
+		<btn type="map">10</btn>
+	</page>	
+	<page id="3" title="开学有奖智慧考验">	
+		<btn type="map">70</btn>
+	</page>		
+	<page id="4" title="开学成长资质训练！">
+		<btn type="map">60</btn>
+	</page>	
+	<page id="5" title="赛尔们的开学愿景">
+	</page>	
+	<page id="6" title="赛尔新兵营招募令">
+	</page>	
+	<page id="7" title="崭新的传送室亮相">	
+	</page>		
+	<page id="8" title="超级人气活动重开">
+	</page>	
+	<page id="9" title="米币商城我做主">
+		<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="10" title="赛尔号线下讯息">
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

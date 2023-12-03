@@ -1,0 +1,27 @@
+<root>
+	<page id="1" title="万圣节奇缘之橡皮神君">
+	<btn type="map">890</btn>
+	</page>
+	<page id="2" title="目灵兽试炼之二">
+	<btn type="map">213</btn>
+	</page>	
+	<page id="3" title="破晓黎明—冰封之轴">
+	<btn type="map">650</btn>
+	</page>		
+	<page id="4" title="万圣节奇缘之我画你猜">
+	</page>	
+	<page id="5" title="种植系统：种子常规更新">
+	</page>	
+	<page id="6" title="骰子星寻宝大改版">
+	</page>	
+	<page id="7" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>			
+	<page id="8" title="最新酷炫米币道具">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+	<page id="9" title="赛尔号线下讯息">
+	</page>	
+	<page id="10" title="下期预告">
+	</page>
+</root>

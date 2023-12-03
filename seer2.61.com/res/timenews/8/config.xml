@@ -1,0 +1,32 @@
+<root>
+	<page id="1" title="破晓黎明，冰封之轴">
+		<btn type="map">650</btn>
+	</page>
+	<page id="2" title="冰冷的阴谋">
+		<btn type="home"/>
+	</page>
+	<page id="3" title="冰系SPT卡尼娅">
+		<btn type="map">610</btn>
+	</page>
+	<page id="4" title="VIP正式开放">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="5" title="双倍经验收集器">
+		<btn type="home"/>
+	</page>
+	<page id="6" title="精灵培养奖励更新">
+	</page>
+	<page id="7" title="赛尔战队">
+		<btn type="map">60</btn>
+	</page>
+	<page id="8" title="精灵DIY">
+		<btn type="copy">seerII@taomee.com</btn>
+	</page>
+	<page id="9" title="问卷调查">
+		<btn type="url">http://www.2125.com/survey_seer2.html</btn>
+	</page>
+	<page id="10" title="线下见面会">
+		<btn type="request">#||#</btn>
+	</page>
+	<page id="11" title="下期预告"/>
+</root>

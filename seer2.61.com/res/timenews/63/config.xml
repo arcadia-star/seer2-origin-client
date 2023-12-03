@@ -1,0 +1,37 @@
+<root>
+	<page id="1" title="七星连珠 唤醒神龙">
+	</page>	
+	
+	<page id="2" title="挑战之爱丽斯"/>
+	
+	<page id="3" title="圣诞奇遇之白熊争夺战">
+	</page>	
+	
+	<page id="4" title="神龙火圈">
+	</page>	
+	
+	<page id="5" title="种植LV9全面升级">
+	</page>	
+	
+	<page id="6" title=" NONO变身龙珠">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+	
+	<page id="7" title="魔能宝石使用说明">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+	
+	<page id="8" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>
+	
+	<page id="9" title="赛尔号线下讯息"/>
+	
+	<page id="10" title="下期预告">
+	</page>
+	
+	<page id="11" title="Nono杂志社">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+</root>

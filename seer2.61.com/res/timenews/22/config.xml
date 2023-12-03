@@ -1,0 +1,32 @@
+<root>
+	<page id="1" title="普天放送赛尔豆">
+		<btn type="map">70</btn>
+	</page>
+	<page id="2" title="羽冠之岛之乱">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="3" title="羽冠之泰姆尔">
+		<btn type="map">770</btn>
+	</page>
+	<page id="4" title="双雄战调整">
+		<btn type="map">310</btn>
+	</page>				
+	<page id="5" title="两大便民措施">
+		<btn type="map">20</btn>
+		<btn type="map">40</btn>
+	</page>
+	<page id="6" title="最新收集奖励">
+		<btn type="module">app/PetDictionary|正在打开精灵图鉴...</btn>
+	</page>
+	<page id="7" title="火幻之旅">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="8" title="超强时间管家">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...</btn>
+	</page>
+	<page id="9" title="商城隆重开幕">
+		<btn type="module">app/SupermarketPanel|正在打开商城面板...</btn>
+	</page>
+	<page id="10" title="下期预告">
+	</page>	
+</root>

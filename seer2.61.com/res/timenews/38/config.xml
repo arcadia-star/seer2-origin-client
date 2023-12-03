@@ -1,0 +1,31 @@
+<root>
+	<page id="1" title="绝版星际礼包">
+	</page>
+	<page id="2" title="雪人？文森特！">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>	
+	<page id="3" title="魔音圆舞曲">
+		<btn type="map">840</btn>
+	</page>		
+	<page id="4" title="睡懒觉的吃货">
+		<btn type="map">125</btn>
+	</page>	
+	<page id="5" title="谁偷吃了我的料理">
+		<btn type="map">125</btn>
+	</page>	
+	<page id="6" title="小厨最新资讯">
+		<btn type="map">125</btn>
+	</page>	
+	<page id="7" title="积分大放送">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...</btn>
+	</page>	
+	<page id="8" title="纠结之藤战役">
+		<btn type="map">830</btn>
+	</page>			
+	<page id="9" title="大电影赛尔2">
+	</page>
+	<page id="10" title="赛尔号线下讯息">
+	</page>	
+	<page id="11" title="下期预告">
+	</page>	
+</root>

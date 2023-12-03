@@ -1,0 +1,40 @@
+<root>
+	<page id="1" title="贵族俱乐部 全民VIP">
+	<btn type="module">app/VipClubPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="2" title="星座守护者摩羯降临">
+	<btn type="map">8011</btn>
+	</page>
+	
+	<page id="3" title="观星者之躯挑战">
+	<btn type="map">8030</btn>
+	</page>	
+	
+	<page id="4" title="赏金猎人•金">
+	<btn type="map">60</btn>
+	</page>	
+	
+	<page id="5" title="康特感冒了">
+	</page>	
+	
+	<page id="6" title="摩羯黄金圣装">
+	</page>
+	
+	<page id="7" title="雪域大战ing">
+	</page>
+	
+	<page id="8" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>
+	
+	<page id="9" title="赛尔号线下讯息"/>
+	
+	<page id="10" title="下期预告">
+	</page>
+	
+	<page id="11" title="Nono杂志社">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+</root>

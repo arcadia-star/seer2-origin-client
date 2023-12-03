@@ -1,0 +1,37 @@
+<root>
+	<page id="1" title="双生利器 双子之门">
+		<btn type="map">81</btn>
+	</page>
+	<page id="2" title="雷克斯的秘密">
+		<btn type="map">20</btn>
+	</page>
+	<page id="3" title="新年气象 基地装修">
+		<btn type="home"/>
+	</page>
+	<page id="4" title="精灵讲座：爱之佛晓">
+		<btn type="fight">11|0</btn>
+	</page>
+	<page id="5" title="空腹节的灾难！！">
+		<btn type="map">8031</btn>
+	</page>
+	<page id="6" title="大胃王重出江湖！">
+		<btn type="map">8031</btn>
+	</page>
+	<page id="8" title="双生利器的降生">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="9" title="乌达美梦 荷玛乱入">
+		<btn type="map">203</btn>
+	</page>
+	<page id="10" title="萨伦帝国逃兵？！">
+		<btn type="map">100</btn>
+		<btn type="map">170</btn>
+	</page>
+	<page id="11" title="强力HERO 英雄之战">
+		<btn type="map">81</btn>
+	</page>
+	<page id="12" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="13" title="下期预告"/>
+</root>

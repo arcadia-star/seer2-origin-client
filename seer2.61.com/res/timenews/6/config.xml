@@ -1,0 +1,29 @@
+<root>
+	<page id="1" title="谁偷吃了我的料理">
+		<btn type="map">125</btn>
+	</page>
+	<page id="2" title="冰封的求援信">
+		<btn type="map">125</btn>
+	</page>
+	<page id="3" title="嚯！三主宠合体！">
+	</page>
+	<page id="4" title="我们的VIP乐园">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="5" title="悠悠假期来垂钓">
+		<btn type="map">152</btn>
+	</page>
+	<page id="6" title="神厨传人就是你">
+		<btn type="map">125</btn>
+	</page>
+	<page id="7" title="赛尔战队">
+		<btn type="map">60</btn>
+	</page>
+	<page id="8" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="9" title="精灵DIY">
+		<btn type="copy">seerII@taomee.com</btn>
+	</page>
+	<page id="10" title="下期预告"/>
+</root>

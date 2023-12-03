@@ -1,0 +1,44 @@
+<root>
+	<page id="1" title="王者的追溯">
+	<btn type="module">app/LeiyiKaisaGadMainPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="2" title="七宗炼狱  暴食回廊">
+	<btn type="map">1071</btn>
+	</page>
+	
+	<page id="3" title="春天的战翼">
+	<btn type="module">app/NewOldPlayerActPanel|正在打开面板...</btn>	
+	</page>	
+	
+	<page id="4" title="幻灵兽试炼  第一章">
+	<btn type="module">app/BagginsLogPanel|正在打开面板...</btn>
+	</page>
+	
+	<page id="5" title="星座守护计划  双鱼座">
+	<btn type="module">app/DecorationStampPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="6" title="种植园LV11开启">
+	<btn type="plant"></btn>
+	</page>
+
+	<page id="7" title="玩家聚集地">
+	<btn type="traffic">http://bbs.61.com/</btn>
+	</page>
+	
+	<page id="8" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP...</btn>
+	</page>
+	
+	<page id="9" title="下期预告">
+	</page>
+	
+	<page id="10" title="信息反馈">
+	<btn type="module">app/ScorePanel|正在打开面板...</btn>	
+	</page>
+	
+	<page id="11" title="赛尔号线下讯息">
+	<btn type="module">app/ScorePanel|正在打开面板...</btn>	
+	</page>
+</root>

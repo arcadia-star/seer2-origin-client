@@ -1,0 +1,44 @@
+<root>
+	<page id="1" title="伊特锦标赛开幕">
+	<btn type="module">app/YiteMainPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="2" title="伊军新成员">
+	<btn type="map">1170</btn>
+	</page>
+	
+	<page id="3" title="伊特家族 shop秀">
+	<btn type="module">app/YiTeSale|正在打开面板...</btn>	
+	</page>	
+	
+	<page id="4" title="幻灵兽试炼 第二章">
+	<btn type="module">app/BagginsLogPanel|正在打开面板...</btn>
+	</page>
+	
+	<page id="5" title="春意盎然 再撞头彩">
+	<btn type="module">app/GoodStartMainPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="6" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP...</btn>
+	</page>
+	
+	<page id="7" title="玩家聚集地">
+	<btn type="traffic">http://bbs.61.com/</btn>
+	</page>
+	
+	<page id="8" title="创想兵团官网开启">
+	<btn type="traffic">http://as.61.com/</btn>
+	</page>
+
+	<page id="9" title="下期预告">
+	</page>
+	
+	<page id="10" title="信息反馈">
+	<btn type="module">app/ScorePanel|正在打开面板...</btn>	
+	</page>
+	
+	<page id="11" title="赛尔号线下讯息">
+	<btn type="module">app/ScorePanel|正在打开面板...</btn>	
+	</page>
+</root>

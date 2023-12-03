@@ -1,0 +1,33 @@
+<root>
+	<page id="1" title="射破天际">
+		<btn type="map">540</btn>
+	</page>
+	<page id="2" title="开战前夕">
+		<btn type="map">110</btn>
+	</page>
+	<page id="3" title="友谊之树快成长">
+		<btn type="home"/>
+	</page>
+	<page id="4" title="好孩子不喝酒！">
+		<btn type="map">470</btn>
+	</page>
+	<page id="5" title="VIP乐园开幕！">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="6" title="疯狂套牛">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="7" title="冒险大师日志">
+		<btn type="map">125</btn>
+	</page>
+	<page id="8" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="9" title="精灵DIY">
+		<btn type="copy">seerII@taomee.com</btn>
+	</page>
+	<page id="10" title="捣蛋反攻战">
+		<btn type="map">500</btn>
+	</page>
+	<page id="11" title="下期预告"/>
+</root>

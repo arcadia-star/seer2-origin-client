@@ -1,0 +1,51 @@
+<root>
+	<page id="1" title="天空竞技场封测开启">
+	<btn type="map">1300</btn>
+	</page>	
+	
+	<page id="2" title="神龙火圈  神秘神龙">
+	<btn type="module">app/LuckyDialMeePanel|正在打开面板...</btn>
+	</page>
+	
+	<page id="3" title="淘百万米币赢IPAD">
+	<btn type="module">app/NewVipPanel|正在打开面板...</btn>	
+	</page>	
+	
+	<page id="4" title="年甲雄风  限量开售">
+	<btn type="module">app/YearShopPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="5" title="脉灵兽挑战开启">
+	<btn type="module">app/BagginsLogPanel|正在打开约瑟日志...</btn>
+	</page>	
+	
+	<page id="6" title="星座守护计划之水瓶">
+	<btn type="module">app/DecorationStampPanel|正在打开面板...</btn>
+	<btn type="module">app/StargazerFightPanel|正在打开面板...</btn>
+	</page>
+
+	<page id="7" title="2013玩转对战米米卡">
+	<btn type="map">20</btn>
+	</page>
+	
+	<page id="8" title="VIP充值活动">
+	<btn type="module">app/MeeRechargePanel|正在打开VIP...</btn>
+	</page>
+	
+	<page id="9" title="赛尔号线下讯息">
+	<btn type="traffic">http://dream.61.com</btn>
+	</page>
+	
+	<page id="10" title="下期预告">
+	</page>
+	
+	<page id="11" title="信息反馈">
+	<btn type="module">app/ScorePanel|正在打开面板...</btn>	
+	</page>
+	
+	<page id="12" title="Nono杂志社">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>
+</root>

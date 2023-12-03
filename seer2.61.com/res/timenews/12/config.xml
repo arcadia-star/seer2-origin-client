@@ -1,0 +1,28 @@
+<root>
+	<page id="1" title="强力HERO 英雄之门">
+		<btn type="map">81</btn>
+	</page>
+	<page id="2" title="飞天小麋鹿">
+		<btn type="map">20</btn>
+	</page>
+	<page id="3" title="时沙之瓶的思念">
+		<btn type="map">390</btn>
+	</page>
+	<page id="4" title="萨伦帝国！我要秒杀你！" />
+	<page id="5" title="HOLD住埃卡维特？不是梦！"/>
+	<page id="6" title="船员召集令II" />
+	<page id="7" title="VIP乐园资讯">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="8" title="战队资讯">
+		<btn type="map">60</btn>
+	</page>
+	<page id="9" title="精灵DIY">
+		<btn type="copy">seerII@taomee.com</btn>
+	</page>
+	<page id="10" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="11" title="下期预告"/>
+	<page id="12" title="功夫派探秘"/>
+</root>

@@ -1,0 +1,29 @@
+<root>
+	<page id="1" title="雷神的背后">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="2" title="一百次方的决心">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>				
+	<page id="3" title="全新精英弗格斯">
+		<btn type="map">310</btn>		
+	</page>
+	<page id="4" title="VIP至尊四月">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...|currentTab:5</btn>
+	</page>
+	<page id="5" title="最强锻造瓦尔基">
+		<btn type="map">8011</btn>		
+	</page>
+	<page id="6" title="最炫马路杀手">
+		<btn type="module">app/SupermarketPanel|正在打开商城面板...</btn>
+	</page>		
+	<page id="7" title="微光湖畔的圣光">
+		<btn type="map">790</btn>
+	</page>	
+	<page id="8" title="赛尔号II英雄战队">
+	</page>
+	<page id="9" title="南京读者见面会">
+	</page>	
+	<page id="10" title="下期预告">
+	</page>	
+</root>

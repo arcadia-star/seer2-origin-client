@@ -1,0 +1,22 @@
+<root>
+	<page id="1" title="精灵繁殖系统">
+		<btn type="map">20</btn>
+	</page>
+	<page id="2" title="被污染的脉流">
+		<btn type="module">app/QuestPanel|正在打开活动面板...</btn>
+	</page>	
+	<page id="3" title="精灵跟随长经验">
+	</page>
+	<page id="4" title="草原狂想战">
+		<btn type="map">800</btn>
+	</page>
+	<page id="5" title="VIP特权调整">
+		<btn type="module">app/NewVipPanel|正在打开Vip面板...|currentTab:3</btn>
+	</page>
+	<page id="6" title="精灵技能调整周">
+	</page>
+	<page id="7" title="赛尔号2英雄战队">
+	</page>
+	<page id="8" title="下期预告">
+	</page>
+</root>

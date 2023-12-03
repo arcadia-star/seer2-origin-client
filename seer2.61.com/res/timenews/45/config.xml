@@ -1,0 +1,30 @@
+<root>
+	<page id="1" title="训练师争霸赛">
+	</page>
+	<page id="2" title="光与暗的觉醒">
+	<btn type="module">app/QuestPanel|正在打开任务面板...</btn>		
+	</page>	
+	<page id="3" title="神风护卫卡多斯">
+		<btn type="map">910</btn>	
+	</page>		
+	<page id="4" title="流离街的阴影">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>	
+	<page id="5" title="娜娜和斯缇姆军">
+		<btn type="map">900</btn>	
+	</page>	
+	<page id="6" title="争霸赛助威">
+	</page>	
+	<page id="7" title="伊特大乱斗调整">
+		<btn type="map">500</btn>		
+	</page>		
+	<page id="8" title="精灵技能调整周">
+	</page>	
+	<page id="9" title="M5巡演挑战调整">
+		<btn type="map">262</btn>	
+	</page>	
+	<page id="10" title="赛尔号线下讯息">
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

@@ -1,0 +1,46 @@
+<root>
+	<page id="1" title="王者的追溯">
+	<btn type="module">app/LeiyiKaisaGadMainPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="2" title="王者的对决">
+	<btn type="module">app/LimitTimeShopPanel|正在打开面板...</btn>
+	</page>
+	
+	<page id="3" title="精灵强化 纹章特卖">
+	<btn type="module">app/ShopPanel|正在打开面板...</btn>	
+	</page>	
+	
+	<page id="4" title="魔光紫电 圣光里亚">
+	<btn type="module">app/HolyPetPanel|正在打开面板...</btn>
+	<btn type="module">app/HolyLightPanel|正在打开面板...</btn>
+	</page>
+	
+	<page id="5" title="东方巳起 鲤鱼王捞">
+	<btn type="module">app/PandaMainPanel|正在打开面板...</btn>
+	</page>	
+	
+	<page id="6" title="玩家聚集地">
+	<btn type="traffic">http://bbs.61.com/</btn>
+	</page>
+
+	<page id="7" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP...</btn>
+	</page>
+	
+	<page id="8" title="赛尔号线下讯息">
+	</page>
+	
+	<page id="9" title="下期预告">
+	</page>
+	
+	<page id="10" title="信息反馈">
+	<btn type="module">app/ScorePanel|正在打开面板...</btn>	
+	</page>
+	
+	<page id="11" title="Nono杂志社">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>
+</root>

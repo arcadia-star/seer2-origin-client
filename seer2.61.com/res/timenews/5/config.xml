@@ -1,0 +1,29 @@
+<root>
+	<page id="1" title="不速之客再袭！">
+		<btn type="home"/>
+	</page>
+	<page id="2" title="磅！整蛊气球">
+	</page>
+	<page id="3" title="搜宝大探险！！">
+	</page>
+	<page id="4" title="禁地友谊之花">
+		<btn type="map">390</btn>
+	</page>
+	<page id="5" title="稀有精灵：三眼蝎">
+		<btn type="map">520</btn>
+	</page>
+	<page id="6" title="精灵寻宝">
+		<btn type="home"/>
+	</page>
+	<page id="7" title="赛尔战队">
+		<btn type="map">60</btn>
+	</page>
+	<page id="8" title="赛尔专栏">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="9" title="整蛊行动 Let`s GO！">
+		<btn type="home"/>
+	</page>
+	<page id="10" title="下期预告">
+	</page>
+</root>

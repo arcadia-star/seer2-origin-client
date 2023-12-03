@@ -1,0 +1,39 @@
+<root>
+	<page id="1" title="灵魂故乡的野望">
+		<btn type="map">540</btn>
+	</page>
+	<page id="2" title="戏法精灵的礼物">
+		<btn type="map">470</btn>
+	</page>
+	<page id="3" title="冒险大师日志">
+		<btn type="map">261</btn>
+		<btn type="map">125</btn>
+	</page>
+	<page id="4" title="VIP乐园咨询！">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="5" title="飞船升级飞翔天际">
+		<btn type="map">50</btn>
+	</page>
+	<page id="6" title="英格瓦要塞咨询">
+		<btn type="map">81</btn>
+	</page>
+	<page id="7" title="赛尔战队咨询">
+		<btn type="map">60</btn>
+	</page>
+	<page id="8" title="金字塔争顶战">
+		<btn type="map">60</btn>
+	</page>
+	<!--<page id="9" title="乔尼祖玛！">
+		<btn type="map">291</btn>
+	</page>-->
+	<page id="9" title="精灵DIY">
+		<btn type="copy">seerII@taomee.com</btn>
+		<btn type="page">prev</btn>
+		<btn type="page">next</btn>
+	</page>
+	<page id="10" title="线下见面会">
+		<btn type="request">#||#</btn>
+	</page>
+	<page id="11" title="下期预告"/>
+</root>

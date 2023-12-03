@@ -1,0 +1,26 @@
+<root>
+	<page id="1" title="精灵王争霸赛颁奖礼">
+	</page>
+	<page id="2" title="米咔颁奖礼火炬传递">	
+	</page>	
+	<page id="3" title="颁奖礼超级大礼抽取">	
+	</page>		
+	<page id="4" title="冠军精灵帕拉丁挑战">
+	</page>	
+	<page id="5" title="小恶魔的六个神秘梦">
+	</page>	
+	<page id="6" title="赫尔卡星雷伊悬赏令">
+	</page>	
+	<page id="7" title="道路清洁扫除小恶魔">	
+	</page>		
+	<page id="8" title="唤醒目灵兽收集雨露">
+	</page>	
+	<page id="9" title="火源通径凯萨的战书">
+	<btn type="module">app/KSBattlePanel|正在打开面板...</btn>
+	</page>	
+	<page id="10" title="商城更新争做最炫赛尔">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

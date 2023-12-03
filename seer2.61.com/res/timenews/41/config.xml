@@ -1,0 +1,30 @@
+<root>
+	<page id="1" title="天降红包六连击">
+	</page>
+	<page id="2" title="宿命的世纪大战">
+	</page>	
+	<page id="3" title="伊特大乱斗">
+	</page>		
+	<page id="4" title="精灵王争霸赛前奏">
+		<btn type="map">80</btn>
+		<btn type="map">40</btn>
+		<btn type="map">50</btn>
+	</page>	
+	<page id="5" title="开启训练师称号">
+	</page>	
+	<page id="6" title="扭转乾坤的力量">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>	
+	<page id="7" title="最强训练师之战">
+		<btn type="map">850</btn>
+	</page>	
+	<page id="8" title="立正站好来签到！">
+	</page>
+	<page id="9" title="假日秘宝大行动">
+		<btn type="module">app/SecretTreasuresActPanel|正在打开面板...</btn>
+	</page>
+	<page id="10" title="赛尔号线下讯息">
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

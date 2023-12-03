@@ -1,0 +1,38 @@
+<root>
+	<page id="1" title="啾啾减肥大计">
+		<btn type="map">122</btn>
+	</page>
+	<page id="2" title="VIP能量疯狂UP">
+		<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>
+	<page id="3" title="空腹节的灾难">
+		<btn type="map">8031</btn>
+	</page>
+	<page id="4" title="大胃王重出江湖">
+		<btn type="map">8031</btn>
+	</page>
+	<page id="5" title="小雷克快快长">
+		<btn type="map">20</btn>
+	</page>
+	<page id="6" title="双生利器的降生">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="7" title="乌达美梦 荷玛乱入">
+		<btn type="map">203</btn>
+	</page>
+	<page id="8" title="萨伦帝国逃兵？！">
+		<btn type="map">100</btn>
+		<btn type="map">170</btn>
+	</page>
+	<page id="9" title="M5极限挑战！">
+		<btn type="map">262</btn>
+	</page>
+	<page id="10" title="强力HERO 英雄之战">
+		<btn type="map">81</btn>
+	</page>
+	<page id="11" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="13" title="赛尔号动画片">
+	</page>
+</root>

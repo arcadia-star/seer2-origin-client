@@ -1,0 +1,26 @@
+<root>
+	<page id="1" title="X龙蛋！抢啊！">
+	<btn type="map">70</btn>
+	</page>
+	<page id="2" title="时光倒流,再战凯萨雷伊">
+	<btn type="map">70</btn>
+	</page>	
+	<page id="3" title="阿宝找伙伴去旅行">	
+	</page>		
+	<page id="4" title="普兰特山麓传说">
+		<btn type="map">20</btn>
+	</page>	
+	<page id="5" title="隐藏的神秘研究">
+		<btn type="map">930</btn>
+	</page>	
+	<page id="6" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>		
+	<page id="7" title="最新炫酷米币道具">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="8" title="赛尔号线下讯息">
+	</page>
+	<page id="9" title="下期预告">
+	</page>
+</root>

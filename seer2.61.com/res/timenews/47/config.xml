@@ -1,0 +1,28 @@
+<root>
+	<page id="1" title="召唤雷神雷伊">
+	</page>
+	<page id="2" title="凯伊和影灵兽大对决">	
+		<btn type="map">880</btn>
+	</page>	
+	<page id="3" title="雷鸣炎破斩习得">	
+		<btn type="map">820</btn>
+	</page>		
+	<page id="4" title="目灵兽的复苏">
+	</page>	
+	<page id="5" title="狙击暗影系守护兽">
+	</page>	
+	<page id="6" title="臭流氓！哪里逃！">
+	</page>	
+	<page id="7" title="寻找神秘的歌声">	
+	</page>		
+	<page id="8" title="米币商城我做主">
+		<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="9" title="商城更新做最炫赛尔">
+		<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="10" title="赛尔号线下讯息">
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

@@ -1,0 +1,37 @@
+<root>
+	<page id="1" title="海市蜃楼之约">
+		<btn type="map">530</btn>
+		<btn type="map">3700</btn>
+	</page>
+	<page id="2" title="捣蛋鬼奇遇记">
+		<btn type="map">470</btn>
+	</page>
+	<page id="3" title="捣蛋反攻战！">
+		<btn type="map">500</btn>
+	</page>
+	<page id="4" title="国庆花火燃灯会">
+	</page>
+	<page id="5" title="资质鉴定">
+		<btn type="map">20</btn>
+	</page>
+	<page id="6" title="防晒大作战！！">
+		<btn type="map">360</btn>
+	</page>
+	<page id="7" title="小屋日常玩不停">
+	</page>
+	<page id="8" title="限时稀有精灵：达达酱">
+		<btn type="map">262</btn>
+	</page>
+	<page id="9" title="固定活动仓库">
+		<btn type="map">90</btn>
+		<btn type="map">160</btn>
+		<btn type="map">261</btn>
+		<btn type="map">81</btn>
+		<btn type="map">81</btn>
+	</page>
+	<page id="10" title="M5战书？我接受！">
+		<btn type="map">262</btn>
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

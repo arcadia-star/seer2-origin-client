@@ -1,0 +1,29 @@
+<root>
+	<page id="1" title="疯狂竞技">
+		<btn type="map">350</btn>
+	</page>
+	<page id="2" title="好孩子？坏孩子？">
+		<btn type="map">390</btn>
+	</page>
+	<page id="3" title="多利的雪人计划">
+		<btn type="map">540</btn>
+	</page>
+	<page id="4" title="乔尼祖玛">
+		<btn type="map">291</btn>
+	</page>
+	<page id="5" title="VIP乐园资讯">
+		<btn type="map">8011</btn>
+	</page>
+	<page id="6" title="战队资讯">
+		<btn type="map">60</btn>
+	</page>
+	<page id="7" title="精灵DIY">
+		<btn type="copy">seerII@taomee.com</btn>
+	</page>
+	<page id="8" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="9" title="疑难指引">
+	</page>
+	<page id="10" title="下期预告"/>
+</root>

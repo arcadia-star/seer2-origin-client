@@ -1,0 +1,32 @@
+<root>
+	<page id="1" title="星座守护精灵—天蝎"/>
+	<page id="2" title="“凤凰杯”烹饪大师赛"/>
+	<page id="3" title="火鸡的力量"/>
+	<page id="4" title="目标赛尔号2！进攻！">
+	<btn type="map">10</btn>
+	</page>	
+	<page id="5" title="大胃王重出江湖">
+	<btn type="map">8031</btn>
+	</page>	
+	
+	<page id="6" title="美食神猪降临">
+	</page>	
+	
+	<page id="7" title="神奇复活药水">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	
+	<page id="8" title="魔幻天蝎座套装问世">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+	
+	<page id="9" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>
+	
+	<page id="10" title="赛尔号线下讯息">
+	</page>	
+	
+	<page id="11" title="下期预告">
+	</page>
+</root>

@@ -1,0 +1,29 @@
+<root>
+	<page id="1" title="阿宝旅行计划">
+	<btn type="map">220</btn>
+	</page>
+	<page id="2" title="龙蛋破壳而出">
+	</page>	
+	<page id="3" title="超级精灵扭蛋机">	
+		<btn type="map">8011</btn>
+	</page>		
+	<page id="4" title="工房迷雾杀手">
+		<btn type="map">920</btn>
+	</page>	
+	<page id="5" title="挑战斯莫克">
+		<btn type="map">940</btn>
+	</page>	
+	<page id="6" title="VIP面板华丽升级">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>	
+	<page id="7" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>		
+	<page id="8" title="最新炫酷米币道具">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="9" title="赛尔号线下讯息">
+	</page>
+	<page id="10" title="下期预告">
+	</page>
+</root>

@@ -1,0 +1,26 @@
+<root>
+	<page id="1" title="神笔马良挥笔登场">
+	<btn type="module">app/HalloweenPanel|正在打开面板...</btn>
+	</page>
+	<page id="2" title="目灵兽试炼第一章">
+	<btn type="map">800</btn>
+	</page>	
+	<page id="3" title="种植园内容更新">
+	<btn type="plant">70</btn>
+	</page>		
+	<page id="4" title="氏族活动调整">
+	</page>	
+	<page id="5" title="单挑王争霸赛">
+	<btn type="map">81</btn>
+	</page>		
+	<page id="6" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>			
+	<page id="7" title="最新炫酷米币道具">
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="8" title="赛尔号线下讯息">
+	</page>
+	<page id="9" title="下期预告">
+	</page>
+</root>

@@ -1,0 +1,33 @@
+<root>
+	<page id="1" title="提灯怪灵闹新春">
+		<btn type="map">70</btn>
+	</page>
+	<page id="2" title="绝版精灵大拜年">
+	</page>
+	<page id="3" title="穿越时空的礼物">
+		<btn type="map">70</btn>
+	</page>
+	<page id="4" title="神龙？光伊特Bonus！">
+		<btn type="map">20</btn>
+	</page>
+	<page id="5" title="空港战纪">
+		<btn type="map">770</btn>
+	</page>
+	<page id="6" title="嗨！来PK吧！">
+	</page>
+	<page id="7" title="训练师成长之旅">
+		<btn type="module">app/TrainerPanel|正在打开训练师成长面板...</btn>
+	</page>
+	<page id="8" title="精灵讲座：炎之意志晓">
+		<btn type="fight">11|0</btn>
+	</page>
+	<page id="9" title="双生利器 双子之门">
+		<btn type="map">81</btn>
+	</page>
+	<page id="10" title="新年气象 基地装修">
+		<btn type="home"/>
+	</page>
+	<page id="11" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+</root>

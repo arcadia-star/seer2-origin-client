@@ -1,0 +1,35 @@
+<root>
+	<page id="1" title="摇滚天王爆炸头">
+		<btn type="map">340</btn>
+	</page>
+	<page id="2" title="砂砂：成长于挫折">
+		<btn type="map">490</btn>
+	</page>
+	<page id="3" title="摩擦起火的秘密！">
+		<btn type="map">192</btn>
+	</page>
+	<page id="4" title="全新战队功能开启">
+		<btn type="map">60</btn>
+	</page>
+	<page id="5" title="资质鉴定">
+		<btn type="map">20</btn>
+	</page>
+	<page id="6" title="小屋日常玩不停">
+		<btn type="map">262</btn>
+	</page>
+	<page id="7" title="限时稀有精灵：达达酱">
+		<btn type="map">262</btn>
+	</page>
+	<page id="8" title="M5战书？我接受！">
+		<btn type="map">262</btn>
+	</page>
+	<page id="9" title="固定活动仓库">
+		<btn type="map">90</btn>
+		<btn type="map">160</btn>
+		<btn type="map">261</btn>
+		<btn type="map">81</btn>
+		<btn type="map">81</btn>
+	</page>
+	<page id="10" title="下期预告">
+	</page>
+</root>

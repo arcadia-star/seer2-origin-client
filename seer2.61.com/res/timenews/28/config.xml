@@ -1,0 +1,30 @@
+<root>
+	<page id="1" title="召唤雷神雷伊">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="2" title="微光湖畔的圣光">
+		<btn type="map">790</btn>		
+	</page>				
+	<page id="3" title="灵魂故乡的野望">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="4" title="嗷嗷！雷金纳德！">
+		<btn type="map">301</btn>		
+	</page>
+	<page id="5" title="最强锻造瓦尔基">
+		<btn type="map">8011</btn>		
+	</page>
+	<page id="6" title="最炫马路杀手">
+		<btn type="module">app/SupermarketPanel|正在打开商城面板...</btn>
+	</page>		
+	<page id="7" title="VIP即将下架内容">
+		<btn type="map">8011</btn>
+	</page>	
+	<page id="8" title="精灵图鉴上市！">
+		<btn type="map">30</btn>
+	</page>
+	<page id="9" title="图书火热上市！">
+	</page>	
+	<page id="10" title="下期预告">
+	</page>	
+</root>

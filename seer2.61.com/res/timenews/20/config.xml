@@ -1,0 +1,35 @@
+<root>
+	<page id="1" title="火焰之战 王者角逐">
+		<btn type="map">240</btn>
+		<btn type="module">app/CavingNoticePanel|正在打开玩转仓库面板...</btn>
+	</page>
+	<page id="2" title="流浪汉刚铎">
+		<btn type="map">660</btn>
+	</page>
+	<page id="3" title="水脉之旅">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>
+	<page id="4" title="我来自火焰山">
+		<btn type="map">260</btn>
+	</page>
+	<page id="5" title="NONO G3 登场！">
+		<btn type="module">app/NonoEdenLottoPanel|正在打开抽奖面板...</btn>
+	</page>
+	<page id="6" title="“三八”双雄战！">
+		<btn type="map">310</btn>
+	</page>
+	<page id="7" title="未曾忘却的承诺">
+		<btn type="map">770</btn>
+	</page>
+	<page id="8" title="治愈之旅">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>				
+	<page id="9" title="嗨！来PK吧！">
+	</page>
+	<page id="10" title="训练师成长之旅">
+		<btn type="module">app/TrainerPanel|正在打开训练师成长面板...</btn>
+	</page>
+	<page id="11" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+</root>

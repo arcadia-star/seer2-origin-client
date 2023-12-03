@@ -1,0 +1,28 @@
+<root>
+	<page id="1" title="姜饼城的不眠夜">
+		<btn type="map">8022</btn>
+	</page>
+	<page id="2" title="圣诞之“光”！">
+		<btn type="map">8022</btn>
+	</page>
+	<page id="3" title="萨伦帝国逃兵？！">
+		<btn type="map">100</btn>
+		<btn type="map">170</btn>
+	</page>
+	<page id="4" title="十万心愿唤神龙"/>
+	<page id="5" title="回忆碎片的光芒">
+		<btn type="map">540</btn>
+	</page>
+	<page id="6" title="M5极限挑战！">
+		<btn type="map">262</btn>
+	</page>
+	<page id="7" title="强力HERO 英雄之战">
+		<btn type="map">81</btn>
+	</page>
+	<page id="8" title="意见收集簿">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="9" title="艾尔大陆的奇妙冒险">
+		<btn type="traffic">http://gf.61.com</btn>
+	</page>
+</root>

@@ -1,0 +1,29 @@
+<root>
+	<page id="1" title="精灵繁殖系统">
+		<btn type="map">20</btn>
+	</page>
+	<page id="2" title="攒礼券迎六一">
+		<btn type="map">8011</btn>
+	</page>	
+	<page id="3" title="被污染的脉流">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>	
+	<page id="4" title="脉流守卫战">
+		<btn type="map">810</btn>
+	</page>
+	<page id="5" title="神殿的歌声">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>	
+	<page id="6" title="精灵跟随长经验">
+	</page>
+	<page id="7" title="精灵技能调整周">
+	</page>
+	<page id="8" title="赛尔号大电影2">
+	</page>
+	<page id="9" title="赛尔号贴纸亮相">
+	</page>
+	<page id="10" title="赛尔号2英雄战队">
+	</page>	
+	<page id="11" title="下期预告">
+	</page>
+</root>

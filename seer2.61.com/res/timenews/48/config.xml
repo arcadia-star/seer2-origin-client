@@ -1,0 +1,28 @@
+<root>
+	<page id="1" title="寄给站长的明信片">
+	</page>
+	<page id="2" title="穿越时空的信使">	
+		<btn type="map">10</btn>
+	</page>	
+	<page id="3" title="海小葵的喷嚏">	
+		<btn type="map">920</btn>
+	</page>		
+	<page id="4" title="传送室大装修!">
+	</page>	
+	<page id="5" title="精英精灵全覆盖">
+	</page>	
+	<page id="6" title="小地图目标清晰化">
+	</page>	
+	<page id="7" title="电池冷冻，快乐保鲜">	
+	</page>		
+	<page id="8" title="商城抢购周！">
+		<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="9" title="米币商城我做主">
+		<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>	
+	<page id="10" title="赛尔号线下讯息">
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

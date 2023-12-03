@@ -1,0 +1,38 @@
+<root>
+	<page id="1" title="和贾斯汀拯救地球">
+	</page>	
+	
+	<page id="2" title="属性装备 闪亮问世！">
+	<btn type="map">8011</btn>
+	</page>
+	
+	<page id="3" title="圣诞特卖 绝版回归">
+	<btn type="module">app/LimitTimeShopPanel|正在打开VIP面板...</btn>
+	</page>	
+	
+	<page id="4" title="有熊出没">
+	</page>	
+	
+	<page id="5" title="康特的幸运口袋">
+	</page>	
+	
+	<page id="6" title=" 雪精灵回来了">
+	</page>
+	
+	<page id="7" title="追逐繁星的康特">
+	</page>
+	
+	<page id="8" title="VIP充值活动">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	</page>
+	
+	<page id="9" title="赛尔号线下讯息"/>
+	
+	<page id="10" title="下期预告">
+	</page>
+	
+	<page id="11" title="Nono杂志社">
+	<btn type="module">app/NewVipPanel|正在打开VIP面板...</btn>
+	<btn type="module">app/ShopPanel|正在打开商城面板...</btn>
+	</page>
+</root>

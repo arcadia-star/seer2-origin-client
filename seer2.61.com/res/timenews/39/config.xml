@@ -1,0 +1,30 @@
+<root>
+	<page id="1" title="赫尔卡星的战书">
+	</page>
+	<page id="2" title="重夺水源之心">
+	</page>	
+	<page id="3" title="抽取顶级豪车">
+	</page>		
+	<page id="4" title="战斗传人">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>	
+	<page id="5" title="决战冰脊之巅">
+		<btn type="module">app/QuestPanel|正在打开任务面板...</btn>
+	</page>	
+	<page id="6" title="乐园金字塔">
+		<btn type="map">8011</btn>
+	</page>	
+	<page id="7" title="逃犯米诺陶尔">
+		<btn type="map">620</btn>
+	</page>	
+	<page id="8" title="包粽子迎端午">
+		<btn type="map">125</btn>
+	</page>
+	<page id="9" title="纠结之藤战役">
+		<btn type="map">830</btn>
+	</page>
+	<page id="10" title="赛尔号线下讯息">
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>

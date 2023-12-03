@@ -1,0 +1,33 @@
+<root>
+	<page id="1" title="整蛊行动 Let`s GO！">
+		<btn type="home"></btn>
+	</page>
+	<page id="2" title="伊特身世之谜">
+		<btn type="map">500</btn>
+	</page>
+	<page id="3" title="速度决定一切！">
+		<btn type="map">310</btn>
+	</page>
+	<page id="4" title="精灵图鉴up up！">
+	</page>
+	<page id="5" title="影子大战">
+		<btn type="map">192</btn>
+	</page>
+	<page id="6" title="小屋惊现机械小强！">
+		<btn type="home"></btn>
+	</page>
+	<page id="7" title="固定活动仓库搬家">
+		<btn type="map">70</btn>
+	</page>
+	<page id="8" title="赛尔专栏">
+		<btn type="module">app/ContributePanel|正在打开投稿面板...</btn>
+	</page>
+	<page id="9" title="捣蛋反攻战">
+		<btn type="map">500</btn>
+	</page>
+	<page id="10" title="资质鉴定">
+		<btn type="map">20</btn>
+	</page>
+	<page id="11" title="下期预告">
+	</page>
+</root>
