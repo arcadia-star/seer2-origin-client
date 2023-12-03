@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root> 
+	<handler type="0"  cclass="GmailHandler"  intro="新邮件通知"  />
+	<handler type="1"  cclass="FoolDayFightInfoHandler"  intro="愚人节大战被射击了30次"  />
+	<handler type="2"  cclass="GetXingZuanHandler"  intro="后台通知前台获得了星钻，前台去拉取星钻数目"  />
+	<handler type="3"  cclass="GetMagicStarHandler"  intro="后台通知前台获得了星魂"  />
+	<handler type="5"  cclass="GetDevotionHandler"  intro="后台通知前台获得了贡献值(第一季)" />
+	<handler type="6"  cclass="GetDevotionHandler"  intro="后台通知前台获得了贡献值(第二季)" />
+	<handler type="8"  cclass="GetHotWheeHandle"  intro="风火轮活动通知前端vip充值成功" />
+	<handler type="10"  cclass="GetRedRabbitHandle"  intro="赤兔活动通知任务完成" />
+	<handler type="12"  cclass="GetRede"  intro="中秋答题送奖励(灯笼个数)" />
+	<handler type="13"  cclass="GodFireGetFish"  intro="备战火神节活动钓鱼个数达到5个了" />
+	<handler type="14"  cclass="GodFireGetMine"  intro="备战火神节挖矿活动达到5个了" />
+</root>

@@ -1,0 +1,12 @@
+<!--
+	gid:产品唯一ID
+	name:产品名唯一名
+-->
+<root gid="10" name="seer2">
+	<com url="ip/com_ip.txt" />
+	<tel url="ip/tel_ip.txt" />
+	<cnc url="ip/cnc_ip.txt" />
+	<cdn url="http://speedservice.taomee.com/index.php?ip=" />
+	<telDeputize ip="10.1.1.52" port="1863"/>
+	<cncDeputize ip="10.1.1.52" port="1863"/>
+</root>

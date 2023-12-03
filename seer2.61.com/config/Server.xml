@@ -1,0 +1,8 @@
+<root gid="10" name="seer2">
+	<com url="http://sr2login.61.com/ip.txt" />
+	<tel url="http://ctsr2login.61.com/ip.txt" />
+	<cnc url="http://cncsr2login.61.com/ip.txt" />
+	<cdn url="http://speedservice.taomee.com/index.php?ip=" />
+	<telDeputize ip="61.155.182.28" port="1863"/>
+	<cncDeputize ip="125.39.236.71" port="1863"/>
+</root>

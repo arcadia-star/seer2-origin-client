@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<title>约瑟传说（赛尔号2）官网 | 赛尔号系列游戏 | 淘米网</title>
+		<link rel="Shortcut Icon" type="image/x-icon" href="//game-res.61.com/seer/index/images/favicon.ico?v=0929" />
+		<meta name="keywords" content="约瑟传说,约瑟传说官网,赛尔号,赛尔号2,战神联盟,赛尔号大电影,赛尔号大电影3,赛尔号动画片,精灵" />
+		<meta name="description" content="《约瑟传说》（赛尔号2）是精灵对战游戏的二次元巨作。首创双精灵对战模式，让玩家造就最强训练师！史上最酷精灵王约瑟的灭亡与重生，呈现史诗般故事体验。" />
+		<meta http-equiv="Content-Security-Policy" content="frame-src http://*.61.com http://*.2125.com https://*.61.com https://*.2125.com https://*.qq.com">
+		<base target="_blank" />
+		<style type="text/css">
+			#Client {
+				width: 1200px !important;
+				height: 660px !important;
+			}
+
+			html,body{height:100%;}
+
+			.container,
+			#flashContentWrap {
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div style="text-align:center; width: 100%;height: 100%;">
+    <div class="c_wrap" id="flashContentWrap">
+        <i class="c_dec_t" id="cDecT"></i>
+        <i class="c_dec_b" id="cDecB"></i>
+        <i class="c_dec_l" id="cDecL"></i>
+        <i class="c_dec_r" id="cDecR"></i>
+        <i class="c_dec_clt_l" id="cDecCltL"></i>
+        <i class="c_dec_clt_t" id="cDecCltT"></i>
+        <i class="c_dec_clb_l" id="cDecClbL"></i>
+        <i class="c_dec_clb_b" id="cDecClbB"></i>
+        <i class="c_dec_crt_r" id="cDecCrtR"></i>
+        <i class="c_dec_crt_t" id="cDecCrtT"></i>
+        <i class="c_dec_crb_r" id="cDecCrbR"></i>
+        <i class="c_dec_crb_b" id="cDecCrbB"></i>
+        <div id="flashbox" style="height: 100%;">
+            <div id="flashContent" style="height: 100%;">
+                <script type="text/javascript">
+                    var pageHost = ((document.location.protocol == "https:") ? "https://" : "//");
+                    document.write('<iframe style="width:100%;height:100%" src="//webres.61.com/common/flash/common.html" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>');
+                </script>
+            </div>
+        </div>
+    </div>
+    <div id="innerPopIframe" style="display:none;"><iframe src="" width="1" height="1" frameborder="0" scrolling="no"></iframe></div>
+    <script src="//webres.61.com/common/js/swfobject.js?202101132241"></script>
+    <script type="text/javascript">
+        var autoTimes = new Date();
+        var flashUrl = "Client.swf?" + autoTimes.getTime();
+        var so = new SWFObject(flashUrl, "Client", "960", "560", "10", "#FFFFFF");
+        so.addParam("menu", "false");
+        so.addParam("wmode", "opaque");
+        so.addParam("allowFullScreen", "true");
+        so.addParam("allowScriptAccess", "always");
+        so.addParam("allowFullScreenInteractive", "true");
+        so.addParam("quality", "high");
+        so.write("flashContent");
+    </script>
+</div>		</div>
+		<script src="//webres.61.com/common/js/jquery-1.11.1.min.js"></script>
+		<script src="//webres.61.com/common/js/game_public.js?v=202101131041"></script>
+		<script src="//webres.61.com/seer/site/js/for_as.js?v=202101131041"></script>
+		<script type="text/javascript">
+			document.domain = "61.com";
+		</script>
+		<script>
+			// var iframe_src;
+			// var _domain = ['61.com','2125.com'];
+			// var timeInterval;
+			// if (timeInterval) {
+			//     window.clearInterval(timeInterval);
+			// };
+			// timeInterval = window.setInterval(function(){
+			//     $("iframe").each(function(key,val){
+			//         iframe_src = $(this).attr("src");
+			//         if(iframe_src&&iframe_src.indexOf('61.com')==-1&&iframe_src.indexOf('2125.com')==-1){
+			//             $(this).remove();
+			//         }
+			//     })
+			// },200);
+		</script>
+		<!--百度统计-->
+		<!-- 百度统计 -->
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd37887f1b70f13f4beb60ea0bf972d3b' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- google统计 -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12104138-23']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'http://game-res.61.com/common/index/js/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>	</body>
+</html>

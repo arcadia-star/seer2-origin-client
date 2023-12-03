@@ -1,0 +1,56 @@
+<root>
+	<!--ui加载完后初始化系统-->
+	<group id="1">
+		<Bean id="SeerIISetup" class="com.taomee.seer2.app.init.SeerIISetup" />
+		<Bean id="VipManager" class="com.taomee.seer2.app.vip.VipManager" />
+		<Bean id="TeamManager" class="com.taomee.seer2.app.team.TeamManager" />
+		<Bean id="ItemManager" class="com.taomee.seer2.app.inventory.ItemManager" />
+		<Bean id="DreamManager" class="com.taomee.seer2.app.dream.DreamManager" />
+		<!--射击-->
+		<Bean id="ShootCmdListener" class="com.taomee.seer2.app.cmdl.ShootCmdListener" />	
+		<!-- 详细通告 -->
+		<Bean id="SystemNotifyListener" class="com.taomee.seer2.app.cmdl.SystemNotifyListener" />	
+		<!-- VIP通告-->
+		<Bean id="VipListener" class="com.taomee.seer2.app.cmdl.VipListener" />	
+		<Bean id="PetCureListener" class="com.taomee.seer2.app.cmdl.PetCureListener" />	
+		<Bean id="SetPetFollowingListener" class="com.taomee.seer2.app.cmdl.SetPetFollowingListener" />	
+		<Bean id="SetNonoFlagListener" class="com.taomee.seer2.app.cmdl.SetNonoFlagListener" />
+		<Bean id="SetPetStartingListener" class="com.taomee.seer2.app.cmdl.SetPetStartingListener" />
+		<Bean id="StartTrainingPet" class="com.taomee.seer2.app.cmdl.StartTrainingPet" />
+		<Bean id="SetPetStorageStatusListener" class="com.taomee.seer2.app.cmdl.SetPetStorageStatusListener" />
+		<Bean id="ActorMapServerBean" class="com.taomee.seer2.app.cmdl.ActorMapServerBean" />
+		<Bean id="PvPFighterInviteBean" class="com.taomee.seer2.app.cmdl.PvPFighterInviteBean" />
+		<Bean id="MapUserStatusBean" class="com.taomee.seer2.app.cmdl.MapUserStatusBean" />
+		<!-- NONO时间管家通知-->
+		<Bean id="NonoTimeButlerBean" class="com.taomee.seer2.app.cmdl.NonoTimeButlerBean" />
+		<!-- 任务完成通知-->
+		<Bean id="QuestCompleteBean" class="com.taomee.seer2.app.cmdl.QuestCompleteBean" />
+		<!-- 脏词过滤-->
+		<Bean id="BabLanguageListener" class="com.taomee.seer2.app.cmdl.BabLanguageListener" />
+		<!-- 宠物升级通知-->
+		<Bean id="PetLevelUpBean" class="com.taomee.seer2.app.cmdl.PetLevelUpBean" />
+		<!-- 物品超过最大值通知-->
+		<Bean id="ItemMaxNotifyListener" class="com.taomee.seer2.app.cmdl.ItemMaxNotifyListener" />
+		<!-- 任意地图稀有精灵出现通知-->
+		<Bean id="MapRatePetShowListener" class="com.taomee.seer2.app.cmdl.MapRatePetShowListener" />	
+		<!-- 跟随精灵挂机获得经验-->
+		<Bean id="PetOnhookBean" class="com.taomee.seer2.app.cmdl.PetOnhookBean" />
+		<!-- 精灵属性更新通知-->
+		<Bean id="PetInfoUpdateBean" class="com.taomee.seer2.app.cmdl.PetInfoUpdateBean" />
+		<!-- 定时更新session值-->
+		<Bean id="SessionUpdateBean" class="com.taomee.seer2.app.cmdl.SessionUpdateBean" />		
+		<!-- 拉取星钻-->
+		<Bean id="MoneyUpdateBean" class="com.taomee.seer2.app.cmdl.MoneyUpdateBean" />
+		<!-- 接受服务器主动推送邮件信息 -->
+<!-- 		<Bean id="GmailManager" class="com.taomee.seer2.app.mail.GmailManager" /> -->
+		<!-- 场景大小变化-->
+		<Bean id="UpIconUpdateBean" class="com.taomee.seer2.app.cmdl.UpIconUpdateBean" />
+		<Bean id="ImageLevelBean" class="com.taomee.seer2.app.cmdl.ImageLevelBean"/>
+		
+	</group>
+	<!--新手任务完成后初始化功能-->
+	<group id="2">
+		<Bean id="SetupAfterFreshTask" class="com.taomee.seer2.app.init.SetupAfterFreshTask" />
+		<Bean id="TempNotifyListener" class="com.taomee.seer2.app.cmdl.TempNotifyListener" />
+	</group>
+</root>

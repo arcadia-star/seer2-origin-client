@@ -1,0 +1,13 @@
+﻿<root debug="0">
+	<!--<server>config/Server_local.xml</server>-->
+	<server>config/Server.xml</server>
+	<login>dll/LoginModule.swf</login>
+	<assets>dll/Assets.swf</assets>
+	<version>version/zzz_config.txt</version>
+	<bean>config/bean.xml</bean>
+	<dll>
+		<item name="赛尔号飞船" path="dll/TaomeeCoreDLL.swf"/>
+		<item name="装备信息" path="dll/ClientCoreDLL.swf"/>
+		<item name="精灵信息" path="dll/ClientAppDLL.swf"/>
+	</dll>
+</root>
