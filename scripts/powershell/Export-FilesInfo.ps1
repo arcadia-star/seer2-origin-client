@@ -1,4 +1,5 @@
 # Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# .\scripts\powershell\Export-FilesInfo.ps1 -targetDirectory .\seer2.61.com -outputFilePath .\meta\file-meta.data.tmp
 
 # 输入要扫描的目标文件夹路径
 param (
@@ -31,7 +32,7 @@ function Export-FilesInfo {
 
         # 获取文件的修改时间并转换为 UNIX 时间戳（毫秒）
         $lastWriteTime = $file.LastWriteTime.ToUniversalTime()
-        $unixTimestamp = [int64]($lastWriteTime - (Get-Date "1970-01-01")).TotalMilliseconds
+        $unixTimestamp = [int64]($lastWriteTime - (Get-Date "1970-01-01T00:00:00Z")).TotalMilliseconds
 
         # 如果时间戳小于等于0，则设为0
         if ($unixTimestamp -le 0) {

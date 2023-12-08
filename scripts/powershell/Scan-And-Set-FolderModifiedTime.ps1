@@ -1,4 +1,5 @@
 # Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# .\scripts\powershell\Scan-And-Set-FolderModifiedTime.ps1 -targetPath .\seer2.61.com
 
 # 输入要扫描的目标文件夹路径
 param (
